@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "schema": "said-did",
+    "project": "CanadaScanada",
+    "version": "0.3.0",
+    "last_updated": "2026-05-27",
+    "description": "Documented discrepancies between stated positions and recorded actions",
+    "schema_notes": "v0.3.0: Added SD-016 (3,000 teachers presented as concession vs pre-existing $750M budget) and SD-017 (Smith 'will not sit in caucus, that is final' vs Johnson seated). statement_fr/action_fr set TODO per localization-reminders.md (verbatim political quotes require professional translator, not AI)."
+  },
+  "entries": [
+    {
+      "id": "SD-012",
+      "speaker": {
+        "display_role": "Associate Minister of Status of Women",
+        "name": "Whitney Issik",
+        "party": "UCP",
+        "jurisdiction": "provincial"
+      },
+      "said": {
+        "date": "2021-12-10",
+        "statement_en": "Women in Alberta are leading the nation with a 60.6 per cent employment rate, while unemployment across the province has dropped to its lowest rate since before the pandemic. Alberta's Recovery Plan is a broad-based approach that is building, diversifying and creating jobs across the province while having women at the forefront.",
+        "statement_fr": "Les femmes en Alberta mènent la nation avec un taux d'emploi de 60,6 %, tandis que le chômage dans la province est tombé à son niveau le plus bas depuis avant la pandémie.",
+        "ai_translated": true,
+        "context_en": "Government press release issued in response to December 2021 Labour Force Survey data. Statement attributed directly to Associate Minister Issik.",
+        "verbatim_available": true,
+        "source_ref": "R-040",
+        "claim_type": "fact"
+      },
+      "did": {
+        "date": "2022-01-07",
+        "action_en": "Statistics Canada's December 2021 Labour Force Survey shows: (1) Alberta's female unemployment rate increased from 7.3% in November to 7.6% in December — it did not drop; (2) at 7.6%, it remained 0.7 percentage points above the pre-pandemic benchmark of 6.9% (February 2020); (3) Alberta ranked second-highest among all provinces for female unemployment; (4) women received 1,400 of 11,100 new jobs — 12.6% — while men received 87.4%; (5) women received 100% of all new part-time positions.",
+        "action_fr": "L'Enquête sur la population active de décembre 2021 montre que le taux de chômage féminin en Alberta a augmenté de 7,3 % à 7,6 %, restant au-dessus du niveau prépandémique.",
+        "ai_translated": true,
+        "outcome_en": "The employment rate figure (60.6%) cited was accurate in isolation. Unemployment claims were not. The minister cited one favourable metric while omitting that unemployment had risen month-over-month, remained above pre-pandemic levels, Alberta ranked near the bottom nationally, and women's job gains were concentrated entirely in part-time work.",
+        "source_ref": "R-041",
+        "claim_type": "fact"
+      },
+      "jurisdiction_note_en": "Provincial government responsibility. Statistics cited are federal Statistics Canada data; the issue is the provincial government's characterization of that data.",
+      "jurisdiction_note_fr": "Responsabilité provinciale. La question porte sur la façon dont le gouvernement provincial a caractérisé les données fédérales de Statistique Canada.",
+      "discrepancy_type": "statement_contradicted_by_evidence",
+      "tags": [
+        "women",
+        "employment",
+        "statistics",
+        "data-misrepresentation",
+        "labour-force"
+      ],
+      "related_events": [
+        "EVT-030",
+        "EVT-031"
+      ],
+      "source_refs": [
+        "R-040",
+        "R-041",
+        "R-042"
+      ]
+    },
+    {
+      "id": "SD-013",
+      "speaker": {
+        "display_role": "Premier of Alberta",
+        "name": "Danielle Smith",
+        "party": "UCP",
+        "jurisdiction": "provincial"
+      },
+      "said": {
+        "date": "2024-01-31",
+        "statement_en": "I think it is supportive. We consulted very broadly on this issue. I am confident that Albertans do not want children to make irreversible decisions that impact their reproductive health.",
+        "statement_fr": "Je pense que c'est favorable. Nous avons consulté très largement sur cette question.",
+        "ai_translated": true,
+        "context_en": "Statement at press conference and in social media video address announcing restrictions on gender-affirming care and school policies. Premier declined to name any consultees when asked directly.",
+        "verbatim_available": true,
+        "source_ref": "R-044",
+        "claim_type": "fact"
+      },
+      "did": {
+        "date": "2024-12-04",
+        "action_en": "Three bills passed the legislature. Named medical researchers (Travers, SFU; Brennan, U of T) stated that restricting puberty blockers for trans youth increases suicide risk and mental health crises; blockers are reversible with no permanent effects. The prohibition on bottom surgery for under-18s restated an existing Canada-wide restriction per WPATH standards — not a new measure. The Premier did not publicly name any individuals or organizations consulted. Egale Canada and Skipping Stone Foundation filed Charter challenges arguing the legislation violates constitutional rights of 2SLGBTQ+ youth.",
+        "action_fr": "Trois projets de loi ont été adoptés. Des chercheurs médicaux ont contredit la prétention 'fondée sur des données probantes'; la restriction de la chirurgie de bas du corps répétait une restriction déjà existante.",
+        "ai_translated": true,
+        "outcome_en": "The characterization of the policies as 'supportive' and 'evidence-based' is directly contradicted by named medical researchers. Broad consultation was not substantiated. One major announced measure restated existing law as a new provincial restriction.",
+        "source_ref": "R-045",
+        "claim_type": "fact"
+      },
+      "jurisdiction_note_en": "Provincial jurisdiction. Healthcare and education policy for minors. Charter challenge will be adjudicated federally.",
+      "jurisdiction_note_fr": "Compétence provinciale. La contestation de la Charte sera tranchée au niveau fédéral.",
+      "discrepancy_type": "statement_contradicted_by_evidence",
+      "tags": [
+        "trans-rights",
+        "healthcare",
+        "youth",
+        "evidence-based-claim",
+        "charter",
+        "consultation"
+      ],
+      "related_events": [
+        "EVT-032",
+        "EVT-033"
+      ],
+      "source_refs": [
+        "R-044",
+        "R-045"
+      ]
+    },
+    {
+      "id": "SD-014",
+      "speaker": {
+        "display_role": "Minister of Transportation",
+        "name": "Devin Dreeshen",
+        "party": "UCP",
+        "jurisdiction": "provincial"
+      },
+      "said": {
+        "date": "2024-09-11",
+        "statement_en": "I don't see why Alberta taxpayers should be asked to pay for decade-long mismanagement and decisions of past mayors and city council. The city is more than welcome to proceed with the project without provincial funding should they insist that the cost of the wind-down is more costly than the committed provincial contribution.",
+        "statement_fr": "Je ne vois pas pourquoi les contribuables albertains devraient payer pour une mauvaise gestion de dix ans et les décisions des anciens maires et conseillers municipaux.",
+        "ai_translated": true,
+        "context_en": "Statement posted to social media after Calgary city council voted 10-5 to wind down the Green Line, triggered by the minister's letter withdrawing provincial funding.",
+        "verbatim_available": true,
+        "source_ref": "R-046",
+        "claim_type": "fact"
+      },
+      "did": {
+        "date": "2024-09-03",
+        "action_en": "The UCP government: (1) reduced the provincial Green Line contribution by 86% in 2019 immediately after election; (2) passed legislation enabling withdrawal with only 90 days notice; (3) sent a withdrawal letter September 3 2024 after the city had received final council approval July 30 2024 and signed more than 70 contracts. Wind-down costs of $850M plus $1.3B already spent total $2.1B. The province then took over project management rather than permitting the city to continue.",
+        "action_fr": "Le gouvernement UCP avait réduit la contribution de 86 % en 2019, adopté une législation permettant le retrait avec 90 jours de préavis, puis retiré son financement après l'approbation finale de la ville.",
+        "ai_translated": true,
+        "outcome_en": "The minister attributed $2.1B in costs to city mismanagement while the province had unilaterally withdrawn funding after the city had contracted work in reliance on provincial commitments — using legislation the province itself passed in 2019 for this purpose. The province subsequently assumed project control, inconsistent with the claim that the project's problems originated with the city.",
+        "source_ref": "R-046",
+        "claim_type": "fact"
+      },
+      "jurisdiction_note_en": "Municipal-provincial shared jurisdiction under a three-way federal-provincial-municipal funding agreement. Provincial withdrawal required no city approval.",
+      "jurisdiction_note_fr": "Compétence partagée dans le cadre d'un accord de financement tripartite. Le retrait provincial n'a nécessité aucune approbation de la ville.",
+      "discrepancy_type": "jurisdiction_misdirection",
+      "tags": [
+        "green-line",
+        "transit",
+        "calgary",
+        "infrastructure",
+        "municipal-interference",
+        "fiscal"
+      ],
+      "related_events": [
+        "EVT-034"
+      ],
+      "source_refs": [
+        "R-046",
+        "R-047"
+      ]
+    },
+    {
+      "id": "SD-016",
+      "speaker": {
+        "display_role": "Finance Minister / Education Ministry",
+        "name": "Nate Horner; Demetrios Nicolaides",
+        "party": "UCP",
+        "jurisdiction": "provincial"
+      },
+      "said": {
+        "date": "2025-09-09",
+        "statement_en": "During bargaining, the government presents 3,000 new teaching positions over three years as part of a $2.3 billion offer. Finance Minister: 'We think this is a fair deal. We think this is a good deal.'",
+        "statement_fr": "TODO",
+        "ai_translated": false,
+        "context_en": "Statement made during the September 2025 bargaining stalemate, framed as a concession addressing classroom-complexity concerns.",
+        "verbatim_available": true,
+        "source_ref": "R-057",
+        "claim_type": "fact"
+      },
+      "did": {
+        "date": "2025-03-01",
+        "action_en": "The 2025-26 provincial budget, passed in March 2025 — before the strike began — had already allocated $750 million to fund 3,000 new teaching positions by 2028. The Back to School Act (Oct 27 2025) enshrined the same figure and presented it as part of the strike settlement.",
+        "action_fr": "TODO",
+        "ai_translated": false,
+        "outcome_en": "Former ATA bargaining chair Peter MacKay: 'We were bargaining for change. For something new.' The positions presented as a bargaining concession were already budgeted.",
+        "source_ref": "R-060",
+        "claim_type": "fact"
+      },
+      "jurisdiction_note_en": "Provincial responsibility. Both the budget allocation and the bargaining commitment are Alberta government actions.",
+      "jurisdiction_note_fr": "TODO",
+      "discrepancy_type": "statement_contradicted_by_evidence",
+      "tags": [
+        "labour",
+        "education",
+        "bargaining",
+        "teachers-strike-2025",
+        "accountability"
+      ],
+      "related_events": [
+        "EVT-047",
+        "EVT-036"
+      ],
+      "source_refs": [
+        "R-057",
+        "R-060"
+      ]
+    },
+    {
+      "id": "SD-017",
+      "speaker": {
+        "display_role": "UCP Leader / Premier",
+        "name": "Danielle Smith",
+        "party": "UCP",
+        "jurisdiction": "provincial"
+      },
+      "said": {
+        "date": "2023-05-17",
+        "statement_en": "Of candidate Jennifer Johnson: 'The language used regarding children identifying as transgender is simply unacceptable and does not reflect the values of our party or province.' Smith states Johnson 'will not be sitting with the UCP caucus. And that is final.'",
+        "statement_fr": "TODO",
+        "ai_translated": false,
+        "context_en": "Audio had surfaced from September 2022 of Johnson comparing transgender children to feces in a cookie-batter analogy. Johnson remained on the ballot for the May 29 2023 election.",
+        "verbatim_available": true,
+        "source_ref": "R-063",
+        "claim_type": "fact"
+      },
+      "did": {
+        "date": "2023-05-29",
+        "action_en": "Johnson won Lacombe-Ponoka on May 29 2023 with approximately 70% of the vote. The Legislative Assembly of Alberta record confirms Johnson was subsequently seated in the UCP caucus, later resigned, and was later readmitted.",
+        "action_fr": "TODO",
+        "ai_translated": false,
+        "outcome_en": "The 'final' exclusion did not hold. Johnson sat as a UCP MLA in the 31st Legislature.",
+        "source_ref": "R-058",
+        "claim_type": "fact"
+      },
+      "jurisdiction_note_en": "Provincial. UCP caucus membership is a party decision; the Legislative Assembly record is the primary source for the outcome.",
+      "jurisdiction_note_fr": "TODO",
+      "discrepancy_type": "reversed_position",
+      "tags": [
+        "lgbtq",
+        "party-discipline",
+        "elections-2023",
+        "caucus"
+      ],
+      "related_events": [
+        "EVT-048"
+      ],
+      "source_refs": [
+        "R-063",
+        "R-058"
+      ]
+    }
+  ]
+}

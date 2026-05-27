@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "schema": "domain-map",
+    "project": "CanScan",
+    "version": "0.1.0",
+    "last_updated": "2026-05-27",
+    "description": "Maps URL domains to outlet_id. Fetched by the CanScan extension and site to resolve the current tab's outlet to a nutrition label. Join key: domain -> outlet_id -> outlet-database.json.",
+    "note": "outlet_ids must exactly match outlet-database.json (kebab-case). Brand-level domains (e.g. calgaryherald.com) map to the parent outlet_id until brand-level records exist."
+  },
+  "domains": {
+    "cbc.ca": "cbc-radio-canada",
+    "radio-canada.ca": "cbc-radio-canada",
+    "ici.radio-canada.ca": "cbc-radio-canada",
+    "calgaryherald.com": "postmedia",
+    "edmontonjournal.com": "postmedia",
+    "nationalpost.com": "national-post",
+    "calgarysun.com": "postmedia",
+    "edmontonsun.com": "postmedia",
+    "globalnews.ca": "global-news",
+    "ctvnews.ca": "ctv-news",
+    "thetyee.ca": "the-tyee",
+    "rebelnews.com": "rebel-news",
+    "tnc.news": "true-north",
+    "thecanadianpress.com": "canadian-press",
+    "foxnews.com": "fox-news",
+    "parklandinstitute.ca": "parkland-institute",
+    "pembina.org": "pembina-institute"
+  }
+}

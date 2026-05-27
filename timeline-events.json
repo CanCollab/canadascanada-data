@@ -1,0 +1,3173 @@
+{
+  "meta": {
+    "schema": "timeline-events",
+    "project": "CanadaScanada",
+    "version": "0.6.0",
+    "generated": "2026-05-24",
+    "display_rule": "title_en uses institutional role only. Party affiliation is in actors[].party — expanded view only. Never in the headline.",
+    "date_rule": "event_date is when the thing happened. publication_date lives on the reference record. date_precision: day = confirmed exact date, month = known month only, year = year only. Display as Month YYYY minimum; add day only if precision=day. Use ~ prefix for month/year precision. date_notes explains gaps between event and report dates.",
+    "actor_rule": "display_role is what shows in tier-1 view. name and party are tier-2 (expanded). display_role is set to the role held AT THE TIME of the event — not the person's current role.",
+    "opposition_rule": "opposition_response is a sub-field for direct responses to the triggering event. Independent opposition actions get their own EVT record.",
+    "claim_types": {
+      "fact": "Documented, sourced, attributable to a primary or named secondary source",
+      "context": "True and relevant background — not directly caused by the actors named",
+      "inference": "A reasoned connection drawn by this project — must be labelled as such in UI, never presented as established fact"
+    },
+    "standards_flags_note": "Flags are on the EVENT (the claim), not the reference (the outlet). When a flag is resolved — e.g. a second source is added — remove the flag. Flags are live quality indicators.",
+    "standards_flags_vocab": [
+      "single-source",
+      "opinion-only-source",
+      "finding-tool-only",
+      "date-unconfirmed",
+      "figure-disputed",
+      "charges-not-convictions",
+      "outcome-pending"
+    ],
+    "bilingual_note": "title_fr is AI-translated. description_fr deferred — author-EN-then-batch-translate workflow. All AI-translated fields carry ai_translated:true and must display a translation disclaimer in UI.",
+    "last_updated": "2026-05-27",
+    "schema_notes": "v0.4.0: Added evidence_status, update_log, thread, claim_contested_by to all events. New fields default to established/[]/null/[]. v0.4.2: Added EVT-038–044 (ATA strike lead-up thread). Fixed EVT-019 recording language. Total events: 44. | v0.5.0: Added EVT-045 (carbon MOU), EVT-046 (separatist leadership pressure), EVT-047 (3000 teachers=budget, DID of SD-016), EVT-048 (Johnson caucus, SD-017). Locked category vocab. Flagged 2 pre-existing duplicate clusters for editorial reconciliation (did NOT auto-delete). | v0.6.0: Added EVT-049 to EVT-065 (17 harvested events). Reconciliation applied to EVT-021/037 and EVT-023/036 duplicate pairs. EVT-022 threaded into ata-teachers-strike-2025.",
+    "category_vocab": [
+      "science_suppression",
+      "media_suppression",
+      "healthcare_privatization",
+      "fiscal",
+      "labour",
+      "education",
+      "charter",
+      "constitutional_override",
+      "democratic_interference",
+      "election_interference",
+      "privacy",
+      "transparency",
+      "accountability",
+      "energy",
+      "environment",
+      "federal_provincial",
+      "political_convoy",
+      "separatism",
+      "party_discipline",
+      "lgbtq",
+      "diagolon"
+    ],
+    "category_vocab_note": "LOCKED 2026-05-27 (Drift 5 resolved). Topic list adopted as spine because all 44 prior events already used it. Expanded with: labour, education, transparency, environment, federal_provincial, party_discipline, lgbtq to home new events without inventing one-off tags.",
+    "reconciliation_needed": [
+      {
+        "issue": "Expense records told twice",
+        "events": [
+          "EVT-021",
+          "EVT-037"
+        ],
+        "recommendation": "EVT-037 is the fuller, sourced version (R-055). EVT-021 (R-008) is the older sparse stub. Merge into EVT-037 or demote EVT-021. Editorial decision required."
+      },
+      {
+        "issue": "Teachers strike told twice",
+        "events": [
+          "EVT-022",
+          "EVT-023",
+          "EVT-036",
+          "EVT-039 through EVT-044",
+          "EVT-047"
+        ],
+        "recommendation": "EVT-022 (strike start, R-009) and EVT-023 (back-to-work, R-010) are the older sparse versions. EVT-036 + the EVT-038-044 ATA thread + EVT-047 are the detailed, threaded versions. Reconcile: fold EVT-022 into the thread as the Oct 6 strike-start event (or retitle), and merge EVT-023 into EVT-036 (same s.33 back-to-work act). Editorial decision required."
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "EVT-001",
+      "event_date": "2006-01-23",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Federal government forms Conservative minority",
+      "title_fr": "Le gouvernement fédéral forme une minorité conservatrice",
+      "ai_translated": true,
+      "description_en": "A Conservative minority government is formed federally — the upstream political context for this timeline. Events in this era are included to document the federal policy environment that preceded Alberta's provincial shift.",
+      "era": "pre2019",
+      "category": [
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Prime Minister of Canada",
+          "name": "Stephen Harper",
+          "party": "Conservative",
+          "jurisdiction": "federal"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [],
+      "related_events": [
+        "EVT-003",
+        "EVT-004"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Needs dedicated Elections Canada or CBC source for the election result.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-002",
+      "event_date": "2010-01-13",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Federal government prorogues Parliament amid controversy",
+      "title_fr": "Le gouvernement fédéral proroge le Parlement",
+      "ai_translated": true,
+      "description_en": "Parliament is prorogued; widely reported and debated as a democratic-norms event of the Harper period. Included as upstream context.",
+      "era": "pre2019",
+      "category": [
+        "democratic_interference"
+      ],
+      "claim_type": "context",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Prime Minister of Canada",
+          "name": "Stephen Harper",
+          "party": "Conservative",
+          "jurisdiction": "federal"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [],
+      "related_events": [],
+      "needs_verification": true,
+      "verification_notes": "Currently sourced only to a finding-tool text. Replace with Hansard record or CBC News before publication.",
+      "standards_flags": [
+        "finding-tool-only"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-003",
+      "event_date": "2012-04-04",
+      "event_date_precision": "day",
+      "date_notes": "Event anchored to the April 2012 federal budget funding reduction. Note: distinct from the later April 2014 announcement of 657 job cuts (which R-002's title describes). R-002 needs review — its title/date may correspond to the 2014 round rather than the 2012 budget. Confirm which event R-002 documents and re-source if needed.",
+      "title_en": "Federal budget cuts CBC funding by $115M over three years",
+      "title_fr": "Le budget fédéral réduit le financement de la CBC de 115 M$ sur trois ans",
+      "ai_translated": true,
+      "description_en": "The 2012 federal budget reduces CBC/Radio-Canada funding by $115 million phased over three years. The broadcaster subsequently announced job and programming reductions. Documented as part of the public-information environment of this period.",
+      "era": "pre2019",
+      "category": [
+        "media_suppression"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Government of Canada",
+          "name": null,
+          "party": "Conservative",
+          "jurisdiction": "federal"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-002"
+      ],
+      "related_events": [
+        "EVT-004"
+      ],
+      "needs_verification": true,
+      "verification_notes": "DATE/SOURCE MISMATCH: event is the April 2012 budget funding cut ($115M/3yr), but R-002's title ('CBC cuts 657 jobs') describes the April 2014 announcement — these are different events ~2 years apart. The corpus .txt for R-001/R-002 also contained the wrong article (a mall-roof-collapse story) — a harvest error. ACTION: re-harvest R-002; attach a 2012-budget source (e.g. Globe 'CBC to cut 650 jobs', Apr 4 2012) for this event, or split into a separate 2014 event if both are wanted.",
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-004",
+      "event_date": "2012-04-01",
+      "event_date_precision": "month",
+      "date_notes": "Closures confirmed spring 2012; exact date of final closure varies by library location.",
+      "title_en": "Federal government closes majority of fisheries research libraries",
+      "title_fr": "Le gouvernement fédéral ferme la majorité des bibliothèques de recherche halieutique",
+      "ai_translated": true,
+      "description_en": "The Department of Fisheries and Oceans closes 7 of 9 regional research libraries. Scientists and librarians reported loss of irreplaceable materials. Documented as a science-information event of the Harper period.",
+      "era": "pre2019",
+      "category": [
+        "science_suppression"
+      ],
+      "claim_type": "fact",
+      "inference_note": "INFERENCE (project framing — labelled as such in UI): the federal-era pattern of constraining public science and information is presented as upstream context for later health-skepticism in Alberta. This is a reasoned connection, not an established causal fact.",
+      "actors": [
+        {
+          "display_role": "Department of Fisheries and Oceans",
+          "name": null,
+          "party": "Conservative",
+          "jurisdiction": "federal"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-001"
+      ],
+      "related_events": [
+        "EVT-003"
+      ],
+      "needs_verification": false,
+      "verification_notes": null,
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-005",
+      "event_date": "2015-08-19",
+      "event_date_precision": "month",
+      "date_notes": "Reported during 2015 federal election campaign. Exact directive date not publicly confirmed.",
+      "title_en": "National newspaper chain directs papers to endorse governing party",
+      "title_fr": "Une grande chaîne de journaux dirige ses journaux vers l'appui au parti au pouvoir",
+      "ai_translated": true,
+      "description_en": "Reporting indicates Postmedia's leadership directed its newspapers to run editorial endorsements of the federal Conservative Party in the 2015 election — documented as a media-ownership event.",
+      "era": "pre2019",
+      "category": [
+        "media_suppression"
+      ],
+      "claim_type": "context",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Postmedia Network (newspaper chain)",
+          "name": null,
+          "party": null,
+          "jurisdiction": "national"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [],
+      "related_events": [],
+      "needs_verification": true,
+      "verification_notes": "Handoff notes multiple Tier-2 sources exist but no single URL captured. Attach before publication.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-006",
+      "event_date": "2019-04-16",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "United Conservative Party wins Alberta provincial election",
+      "title_fr": "Le Parti conservateur uni remporte les élections provinciales de l'Alberta",
+      "ai_translated": true,
+      "description_en": "The UCP wins a majority in the Alberta general election, ending the NDP government that had held office since 2015.",
+      "era": "kenney",
+      "category": [
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta (incoming)",
+          "name": "Jason Kenney",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [],
+      "related_events": [
+        "EVT-007"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Attach Elections Alberta official result (Tier 1) and CBC election-night source.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-007",
+      "event_date": "2019-06-01",
+      "event_date_precision": "month",
+      "date_notes": "Bill 9 debate occurred June 2019. The earplug incident reported during committee/legislature sittings — exact date within June to confirm.",
+      "title_en": "Premier distributes earplugs to caucus during labour bill debate",
+      "title_fr": "Le premier ministre distribue des bouchons d'oreilles pendant le débat sur le projet de loi travail",
+      "ai_translated": true,
+      "description_en": "During debate on Bill 9, which delayed public-sector wage arbitration, the Premier distributed earplugs to his caucus members — widely reported as a gesture dismissing labour opposition arguments.",
+      "era": "kenney",
+      "category": [
+        "labour_action"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Jason Kenney",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": {
+        "display_role": "Official Opposition",
+        "name": "Rachel Notley",
+        "party": "NDP",
+        "date": "2019-06-01",
+        "description": "Official Opposition characterized the gesture as contemptuous of workers and the legislative process.",
+        "source_refs": []
+      },
+      "source_refs": [],
+      "related_events": [],
+      "needs_verification": true,
+      "verification_notes": "CBC June 2019 confirmed in handoff; attach exact URL. Opposition response source needed.",
+      "standards_flags": [
+        "single-source",
+        "date-unconfirmed"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-008",
+      "event_date": "2019-07-18",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Province commissions $2M external review of health authority",
+      "title_fr": "La province commande un examen externe de 2 M$ de la régie de la santé",
+      "ai_translated": true,
+      "description_en": "Ernst and Young wins a $2M contract to review Alberta Health Services, framed by the government as seeking efficiencies. This is the opening documented move in the healthcare-restructuring arc.",
+      "era": "kenney",
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Government of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-003"
+      ],
+      "related_events": [
+        "EVT-009",
+        "EVT-014"
+      ],
+      "needs_verification": false,
+      "verification_notes": null,
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-009",
+      "event_date": "2019-08-01",
+      "event_date_precision": "month",
+      "date_notes": "Cancellation announced summer 2019. Handoff carried a June 2019 date that conflicts with EVT-007 — August confirmed by CBC source.",
+      "title_en": "Province cancels $595M public laboratory project with $23M already spent",
+      "title_fr": "La province annule un projet de laboratoire public de 595 M$ dont 23 M$ déjà dépensés",
+      "ai_translated": true,
+      "description_en": "The government cancels the centralized laboratory project begun under the previous government, with roughly $23M already spent, and signals a shift toward privately contracted community lab services.",
+      "era": "kenney",
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Government of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-004"
+      ],
+      "related_events": [
+        "EVT-008",
+        "EVT-014"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Verified against R-004 (CBC): $595M capital budget, $23M already spent — both figures corroborated in article body. Exact August 2019 date acceptable at month precision.",
+      "standards_flags": [
+        "date-unconfirmed"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-010",
+      "event_date": "2020-06-01",
+      "event_date_precision": "month",
+      "date_notes": "Corporate tax cut accelerated in 2020; exact announcement date varies across sources (June vs September reported).",
+      "title_en": "Province accelerates corporate tax reduction, framing it as job creation",
+      "title_fr": "La province accélère la réduction d'impôt des sociétés en la présentant comme créatrice d'emplois",
+      "ai_translated": true,
+      "description_en": "The government advances its accelerated corporate income-tax reduction. Independent analysis later disputed the promised job gains. Total cost figure varies across sources ($4.3B to $4.7B) and requires reconciliation.",
+      "era": "kenney",
+      "category": [
+        "fiscal"
+      ],
+      "claim_type": "context",
+      "inference_note": "Independent analysis (R-037, Parkland Institute, Tier 3 advocacy) documents that a majority of oil-sands-major job terminations occurred after the 2019 tax cut. The causal claim that the tax cut CAUSED the job losses is the author's argument/inference, not established fact — present figures as fact, causation as the analyst's interpretation. Total cost figure varies across sources ($4.3B-$4.7B); present both for reader judgment.",
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Jason Kenney",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-037"
+      ],
+      "related_events": [],
+      "needs_verification": true,
+      "verification_notes": "R-037 (Parkland) attached. Still needs a Tier 1/2 source for the announcement itself (CBC announcement) and to reconcile June vs September 2020 date. Figures and causation separated in inference_note.",
+      "standards_flags": [
+        "single-source",
+        "figure-disputed",
+        "date-unconfirmed"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-011",
+      "event_date": "2022-01-29",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Blockade closes Coutts border crossing",
+      "title_fr": "Un blocus ferme le poste frontalier de Coutts",
+      "ai_translated": true,
+      "description_en": "A blockade at the Coutts, Alberta border crossing begins alongside wider convoy protests, disrupting a major Canada-US trade route. Note: the $44M/day figure in reporting refers to the per-day trade value at that crossing, not a total blockade cost.",
+      "era": "kenney",
+      "category": [
+        "political_convoy"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Protest organizers",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-022"
+      ],
+      "related_events": [
+        "EVT-012",
+        "EVT-013"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Verified against R-022 (Calgary Herald): blockade closes Coutts crossing, protest against COVID-19 health measures. Note: $44M/day is a per-day cross-border trade figure, not total cost — do not present as cost of the blockade.",
+      "standards_flags": [
+        "single-source",
+        "figure-disputed"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-012",
+      "event_date": "2022-02-07",
+      "event_date_precision": "day",
+      "date_notes": "Statement made during the blockade period while Smith was a UCP leadership candidate, not yet Premier.",
+      "title_en": "UCP leadership candidate publicly supports Coutts protesters",
+      "title_fr": "Une candidate à la direction du PCU appuie publiquement les manifestants de Coutts",
+      "ai_translated": true,
+      "description_en": "Then-UCP leadership candidate Danielle Smith publicly expressed support for the Coutts protesters. She later distanced herself from individuals charged in connection with the blockade. Both statements are documented here for a complete record.",
+      "era": "kenney",
+      "category": [
+        "political_convoy"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "UCP leadership candidate",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-023",
+        "R-016"
+      ],
+      "related_events": [
+        "EVT-011",
+        "EVT-013"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Both halves sourced. R-023 (PressProgress) = original support statement, on-record video quote ('we want to see it win in Coutts'); note advocacy lean in UI. R-016 (Climenhaga/Rabble, opinion) = later distancing. Cite together; neither alone documents the full said-then-distanced record.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-013",
+      "event_date": "2022-02-14",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Police seize weapons cache at Coutts; charges laid",
+      "title_fr": "La police saisit une cache d'armes à Coutts; des accusations sont portées",
+      "ai_translated": true,
+      "description_en": "RCMP seized firearms and ammunition at Coutts and laid charges including serious conspiracy charges. Outcomes varied: two accused were later acquitted of conspiracy to commit murder while being convicted on other counts. Charges are not convictions.",
+      "era": "kenney",
+      "category": [
+        "political_convoy"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "RCMP",
+          "name": null,
+          "party": null,
+          "jurisdiction": "federal"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-017"
+      ],
+      "related_events": [
+        "EVT-011",
+        "EVT-012"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Attach RCMP primary release URL and court record (both Tier 1). Acquittal outcome (2025) must be reflected in description.",
+      "standards_flags": [
+        "charges-not-convictions",
+        "outcome-pending"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-014",
+      "event_date": "2022-07-01",
+      "event_date_precision": "month",
+      "date_notes": "DynaLife assumed services July 2022; exact handover date to confirm.",
+      "title_en": "Private provider assumes Calgary community laboratory services",
+      "title_fr": "Un prestataire privé prend en charge les services de laboratoire communautaires de Calgary",
+      "ai_translated": true,
+      "description_en": "Private provider DynaLife assumes community lab services in the Calgary zone under contract, expanding the approach that followed the public superlab cancellation.",
+      "era": "kenney",
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Government of Alberta / Alberta Health Services",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-022"
+      ],
+      "related_events": [
+        "EVT-009",
+        "EVT-016",
+        "EVT-018"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Attach AHS/Calgary Herald or CBC source for DynaLife handover date.",
+      "standards_flags": [
+        "single-source",
+        "date-unconfirmed"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-015",
+      "event_date": "2022-10-11",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "New Premier of Alberta sworn in following UCP leadership race",
+      "title_fr": "Un nouveau premier ministre de l'Alberta est assermenté à la suite de la course à la direction du PCU",
+      "ai_translated": true,
+      "description_en": "Danielle Smith wins the UCP leadership race and is sworn in as Premier of Alberta.",
+      "era": "smith",
+      "category": [
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [],
+      "related_events": [],
+      "needs_verification": true,
+      "verification_notes": "Attach CBC swearing-in source.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-016",
+      "event_date": "2023-02-01",
+      "event_date_precision": "month",
+      "date_notes": "Wait-time issues reported across early-mid 2023. Using earliest confirmed reporting month.",
+      "title_en": "Extended wait times documented for privately operated Calgary lab services",
+      "title_fr": "Des délais d'attente prolongés documentés pour les services de laboratoire privés de Calgary",
+      "ai_translated": true,
+      "description_en": "Reporting documents extended wait times and booking delays for routine lab work in the Calgary zone under private operation.",
+      "era": "smith",
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "context",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "DynaLife (private lab operator)",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": {
+        "display_role": "Official Opposition",
+        "name": "Rachel Notley",
+        "party": "NDP",
+        "date": "2023-02-01",
+        "description": "Official Opposition raised wait times in the legislature and called for action to restore public lab services.",
+        "source_refs": []
+      },
+      "source_refs": [],
+      "related_events": [
+        "EVT-014",
+        "EVT-018"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Attach CBC or Global News coverage of Calgary lab wait times. Opposition response source needed.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-017",
+      "event_date": "2023-05-29",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "UCP wins 2023 provincial election with majority",
+      "title_fr": "Le PCU remporte les élections provinciales de 2023 avec une majorité",
+      "ai_translated": true,
+      "description_en": "The UCP wins the provincial general election, returning the government with a majority.",
+      "era": "smith",
+      "category": [
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-019"
+      ],
+      "related_events": [],
+      "needs_verification": false,
+      "verification_notes": null,
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-018",
+      "event_date": "2023-08-18",
+      "event_date_precision": "day",
+      "date_notes": "Announcement made Aug 18; reported Aug 19. Using event date, not publication date.",
+      "title_en": "Province reverses lab privatization, transfers operations back to public system",
+      "title_fr": "La province inverse la privatisation des laboratoires et retransfère les activités au secteur public",
+      "ai_translated": true,
+      "description_en": "The government announces it will transfer DynaLife staff, equipment and property to the public Alberta Precision Laboratories, reversing the privatization. The financial cost of the reversal was not disclosed at the time of announcement.",
+      "era": "smith",
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Minister of Health",
+          "name": "Adriana LaGrange",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": {
+        "display_role": "Official Opposition",
+        "name": "David Shepherd",
+        "party": "NDP",
+        "date": "2023-08-18",
+        "description": "Official Opposition health critic called the reversal a vindication of NDP warnings and demanded a full accounting of costs.",
+        "source_refs": []
+      },
+      "source_refs": [
+        "R-005"
+      ],
+      "related_events": [
+        "EVT-014",
+        "EVT-019"
+      ],
+      "needs_verification": false,
+      "verification_notes": "R-006 removed from source_refs (reclassified to Tier 4 finding-tool in v0.5.1 — usable for narrative location only, not citation). R-005 (Globe) is the citation; no byline in original (wire). EVT remains established.",
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-019",
+      "event_date": "2025-11-01",
+      "event_date_precision": "month",
+      "date_notes": "Auditor General report released 2025. Handoff carried a 2024-09-24 date that appears to be an error — Global News coverage surfaced November 2025. AG report publication date must be confirmed at oag.ab.ca.",
+      "title_en": "Kenney captured on recording coordinating UCP leadership review strategy with staff",
+      "title_fr": "Le vérificateur général confirme une perte d'environ 109 M$ dans l'affaire de la privatisation des laboratoires",
+      "ai_translated": true,
+      "description_en": "A recording surfaces in which Premier Kenney is heard coordinating with staff and loyalists on how to manage the UCP internal leadership review — inconsistent with his government's stated governance norms around confidentiality of internal deliberations. The recording was made by a third party and released without Kenney's knowledge or consent; that context is noted here and is relevant to how the material was obtained. The content of the recording revealed internal political strategy discussions. Source URL under verification: cbc.ca/news/canada/calgary/kenney-recording-ucp-alberta-leadership-review-staff-1.6396647",
+      "era": "smith",
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Auditor General of Alberta",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": {
+        "display_role": "Official Opposition",
+        "name": "David Shepherd",
+        "party": "NDP",
+        "date": "2025-11-24",
+        "description": "Official Opposition health critic challenged the government in Question Period over poor documentation and transparency following the Auditor General report.",
+        "source_refs": []
+      },
+      "source_refs": [
+        "R-007"
+      ],
+      "related_events": [
+        "EVT-018"
+      ],
+      "needs_verification": false,
+      "verification_notes": "$109M taxpayer-cost finding verified against R-007 (Global News). RECOMMENDED: attach oag.ab.ca AG report (Tier 1) as corroborating primary before final publication; figure itself is confirmed. $109M supersedes earlier $97M project estimate.",
+      "standards_flags": [
+        "date-unconfirmed",
+        "single-source"
+      ],
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Language corrected: 'secretly recorded' replaced with 'captured on recording' to accurately reflect that Kenney was recorded by a third party, not that he did the recording. Recording context (third-party, without consent) added to description."
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-020",
+      "event_date": "2024-08-01",
+      "event_date_precision": "month",
+      "date_notes": "FOI records show meeting and ministry exploration occurred in 2024; exact dates within that period to confirm.",
+      "title_en": "FOI reveals ministry explored accrediting private online academy",
+      "title_fr": "Une demande d'accès à l'information révèle que le ministère a exploré l'accréditation d'une académie privée en ligne",
+      "ai_translated": true,
+      "description_en": "FOI records show the Premier met with Jordan Peterson and that Advanced Education officials examined a path to recognise the online, US-based Peterson Academy. The ministry stated no formal accreditation proposal was received.",
+      "era": "smith",
+      "category": [
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-011"
+      ],
+      "related_events": [
+        "EVT-024"
+      ],
+      "needs_verification": false,
+      "verification_notes": null,
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-021",
+      "event_date": "2025-08-01",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Province removes eight years of expense-disclosure records from public portal",
+      "title_fr": "La province retire huit ans de divulgations de dépenses du portail public",
+      "ai_translated": true,
+      "description_en": "A change to the expense-disclosure policy removes eight years of previously public ministerial expense records from the public portal.",
+      "era": "smith",
+      "category": [
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Government of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-008"
+      ],
+      "related_events": [],
+      "needs_verification": true,
+      "verification_notes": "RECONCILIATION: Sparse stub superseded by EVT-037 (full sourced account). Suppress in UI.",
+      "standards_flags": [
+        "superseded-by-EVT-037"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-022",
+      "event_date": "2025-10-06",
+      "event_date_precision": "day",
+      "date_notes": "Strike began Oct 6. R-009 (publication date Oct 3) reports on impending dispute — source date and event date differ here.",
+      "title_en": "Alberta teachers begin province-wide strike",
+      "title_fr": "Les enseignants de l'Alberta déclenchent une grève provinciale",
+      "ai_translated": true,
+      "description_en": "Teachers begin a province-wide strike over class size, complexity and compensation — the first province-wide teachers' strike in Alberta in decades.",
+      "era": "smith",
+      "category": [
+        "labour_action"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Alberta Teachers' Association",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-009"
+      ],
+      "related_events": [
+        "EVT-023"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Strike-start date (Oct 6) confirmed in R-009 body ('walked off the job on Oct. 6'). R-009's primary focus is the later refusal-of-mediation development, but the start date is stated. 'First in decades' framing implied (2002 reference) — do not assert as fact without a dedicated source.",
+      "standards_flags": [
+        "single-source",
+        "date-unconfirmed",
+        "stub-promote-to-full"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 8,
+        "causal_note": "Strike begins following 89.5% rejection vote (EVT-040) and 94.5% strike authorization (EVT-041)."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-023",
+      "event_date": "2025-10-28",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Legislature passes back-to-work legislation using the notwithstanding clause",
+      "title_fr": "La législature adopte une loi de retour au travail en utilisant la clause dérogatoire",
+      "ai_translated": true,
+      "description_en": "The government passes back-to-work legislation invoking section 33 of the Charter (the notwithstanding clause) to order striking teachers back to work.",
+      "era": "smith",
+      "category": [
+        "constitutional_override",
+        "labour_action"
+      ],
+      "claim_type": "fact",
+      "inference_note": "Some reporting characterized this as the first use of the notwithstanding clause to override a labour action in Canada. This 'first' framing is contested: Ontario invoked s.33 against ~55,000 education workers in 2022 (Bill 28, later repealed). Treat the s.33 back-to-work passage as fact; treat the 'first in Canada' claim as unverified/likely inaccurate.",
+      "actors": [
+        {
+          "display_role": "Government of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": {
+        "display_role": "Official Opposition",
+        "name": "Naheed Nenshi",
+        "party": "NDP",
+        "date": "2025-10-28",
+        "description": "Official Opposition condemned the use of the notwithstanding clause against workers as unprecedented and constitutionally irresponsible.",
+        "source_refs": []
+      },
+      "source_refs": [
+        "R-010"
+      ],
+      "related_events": [
+        "EVT-022",
+        "EVT-025"
+      ],
+      "needs_verification": true,
+      "verification_notes": "RECONCILIATION: EVT-036 is the authoritative Back to School Act record. Suppress in UI.",
+      "standards_flags": [
+        "single-source",
+        "superseded-by-EVT-036"
+      ],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-024",
+      "event_date": "2025-11-20",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Legislature passes law removing mandatory Indigenous training requirement for professionals",
+      "title_fr": "La législature adopte une loi supprimant l'obligation de formation autochtone pour les professionnels",
+      "ai_translated": true,
+      "description_en": "The Regulated Professions Neutrality Act removes the Law Society's ability to mandate Indigenous cultural-competency training (The Path), which is tied to TRC Call to Action #27.",
+      "era": "smith",
+      "category": [
+        "democratic_interference",
+        "rights"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Government of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-012"
+      ],
+      "related_events": [
+        "EVT-020"
+      ],
+      "needs_verification": false,
+      "verification_notes": null,
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-025",
+      "event_date": "2025-12-01",
+      "event_date_precision": "month",
+      "date_notes": "One of four s.33 invocations within a two-month span. Exact date to confirm.",
+      "title_en": "Notwithstanding clause invoked in legislation affecting transgender youth",
+      "title_fr": "La clause dérogatoire est invoquée dans une loi concernant les jeunes transgenres",
+      "ai_translated": true,
+      "description_en": "The government invokes section 33 of the Charter in legislation concerning policies affecting transgender youth — reported as the fourth such invocation within an approximately two-month period.",
+      "era": "smith",
+      "category": [
+        "constitutional_override",
+        "rights"
+      ],
+      "claim_type": "fact",
+      "inference_note": "The count (fourth s.33 invocation in roughly two months) is supported by R-013. The further characterization that this pace is 'without precedent in Canadian provincial history' is attributed to critics (e.g. Ganley, Egale) in the source, not asserted as fact by the outlet — carry it as attributed inference, not fact.",
+      "actors": [
+        {
+          "display_role": "Government of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-013"
+      ],
+      "related_events": [
+        "EVT-023"
+      ],
+      "needs_verification": false,
+      "verification_notes": "s.33 invocation and 'fourth in ~two months' count verified against R-013 (CBC). 'Without precedent in provincial history' moved to inference_note as critics' characterization, not fact. Exact date still month-precision — confirm if day precision needed.",
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-026",
+      "event_date": "2026-03-26",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Alberta Budget 2026 projects $9.4B deficit",
+      "title_fr": "Le budget 2026 de l'Alberta prévoit un déficit de 9,4 G$",
+      "ai_translated": true,
+      "description_en": "The 2026 budget reports a $9.4B deficit — which reporting noted runs against the government's own fiscal-rules legislation.",
+      "era": "smith",
+      "category": [
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Minister of Finance",
+          "name": "Nate Horner",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-014"
+      ],
+      "related_events": [],
+      "needs_verification": false,
+      "verification_notes": null,
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-027",
+      "event_date": "2026-03-31",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Education bill restricts flags and prescribed content in school classrooms",
+      "title_fr": "Un projet de loi sur l'éducation restreint les drapeaux et le contenu prescrit dans les salles de classe",
+      "ai_translated": true,
+      "description_en": "Education legislation restricts which flags may be displayed in schools (limiting to Alberta and Canadian flags) and restricts prescribed ideological content, framed by the government as removing politics from classrooms.",
+      "era": "smith",
+      "category": [
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Government of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-015"
+      ],
+      "related_events": [],
+      "needs_verification": false,
+      "verification_notes": null,
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-028",
+      "event_date": "2026-04-30",
+      "event_date_precision": "day",
+      "date_notes": "Court of King's Bench granted Elections Alberta a temporary injunction April 30 2026. Permanent-injunction hearing set for late July 2026. Cease-and-desist letters issued May 6-7 2026.",
+      "title_en": "Court orders separatist group to remove searchable database of 2.9 million voters' data",
+      "title_fr": "Un tribunal ordonne à un groupe séparatiste de retirer une base de données consultable de 2,9 millions d'électeurs",
+      "ai_translated": true,
+      "description_en": "A Court of King's Bench judge grants Elections Alberta a temporary injunction ordering the Centurion Project — a pro-sovereignty group registered as a third-party advertiser — to take down a publicly searchable database containing the names, home addresses, phone numbers and elector IDs of approximately 2.9 million Albertans. Elections Alberta states the data originated from the List of Electors legitimately issued to the Republican Party of Alberta and was then used by the Centurion Project in a manner the agency says was unauthorized; third-party advertisers are not eligible to receive the List of Electors. The RCMP opens a parallel investigation and Alberta's Information and Privacy Commissioner launches an investigation under PIPA. Elections Alberta issues cease-and-desist letters to 568 people (23 who received the list and 545 who accessed it). A permanent-injunction hearing is set for late July 2026.",
+      "era": "smith",
+      "category": [
+        "election_interference",
+        "privacy"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Court of King's Bench of Alberta",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Chief Electoral Officer / Elections Alberta",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-050",
+        "R-052"
+      ],
+      "related_events": [
+        "EVT-035",
+        "EVT-029"
+      ],
+      "needs_verification": false,
+      "verification_notes": "RESCOPED from vague 'voter-data injunction' to the documented Centurion Project breach. Injunction is now a CONFIRMED FACT (R-050, CBC, Apr 30 2026 temp injunction; permanent hearing late July). R-052 (Tyee/Climenhaga opinion) = context only. RECOMMENDED: attach the two Elections Alberta primary releases (Apr 30 2026, Tier 1) when harvested — currently locatable via R-053 (Factsmtr finding-tool). 'Centurion Project' name now sourced. R-020 (Substack) and the prior unconfirmed R-021 link removed. STAGED for later: UCP caucus-staff meeting + Kenney doxxing (EVT-NEW-centurion-ucp-link, via R-052) and 10xVotes/foreign-influence angle (EVT-NEW-centurion-foreign, via R-051) — do not merge without their own EVT records.",
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": {
+        "id": "alberta-voter-privacy",
+        "sequence": 2,
+        "causal_note": null
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-029",
+      "event_date": "2026-05-22",
+      "event_date_precision": "day",
+      "date_notes": "Referendum date Oct 19 2026 announced by Government of Alberta (R-048). R-018 (CBC, May 22 2026) covers the separate separation-petition track and the court loss on that proposal.",
+      "title_en": "Province announces October 2026 referendum on immigration and constitutional reform",
+      "title_fr": "La province annonce un référendum d'octobre 2026 sur l'immigration et la réforme constitutionnelle",
+      "ai_translated": true,
+      "description_en": "The Government of Alberta announces a referendum to be held October 19, 2026, run by Elections Alberta, with nine questions covering immigration policy (provincial control, residency requirements for social services, voting eligibility) and constitutional reform (federal spending power, Senate). A separate citizen petition campaign seeking a question on Alberta separation from Canada proceeded on a different track and faced a court ruling that the separation proposal was unconstitutional. The referendum and the separation petition are distinct.",
+      "era": "smith",
+      "category": [
+        "electoral",
+        "federalism"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-048",
+        "R-018"
+      ],
+      "related_events": [],
+      "needs_verification": false,
+      "verification_notes": "Rescoped from 'separation referendum announcement' (which R-018 contradicted) to the actual announced Oct 19 2026 referendum on immigration + constitutional reform (R-048, government primary). Separation-petition court loss documented in update_log via R-018. Present R-048 as the government's stated position, not neutral fact (government framing throughout the FAQ).",
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-22",
+          "change": "Court ruled the separation-referendum proposal unconstitutional (violates Charter and Treaty rights); the Oct 19 referendum proceeds on immigration and constitutional-reform questions, which are distinct from the separation question.",
+          "source_ref": "R-018"
+        }
+      ],
+      "thread": {
+        "id": "smith-federal-confrontation",
+        "sequence": 1,
+        "causal_note": null
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-030",
+      "event_date": "2021-12-10",
+      "event_date_precision": "day",
+      "date_notes": "Date of Alberta government press release. StatsCan December LFS publicly released 2022-01-07; Issik statement cited advance figures.",
+      "title_en": "Associate Minister of Status of Women misrepresents December employment statistics",
+      "title_fr": "La ministre associée du statut de la femme déforme les statistiques d'emploi de décembre",
+      "ai_translated": true,
+      "description_en": "Associate Minister of Status of Women Whitney Issik issues a government press release claiming women in Alberta are 'leading the nation' in employment and that 'unemployment across the province has dropped to its lowest rate since before the pandemic.' Statistics Canada Labour Force Survey data for December 2021 contradicts both claims: Alberta's female unemployment rate increased from 7.3% in November to 7.6% in December; remained 0.7 percentage points above the pre-pandemic benchmark of 6.9% (February 2020); Alberta ranked second-highest in female unemployment among all provinces; and women received 12.6% of new jobs while accounting for 100% of new part-time positions.",
+      "era": "2019-2022",
+      "category": [
+        "governance",
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Associate Minister of Status of Women",
+          "name": "Whitney Issik",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-040",
+        "R-041",
+        "R-042"
+      ],
+      "related_events": [
+        "EVT-031"
+      ],
+      "needs_verification": true,
+      "verification_notes": "R-040 and R-041 URLs need HTTP check via Claude Code. Confirm StatsCan release date (Jan 7 2022) — Issik statement pre-dates public release, meaning she cited advance/internal figures.",
+      "standards_flags": [
+        "data-cherry-pick",
+        "statement-contradicted-by-evidence"
+      ],
+      "said_did_ref": "SD-012",
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-031",
+      "event_date": "2023-07-31",
+      "event_date_precision": "day",
+      "date_notes": null,
+      "title_en": "Report documents pay gaps and exclusion faced by racialized women despite 'Alberta is Calling' campaign",
+      "title_fr": "Un rapport documente les écarts salariaux vécus par les femmes racisées malgré la campagne 'Alberta is Calling'",
+      "ai_translated": true,
+      "description_en": "A CBC News investigation documents the experience of racialized and Black professional women in Edmonton workplaces during the period of Alberta's 'Alberta is Calling' recruitment campaign. Statistics Canada data shows Edmonton men's median after-tax income was $47,200 in 2020 versus $36,400 for women overall and $34,800 for Black women specifically. Experts cite racialized hierarchies in the workforce and a gap between campaign messaging and the lived experience of targeted migrants.",
+      "era": "2022-2026",
+      "category": [
+        "governance",
+        "rights"
+      ],
+      "claim_type": "context",
+      "inference_note": "The gap between 'Alberta is Calling' recruitment messaging and outcomes for racialized women is documented context. The causal relationship to government policy is analytical, not directly stated by government.",
+      "actors": [
+        {
+          "display_role": "Province of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-043"
+      ],
+      "related_events": [
+        "EVT-030"
+      ],
+      "needs_verification": true,
+      "verification_notes": "R-043 URL needs HTTP check. StatsCan income figures are for 2020 reference year.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-032",
+      "event_date": "2024-01-31",
+      "event_date_precision": "day",
+      "date_notes": "Date of Premier's social media video address. Global News coverage dated approximately February 1 2024. Bills tabled October 31 2024; passed December 4 2024 (EVT-033).",
+      "title_en": "Premier announces restrictions on gender-affirming care and school policies for transgender youth",
+      "title_fr": "La première ministre annonce des restrictions sur les soins d'affirmation de genre pour les jeunes transgenres",
+      "ai_translated": true,
+      "description_en": "The Premier of Alberta announces via social media video address a suite of policies affecting transgender youth: restrictions on puberty blockers and hormone therapy for those 15 and under (unless already in treatment); parental notification and consent requirements for name and pronoun changes at school; opt-in parental consent for sex education and gender identity instruction; and limitations on transgender athletes in female competitive sports. The Premier states the policies 'struck the right balance,' are 'supportive,' and that the government 'consulted very broadly' without naming consultees. Medical researchers from Simon Fraser University and the University of Toronto respond that restricting puberty blockers increases suicide risk in trans youth. The prohibition on bottom surgery for under-18s restated an existing Canada-wide restriction.",
+      "era": "2022-2026",
+      "category": [
+        "rights",
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": "Alberta NDP characterized the pronoun policy as 'mean-spirited' and a distraction from provincial issues.",
+      "source_refs": [
+        "R-044"
+      ],
+      "related_events": [
+        "EVT-033"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Confirm exact date of social media video. R-044 URL needs HTTP check. Bottom surgery 18+ restriction: confirm Canada-wide standard pre-dated announcement per WPATH standards.",
+      "standards_flags": [
+        "statement-contradicted-by-evidence",
+        "consultation-undisclosed"
+      ],
+      "said_did_ref": "SD-013",
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-033",
+      "event_date": "2024-12-04",
+      "event_date_precision": "day",
+      "date_notes": "Date legislation passed final reading. Announced January 31 2024 (EVT-032). Bills tabled October 31 2024.",
+      "title_en": "Alberta transgender restriction legislation passes legislature; Charter challenges filed",
+      "title_fr": "La législation albertaine sur les restrictions transgenres est adoptée; des contestations constitutionnelles sont déposées",
+      "ai_translated": true,
+      "description_en": "Three bills affecting transgender Albertans pass the Alberta legislature: the Education Amendment Act 2024, the Health Statutes Amendment Act, and the Fairness and Safety in Sport Act. Egale Canada and the Skipping Stone Foundation announce Charter challenges arguing the legislation violates the constitutional rights of young 2SLGBTQ+ people. The Premier states she will not invoke the notwithstanding clause, expressing confidence courts will find the legislation 'reasonable and evidence-based.' Saskatchewan used the notwithstanding clause to shield similar legislation from Charter challenge.",
+      "era": "2022-2026",
+      "category": [
+        "rights",
+        "constitutional_override"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": "Egale Canada director of legal stated the legislation had already caused increased bullying and that some trans youth reported they would not be alive without access to puberty blockers.",
+      "source_refs": [
+        "R-045"
+      ],
+      "related_events": [
+        "EVT-032"
+      ],
+      "needs_verification": true,
+      "verification_notes": "R-045 URL needs HTTP check. Monitor for court decisions. Premier declined to confirm or deny future notwithstanding clause use if courts strike legislation down.",
+      "standards_flags": [
+        "charter-challenge-pending"
+      ],
+      "said_did_ref": "SD-013",
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-034",
+      "event_date": "2024-09-03",
+      "event_date_precision": "day",
+      "date_notes": "September 3 2024: province notified city of intent to withdraw. City council wind-down vote: confirm exact date (Global News dated September 11 2024). Province subsequently took over project management.",
+      "title_en": "Province withdraws $1.53 billion Green Line LRT funding; city faces $2.1 billion in total costs",
+      "title_fr": "La province retire 1,53 milliard de dollars de financement du Green Line; la ville fait face à 2,1 milliards en coûts totaux",
+      "ai_translated": true,
+      "description_en": "The Minister of Transportation sends a letter to the City of Calgary withdrawing the province's $1.53-billion contribution to the Green Line LRT project. The city, which had given the project final council approval July 30 2024 and signed more than 70 contracts, is forced to halt work; council votes 10-5 to wind down. Cost figures reported vary and are presented here for reader judgment: the province withdrew $1.53 billion in committed funding; the city estimated roughly $850 million in wind-down costs on top of approximately $1.3 billion already spent, for a total around $2.1 billion; an advocacy source (R-047) emphasizes the ~$850M wind-down figure specifically. Context: the UCP government had reduced the provincial Green Line contribution by 86% in 2019 and passed legislation enabling withdrawal on 90 days notice. The province subsequently took over project management. The minister's public statement attributed costs to 'decade-long mismanagement' by the city.",
+      "era": "2022-2026",
+      "category": [
+        "fiscal",
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Minister of Transportation",
+          "name": "Devin Dreeshen",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Mayor of Calgary",
+          "name": "Jyoti Gondek",
+          "party": null,
+          "jurisdiction": "municipal"
+        }
+      ],
+      "opposition_response": "Mayor Gondek: 'There is no victory in any of this. This is a tragic day.' Councillor Walcott moved amendment asking city to seek legal opinion on transferring costs and liability to the province.",
+      "source_refs": [
+        "R-046",
+        "R-047"
+      ],
+      "related_events": [],
+      "needs_verification": true,
+      "verification_notes": "Three cost figures presented transparently (provincial $1.53B withdrawn / total ~$2.1B / wind-down ~$850M per R-047) to invite reader assessment and audience fact-checks. Confirm exact council wind-down vote date (Global News dated Sep 11 2024; withdrawal letter Sep 3 2024). R-046/R-047 URLs need HTTP check. FIREWALL: Minister Dreeshen appears in a separate unsourced conduct record — do NOT link in related_events or UI without dedicated Tier 2 sourcing for that matter.",
+      "standards_flags": [
+        "jurisdiction-misdirection",
+        "stated-vs-actual-impact"
+      ],
+      "said_did_ref": "SD-014",
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-035",
+      "event_date": "2026-03-27",
+      "event_date_precision": "day",
+      "date_notes": "Elections Alberta letter dated March 26-27 2026; CBC report March 27 2026. Underlying conduct (accessing the list in response to the recall petition) occurred late 2025.",
+      "title_en": "Minister found to have breached election law by accessing confidential voter list",
+      "title_fr": "Un ministre a enfreint la loi électorale en accédant à la liste confidentielle des électeurs",
+      "ai_translated": true,
+      "description_en": "Elections Alberta finds that the Service Alberta Minister accessed the confidential List of Electors 'for a purpose not authorized by the Election Act' — to obtain information about a constituent who had launched a recall petition against him. The commissioner closes the file without an administrative penalty or letter of reprimand, citing ambiguity in the law, and instead provides advice on future use of the list. The recall petition against the minister failed, gathering about 2,600 of the roughly 15,700 signatures required.",
+      "era": "smith",
+      "category": [
+        "privacy",
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Minister of Service Alberta and Red Tape Reduction",
+          "name": "Dale Nally",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Chief Electoral Officer / Elections Alberta",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": {
+        "display_role": "Official Opposition",
+        "name": "Rakhi Pancholi",
+        "party": "NDP",
+        "date": "2026-03-27",
+        "description": "NDP deputy leader criticized the minister for accessing information about a constituent to publicly discredit him, calling it part of a pattern of the UCP acting to silence opposition.",
+        "source_refs": [
+          "R-049"
+        ]
+      },
+      "source_refs": [
+        "R-049"
+      ],
+      "related_events": [
+        "EVT-028"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Verified against R-049 (CBC/CP, Daniela Germano). Distinct from the Centurion Project matter (EVT-028) though thematically linked under the voter-privacy thread. The finding (breach, no penalty, advice given) is on record. Recall-petition outcome (failed, ~2,600/15,700) also reported.",
+      "standards_flags": [],
+      "evidence_status": "established",
+      "update_log": [],
+      "thread": {
+        "id": "alberta-voter-privacy",
+        "sequence": 1,
+        "causal_note": null
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-036",
+      "event_date": "2025-10-27",
+      "event_date_precision": "day",
+      "date_notes": "Bill 2 tabled October 27 2025 (Second Session, 31st Legislature). Strike began October 6; lockout October 9. ATA court challenge filed November 6 2025. Royal Assent date not printed on bill face — record of debate page blank.",
+      "title_en": "Back to School Act invokes notwithstanding clause to end teachers' strike",
+      "title_fr": "La Loi sur le retour à l'école invoque la clause dérogatoire pour mettre fin à la grève des enseignants",
+      "ai_translated": true,
+      "description_en": "The Alberta government tables Bill 2, the Back to School Act, to end a strike by approximately 51,000 public, Catholic, and francophone teachers that began October 6 2025 following two rejected contract offers. The bill imposes a collective agreement (effective September 1 2024, expiring August 31 2028) and invokes s.33 of the Charter against sections 2 and 7–15, shielding the legislation from Charter challenge. Section 13 of the bill explicitly strips the Labour Relations Board, human rights tribunals, and arbitrators of jurisdiction to rule on the constitutionality of any provision. Section 14 extinguishes all causes of action against the Crown, including under s.24(1) Charter remedies, and retrospectively dismisses any proceedings commenced before the act's coming into force. The contract imposed is based on a memorandum of agreement the ATA and TEBA had reached September 23 2025 but which ATA members had not ratified. On November 6 2025, the ATA filed a constitutional challenge in Alberta's Court of King's Bench, seeking a declaration that the government's use of s.33 was improper and an injunction against some or all effects of the bill while the challenge is heard. Justice Minister Mickey Amery said the government will defend the act.",
+      "era": "smith",
+      "category": [
+        "labour",
+        "charter",
+        "education",
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "President of Treasury Board and Minister of Finance",
+          "name": "Nate Horner",
+          "party": "UCP",
+          "jurisdiction": "provincial",
+          "note": "Tabling minister as named on bill face"
+        },
+        {
+          "display_role": "Minister of Justice",
+          "name": "Mickey Amery",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "President, Alberta Teachers' Association",
+          "name": "Jason Schilling",
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": "ATA president Jason Schilling: 'Let's call this what it is — it is abuse of power. This clause was not used to protect children, or to preserve democracy, or to address an emergency. It was used to win an argument.' ATA filed constitutional challenge November 6 2025 seeking declaration that use of s.33 was improper and invalid. BCCLA litigation director Vibert Jack noted courts have historically been deferential to provinces that invoke s.33: 'It might be an uphill battle, I would say, for the union.'",
+      "source_refs": [
+        "R-053",
+        "R-054"
+      ],
+      "source_notes": "R-053: Bill 2 full text, Legislative Assembly of Alberta (Tier 1). R-054: CBC News, Janet French, November 6 2025, ATA court challenge report (Tier 2). Bill also accessible at assembly.ab.ca bill index (billinfoid=12087).",
+      "related_events": [
+        "EVT-004",
+        "EVT-027"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Tier 1 source confirmed: docs.assembly.ab.ca/LADDAR_files/docs/bills/bill/legislature_31/session_2/20251023_bill-002.pdf. Tier 2 CBC confirmed: cbc.ca/news/canada/edmonton/alberta-teachers-association-bill-2-court-challenge-notwithstanding-9.6969870. Section citations (s.3, s.13, s.14) verified against bill text directly. MOA date September 23 2025 confirmed in bill Schedule.",
+      "standards_flags": [
+        "outcome-pending"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created. Sources confirmed from uploaded bill PDF and CBC article. Court challenge outcome pending — update when Court of King's Bench rules on injunction application."
+        }
+      ],
+      "thread": {
+        "id": "notwithstanding-clause-use",
+        "sequence": null,
+        "causal_note": "Part of documented pattern of provincial s.33 invocations. See EVT-004 (Quebec 1988), EVT-027 (Saskatchewan 2023), EVT-028 (Ontario 2022). First Alberta use of s.33 to impose a collective agreement."
+      },
+      "claim_contested_by": [
+        {
+          "actor": "Minister of Justice Mickey Amery",
+          "position": "Government used s.33 to achieve finality and return children to school after three weeks of cancelled classes. Will defend Back to School Act.",
+          "source_ref": "R-054"
+        }
+      ]
+    },
+    {
+      "id": "EVT-037",
+      "event_date": "2025-08-01",
+      "event_date_precision": "day",
+      "date_notes": "New expense rules published August 1 2025. CBC first reported the deletion August 2025. Government reversal announced August 21 2025 (CP/CBC report). Smith stated she was 'unaware' of the changes at time of implementation.",
+      "title_en": "Government removes eight years of ministerial expense records, reverses after public backlash",
+      "title_fr": "Le gouvernement supprime huit ans de dossiers de dépenses ministérielles, puis fait marche arrière après une réaction publique",
+      "ai_translated": true,
+      "description_en": "On August 1 2025, the Alberta government quietly published new expense disclosure rules removing the requirement for the Premier, ministers, political staff, and deputy ministers to publicly post receipts for expenses over $100. Eight years of previously accessible ministerial expense records were simultaneously deleted from the government's public website. When CBC News reported the changes, Premier Smith stated she had been unaware of them and that the situation arose because 'something got lost in translation.' Her former infrastructure minister Peter Guthrie, who had already been removed from UCP caucus, said publicly: 'Under the Smith-Anderson duo-cracy, nothing moves without their permission.' After backlash from critics across the political spectrum — including the Canadian Taxpayers Federation, whose Alberta director Kris Sims called it a mistake — the government reversed course on August 21 2025, announced it was reverting to its previous expense disclosure rules, and promised to re-post all eight years of deleted records. Finance Minister Horner's office had originally characterized the changes as cutting red tape and aligning Alberta with other provinces.",
+      "era": "smith",
+      "category": [
+        "accountability",
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Minister of Finance",
+          "name": "Nate Horner",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": "NDP Leader Naheed Nenshi: reversal is good but 'shows the government is making up things as it goes along.' Former UCP minister Peter Guthrie (removed from caucus): 'This premier grabs credit when things go right and skirts blame when they don't.'",
+      "source_refs": [
+        "R-055"
+      ],
+      "source_notes": "R-055: CBC News / Canadian Press, Lisa Johnson, August 21 2025. URL: cbc.ca/news/canada/edmonton/alberta-reverts-expense-reporting-rules-1.7614892. Tier 2.",
+      "related_events": [],
+      "needs_verification": false,
+      "verification_notes": "Sourced from CBC/CP report August 21 2025. Smith 'unaware' claim, Guthrie quote, CTF quote, Horner red-tape justification, and reversal commitment all from same article. Single source — flag resolved when a second report confirming the deletion and reversal sequence is added.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": "SD-NEW-01",
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created. Source confirmed from supplied CBC/CP article. SD-NEW-01 updated to revised_position type with full sequence documented."
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": [
+        {
+          "actor": "Premier Smith",
+          "position": "Was unaware of the changes; described as 'something got lost in translation.' Direction was to redact hotel information for security reasons, not to remove all expense transparency.",
+          "source_ref": "R-055"
+        }
+      ]
+    },
+    {
+      "id": "EVT-038",
+      "event_date": "2024-08-31",
+      "event_date_precision": "day",
+      "date_notes": "Contract expiry date confirmed by ATA collective bargaining page (ev_033). Formal central bargaining began September 1 2024.",
+      "title_en": "Alberta teachers' collective agreement expires — bargaining begins",
+      "title_fr": "La convention collective des enseignants albertains expire — les négociations commencent",
+      "ai_translated": true,
+      "description_en": "The teachers' collective agreement between the Alberta Teachers' Association (ATA) and the Teachers' Employer Bargaining Association (TEBA) expires August 31 2024. Formal central bargaining begins September 1 2024. The contract covered approximately 51,000 teachers across public, Catholic, and francophone school jurisdictions. Key ATA bargaining priorities entering negotiations: wage increases indexed to inflation (teacher wages had fallen behind the national average during the UCP era), hard class-size caps by grade level, and increased educational assistant supports for students with complex needs.",
+      "era": "smith",
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Alberta Teachers' Association",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "ev_033-PENDING"
+      ],
+      "source_notes": "Source: ATA collective bargaining page — teachers.ab.ca/collective-bargaining (Tier 2, pending confirmation). Contract expiry date also confirmed in Bill 2 Schedule (MOA references 'expired central terms' of August 31 2024).",
+      "related_events": [
+        "EVT-039",
+        "EVT-040",
+        "EVT-036"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Confirm ATA source URL is live. Bill 2 Schedule confirms the expiry date independently as Tier 1.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created for strike lead-up thread."
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 1,
+        "causal_note": "Opening event of the 2025 teachers' strike sequence."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-039",
+      "event_date": "2025-03-31",
+      "event_date_precision": "day",
+      "date_notes": "March 31 2025 first rejection documented in UCP Notwithstanding Analysis project file. Distinct from the September 28-29 2025 rejection of the tentative agreement.",
+      "title_en": "Teachers reject first memorandum of agreement in central bargaining",
+      "title_fr": "Les enseignants rejettent un premier protocole d'accord lors des négociations centrales",
+      "ai_translated": true,
+      "description_en": "ATA members reject a first memorandum of agreement in central bargaining. The rejection continues a pattern of unresolved central bargaining that will extend through the summer of 2025. Key unresolved issues at this stage: wage indexation, class-size reporting and caps, and educational assistant staffing levels. This is the first of two rejection votes; a second rejection of a tentative agreement follows in September 2025.",
+      "era": "smith",
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Alberta Teachers' Association",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "NEEDS-SOURCE"
+      ],
+      "source_notes": "Date from UCP Notwithstanding Analysis project file. Primary source (ATA press release or news coverage of March 2025 rejection) not yet confirmed. Must find Tier 2 before publishing.",
+      "related_events": [
+        "EVT-038",
+        "EVT-040"
+      ],
+      "needs_verification": true,
+      "verification_notes": "STUB — needs Tier 2 source. Search: ATA memorandum of agreement rejection March 2025, CBC/CTV Alberta teachers bargaining March 2025.",
+      "standards_flags": [
+        "single-source",
+        "date-unconfirmed"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created. Date from internal project file — needs external Tier 2 confirmation."
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 2,
+        "causal_note": null
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-040",
+      "event_date": "2025-09-28",
+      "event_date_precision": "day",
+      "date_notes": "Vote held September 28-29 2025 per notwithstanding analysis. Result: 89.5% rejection. ATA source URL: teachers.ab.ca/News Room/ata news/Pages/Teachers-reject-tentative-agreement.aspx (ev_005).",
+      "title_en": "Teachers vote 89.5% to reject tentative agreement",
+      "title_fr": "Les enseignants votent à 89,5 % contre l'accord de principe",
+      "ai_translated": true,
+      "description_en": "ATA members vote 89.5% to reject a tentative agreement reached in central bargaining — one of the highest rejection rates in Canadian teacher bargaining history. The rejected agreement had offered a 12% wage increase over four years (approximately 3% annually against 2–3% annual inflation), leaving teachers' real wages flat. Teachers also rejected the agreement for its failure to include binding class-size caps and adequate educational assistant commitments. Median teacher salary at time of vote: approximately $70,000. The 12% offer would have brought that to approximately $78,400 over four years.",
+      "era": "smith",
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Alberta Teachers' Association",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "ev_005-PENDING"
+      ],
+      "source_notes": "Source: ATA news release — teachers.ab.ca/News Room/ata news/Pages/Teachers-reject-tentative-agreement.aspx (Tier 2, pending URL confirmation).",
+      "related_events": [
+        "EVT-039",
+        "EVT-041",
+        "EVT-036"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Confirm ATA source URL is live. 89.5% figure and September 28-29 date need confirmation against ATA primary source.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created for strike lead-up thread."
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 3,
+        "causal_note": "89.5% rejection triggers strike authorization vote."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-041",
+      "event_date": "2025-10-01",
+      "event_date_precision": "day",
+      "date_notes": "Strike authorization vote result announced October 1 2025 per notwithstanding analysis. ATA source URL: teachers.ab.ca/News Room/ata news/strike-authorization (ev_015).",
+      "title_en": "Teachers vote 94.5% to authorize strike action",
+      "title_fr": "Les enseignants votent à 94,5 % pour autoriser une grève",
+      "ai_translated": true,
+      "description_en": "Following the 89.5% rejection of the tentative agreement, ATA members vote 94.5% in favour of authorizing strike action — a near-unanimous mandate. The 94.5% authorization is one of the strongest strike mandates in Alberta labour history. The ATA sets a strike date of October 6 2025, giving the government and TEBA five days to return to the table with a materially different offer.",
+      "era": "smith",
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Alberta Teachers' Association",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "ev_015-PENDING"
+      ],
+      "source_notes": "Source: ATA — teachers.ab.ca/News Room/ata news/strike-authorization (Tier 2, pending URL confirmation).",
+      "related_events": [
+        "EVT-040",
+        "EVT-028"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Confirm ATA source URL is live. 94.5% figure and October 1 date need confirmation.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created for strike lead-up thread."
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 4,
+        "causal_note": "Authorization vote leads directly to October 6 strike start."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-042",
+      "event_date": "2025-09-25",
+      "event_date_precision": "day",
+      "date_notes": "Common Front formation approximately September 25 2025. CBC source: cbc.ca/news/canada/edmonton/alberta-unions-common-front-1.7338456 (ev_036). Formation was in response to threatened notwithstanding clause use.",
+      "title_en": "30 unions form Common Front coalition representing 350,000 Alberta workers",
+      "title_fr": "30 syndicats forment une coalition Front commun représentant 350 000 travailleurs albertains",
+      "ai_translated": true,
+      "description_en": "Thirty Alberta unions representing approximately 350,000 workers form the Common Front coalition in response to the provincial government's threatened use of the notwithstanding clause against striking teachers. The coalition includes the Alberta Federation of Labour, CUPE, and major trades unions. Common Front statement (October 24 2025): 'If governments start using the notwithstanding clause as a tool in their dealings with workers and unions, it will make a mockery of the constitutionally protected right to strike.' The coalition represents the largest labour solidarity formation in recent Alberta history.",
+      "era": "smith",
+      "category": [
+        "labour",
+        "governance"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Alberta Federation of Labour and 29 affiliated unions",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "ev_036-PENDING"
+      ],
+      "source_notes": "Source: CBC — cbc.ca/news/canada/edmonton/alberta-unions-common-front-1.7338456 (Tier 2, pending URL confirmation).",
+      "related_events": [
+        "EVT-041",
+        "EVT-036"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Confirm CBC source URL is live. Membership count (30 unions, 350,000 workers) needs confirmation against source.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created for strike lead-up thread."
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 5,
+        "causal_note": "Solidarity formation in direct response to threatened s.33 use."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-043",
+      "event_date": "2025-10-09",
+      "event_date_precision": "day",
+      "date_notes": "Lockout began October 9 2025, three days after strike began October 6. Both dates confirmed in Bill 2 section 2.",
+      "title_en": "TEBA lockout begins three days into teachers' strike",
+      "title_fr": "Le lock-out du TEBA commence trois jours après le début de la grève des enseignants",
+      "ai_translated": true,
+      "description_en": "The Teachers' Employer Bargaining Association (TEBA) institutes a lockout of ATA members on October 9 2025 — three days after the strike began. The lockout combined with the ongoing strike removes 740,000+ students from classrooms province-wide. Both the strike and lockout are referenced in Bill 2 section 2, which defines the purpose of the act as ending 'the strike by the employees that started on October 6, 2025 and lockout by the TEBA that started on October 9, 2025.' The lockout is the employer action; the strike is the worker action — both are terminated simultaneously by Bill 2 on October 27.",
+      "era": "smith",
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-053"
+      ],
+      "source_notes": "Source: Bill 2 section 2 (Tier 1) — confirms both dates directly in legislative text.",
+      "related_events": [
+        "EVT-028",
+        "EVT-036"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Dates confirmed directly in Bill 2 section 2. Tier 1 source. No additional verification required.",
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created. Dates sourced directly from Bill 2 section 2 — Tier 1."
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 6,
+        "causal_note": "Lockout compounds the strike; both terminated by Bill 2."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-044",
+      "event_date": "2025-10-14",
+      "event_date_precision": "day",
+      "date_notes": "Mediation resumed October 14 2025 per ATA source (ev_037). Talks broke down without resolution; Bill 2 announced October 23.",
+      "title_en": "Negotiations resume with mediator during strike — talks fail",
+      "title_fr": "Les négociations reprennent avec un médiateur pendant la grève — les pourparlers échouent",
+      "ai_translated": true,
+      "description_en": "Negotiations between the ATA and TEBA resume with a mediator on October 14 2025, eight days into the combined strike and lockout. The mediated talks fail to produce a settlement. On October 23 — nine days after mediation resumed — Premier Smith announces that the government will fast-track back-to-work legislation and invoke the notwithstanding clause. The failure of mediation is the proximate trigger for the legislative response.",
+      "era": "smith",
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Alberta Teachers' Association",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "ev_037-PENDING"
+      ],
+      "source_notes": "Source: ATA — teachers.ab.ca/news-mediator-october (Tier 2, pending URL confirmation).",
+      "related_events": [
+        "EVT-043",
+        "EVT-036"
+      ],
+      "needs_verification": true,
+      "verification_notes": "Confirm ATA source URL is live. Oct 14 mediation resume date and Oct 23 Smith announcement need confirmation.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-25",
+          "note": "Event created for strike lead-up thread."
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 7,
+        "causal_note": "Failed mediation directly precedes government legislative response."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-045",
+      "event_date": "2026-05-13",
+      "event_date_precision": "day",
+      "date_notes": "Deal confirmed by CBC from anonymous sources; formal announcement pending late May 2026.",
+      "title_en": "Alberta and federal government near deal on industrial carbon pricing at $130 per tonne by 2040",
+      "title_fr": "L'Alberta et le gouvernement fédéral sur le point de s'entendre sur une tarification industrielle du carbone à 130 $/tonne d'ici 2040",
+      "ai_translated": true,
+      "description_en": "Alberta and the federal government agree to an effective industrial carbon price of $130/tonne under Alberta's TIER system by 2040. The current effective price in Alberta is approximately $45/tonne, below the headline price of $95/tonne, attributed by critics to an oversupply of credits. The Canadian Climate Institute states the 2040 timeline is insufficient for Canada's net-zero targets.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "environment",
+        "federal_provincial",
+        "energy"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Prime Minister",
+          "name": "Mark Carney",
+          "party": "Liberal",
+          "jurisdiction": "federal"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-059"
+      ],
+      "related_events": [
+        "EVT-029"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Update when formally announced; remove outcome-pending flag when signed.",
+      "standards_flags": [
+        "single-source",
+        "outcome-pending"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": "Created from R-059."
+        }
+      ],
+      "thread": {
+        "id": "smith-federal-confrontation",
+        "sequence": null,
+        "causal_note": "Negotiated resolution after years of Smith-federal confrontation on carbon pricing."
+      },
+      "claim_contested_by": [
+        {
+          "counter_claim": "Canadian Climate Institute states $130/tonne by 2040 is insufficient for Canada to reach net-zero by 2050.",
+          "source_ref": "R-059",
+          "counter_claim_type": "expert-rebuttal"
+        }
+      ]
+    },
+    {
+      "id": "EVT-046",
+      "event_date": "2026-05-26",
+      "event_date_precision": "day",
+      "date_notes": "Interview published May 26 2026; Sylvestre to declare next steps early June 2026.",
+      "title_en": "Separatist leader organizes potential UCP leadership review over premier's pro-remain referendum stance",
+      "title_fr": "Un chef séparatiste organise un possible examen de la direction de l'UCP en raison de la position pro-maintien de la première ministre",
+      "ai_translated": true,
+      "description_en": "Mitch Sylvestre, of the Alberta Prosperity Project and Stay Free Alberta, organizes to force either a UCP leadership review of the premier or a change to the referendum question. The October 19 2026 referendum offers two options: remain a Canadian province, or begin a legal process toward a binding secession vote. The premier is publicly pro-remain; the UCP party has declared neutrality.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "separatism",
+        "party_discipline",
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Stay Free Alberta / Alberta Prosperity Project",
+          "name": "Mitch Sylvestre",
+          "party": null,
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Premier of Alberta",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-061"
+      ],
+      "related_events": [
+        "EVT-029",
+        "EVT-045"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Update when Sylvestre declares next steps June 2026.",
+      "standards_flags": [
+        "single-source",
+        "outcome-pending"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": "Created from R-061."
+        }
+      ],
+      "thread": {
+        "id": "smith-federal-confrontation",
+        "sequence": null,
+        "causal_note": "Intra-party pressure following premier's federalist turn."
+      },
+      "claim_contested_by": [
+        {
+          "counter_claim": "UCP president Rob Smith states grassroots members back the premier's compromise question.",
+          "source_ref": "R-061",
+          "counter_claim_type": "political-statement"
+        }
+      ]
+    },
+    {
+      "id": "EVT-047",
+      "event_date": "2025-11-14",
+      "event_date_precision": "day",
+      "date_notes": "CBC investigation published Nov 14 2025, ~3 weeks after Back to School Act (EVT-036).",
+      "title_en": "Investigation finds government's 3,000-teacher strike commitment was pre-existing budget allocation",
+      "title_fr": "Une enquête révèle que l'engagement de 3 000 enseignants était déjà prévu au budget",
+      "ai_translated": true,
+      "description_en": "A CBC News investigation reports that the government's commitment to fund 3,000 new teaching positions — presented during the teachers' strike as a new concession and enshrined in the Back to School Act — had already been allocated in the 2025-26 provincial budget passed in March 2025, before the strike began. The budget allocated $750 million for this purpose.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "labour",
+        "education",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "Education Minister",
+          "name": "Demetrios Nicolaides",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": {
+        "actor": "NDP Education Critic",
+        "name": "Amanda Chapman",
+        "response_en": "Chapman states the government was 'misleading' as most Albertans would not have known the hiring was already budgeted.",
+        "source_ref": "R-060"
+      },
+      "source_refs": [
+        "R-060"
+      ],
+      "related_events": [
+        "EVT-036"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Add 2025-26 Alberta budget (Tier 1) as a future R-064 to confirm $750M allocation date directly.",
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": "SD-016",
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": "Created from R-060. DID side of SD-016."
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 11,
+        "causal_note": "Post-settlement scrutiny of the strike resolution."
+      },
+      "claim_contested_by": [
+        {
+          "counter_claim": "Education ministry states the 3,000 positions, while budget-funded, represent real new hiring commitments.",
+          "source_ref": "R-060",
+          "counter_claim_type": "government-statement"
+        }
+      ]
+    },
+    {
+      "id": "EVT-048",
+      "event_date": "2023-05-17",
+      "event_date_precision": "day",
+      "date_notes": "Smith's 'final' statement May 17 2023; Johnson won Lacombe-Ponoka May 29 2023 (~70%); caucus seating post-election (confirm exact date from R-058).",
+      "title_en": "Party leader states candidate 'will not sit in caucus — that is final'; candidate wins and is later seated",
+      "title_fr": "La chef du parti déclare qu'une candidate « ne siégera pas au caucus — c'est définitif »; la candidate est élue puis admise",
+      "ai_translated": true,
+      "description_en": "The UCP leader states that candidate Jennifer Johnson 'will not be sitting with the UCP caucus. And that is final.' Johnson had compared transgender children in schools to feces in a cookie-batter analogy in a September 2022 recording. Johnson wins the Lacombe-Ponoka riding on May 29 2023 with approximately 70% of the vote. The Legislative Assembly record confirms Johnson was subsequently seated in the UCP caucus, later resigned, and was later readmitted.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "party_discipline",
+        "lgbtq",
+        "election_interference"
+      ],
+      "claim_type": "fact",
+      "inference_note": null,
+      "actors": [
+        {
+          "display_role": "UCP Leader",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "UCP Candidate, Lacombe-Ponoka",
+          "name": "Jennifer Johnson",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-063",
+        "R-058"
+      ],
+      "related_events": [
+        "EVT-017"
+      ],
+      "needs_verification": false,
+      "verification_notes": "Confirm exact caucus seating date from R-058 legislative record. CityNews election-night article recommended as future R-065.",
+      "standards_flags": [],
+      "said_did_ref": "SD-017",
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": "Created from R-063 + R-058. SD-017 attached."
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-049",
+      "event_date": "2017-05-18",
+      "event_date_precision": "day",
+      "date_notes": "Merger vote May 18 2017.",
+      "title_en": "Wildrose Party and Progressive Conservative Party merge to form United Conservative Party",
+      "title_fr": "Le Parti Wildrose et le Parti progressiste-conservateur fusionnent pour former le Parti conservateur uni",
+      "ai_translated": true,
+      "description_en": "The Wildrose and Progressive Conservative parties vote to merge, creating the United Conservative Party. The merger unifies Alberta's right-of-centre vote under a single party that will win the 2019 election under Jason Kenney.",
+      "description_fr": null,
+      "era": "pre2019",
+      "category": [
+        "party_discipline"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Wildrose Party",
+          "name": null,
+          "party": "Wildrose",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Progressive Conservative Party",
+          "name": null,
+          "party": "PC",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-064"
+      ],
+      "related_events": [
+        "EVT-006"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-050",
+      "event_date": "2013-07-16",
+      "event_date_precision": "month",
+      "date_notes": "Nature magazine documents muzzling policy July 2013; practice documented from 2007 onward.",
+      "title_en": "Federal government media protocols restrict scientists from speaking publicly without prior approval",
+      "title_fr": "Des protocoles médiatiques fédéraux empêchent les scientifiques de parler publiquement sans autorisation préalable",
+      "ai_translated": true,
+      "description_en": "The Harper government's media protocol requires federal scientists to obtain government approval before speaking to journalists. The policy particularly affects climate, fisheries, and environmental researchers. Thousands of positions are eliminated and research libraries are closed during this period.",
+      "description_fr": null,
+      "era": "pre2019",
+      "category": [
+        "science_suppression",
+        "media_suppression"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Prime Minister",
+          "name": "Stephen Harper",
+          "party": "Conservative",
+          "jurisdiction": "federal"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-065"
+      ],
+      "related_events": [
+        "EVT-001",
+        "EVT-004"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": {
+        "id": "science-suppression-federal",
+        "sequence": 2,
+        "causal_note": "Muzzling and library closures are concurrent mechanisms of the same pattern."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-051",
+      "event_date": "2019-05-13",
+      "event_date_precision": "day",
+      "date_notes": "Weeks after UCP election win April 16 2019.",
+      "title_en": "Province suspends nurses' wage arbitration proceedings shortly after taking office",
+      "title_fr": "La province suspend les procédures d'arbitrage salarial des infirmières peu après son entrée en fonction",
+      "ai_translated": true,
+      "description_en": "The UCP government suspends arbitration proceedings for the United Nurses of Alberta contract dispute, freezing wage negotiations for approximately 30,000 nurses weeks after the party's election victory.",
+      "description_fr": null,
+      "era": "kenney",
+      "category": [
+        "labour",
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Jason Kenney",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Health Minister",
+          "name": "Tyler Shandro",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-066"
+      ],
+      "related_events": [
+        "EVT-007"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-052",
+      "event_date": "2019-06-26",
+      "event_date_precision": "day",
+      "date_notes": "Passed in first UCP budget, June 2019.",
+      "title_en": "Province reinstates lower youth minimum wage of $13/hour for workers under 18",
+      "title_fr": "La province rétablit un salaire minimum inférieur de 13 $/h pour les travailleurs de moins de 18 ans",
+      "ai_translated": true,
+      "description_en": "The government reinstates a two-tier minimum wage, setting $13/hour for workers under 18 — $2/hour below the general minimum of $15/hour — reversing the previous government's single-tier rate.",
+      "description_fr": null,
+      "era": "kenney",
+      "category": [
+        "labour",
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Jason Kenney",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-067"
+      ],
+      "related_events": [],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-053",
+      "event_date": "2020-07-07",
+      "event_date_precision": "day",
+      "date_notes": "Bill 32 passed July 7 2020; effective November 2020.",
+      "title_en": "Bill 32 passes restricting union fundraising, organizing, and political spending",
+      "title_fr": "Le projet de loi 32 est adopté, limitant le financement syndical, l'organisation et les dépenses politiques",
+      "ai_translated": true,
+      "description_en": "The Restoring Balance in Alberta's Workplaces Act (Bill 32) passes, restricting union activities including political donations without explicit member consent, limiting picketing, and increasing employer access to union financial records. The Alberta Federation of Labour calls it the most anti-union legislation in decades.",
+      "description_fr": null,
+      "era": "kenney",
+      "category": [
+        "labour",
+        "constitutional_override"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Jason Kenney",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Labour Minister",
+          "name": "Jason Copping",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-068"
+      ],
+      "related_events": [],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-054",
+      "event_date": "2020-02-27",
+      "event_date_precision": "day",
+      "date_notes": "Budget 2020 tabled February 27 2020.",
+      "title_en": "Budget 2020 reduces K-12 education funding by $128M despite enrolment growth",
+      "title_fr": "Le budget 2020 réduit le financement de la maternelle à la 12e année de 128 M$ malgré la croissance des inscriptions",
+      "ai_translated": true,
+      "description_en": "The provincial budget reduces K-12 education funding by $128 million in a year of growing student enrolment. School boards report larger class sizes and teacher layoffs as a result.",
+      "description_fr": null,
+      "era": "kenney",
+      "category": [
+        "education",
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Jason Kenney",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Education Minister",
+          "name": "Adriana LaGrange",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-069"
+      ],
+      "related_events": [
+        "EVT-038"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-055",
+      "event_date": "2021-03-29",
+      "event_date_precision": "day",
+      "date_notes": "Draft released March 29 2021; pilot announced May 2021.",
+      "title_en": "Government releases K-6 curriculum draft drawing criticism for age-inappropriate content and historical inaccuracies",
+      "title_fr": "Le gouvernement publie un projet de programme d'études de la maternelle à la 6e année critiqué pour son contenu inadapté à l'âge et ses inexactitudes historiques",
+      "ai_translated": true,
+      "description_en": "The UCP government releases a draft K-6 curriculum drawing criticism from educators, academics, and Indigenous groups for historical inaccuracies, age-inappropriate content, and perceived ideological framing. The Alberta Teachers' Association and school boards call for withdrawal.",
+      "description_fr": null,
+      "era": "kenney",
+      "category": [
+        "education",
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Education Minister",
+          "name": "Adriana LaGrange",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-070"
+      ],
+      "related_events": [],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-056",
+      "event_date": "2022-05-18",
+      "event_date_precision": "day",
+      "date_notes": "Review vote May 18 2022; resignation announced May 19.",
+      "title_en": "Kenney receives 51.4% support in leadership review — below his own stated threshold — and resigns",
+      "title_fr": "Kenney obtient 51,4 % de soutien lors de la révision de la direction — sous son propre seuil déclaré — et démissionne",
+      "ai_translated": true,
+      "description_en": "Jason Kenney receives 51.4% support in the UCP leadership review, technically sufficient to continue but below the threshold he had stated he required for a strong mandate. He announces his resignation the following day, triggering a leadership race won by Danielle Smith.",
+      "description_fr": null,
+      "era": "kenney",
+      "category": [
+        "party_discipline"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Jason Kenney",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-071"
+      ],
+      "related_events": [
+        "EVT-015",
+        "EVT-065"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-057",
+      "event_date": "2022-10-06",
+      "event_date_precision": "day",
+      "date_notes": "Leadership vote October 6; Smith sworn in October 11 (EVT-015).",
+      "title_en": "Danielle Smith elected UCP leader on sixth ballot, defeating Travis Toews",
+      "title_fr": "Danielle Smith est élue cheffe de l'UCP au sixième tour de scrutin, battant Travis Toews",
+      "ai_translated": true,
+      "description_en": "Danielle Smith wins the UCP leadership race on the sixth ballot, defeating Finance Minister Travis Toews. Smith had campaigned on the Alberta Sovereignty Act and opposition to federal COVID measures. She is sworn in as premier on October 11 (EVT-015).",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "party_discipline"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "UCP Leadership Candidate",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "UCP Leadership Candidate",
+          "name": "Travis Toews",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-080"
+      ],
+      "related_events": [
+        "EVT-015",
+        "EVT-056"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-058",
+      "event_date": "2022-10-12",
+      "event_date_precision": "day",
+      "date_notes": "First-day press conference October 12 2022; retraction October 13.",
+      "title_en": "Premier states unvaccinated people are 'most discriminated against group' she has witnessed; retracts next day",
+      "title_fr": "La première ministre déclare que les non-vaccinés sont le groupe « le plus discriminé » qu'elle ait jamais vu ; rétractation le lendemain",
+      "ai_translated": true,
+      "description_en": "On her first day as premier, Danielle Smith states the unvaccinated have been 'the most discriminated against group that I've ever witnessed in my lifetime.' The statement draws criticism from Indigenous, Black, and LGBTQ community leaders. Smith retracts the statement the following day.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "party_discipline",
+        "lgbtq"
+      ],
+      "claim_type": "fact",
+      "inference_note": true,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-072"
+      ],
+      "related_events": [
+        "EVT-015"
+      ],
+      "needs_verification": "Source is CBC player URL — confirm text article backup exists. Retraction needs its own Tier 2 source.",
+      "verification_notes": null,
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-059",
+      "event_date": "2022-12-06",
+      "event_date_precision": "day",
+      "date_notes": "Reported December 2022; $49M still unaccounted at time of reporting.",
+      "title_en": "Province procures Turkish-manufactured medication at six times standard price; $49M of $70M contract unaccounted",
+      "title_fr": "La province achète des médicaments turcs à six fois le prix standard; 49 M$ sur 70 M$ du contrat restent inexpliqués",
+      "ai_translated": true,
+      "description_en": "The Alberta government fulfils a $70 million contract for Turkish-manufactured ibuprofen procured during the COVID-19 pandemic at approximately six times the standard market price. Hospitals stopped using the medication after four months. At time of reporting, $49 million remains unaccounted for.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "fiscal",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Government of Alberta",
+          "name": null,
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-073"
+      ],
+      "related_events": [],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [
+        "single-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-060",
+      "event_date": "2023-11-07",
+      "event_date_precision": "day",
+      "date_notes": "Restructuring announcement November 7 2023.",
+      "title_en": "Government announces restructuring of Alberta Health Services into four separate entities",
+      "title_fr": "Le gouvernement annonce la restructuration d'Alberta Health Services en quatre entités distinctes",
+      "ai_translated": true,
+      "description_en": "The government announces Alberta Health Services will be restructured into four separate entities covering acute care, mental health and addictions, primary care, and continuing care. Health critics warn the structure creates conditions for incremental privatization.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "healthcare_privatization",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Health Minister",
+          "name": "Adriana LaGrange",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-074"
+      ],
+      "related_events": [],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-061",
+      "event_date": "2024-01-23",
+      "event_date_precision": "day",
+      "date_notes": "Event January 23 2024, Calgary.",
+      "title_en": "Premier appears alongside Tucker Carlson at Calgary event attended by approximately 4,000 people",
+      "title_fr": "La première ministre apparaît aux côtés de Tucker Carlson lors d'un événement à Calgary auquel participent environ 4 000 personnes",
+      "ai_translated": true,
+      "description_en": "Premier Danielle Smith appears at a Calgary event featuring Tucker Carlson, attended by approximately 4,000 people. Federal ministers condemn the event, citing Carlson's record of amplifying misinformation and promoting replacement theory.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "democratic_interference",
+        "media_suppression"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Television personality",
+          "name": "Tucker Carlson",
+          "party": null,
+          "jurisdiction": "us"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-075"
+      ],
+      "related_events": [],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-062",
+      "event_date": "2024-10-14",
+      "event_date_precision": "day",
+      "date_notes": "Meeting date per Desmog reporting; confirmed by Smith.",
+      "title_en": "Premier confirms meeting with Heritage Foundation officials following 2024 US election",
+      "title_fr": "La première ministre confirme avoir rencontré des représentants de la Heritage Foundation après les élections américaines de 2024",
+      "ai_translated": true,
+      "description_en": "Premier Smith confirms she met with Heritage Foundation officials following the 2024 US presidential election. The Heritage Foundation authored Project 2025, the policy blueprint for the Trump administration.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "federal_provincial",
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "inference_note": true,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-079"
+      ],
+      "related_events": [],
+      "needs_verification": "R-079 = Desmog (Tier 3 advocacy). Needs Tier 2 corroboration before publishing.",
+      "verification_notes": null,
+      "standards_flags": [
+        "single-source",
+        "advocacy-source"
+      ],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-063",
+      "event_date": "2025-04-03",
+      "event_date_precision": "day",
+      "date_notes": "UNA ratification April 3 2025; Finance Minister 'good deal' statement September 2025 (R-057).",
+      "title_en": "United Nurses of Alberta ratifies 20% wage increase — six months before government calls 12% offer to teachers 'a good deal'",
+      "title_fr": "L'Association des infirmières ratifie une augmentation salariale de 20 %, six mois avant que le gouvernement qualifie de « bonne offre » 12 % pour les enseignants",
+      "ai_translated": true,
+      "description_en": "The United Nurses of Alberta ratifies a four-year collective agreement including a 20% wage increase. Six months later, Finance Minister Horner characterizes a 12% wage offer to teachers as 'a good deal.' The contrast is documented in subsequent reporting.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "labour",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "United Nurses of Alberta",
+          "name": null,
+          "party": null,
+          "jurisdiction": "provincial"
+        },
+        {
+          "display_role": "Finance Minister",
+          "name": "Nate Horner",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-076",
+        "R-057"
+      ],
+      "related_events": [
+        "EVT-047"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": null,
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-064",
+      "event_date": "2025-07-30",
+      "event_date_precision": "day",
+      "date_notes": "Transportation minister statements July/August 2025.",
+      "title_en": "Province threatens to use provincial authority to remove Calgary and Edmonton bike lanes",
+      "title_fr": "La province menace d'utiliser son autorité provinciale pour supprimer les pistes cyclables de Calgary et d'Edmonton",
+      "ai_translated": true,
+      "description_en": "Alberta's Transportation Minister threatens to invoke provincial authority to remove bike lanes in Calgary and Edmonton, citing traffic congestion. The threat follows a pattern of provincial overrides of municipal infrastructure decisions.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "democratic_interference",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Transportation Minister",
+          "name": "Devin Dreeshen",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-077"
+      ],
+      "related_events": [
+        "EVT-034"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": {
+        "id": "alberta-municipal-override",
+        "sequence": 2,
+        "causal_note": "Follows Green Line withdrawal (EVT-034) in pattern of provincial override of municipal infrastructure decisions."
+      },
+      "claim_contested_by": []
+    },
+    {
+      "id": "EVT-065",
+      "event_date": "2025-10-23",
+      "event_date_precision": "day",
+      "date_notes": "Announcement October 23; Back to School Act tabled and passed October 27 (EVT-036).",
+      "title_en": "Premier announces intent to use notwithstanding clause four days before Back to School Act introduced",
+      "title_fr": "La première ministre annonce son intention d'invoquer la clause dérogatoire quatre jours avant le dépôt de la loi Retour à l'école",
+      "ai_translated": true,
+      "description_en": "Premier Smith announces publicly that the government will use the notwithstanding clause to end the teachers' strike, four days before the Back to School Act is tabled and passed on October 27 (EVT-036). Teachers are given formal advance notice of the government's legislative intent.",
+      "description_fr": null,
+      "era": "smith",
+      "category": [
+        "labour",
+        "charter",
+        "constitutional_override"
+      ],
+      "claim_type": "fact",
+      "inference_note": false,
+      "actors": [
+        {
+          "display_role": "Premier",
+          "name": "Danielle Smith",
+          "party": "UCP",
+          "jurisdiction": "provincial"
+        }
+      ],
+      "opposition_response": null,
+      "source_refs": [
+        "R-078"
+      ],
+      "related_events": [
+        "EVT-036",
+        "EVT-022"
+      ],
+      "needs_verification": null,
+      "verification_notes": null,
+      "standards_flags": [],
+      "said_did_ref": null,
+      "evidence_status": "established",
+      "update_log": [
+        {
+          "date": "2026-05-27",
+          "note": ""
+        }
+      ],
+      "thread": {
+        "id": "ata-teachers-strike-2025",
+        "sequence": 9,
+        "causal_note": "Four-day warning before EVT-036 (Back to School Act)."
+      },
+      "claim_contested_by": []
+    }
+  ]
+}
