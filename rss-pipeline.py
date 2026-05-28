@@ -6,28 +6,18 @@ Zero-LLM feed fetcher and relevance filter.
 Reads feed-map.json and keyword-filter.json.
 Writes filtered items to submissions/rss-queue.json.
 
-Run manually:
-    python3 rss-pipeline.py
-
-Run via GitHub Actions (see rss-pipeline.yml):
-    Triggered on cron schedule. Commits rss-queue.json if new items found.
-
-No API keys required. No LLM calls. Pure HTTP + XML parsing.
-
 Requirements:
     pip install feedparser requests
 
 Output:
     submissions/rss-queue.json — items for human review
-    Each item that passes the filter and is not a duplicate appears here.
-    Review the queue, then paste approved URLs into a Claude conversation
-    with the extraction skill loaded to generate EVT + R JSON files.
 """
 
 import json
 import hashlib
 import re
 import sys
+import socket
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from difflib import SequenceMatcher
@@ -39,7 +29,10 @@ except ImportError:
     print("Install dependencies: pip install feedparser requests")
     sys.exit(1)
 
-# ── Paths (adjust if running from a different working directory) ──────────────
+# ── Config ────────────────────────────────────────────────────────────────────
+
+FEED_TIMEOUT_SECONDS = 15   # kill any feed that takes longer than this
+MAX_ITEMS_PER_FEED = 30     # cap items per feed to avoid huge runs
 
 ROOT = Path(__file__).parent
 FEED_MAP_PATH = ROOT / "feed-map.json"
@@ -54,7 +47,6 @@ def load_json(path):
         return json.load(f)
 
 def load_known_urls(refs_index_path):
-    """Return set of all URLs already in the reference index."""
     try:
         data = load_json(refs_index_path)
         return {r["url"].strip().rstrip("/") for r in data.get("references", []) if r.get("url")}
@@ -62,7 +54,6 @@ def load_known_urls(refs_index_path):
         return set()
 
 def load_existing_queue(queue_path):
-    """Return existing queue items to avoid adding duplicates within the queue."""
     try:
         data = load_json(queue_path)
         return data.get("items", [])
@@ -80,24 +71,16 @@ def matches_any(text, terms):
 
 def is_relevant(title, description, keyword_filter):
     combined = f"{title} {description}"
-
-    # Exclusion check first
     if matches_any(combined, keyword_filter["exclusions"]["terms"]):
         return False, None, "excluded"
-
-    # Must match at least one actor term
     if not matches_any(combined, keyword_filter["actors_any"]["terms"]):
         return False, None, "no_actor_match"
-
-    # Must match at least one category
-    matched_categories = []
-    for cat_id, cat_data in keyword_filter["categories"].items():
-        if matches_any(combined, cat_data["terms"]):
-            matched_categories.append(cat_id)
-
+    matched_categories = [
+        cat_id for cat_id, cat_data in keyword_filter["categories"].items()
+        if matches_any(combined, cat_data["terms"])
+    ]
     if not matched_categories:
         return False, None, "no_category_match"
-
     return True, matched_categories, "pass"
 
 def confidence(title, description, matched_categories, keyword_filter):
@@ -115,9 +98,7 @@ def confidence(title, description, matched_categories, keyword_filter):
 # ── Deduplication ─────────────────────────────────────────────────────────────
 
 def url_fingerprint(url):
-    """Normalize URL for dedup — strip tracking params, trailing slashes."""
     url = url.strip().rstrip("/")
-    # Strip common tracking params
     for param in ["?utm_source", "&utm_", "?ref=", "#"]:
         if param in url:
             url = url[:url.index(param)]
@@ -127,31 +108,18 @@ def title_similarity(a, b):
     return SequenceMatcher(None, normalize(a), normalize(b)).ratio()
 
 def is_duplicate(item_url, item_title, known_urls, existing_queue_items, dedup_group, dedup_window_hours=48):
-    """
-    Check three dedup levels:
-    1. URL exact match against reference index (already in data)
-    2. URL exact match against current queue (already queued)
-    3. Title similarity within same dedup_group in last N hours (same story, different outlet)
-    """
     norm_url = url_fingerprint(item_url)
-
-    # Level 1: already in reference index
     if norm_url in known_urls:
         return True, "already_in_refs"
-
-    # Level 2: already in current queue
     for q in existing_queue_items:
         if url_fingerprint(q.get("url", "")) == norm_url:
             return True, "already_in_queue"
-
-    # Level 3: similar title in same dedup group, recent
     cutoff = datetime.now(timezone.utc) - timedelta(hours=dedup_window_hours)
     for q in existing_queue_items:
         if q.get("dedup_group") != dedup_group:
             continue
-        q_time_str = q.get("fetched_at", "")
         try:
-            q_time = datetime.fromisoformat(q_time_str)
+            q_time = datetime.fromisoformat(q.get("fetched_at", ""))
             if q_time.tzinfo is None:
                 q_time = q_time.replace(tzinfo=timezone.utc)
             if q_time < cutoff:
@@ -160,10 +128,33 @@ def is_duplicate(item_url, item_title, known_urls, existing_queue_items, dedup_g
             continue
         if title_similarity(item_title, q.get("title", "")) > 0.75:
             return True, f"similar_title_in_group_{dedup_group}"
-
     return False, None
 
-# ── Feed fetching ─────────────────────────────────────────────────────────────
+# ── Feed fetching — with timeout ──────────────────────────────────────────────
+
+def fetch_with_timeout(url, timeout=FEED_TIMEOUT_SECONDS):
+    """
+    Use requests to fetch the feed content with a hard timeout,
+    then pass the content to feedparser. This avoids feedparser's
+    default of waiting forever on a slow connection.
+    """
+    try:
+        resp = requests.get(
+            url,
+            timeout=timeout,
+            headers={"User-Agent": "CanadaScanada/1.0 (+https://canadascanada.ca)"},
+            allow_redirects=True
+        )
+        resp.raise_for_status()
+        return feedparser.parse(resp.content)
+    except requests.exceptions.Timeout:
+        raise TimeoutError(f"Feed timed out after {timeout}s")
+    except requests.exceptions.SSLError as e:
+        raise ConnectionError(f"SSL error: {e}")
+    except requests.exceptions.ConnectionError as e:
+        raise ConnectionError(f"Connection failed: {e}")
+    except requests.exceptions.HTTPError as e:
+        raise ConnectionError(f"HTTP {resp.status_code}: {e}")
 
 def fetch_feed(feed_config, keyword_filter, known_urls, existing_queue):
     results = []
@@ -171,20 +162,26 @@ def fetch_feed(feed_config, keyword_filter, known_urls, existing_queue):
     feed_id = feed_config["feed_id"]
 
     try:
-        # feedparser handles both RSS and Atom
-        parsed = feedparser.parse(url, request_headers={"User-Agent": "CanadaScanada/1.0 (+https://canadascanada.ca)"})
+        parsed = fetch_with_timeout(url, timeout=FEED_TIMEOUT_SECONDS)
         entries = parsed.get("entries", [])
+    except TimeoutError as e:
+        print(f"  ✗ {feed_id}: TIMEOUT — {e} (skipping)")
+        return results
+    except ConnectionError as e:
+        print(f"  ✗ {feed_id}: CONNECTION ERROR — {e} (skipping)")
+        return results
     except Exception as e:
-        print(f"  ✗ {feed_id}: fetch error — {e}")
+        print(f"  ✗ {feed_id}: ERROR — {e} (skipping)")
         return results
 
+    # Cap items per feed to avoid huge runs
+    entries = entries[:MAX_ITEMS_PER_FEED]
     print(f"  {feed_id}: {len(entries)} entries fetched")
 
     for entry in entries:
         title = entry.get("title", "").strip()
         link = entry.get("link", "").strip()
         summary = entry.get("summary", entry.get("description", "")).strip()
-        # Strip HTML tags from summary
         summary_clean = re.sub(r"<[^>]+>", " ", summary).strip()
 
         pub_date = None
@@ -197,23 +194,20 @@ def fetch_feed(feed_config, keyword_filter, known_urls, existing_queue):
         if not title or not link:
             continue
 
-        # Relevance filter
         relevant, matched_cats, reason = is_relevant(title, summary_clean, keyword_filter)
         if not relevant:
             continue
 
-        # Dedup check
-        dupe, dupe_reason = is_duplicate(
+        dupe, _ = is_duplicate(
             link, title, known_urls, existing_queue + results,
-            feed_config.get("dedup_group", feed_id),
-            dedup_window_hours=48
+            feed_config.get("dedup_group", feed_id)
         )
         if dupe:
             continue
 
         item_confidence = confidence(title, summary_clean, matched_cats, keyword_filter)
 
-        item = {
+        results.append({
             "queue_id": f"RSS-{hashlib.md5(link.encode()).hexdigest()[:8].upper()}",
             "feed_id": feed_id,
             "outlet_id": feed_config["outlet_id"],
@@ -230,8 +224,7 @@ def fetch_feed(feed_config, keyword_filter, known_urls, existing_queue):
             "outlet_stance_note": feed_config.get("notes"),
             "editorial_decision": "pending",
             "editorial_notes": None
-        }
-        results.append(item)
+        })
 
     return results
 
@@ -239,6 +232,7 @@ def fetch_feed(feed_config, keyword_filter, known_urls, existing_queue):
 
 def main():
     print(f"CanadaScanada RSS Pipeline — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"Feed timeout: {FEED_TIMEOUT_SECONDS}s per feed")
     print("=" * 60)
 
     feed_map = load_json(FEED_MAP_PATH)
@@ -252,10 +246,12 @@ def main():
 
     all_new_items = []
     active_feeds = [f for f in feed_map["feeds"] if f.get("active", True)]
+    print(f"Active feeds: {len(active_feeds)}")
+    print()
 
-    for feed_config in active_feeds:
+    for i, feed_config in enumerate(active_feeds, 1):
         priority = feed_config.get("priority", "medium")
-        print(f"Fetching [{priority}] {feed_config['feed_id']} ({feed_config['outlet_name']})")
+        print(f"[{i}/{len(active_feeds)}] [{priority}] {feed_config['feed_id']}")
         items = fetch_feed(feed_config, keyword_filter, known_urls, existing_queue + all_new_items)
         if items:
             print(f"  → {len(items)} new relevant items")
@@ -264,19 +260,33 @@ def main():
     print()
     print(f"Total new items this run: {len(all_new_items)}")
 
-    if not all_new_items:
-        print("Queue unchanged.")
+    if not all_new_items and not existing_queue:
+        # Write empty queue so the file exists
+        QUEUE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        queue = {
+            "meta": {
+                "schema_version": "2.0.0",
+                "schema": "rss-queue",
+                "project": "CanadaScanada",
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+                "item_count": 0,
+            },
+            "items": []
+        }
+        with open(QUEUE_PATH, "w") as f:
+            json.dump(queue, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        print("No new items. Empty queue written.")
         return
 
-    # Sort: high confidence first, then by publication date
+    # Sort: high confidence first
     confidence_order = {"high": 0, "medium": 1, "low": 2}
     all_items = existing_queue + all_new_items
-    all_items.sort(key=lambda x: (
-        confidence_order.get(x.get("confidence", "low"), 2),
-        x.get("publication_date") or "",
-    ), reverse=False)
-    # Reverse so newest high-confidence items are first
-    high_med = [i for i in all_items if i.get("confidence") in ("high", "medium")]
+    high_med = sorted(
+        [i for i in all_items if i.get("confidence") in ("high", "medium")],
+        key=lambda x: (confidence_order.get(x.get("confidence"), 2), x.get("publication_date") or ""),
+        reverse=True
+    )
     low_conf = [i for i in all_items if i.get("confidence") == "low"]
     sorted_items = high_med + low_conf
 
@@ -287,7 +297,8 @@ def main():
             "project": "CanadaScanada",
             "last_updated": datetime.now(timezone.utc).isoformat(),
             "item_count": len(sorted_items),
-            "note": "Review this queue. For each item you want to add to the timeline: paste the URL into a Claude conversation with the extraction skill loaded. Set editorial_decision to 'approved' or 'rejected' to track your review. Approved items generate EVT + R JSON files via the extraction skill."
+            "new_this_run": len(all_new_items),
+            "note": "Review queue. Paste approved URLs into Claude with extraction skill loaded to generate EVT + R JSON files."
         },
         "items": sorted_items
     }
@@ -297,10 +308,10 @@ def main():
         json.dump(queue, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
-    print(f"Queue written to {QUEUE_PATH}")
-    print(f"  High confidence: {len([i for i in sorted_items if i.get('confidence') == 'high'])}")
-    print(f"  Medium confidence: {len([i for i in sorted_items if i.get('confidence') == 'medium'])}")
-    print(f"  Low confidence: {len([i for i in sorted_items if i.get('confidence') == 'low'])}")
+    print(f"Queue written: {len(sorted_items)} total items")
+    print(f"  High: {len([i for i in sorted_items if i.get('confidence') == 'high'])}")
+    print(f"  Medium: {len([i for i in sorted_items if i.get('confidence') == 'medium'])}")
+    print(f"  Low: {len([i for i in sorted_items if i.get('confidence') == 'low'])}")
 
 if __name__ == "__main__":
     main()
