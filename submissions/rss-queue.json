@@ -1,1 +1,338 @@
-{"meta":{"schema_version":"2.0.0","project":"CanadaScanada","item_count":0},"items":[]}
+{
+  "meta": {
+    "schema_version": "2.0.0",
+    "schema": "rss-queue",
+    "project": "CanadaScanada",
+    "last_updated": "2026-05-28T21:04:45.449963+00:00",
+    "item_count": 16,
+    "new_this_run": 16
+  },
+  "items": [
+    {
+      "queue_id": "RSS-B685BB8C",
+      "feed_id": "calgary-herald",
+      "outlet_id": "postmedia",
+      "outlet_name": "Calgary Herald",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Circumstantial evidence points to two accused in fatal shooting of Rocky View County worker, prosecutor tells Calgary jury",
+      "url": "https://calgaryherald.com/news/final-arguements-penner-strawberry-murder-trial-colin-hough",
+      "summary": "Elijah Blake Strawberry and Arthur Wayne Penner are charged with the second-degree murder of Colin Hough",
+      "publication_date": "2026-05-28T18:33:50+00:00",
+      "fetched_at": "2026-05-28T21:04:35.371702+00:00",
+      "matched_categories": [
+        "labour"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia — documented conservative editorial directive, 66% US foreign ownership (Chatham Asset Management). Flag all items with outlet_stance_note in queue. Corroborate factual claims with non-Postmedia source where possible.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-D074910A",
+      "feed_id": "the-tyee",
+      "outlet_id": "the-tyee",
+      "outlet_name": "The Tyee",
+      "tier": 2,
+      "dedup_group": "tyee",
+      "title": "Alberta Had a Bad Case of ‘Guilbeault Derangement Syndrome.’ Now What?",
+      "url": "https://thetyee.ca/Opinion/2026/05/28/Steven-Guilbeault-Drove-Alberta-Petro-Politicians-Nuts/",
+      "summary": "The former environment minister drove petro politicians nuts. And not just UCP ones.",
+      "publication_date": "2026-05-28T18:27:00+00:00",
+      "fetched_at": "2026-05-28T21:04:36.607940+00:00",
+      "matched_categories": [
+        "environment"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Worker cooperative, progressive — no documented editorial mandate. High signal for investigative stories.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-5EF3F280",
+      "feed_id": "calgary-herald",
+      "outlet_id": "postmedia",
+      "outlet_name": "Calgary Herald",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "More homes now selling at or below list price",
+      "url": "https://calgaryherald.com/life/homes/more-homes-now-selling-at-or-below-list-price",
+      "summary": "In April, HouseSigma data found 77 per cent of homes sold at or under list, compared with 70 per cent during the same period a year ago.",
+      "publication_date": "2026-05-28T16:15:44+00:00",
+      "fetched_at": "2026-05-28T21:04:35.371995+00:00",
+      "matched_categories": [
+        "labour"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia — documented conservative editorial directive, 66% US foreign ownership (Chatham Asset Management). Flag all items with outlet_stance_note in queue. Corroborate factual claims with non-Postmedia source where possible.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-869C239B",
+      "feed_id": "rabble",
+      "outlet_id": "rabble",
+      "outlet_name": "Rabble.ca",
+      "tier": 2,
+      "dedup_group": "rabble",
+      "title": "Diana Chan McNally: Bringing community work to Toronto’s City Council",
+      "url": "https://rabble.ca/podcast/diana-chan-mcnally-bringing-community-work-to-torontos-city-council/",
+      "summary": "Community worker and homelessness advocate Diana Chan McNally discusses her campaign for City Councillor of Parkdale-High Park in Toronto’s October 26th municipal elections. \n The post  Diana Chan McNally: Bringing community work to Toronto’s City Council  appeared first on  rabble.ca .",
+      "publication_date": "2026-05-28T16:01:43+00:00",
+      "fetched_at": "2026-05-28T21:04:40.444932+00:00",
+      "matched_categories": [
+        "election_interference"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Progressive/labour editorial mandate (self-described). Flag with outlet_stance_note in queue. Use for labour and charter category items; corroborate factual claims with neutral source. NOT in outlet-database yet — add outlet record before using as a source.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-CB3AF19C",
+      "feed_id": "national-observer",
+      "outlet_id": "national-observer",
+      "outlet_name": "National Observer",
+      "tier": 2,
+      "dedup_group": "observer",
+      "title": "Ottawa to amend encryption, metadata elements of contentious lawful access bill",
+      "url": "https://www.nationalobserver.com/2026/05/27/news/ottawa-amend-encryption-metadata-elements-contentious-lawful-access-bill",
+      "summary": "Public Safety Minister Gary Anandasangaree says the government will amend the bill, which was 'never intended to breach encryption,' to clarify its intent and bring it in line with similar legislation in the US.",
+      "publication_date": "2026-05-28T00:35:03+00:00",
+      "fetched_at": "2026-05-28T21:04:36.667800+00:00",
+      "matched_categories": [
+        "labour",
+        "federal_provincial"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Independent investigative, progressive-leaning but no documented formal mandate. Strong on environment and energy.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-596F240F",
+      "feed_id": "national-observer",
+      "outlet_id": "national-observer",
+      "outlet_name": "National Observer",
+      "tier": 2,
+      "dedup_group": "observer",
+      "title": "Steven Guilbeault says climate change a generation-defining fight as he quits Liberal Party",
+      "url": "https://www.nationalobserver.com/2026/05/27/news/steven-guilbeault-quit-liberal-climate",
+      "summary": "Steven Guilbeault has had enough. Two weeks after Prime Minister Mark Carney and Alberta Premier Danielle Smith announced an ambitious timeline to advance a new oil pipeline proposal and weaken Canada's foundational climate policy, the former environment minister announced he will leave the Liberal caucus.",
+      "publication_date": "2026-05-27T21:16:14+00:00",
+      "fetched_at": "2026-05-28T21:04:36.667957+00:00",
+      "matched_categories": [
+        "energy",
+        "environment",
+        "federal_provincial",
+        "party_discipline"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Independent investigative, progressive-leaning but no documented formal mandate. Strong on environment and energy.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-8A9A3EAC",
+      "feed_id": "financial-post",
+      "outlet_id": "postmedia",
+      "outlet_name": "Financial Post",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Posthaste: Canada 'stands out' on this economic surprise index — just not in a good way",
+      "url": "https://financialpost.com/news/canada-stands-out-economic-surprise-index",
+      "summary": "String of disappointing data makes nation underperformer on world stage",
+      "publication_date": "2026-05-27T12:02:38+00:00",
+      "fetched_at": "2026-05-28T21:04:36.115177+00:00",
+      "matched_categories": [
+        "labour"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia. Useful for fiscal and energy category items. Check if feedburner URL is still live — may need direct feed.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-627A7EB1",
+      "feed_id": "national-observer",
+      "outlet_id": "national-observer",
+      "outlet_name": "National Observer",
+      "tier": 2,
+      "dedup_group": "observer",
+      "title": "Manitoba premier asks Alberta to pause its fall separation vote for 'year or two'",
+      "url": "https://www.nationalobserver.com/2026/05/27/news/manitoba-premier-asks-alberta-pause-its-fall-separation-vote-year-or-two",
+      "summary": "Manitoba Premier Wab Kinew urged on Tuesday for Alberta Premier Danielle Smith to pause her fall separation referendum.",
+      "publication_date": "2026-05-27T10:44:59+00:00",
+      "fetched_at": "2026-05-28T21:04:36.668242+00:00",
+      "matched_categories": [
+        "separatism"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Independent investigative, progressive-leaning but no documented formal mandate. Strong on environment and energy.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-6FCC5383",
+      "feed_id": "the-tyee",
+      "outlet_id": "the-tyee",
+      "outlet_name": "The Tyee",
+      "tier": 2,
+      "dedup_group": "tyee",
+      "title": "This Is Danielle Smith’s Referendum",
+      "url": "https://thetyee.ca/Opinion/2026/05/25/Danielle-Smith-Referendum/",
+      "summary": "Despite her claims, the premier has pushed forward a vote on separation. The outcome turns on key questions.",
+      "publication_date": "2026-05-25T19:54:00+00:00",
+      "fetched_at": "2026-05-28T21:04:36.608317+00:00",
+      "matched_categories": [
+        "separatism"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Worker cooperative, progressive — no documented editorial mandate. High signal for investigative stories.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-DCB49D5D",
+      "feed_id": "the-tyee",
+      "outlet_id": "the-tyee",
+      "outlet_name": "The Tyee",
+      "tier": 2,
+      "dedup_group": "tyee",
+      "title": "Got Questions About AI Data Centres in Vancouver? Here Are Answers",
+      "url": "https://thetyee.ca/News/2026/05/25/Questions-AI-Data-Centres-Vancouver/",
+      "summary": "The complexes will recycle heat and use less water than most, say backers as opponents mobilize.",
+      "publication_date": "2026-05-25T07:10:00+00:00",
+      "fetched_at": "2026-05-28T21:04:36.608528+00:00",
+      "matched_categories": [
+        "labour"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Worker cooperative, progressive — no documented editorial mandate. High signal for investigative stories.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-1FCD2106",
+      "feed_id": "edmonton-sun",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Sun",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "TAIT: Couple faces significant cut to income in transition to ADAP",
+      "url": "https://edmontonsun.com/opinion/columnists/tait-couple-faces-significant-cut-to-income-in-transition-to-adap",
+      "summary": "I don’t know how Nathan Neudorf, the new assisted living and social services minister, will step into his week. I can’t say what sits on his calendar these days. But I wonder about Monday. About a visit that could matter. A visit with Darryl Learie. Just one simple hour. Maybe less. Time enough for a [&#8230;]",
+      "publication_date": "2026-05-24T11:00:15+00:00",
+      "fetched_at": "2026-05-28T21:04:35.690401+00:00",
+      "matched_categories": [
+        "lgbtq"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia tabloid. Low priority — use only when no other source covers the story.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-0C0CEB2D",
+      "feed_id": "edmonton-sun",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Sun",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Letters: Show us the money, Alberta",
+      "url": "https://edmontonsun.com/opinion/letters-show-us-the-money-alberta",
+      "summary": "Do you support the referendum question Danielle Smith announced? Vote in our daily poll! Where is all the money the Alberta is taking in with the high oil prices? Because it sure isn&#8217;t being spent on health, education or helping the Alberta people. This government needs to start spending on the necessary, instead of their [&#8230;]",
+      "publication_date": "2026-05-22T18:38:49+00:00",
+      "fetched_at": "2026-05-28T21:04:35.690683+00:00",
+      "matched_categories": [
+        "fiscal",
+        "separatism"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia tabloid. Low priority — use only when no other source covers the story.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-E49C1D86",
+      "feed_id": "daily-herald-tribune",
+      "outlet_id": "daily-herald-tribune",
+      "outlet_name": "Daily Herald Tribune",
+      "tier": 2,
+      "dedup_group": "local-ab",
+      "title": "Rob Breakenridge: Alberta separatism just got a whole lot more volatile",
+      "url": "https://www.dailyheraldtribune.com/opinion/rob-breakenridge-alberta-separatism-just-got-a-whole-lot-more-volatile/wcm/2faeb4b2-14bb-4dff-910f-b40b3148f04f",
+      "summary": "With muddled referendum question, Danielle Smith risks undermining all the progress she's made",
+      "publication_date": "2026-05-22T02:54:49+00:00",
+      "fetched_at": "2026-05-28T21:04:37.191781+00:00",
+      "matched_categories": [
+        "separatism"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Local Alberta paper — Grande Prairie area. Low volume, high local specificity. Useful for rural Alberta stories, municipal interference category. NOT in outlet-database yet — add outlet record before using as source.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-27E75687",
+      "feed_id": "edmonton-sun",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Sun",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Letters: Premier Smith’s bad referendum questions",
+      "url": "https://edmontonsun.com/opinion/letters-premier-smiths-bad-referendum-questions",
+      "summary": "Is a new fire hall a priority for your community? Vote in our daily poll! Some issues with the upcoming referendum questions. Question 3:  a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs? So, no support [&#8230;]",
+      "publication_date": "2026-05-20T22:58:13+00:00",
+      "fetched_at": "2026-05-28T21:04:35.690914+00:00",
+      "matched_categories": [
+        "separatism"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia tabloid. Low priority — use only when no other source covers the story.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-74C15A84",
+      "feed_id": "edmonton-sun",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Sun",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Letters: Smith, UCP need to step up on independence referendum",
+      "url": "https://edmontonsun.com/opinion/letters/letters-smith-ucp-need-to-step-up-on-independence-referendum",
+      "summary": "Should the UCP appeal the ruling to quash a separatist petition? VOTE IN OUR DAILY ONLINE POLL! ASK THE QUESTION Smith and the UCP need to postpone their fall referendum, perhaps permanently, as there is only one question that needs answering now. With no ambiguity just ask &#8230; Are you in favour of Alberta separating [&#8230;]",
+      "publication_date": "2026-05-17T11:00:02+00:00",
+      "fetched_at": "2026-05-28T21:04:35.691227+00:00",
+      "matched_categories": [
+        "separatism"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia tabloid. Low priority — use only when no other source covers the story.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-90422F1A",
+      "feed_id": "the-tyee",
+      "outlet_id": "the-tyee",
+      "outlet_name": "The Tyee",
+      "tier": 2,
+      "dedup_group": "tyee",
+      "title": "Danielle Smith Offers a Delusional TV Defence of Her Referendum",
+      "url": "https://thetyee.ca/Opinion/2026/05/22/Smith-Offers-Delusional-Defence-Referendum/",
+      "summary": "The ballot question is ‘wordy, ambiguous and possibly intentionally confusing.’",
+      "publication_date": "2026-05-22T14:27:00+00:00",
+      "fetched_at": "2026-05-28T21:04:36.608719+00:00",
+      "matched_categories": [
+        "election_interference",
+        "separatism"
+      ],
+      "confidence": "high",
+      "outlet_stance_note": "Worker cooperative, progressive — no documented editorial mandate. High signal for investigative stories.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    }
+  ]
+}
