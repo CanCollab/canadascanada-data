@@ -1,0 +1,80 @@
+{
+  "id": "EVT-038",
+  "schema_version": "2.0.0",
+  "event_date": "2024-08-31",
+  "event_date_precision": "day",
+  "date_notes": "Contract expiry date confirmed by ATA collective bargaining page (ev_033). Formal central bargaining began September 1 2024.",
+  "title_en": "Alberta teachers' collective agreement expires — bargaining begins",
+  "title_fr": "La convention collective des enseignants albertains expire — les négociations commencent",
+  "ai_translated": true,
+  "description_en": "The teachers' collective agreement between the Alberta Teachers' Association (ATA) and the Teachers' Employer Bargaining Association (TEBA) expires August 31 2024. Formal central bargaining begins September 1 2024. The contract covered approximately 51,000 teachers across public, Catholic, and francophone school jurisdictions. Key ATA bargaining priorities entering negotiations: wage increases indexed to inflation (teacher wages had fallen behind the national average during the UCP era), hard class-size caps by grade level, and increased educational assistant supports for students with complex needs.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Teachers' Association",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "ev_033-PENDING"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Opening event of the 2025 teachers' strike sequence."
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-039",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-040",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-036",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Confirm ATA source URL is live. Bill 2 Schedule confirms the expiry date independently as Tier 1.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "note": "Event created for strike lead-up thread."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

@@ -1,0 +1,828 @@
+{
+  "meta": {
+    "schema": "outlet-database",
+    "project": "CanadaScanada",
+    "version": "0.2.0",
+    "last_updated": "2026-05-27",
+    "description": "Structured outlet records for the Media Nutrition Label. Each outlet_id is the join key to references.json and timeline-events.json.",
+    "cancon_methodology": "CanCon tier anchored to Competition Bureau Canada framework. Product of Canada ≥98% Canadian ownership; Made in Canada* ≥51%; Significant foreign content <51%; Foreign outlet — separate card treatment.",
+    "localization_note": "All text_fr fields marked TODO require human translation review before public launch. AI-translated strings (ai_translated: true) are flagged and must not be published without review.",
+    "source_tier_note": "outlet_source_tier is the tier used when citing this outlet as a source in references.json. Separate from nutrition_grade which is the label shown to the end user.",
+    "endorsement_floor": "2011 — Harper majority. Documents what exists; no artificial cutoff beyond source availability.",
+    "outlet_count": 16
+  },
+  "outlets": [
+    {
+      "outlet_id": "cbc-radio-canada",
+      "name": "CBC / Radio-Canada",
+      "name_fr": "CBC / Radio-Canada",
+      "type": "public_broadcaster",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "Crown Corporation — Government of Canada",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Fully Crown-owned public broadcaster. Annual parliamentary appropriation ~$1.4B. Governed by Broadcasting Act mandate requiring balance and reflection of Canada's regions.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": true,
+        "press_council": "CBC Ombudsman (independent internal; also CBSC member)",
+        "ona_eligible": true,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": null
+      },
+      "nutrition_grade": "public_broadcaster",
+      "political_lean": "centre",
+      "political_lean_notes_en": "Mandated balance under Broadcasting Act. Perceived as centre. No documented editorial directive. Conservative critics allege liberal bias; progressive critics allege deference to government. CRTC complaints mechanism available.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "TV",
+        "Radio",
+        "Digital"
+      ],
+      "brands": [
+        "CBC News",
+        "CBC Radio",
+        "Radio-Canada",
+        "Ici Radio-Canada",
+        "CBC News Network"
+      ],
+      "alberta_reach_notes_en": "CBC Edmonton and CBC Calgary provide primary Alberta public broadcaster presence. Regular federal and provincial political coverage.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Public broadcaster does not endorse candidates or parties.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Canada's national public broadcaster, owned by the federal Crown. Governed by a balance mandate under the Broadcasting Act. Corrections policy and independent ombudsman. No advertising-revenue dependency for news.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "postmedia",
+      "name": "Postmedia Network",
+      "name_fr": "Réseau Postmedia",
+      "type": "daily_print_digital",
+      "cancon_tier": "significant_foreign_content",
+      "cancon_pct_canadian": 34,
+      "cancon_pct_foreign": 66,
+      "ownership": {
+        "ultimate_beneficial_owner": "Chatham Asset Management (New Jersey, USA)",
+        "canadian_controlled": false,
+        "foreign_controlled": true,
+        "ownership_notes_en": "Chatham Asset Management, a US hedge fund with documented Republican Party connections, holds approximately 66% equity. Canadian shareholders hold the remainder. Chatham has not held a Canadian broadcasting licence (print is unregulated for ownership). Postmedia is publicly traded on TSX-V under PNC.A.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "National NewsmediaCouncil (NNC) — voluntary membership",
+        "ona_eligible": true,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": "Documented conservative editorial directive — 2015 federal election: head office ordered all 43 Postmedia dailies to endorse the Conservative Party. Ottawa Citizen editorial board resigned in protest. President Andrew MacLeod directed papers to shift editorially right. Documented by Canadaland (30+ current, 12+ former employees interviewed)."
+      },
+      "nutrition_grade": "partisan_press",
+      "political_lean": "right_directive_conservative",
+      "political_lean_notes_en": "Conservative editorial directive documented and corroborated. Political coverage centrally overseen. Individual reporters and columns vary; the institutional lean is documented, not inferred.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "Print",
+        "Digital"
+      ],
+      "brands": [
+        "National Post",
+        "Calgary Herald",
+        "Edmonton Journal",
+        "Vancouver Sun",
+        "The Province (Vancouver)",
+        "Ottawa Citizen",
+        "Calgary Sun",
+        "Edmonton Sun",
+        "Toronto Sun",
+        "Winnipeg Sun",
+        "Ottawa Sun"
+      ],
+      "alberta_reach_notes_en": "Postmedia is the only major print news provider in both Calgary (Herald, Sun) and Edmonton (Journal, Sun), creating a single-source risk in Alberta's two largest cities. No comparable independent alternative in print.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [
+        {
+          "election": "federal_2015",
+          "endorsed": "Conservative",
+          "scope": "all_43_dailies",
+          "notes": "Head office directive. Ottawa Citizen board resigned in protest."
+        },
+        {
+          "election": "federal_2019",
+          "endorsed": "Conservative",
+          "scope": "documented_multiple_dailies",
+          "notes": "Pattern continued from 2015 directive."
+        },
+        {
+          "election": "federal_2021",
+          "endorsed": "Conservative",
+          "scope": "documented_multiple_dailies",
+          "notes": "Pattern continued."
+        }
+      ],
+      "endorsement_notes_en": "Mandatory endorsement directive documented for 2015 (Canadaland). 2019 and 2021 endorsements follow same pattern; individual paper variance possible.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Canada's largest newspaper chain by titles, majority-owned by a US hedge fund. Documented mandatory conservative endorsement directive issued by head office in 2015. Operates the only major print dailies in Calgary and Edmonton.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "national-post",
+      "name": "National Post",
+      "name_fr": "National Post",
+      "type": "daily_print_digital",
+      "cancon_tier": "significant_foreign_content",
+      "cancon_pct_canadian": 34,
+      "cancon_pct_foreign": 66,
+      "ownership": {
+        "ultimate_beneficial_owner": "Chatham Asset Management via Postmedia Network",
+        "canadian_controlled": false,
+        "foreign_controlled": true,
+        "ownership_notes_en": "Brand-level record. Parent: Postmedia Network. See postmedia entry for full ownership detail.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "National NewsmediaCouncil (NNC)",
+        "ona_eligible": true,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": "See Postmedia entry. Founded by Conrad Black as 'conservative alternative' to Ottawa establishment. Mandate intensified under Chatham/MacLeod ownership."
+      },
+      "nutrition_grade": "partisan_press",
+      "political_lean": "right_directive_conservative",
+      "political_lean_notes_en": "Founded explicitly as conservative alternative press. Editorial mandate reinforced under current US ownership. Individual reporters and feature sections may vary.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "Print",
+        "Digital"
+      ],
+      "brands": [
+        "National Post",
+        "Financial Post"
+      ],
+      "alberta_reach_notes_en": "Distributed nationally. Prominent voice in federal conservative politics. Less Alberta-specific than Herald/Journal but significant influence on national conservative framing.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [
+        {
+          "election": "federal_2015",
+          "endorsed": "Conservative",
+          "scope": "national",
+          "notes": "Part of Postmedia-wide directive."
+        },
+        {
+          "election": "federal_2019",
+          "endorsed": "Conservative",
+          "scope": "national"
+        },
+        {
+          "election": "federal_2021",
+          "endorsed": "Conservative",
+          "scope": "national"
+        }
+      ],
+      "endorsement_notes_en": "Consistent Conservative endorsement pattern consistent with Postmedia directive and founding mandate.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "National daily founded by Conrad Black as a conservative press alternative. Majority-owned by US hedge fund via Postmedia. Consistent Conservative federal endorsement record.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "global-news",
+      "name": "Global News",
+      "name_fr": "Global News",
+      "type": "broadcast_tv",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "Corus Entertainment Inc. (TSX: CJR.B) — majority Shaw family shareholding",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Corus Entertainment is Canadian-owned but highly concentrated. Shaw family voting control through multiple share classes. Significant corporate debt load has resulted in newsroom cuts. Also owns 630 CHED and 770 CHQR in Alberta (AM talk radio).",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": true,
+        "press_council": "CBSC (Canadian Broadcast Standards Council)",
+        "ona_eligible": true,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": null
+      },
+      "nutrition_grade": "commercial_broadcaster",
+      "political_lean": "centre_right",
+      "political_lean_notes_en": "Centre to centre-right in practice. No documented editorial directive. AM radio division (CHQR, CHED) carries conservative talk programming including Premier Smith's regular call-in show 'Your Province, Your Premier' — a documented case of government-hosted programming on a regulated broadcaster.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "TV",
+        "Digital",
+        "Radio"
+      ],
+      "brands": [
+        "Global News",
+        "Global Television",
+        "770 CHQR Calgary",
+        "630 CHED Edmonton",
+        "Corus Radio"
+      ],
+      "alberta_reach_notes_en": "Global News Calgary and Edmonton are major TV news providers. 770 CHQR and 630 CHED are the dominant Calgary and Edmonton AM talk radio stations respectively. Premier Smith's regular call-in show airs on these stations without journalistic mediation.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "As a CRTC-licensed broadcaster, Global News does not make formal endorsements. Radio call-in show hosting of Premier Smith raises structural bias concern documented in outlet media file.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Canada's second major private TV news network. CRTC-licensed and Canadian-owned through Corus Entertainment. Also operates dominant Alberta AM talk radio stations. Note: Premier Smith hosts a regular call-in show on Corus AM stations without journalistic mediation.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "ctv-news",
+      "name": "CTV News",
+      "name_fr": "CTV Nouvelles",
+      "type": "broadcast_tv",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "Bell Canada Enterprises (BCE Inc., TSX: BCE)",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Bell Media is the media division of BCE Inc., Canada's largest telecom. Significant concentration concern: same corporate parent owns CTV national network, CTV News Channel, 35+ local TV stations, TSN, MuchMusic, iHeart Radio Canada. Bell's financial performance drives significant newsroom cost pressure.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": true,
+        "press_council": "CBSC (Canadian Broadcast Standards Council)",
+        "ona_eligible": true,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": null
+      },
+      "nutrition_grade": "commercial_broadcaster",
+      "political_lean": "centre",
+      "political_lean_notes_en": "Generally centre. No documented editorial directive. Subject to CRTC balance obligations. Cost pressure from Bell parent has resulted in layoffs and reduced local news capacity.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "TV",
+        "Digital",
+        "Radio"
+      ],
+      "brands": [
+        "CTV News",
+        "CTV News Channel",
+        "BNN Bloomberg",
+        "TSN",
+        "iHeart Radio Canada"
+      ],
+      "alberta_reach_notes_en": "CTV Calgary and CTV Edmonton provide major local TV news. CTV News network covers national politics including Alberta federal and provincial issues.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "CRTC-licensed broadcaster. Does not make formal endorsements.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Canada's largest private television network. CRTC-licensed and Canadian-owned through Bell Media (BCE). Centre editorial position. No documented political directive.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "the-tyee",
+      "name": "The Tyee",
+      "name_fr": "The Tyee",
+      "type": "digital_only",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "The Tyee Solutions Society (independent non-profit); reader-funded",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Independent reader-funded digital outlet based in Vancouver, BC. Founded 2003. No corporate parent. Revenue from reader donations, memberships, and project funding. Does not accept government advertising.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "Independent Standards Editor (internal); not NNC or CBSC member",
+        "ona_eligible": true,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": null
+      },
+      "nutrition_grade": "independent_digital",
+      "political_lean": "centre_left",
+      "political_lean_notes_en": "Centre-left in practice; progressive policy orientation; no documented formal mandate. Named journalists, corrections process. Opinion section clearly labelled. Readers should distinguish Tyee News from Tyee Opinion — both appear at thetyee.ca.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "Digital"
+      ],
+      "brands": [
+        "The Tyee"
+      ],
+      "alberta_reach_notes_en": "BC-based but covers national and Alberta political issues. Bylined reporting on UCP government, Centurion voter data breach, and Alberta energy policy. Frequently cited by national outlets.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Independent outlet; no formal endorsement record documented.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Independent reader-funded digital outlet based in BC. Named journalists, corrections policy. Centre-left orientation. No corporate or government ownership. Distinguish News from Opinion sections — both carry the Tyee banner.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "rebel-news",
+      "name": "Rebel News",
+      "name_fr": "Rebel News",
+      "type": "fringe_partisan",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "Rebel News Network Ltd. — Ezra Levant, founder and primary editorial voice",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Canadian-incorporated advocacy media organization. Revenue from subscriptions, merchandise, and advocacy campaign fundraising. Founder serves simultaneously as owner, primary on-air voice, and editorial director — no editorial separation.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "None — not a member of any recognized Canadian press council",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": false,
+        "formal_stance": "Self-describes as 'independent, pro-freedom, conservative media.' Founder Ezra Levant explicitly states conservative advocacy mandate."
+      },
+      "nutrition_grade": "advocacy_media",
+      "political_lean": "right_activist",
+      "political_lean_notes_en": "Explicitly conservative advocacy outlet. Does not meet CAJ journalistic verification standards. Anti-'woke', anti-environmental regulation, anti-'globalist' framing. Blurs news, commentary, and activism without editorial separation.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 0,
+      "fringe_partisan_criteria_met": [
+        "Not a member of any recognized press council AND no published corrections policy",
+        "Self-describes editorial mandate in explicitly partisan terms",
+        "Founder/owner is also primary editorial voice with no editorial separation"
+      ],
+      "formats": [
+        "Digital",
+        "YouTube",
+        "Podcast"
+      ],
+      "brands": [
+        "Rebel News",
+        "Rebel News Network"
+      ],
+      "alberta_reach_notes_en": "Significant Alberta digital and YouTube reach. Covers UCP-adjacent politics favorably. Used by some audiences as primary news source. Not eligible as a citation source in CanadaScanada data.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Advocacy outlet; does not make formal endorsements but provides consistent favorable coverage of conservative and UCP-aligned politicians.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [
+        {
+          "case": "Rebel News v. Al Jazeera (2023)",
+          "outcome": "Dismissed under Ontario anti-SLAPP law. Supreme Court of Canada refused leave to appeal. Court found Al Jazeera's characterization of Rebel as 'far-right' and 'extremist' was responsible communication on a matter of public interest. Rebel ordered to pay Al Jazeera's legal costs.",
+          "significance": "Court ruling distinguishes Rebel's content from journalism protected by responsible communication standards."
+        }
+      ],
+      "text_en": "Canadian advocacy media outlet. Self-described conservative mandate. No press council membership, no corrections policy, no editorial separation between owner and editor. Ontario court (2023, affirmed by SCC) found characterization as 'far-right' to be responsible public interest journalism. Not a citable source for CanadaScanada claims.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "true-north",
+      "name": "True North (True North Canada)",
+      "name_fr": "True North Canada",
+      "type": "fringe_partisan",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "True North Centre for Public Policy",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Conservative advocacy think-tank media arm. Not a registered charity. Funding sources not fully disclosed. Similar model to Rebel News: web/YouTube distribution, explicitly ideological.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "None",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": false,
+        "formal_stance": "Explicit conservative advocacy mandate stated in organizational mission."
+      },
+      "nutrition_grade": "advocacy_media",
+      "political_lean": "right_activist",
+      "political_lean_notes_en": "Explicitly conservative advocacy. Similar structural profile to Rebel News. Not subject to journalistic standards obligations.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 0,
+      "fringe_partisan_criteria_met": [
+        "Not a member of any recognized press council AND no published corrections policy",
+        "Self-describes editorial mandate in explicitly partisan terms"
+      ],
+      "formats": [
+        "Digital",
+        "YouTube"
+      ],
+      "brands": [
+        "True North",
+        "True North Canada",
+        "True North Wire"
+      ],
+      "alberta_reach_notes_en": "National distribution; Alberta political coverage from conservative perspective. Not citable in CanadaScanada data.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Advocacy outlet; provides consistent favorable coverage to conservative and UCP-aligned politicians and positions.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Canadian conservative advocacy media. No press council membership, no corrections policy, explicit partisan mandate. Not a citable source for CanadaScanada claims.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "fox-news",
+      "name": "Fox News",
+      "name_fr": "Fox News",
+      "type": "foreign_operating_in_canada",
+      "cancon_tier": "foreign_outlet",
+      "cancon_pct_canadian": 0,
+      "cancon_pct_foreign": 100,
+      "ownership": {
+        "ultimate_beneficial_owner": "Fox Corporation (NASDAQ: FOXA) — Rupert Murdoch / Murdoch family trust",
+        "canadian_controlled": false,
+        "foreign_controlled": true,
+        "ownership_notes_en": "US-incorporated. Murdoch family holds effective control via Fox Corporation. Distributed in Canada via CRTC-licensed cable/satellite distributors but Fox News itself is not licensed by CRTC as a broadcaster. Available on Canadian cable packages as a foreign discretionary service.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "None in Canada — not subject to CBSC or NNC",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": false,
+        "formal_stance": "Fox Corporation executives have acknowledged mixing journalism with conservative 'entertainment' programming. Internal communications revealed in Dominion litigation confirmed awareness that election fraud claims were false while continuing to broadcast them."
+      },
+      "nutrition_grade": "foreign_right_activist",
+      "political_lean": "right",
+      "political_lean_notes_en": "Right per AllSides and Ad Fontes Media. Fox executives acknowledged in Dominion discovery that the network continued broadcasting claims known internally to be false. Cross-border influence in Canada amplified by digital consumption and ideological alignment with Canadian conservative movements.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 0,
+      "formats": [
+        "TV",
+        "Digital",
+        "YouTube"
+      ],
+      "brands": [
+        "Fox News",
+        "Fox Business",
+        "Fox News Digital"
+      ],
+      "alberta_reach_notes_en": "Available on Alberta cable packages. 8–12% estimated weekly reach among Canadian news consumers nationally. Significant YouTube reach (2.8B views 2024). Ideological alignment with UCP-adjacent political positions increases Alberta uptake.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "US-oriented editorial. Has not formally endorsed Canadian elections but provides consistent favorable framing of conservative and anti-federal narratives that influence Canadian right-wing audiences.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [
+        {
+          "case": "Dominion Voting Systems v. Fox News (2023)",
+          "outcome": "Settled for $787.5 million USD. Discovery revealed internal communications showing Fox executives and on-air personalities knew claims about Dominion machines stealing the 2020 election were false while continuing to broadcast them.",
+          "significance": "Largest known media defamation settlement in US history. Documents internal awareness of false claims contradicting on-air coverage."
+        }
+      ],
+      "text_en": "US-based foreign news outlet distributed on Canadian cable. Not subject to CRTC, CBSC, or Canadian press council oversight. Settled 2020 election defamation case for $787.5M USD after internal documents showed awareness claims were false. Right political lean per AllSides and Ad Fontes Media.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "canadian-press",
+      "name": "The Canadian Press (CP)",
+      "name_fr": "La Presse Canadienne (PC)",
+      "type": "wire_service",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "The Canadian Press (co-operative owned by member news organizations)",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Not-for-profit co-operative wire service. Member-owned by Canadian news organizations. Canada's national news wire. Bilingual service (CP in English, PC in French). Primary output: wire copy distributed to member outlets.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "Not a press council member but subject to member outlets' ethics obligations",
+        "ona_eligible": true,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": null
+      },
+      "nutrition_grade": "wire_service",
+      "political_lean": "centre",
+      "political_lean_notes_en": "Neutral wire service. Factual reporting for distribution to all member outlets across the political spectrum. No editorial position.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "Wire / Digital"
+      ],
+      "brands": [
+        "The Canadian Press",
+        "La Presse Canadienne",
+        "CP",
+        "PC"
+      ],
+      "alberta_reach_notes_en": "CP wire copy is distributed to all major Alberta outlets including CBC Edmonton/Calgary, Global News, CTV, and Postmedia properties. Much provincial news carries CP bylines.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Wire service. Does not make endorsements.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Canada's national not-for-profit news wire, co-operatively owned by member news organizations. Bilingual (CP/PC). Distributes to virtually all major Canadian outlets. Centre, factual wire-service reporting.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "parkland-institute",
+      "name": "Parkland Institute",
+      "name_fr": "Institut Parkland",
+      "type": "research_institute",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "University of Alberta Faculty Association — research institute",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Progressive policy research institute housed at the University of Alberta. Funded by university, foundation grants, and union contributions. Self-describes as providing 'balanced progressive research on Alberta's economy, health, and natural resources.'",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "N/A — research institute, not a news outlet",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": "Declared progressive research mandate. Transparent about orientation. Peer-reviewed academic work distinguished from advocacy publications."
+      },
+      "nutrition_grade": "advocacy_research",
+      "political_lean": "centre_left_research",
+      "political_lean_notes_en": "Progressive policy research institute. Transparent about orientation. Data and figures are citable as Tier 3 sources where methodology is documented. Causal framing and policy conclusions are inference — label accordingly. Not a news outlet.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 3,
+      "formats": [
+        "Research Reports",
+        "Digital"
+      ],
+      "brands": [
+        "Parkland Institute"
+      ],
+      "alberta_reach_notes_en": "Primary Alberta-focused progressive policy research source. Frequently cited by CBC, Tyee, National Observer on Alberta fiscal and healthcare issues. Used in CanadaScanada as Tier 3 corroboration for figures where underlying data is documented.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Research institute. Does not make electoral endorsements.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Progressive policy research institute at the University of Alberta. Transparent about its orientation. Data and figures usable as Tier 3 corroboration where methodology is published. Causal and policy conclusions should be labelled as inference, not fact.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "pembina-institute",
+      "name": "Pembina Institute",
+      "name_fr": "Institut Pembina",
+      "type": "research_institute",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "Pembina Institute for Appropriate Development (registered Canadian charity)",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Non-profit clean energy think tank and advocacy organization. Registered Canadian charity. Funding from foundations, governments, and corporate partners (disclosed). Founded 1985 following Lodgepole pipeline blowout.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "N/A — research institute and advocacy organization",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": "Declared clean energy and climate advocacy mandate. Transparent about orientation."
+      },
+      "nutrition_grade": "advocacy_research",
+      "political_lean": "centre_left_research",
+      "political_lean_notes_en": "Clean energy advocacy and research. Transparent about orientation. Figures on renewable energy cancellations and carbon emissions are citable as Tier 3 where methodology is published. Policy conclusions are inference. Note: Alberta government Minister Neudorf called one Pembina renewable moratorium report 'misinformation' — this counter-claim must be documented in events citing Pembina data.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 3,
+      "formats": [
+        "Research Reports",
+        "Digital",
+        "Media Releases"
+      ],
+      "brands": [
+        "Pembina Institute"
+      ],
+      "alberta_reach_notes_en": "Primary source for Alberta renewable energy and climate data. Cited in Batch B (renewable moratorium events). Headquarters in Calgary. Figures on 8,600 MW cancelled capacity and 43% project cancellation rate post-moratorium used in EVT-NEW-renewable-cancellations.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Research and advocacy institute. Does not make electoral endorsements.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Canadian clean energy think tank and advocacy organization, registered charity. Transparent mandate. Figures and data usable as Tier 3 corroboration where methodology is published. Policy conclusions should be labelled as inference. Counter-claims from government should be documented alongside Pembina citations.",
+      "text_fr": "TODO"
+    },
+    {
+      "outlet_id": "sunny-south-news",
+      "name": "Sunny South News",
+      "name_fr": "Sunny South News",
+      "type": "community_print_digital",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "Sun Coast Communications Ltd. (Canadian)",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Independently owned community newspaper serving southern Alberta (Coaldale, Taber, Picture Butte, Vauxhall, Lethbridge region). Canadian private ownership. Ownership details not prominently disclosed on site — flag for verification.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "Verify — may be Alberta Weekly Newspapers Association member",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": false,
+        "formal_stance": null
+      },
+      "nutrition_grade": "community_local",
+      "political_lean": null,
+      "political_lean_notes_en": "Community newspaper. No documented editorial stance. Coverage focus is local southern Alberta issues, municipal politics, agriculture.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "Print",
+        "Digital"
+      ],
+      "brands": [
+        "Sunny South News"
+      ],
+      "domain": "sunnysouthnews.com",
+      "alberta_reach_notes_en": "Southern Alberta community paper — Taber, Coaldale, Lethbridge area. Relevant for rural Alberta municipal and agricultural stories. Low volume, high local specificity. Note: main site URL is HTTPS (sunnysouthnews.com) but RSS feed listed as HTTP — verify feed URL before activating.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Community paper. No documented election endorsement history.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Independently owned community newspaper serving southern Alberta. Canadian ownership. Local focus on Taber, Coaldale, Lethbridge region. Useful for rural Alberta and municipal stories not covered by larger outlets. Ownership transparency not prominently disclosed — treat as Tier 2 with verification recommended.",
+      "text_fr": "TODO",
+      "needs_verification": true,
+      "verification_notes": "Confirm ownership structure, press council membership, corrections policy. Verify RSS feed URL (HTTP vs HTTPS). Source: https://www.sunnysouthnews.com"
+    },
+    {
+      "outlet_id": "rabble",
+      "name": "Rabble.ca",
+      "name_fr": "Rabble.ca",
+      "type": "independent_digital",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "Rabble.ca News and Politics Cooperative (Canadian non-profit cooperative)",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Independent Canadian news cooperative founded 2001. Reader and worker supported. Non-profit structure. No corporate ownership. Funding from reader subscriptions, memberships, and progressive foundations. Transparent about funding model.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "Not a press council member — verify",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": "Progressive/labour/feminist editorial mandate. Self-described. See rabble.ca/about."
+      },
+      "nutrition_grade": "independent_with_stance",
+      "political_lean": "left",
+      "political_lean_notes_en": "Explicitly progressive, labour-oriented, and feminist editorial mandate. Self-declared — not inferred from coverage. Transparent about orientation. Founded by journalists including Judy Rebick. Strong coverage of labour disputes, social justice, and LGBTQ+ issues. Because the stance is declared and transparent, factual reporting remains citable at Tier 2 — stance must be noted alongside citation. Characterizations and opinion pieces are inference.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "Digital"
+      ],
+      "brands": [
+        "Rabble.ca",
+        "rabble news"
+      ],
+      "domain": "rabble.ca",
+      "alberta_reach_notes_en": "National coverage with Alberta labour and social policy stories. Particularly relevant for ATA strike coverage, healthcare privatization, and LGBTQ+ rights categories. Corroborate factual claims with neutral Tier 2 source (CBC, Global) where available.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Progressive editorial outlet — does not make electoral endorsements in a traditional masthead sense, but coverage favours progressive candidates. Not applicable for endorsement history tracking.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Independent Canadian news cooperative with an explicit progressive, labour, and feminist editorial mandate. Transparent about orientation. Tier 2 for factual reporting — stance must be noted. Policy conclusions and characterizations are inference. Founded 2001, reader and worker supported.",
+      "text_fr": "TODO",
+      "needs_verification": false,
+      "verification_notes": null
+    },
+    {
+      "outlet_id": "daily-herald-tribune",
+      "name": "Daily Herald Tribune",
+      "name_fr": "Daily Herald Tribune",
+      "type": "community_print_digital",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "Glacier Media Inc. (Canadian)",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Owned by Glacier Media Inc., a Canadian media company headquartered in Vancouver, BC (TSX: GVC). Glacier owns community and specialty papers across western Canada. Canadian-controlled with no documented foreign ownership concern. Glacier Media is not Postmedia — separate ownership structure. Verify current ownership — community paper ownership can change.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "Verify — may be Alberta Weekly Newspapers Association or NCNA member",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": false,
+        "formal_stance": null
+      },
+      "nutrition_grade": "community_local",
+      "political_lean": null,
+      "political_lean_notes_en": "Community newspaper. No documented editorial stance. Glacier Media properties tend toward community-focused, politically neutral coverage. Grande Prairie and Peace Country Alberta focus.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "Print",
+        "Digital"
+      ],
+      "brands": [
+        "Daily Herald Tribune",
+        "DHT"
+      ],
+      "domain": "dailyheraldtribune.com",
+      "alberta_reach_notes_en": "Serves Grande Prairie and Peace Country (northwest Alberta). High local specificity — municipal politics, resource industry (forestry, oil and gas in the Peace region), agriculture. Relevant for rural Alberta municipal interference and energy category stories in northern Alberta.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Community paper. No documented election endorsement history.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Community daily newspaper serving Grande Prairie and Peace Country, northwest Alberta. Glacier Media ownership (Canadian). Coverage focus is local municipal, resource, and agricultural issues. Useful for northern Alberta stories not captured by Edmonton-based outlets.",
+      "text_fr": "TODO",
+      "needs_verification": true,
+      "verification_notes": "Confirm current Glacier Media ownership (can change). Verify press council membership. Source: https://www.dailyheraldtribune.com"
+    },
+    {
+      "outlet_id": "pressprogress",
+      "name": "PressProgress",
+      "name_fr": "PressProgress",
+      "type": "independent_digital",
+      "cancon_tier": "product_of_canada",
+      "cancon_pct_canadian": 100,
+      "cancon_pct_foreign": 0,
+      "ownership": {
+        "ultimate_beneficial_owner": "PressProgress (Canadian non-profit). Previously Broadbent Institute. Editorially independent since 2022.",
+        "canadian_controlled": true,
+        "foreign_controlled": false,
+        "ownership_notes_en": "Founded 2012 by the Broadbent Institute (NDP-aligned think tank). Became editorially and operationally independent in 2022 — separated from Broadbent Institute governance. Now operates as independent non-profit. Funding: reader donations, progressive foundations. The Broadbent Institute connection is historical — document it, do not overstate current influence.",
+        "ownership_notes_fr": "TODO"
+      },
+      "regulatory_status": {
+        "crtc_licensed": false,
+        "press_council": "Not a press council member",
+        "ona_eligible": false,
+        "qcjo_designated": false,
+        "corrections_policy": true,
+        "formal_stance": "Progressive editorial mandate. Journalistic standards published at pressprogress.ca/journalistic-standards/. Confidential tips: pressprogress.ca/tips/",
+        "standards_url": "https://pressprogress.ca/journalistic-standards/",
+        "tips_url": "https://pressprogress.ca/tips/"
+      },
+      "nutrition_grade": "independent_with_stance",
+      "political_lean": "left",
+      "political_lean_notes_en": "Progressive editorial mandate. Historically founded by NDP-aligned Broadbent Institute — this origin should be noted even though editorial independence was formalized in 2022. Transparent about progressive orientation. Publishes investigative reporting on right-wing political networks, corporate lobbying, and labour. Journalistic standards published and verifiable (pressprogress.ca/journalistic-standards/). Because stance is declared and standards are published, factual reporting is citable at Tier 2 — stance must be noted alongside citation. Particularly strong on: UCP connections to international right-wing networks, Coutts/Diagolon coverage, election campaign funding.",
+      "political_lean_notes_fr": "TODO",
+      "outlet_source_tier": 2,
+      "formats": [
+        "Digital"
+      ],
+      "brands": [
+        "PressProgress"
+      ],
+      "domain": "pressprogress.ca",
+      "rss_available": false,
+      "rss_notes": "No RSS feed found as of 2026-05-27. Monitor site directly or check if feed is added. Can be monitored via Google Alerts or manual periodic check.",
+      "alberta_reach_notes_en": "National coverage with strong Alberta and western Canada political focus. Relevant for: UCP right-wing network connections, Diagolon/Coutts coverage, election campaign finance (10xVotes story — R-051), ATA strike. Already cited as R-051 in the reference index.",
+      "alberta_reach_notes_fr": "TODO",
+      "endorsement_history": [],
+      "endorsement_notes_en": "Progressive editorial outlet. Does not make electoral endorsements in traditional masthead sense.",
+      "endorsement_notes_fr": "TODO",
+      "legal_findings": [],
+      "text_en": "Independent Canadian progressive digital news outlet. Founded by the Broadbent Institute (NDP-aligned); editorially independent since 2022. Journalistic standards published and verifiable. Tier 2 for factual reporting — progressive stance must be noted. No RSS feed — monitor directly. Strong on right-wing political network and election campaign finance stories.",
+      "text_fr": "TODO",
+      "needs_verification": false,
+      "verification_notes": null
+    }
+  ]
+}

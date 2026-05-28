@@ -1,0 +1,60 @@
+{
+  "id": "EVT-060",
+  "schema_version": "2.0.0",
+  "event_date": "2023-11-07",
+  "event_date_precision": "day",
+  "date_notes": "Restructuring announcement November 7 2023.",
+  "title_en": "Government announces restructuring of Alberta Health Services into four separate entities",
+  "title_fr": "Le gouvernement annonce la restructuration d'Alberta Health Services en quatre entités distinctes",
+  "ai_translated": true,
+  "description_en": "The government announces Alberta Health Services will be restructured into four separate entities covering acute care, mental health and addictions, primary care, and continuing care. Health critics warn the structure creates conditions for incremental privatization.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Health Minister",
+      "name": "Adriana LaGrange",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-094"
+  ],
+  "relations": [],
+  "needs_verification": null,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    },
+    {
+      "date": "2026-05-27",
+      "note": "Source upgraded: R-074 (govt page) replaced with R-094 (CBC/Janet French Nov 8 2023 — Tier 2). Leaked documents showed govt planned to sell CapitalCare and Carewest."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

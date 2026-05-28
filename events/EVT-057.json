@@ -1,0 +1,66 @@
+{
+  "id": "EVT-057",
+  "schema_version": "2.0.0",
+  "event_date": "2022-10-06",
+  "event_date_precision": "day",
+  "date_notes": "Leadership vote October 6; Smith sworn in October 11 (EVT-015).",
+  "title_en": "Danielle Smith elected UCP leader on sixth ballot, defeating Travis Toews",
+  "title_fr": "Danielle Smith est élue cheffe de l'UCP au sixième tour de scrutin, battant Travis Toews",
+  "ai_translated": true,
+  "description_en": "Danielle Smith wins the UCP leadership race on the sixth ballot, defeating Finance Minister Travis Toews. Smith had campaigned on the Alberta Sovereignty Act and opposition to federal COVID measures. She is sworn in as premier on October 11 (EVT-015).",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "party_discipline"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "UCP Leadership Candidate",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "UCP Leadership Candidate",
+      "name": "Travis Toews",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-080"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-015",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-056",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": null,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

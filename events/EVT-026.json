@@ -1,0 +1,44 @@
+{
+  "id": "EVT-026",
+  "schema_version": "2.0.0",
+  "event_date": "2026-03-26",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Alberta Budget 2026 projects $9.4B deficit",
+  "title_fr": "Le budget 2026 de l'Alberta prévoit un déficit de 9,4 G$",
+  "ai_translated": true,
+  "description_en": "The 2026 budget reports a $9.4B deficit — which reporting noted runs against the government's own fiscal-rules legislation.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "fiscal"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Minister of Finance",
+      "name": "Nate Horner",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-014"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

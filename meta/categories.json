@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.0.0",
+  "note": "Locked vocabulary. No additions without schema version bump.",
+  "categories": [
+    {
+      "id": "science_suppression",
+      "label_en": "Science suppression",
+      "label_fr": null
+    },
+    {
+      "id": "media_suppression",
+      "label_en": "Media suppression",
+      "label_fr": null
+    },
+    {
+      "id": "healthcare_privatization",
+      "label_en": "Healthcare privatization",
+      "label_fr": null
+    },
+    {
+      "id": "fiscal",
+      "label_en": "Fiscal policy",
+      "label_fr": null
+    },
+    {
+      "id": "labour",
+      "label_en": "Labour",
+      "label_fr": null
+    },
+    {
+      "id": "education",
+      "label_en": "Education",
+      "label_fr": null
+    },
+    {
+      "id": "charter",
+      "label_en": "Charter rights",
+      "label_fr": null
+    },
+    {
+      "id": "constitutional_override",
+      "label_en": "Constitutional override",
+      "label_fr": null
+    },
+    {
+      "id": "democratic_interference",
+      "label_en": "Democratic interference",
+      "label_fr": null
+    },
+    {
+      "id": "election_interference",
+      "label_en": "Election interference",
+      "label_fr": null
+    },
+    {
+      "id": "privacy",
+      "label_en": "Privacy",
+      "label_fr": null
+    },
+    {
+      "id": "transparency",
+      "label_en": "Transparency",
+      "label_fr": null
+    },
+    {
+      "id": "accountability",
+      "label_en": "Accountability",
+      "label_fr": null
+    },
+    {
+      "id": "energy",
+      "label_en": "Energy policy",
+      "label_fr": null
+    },
+    {
+      "id": "environment",
+      "label_en": "Environment",
+      "label_fr": null
+    },
+    {
+      "id": "federal_provincial",
+      "label_en": "Federal-provincial relations",
+      "label_fr": null
+    },
+    {
+      "id": "political_convoy",
+      "label_en": "Political convoy",
+      "label_fr": null
+    },
+    {
+      "id": "separatism",
+      "label_en": "Separatism",
+      "label_fr": null
+    },
+    {
+      "id": "party_discipline",
+      "label_en": "Party discipline",
+      "label_fr": null
+    },
+    {
+      "id": "lgbtq",
+      "label_en": "LGBTQ+ rights",
+      "label_fr": null
+    },
+    {
+      "id": "diagolon",
+      "label_en": "Diagolon",
+      "label_fr": null
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "EVT-063",
+  "schema_version": "2.0.0",
+  "event_date": "2025-04-03",
+  "event_date_precision": "day",
+  "date_notes": "UNA ratification April 3 2025; Finance Minister 'good deal' statement September 2025 (R-057).",
+  "title_en": "United Nurses of Alberta ratifies 20% wage increase — six months before government calls 12% offer to teachers 'a good deal'",
+  "title_fr": "L'Association des infirmières ratifie une augmentation salariale de 20 %, six mois avant que le gouvernement qualifie de « bonne offre » 12 % pour les enseignants",
+  "ai_translated": true,
+  "description_en": "The United Nurses of Alberta ratifies a four-year collective agreement including a 20% wage increase. Six months later, Finance Minister Horner characterizes a 12% wage offer to teachers as 'a good deal.' The contrast is documented in subsequent reporting.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "United Nurses of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Finance Minister",
+      "name": "Nate Horner",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-076",
+    "R-057"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-047",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": null,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

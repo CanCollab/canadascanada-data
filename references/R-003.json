@@ -1,0 +1,19 @@
+{
+  "id": "R-003",
+  "schema_version": "2.0.0",
+  "title": "Ernst and Young wins $2M contract to review Alberta Health Services",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-news",
+  "section": "News",
+  "author": "Charles Rusnell",
+  "publication_date": "2019-07-18",
+  "url": "https://www.cbc.ca/news/canada/edmonton/ernst-young-wins-2m-contract-to-review-alberta-health-services-1.5217051",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Confirmed live.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

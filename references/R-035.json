@@ -1,0 +1,19 @@
+{
+  "id": "R-035",
+  "schema_version": "2.0.0",
+  "title": "Premier resigns as UCP leader",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-news",
+  "section": "News",
+  "author": null,
+  "publication_date": "2022-05-18",
+  "url": "https://www.cbc.ca/news/canada/edmonton/jason-kenney-resignation-ucp-alberta-1.6459124",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Confirmed live from RTF. New EVT needed: Premier resigns following leadership review (51.4% support).",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

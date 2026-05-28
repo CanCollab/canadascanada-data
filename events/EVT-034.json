@@ -1,0 +1,55 @@
+{
+  "id": "EVT-034",
+  "schema_version": "2.0.0",
+  "event_date": "2024-09-03",
+  "event_date_precision": "day",
+  "date_notes": "September 3 2024: province notified city of intent to withdraw. City council wind-down vote: confirm exact date (Global News dated September 11 2024). Province subsequently took over project management.",
+  "title_en": "Province withdraws $1.53 billion Green Line LRT funding; city faces $2.1 billion in total costs",
+  "title_fr": "La province retire 1,53 milliard de dollars de financement du Green Line; la ville fait face à 2,1 milliards en coûts totaux",
+  "ai_translated": true,
+  "description_en": "The Minister of Transportation sends a letter to the City of Calgary withdrawing the province's $1.53-billion contribution to the Green Line LRT project. The city, which had given the project final council approval July 30 2024 and signed more than 70 contracts, is forced to halt work; council votes 10-5 to wind down. Cost figures reported vary and are presented here for reader judgment: the province withdrew $1.53 billion in committed funding; the city estimated roughly $850 million in wind-down costs on top of approximately $1.3 billion already spent, for a total around $2.1 billion; an advocacy source (R-047) emphasizes the ~$850M wind-down figure specifically. Context: the UCP government had reduced the provincial Green Line contribution by 86% in 2019 and passed legislation enabling withdrawal on 90 days notice. The province subsequently took over project management. The minister's public statement attributed costs to 'decade-long mismanagement' by the city.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "fiscal",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Minister of Transportation",
+      "name": "Devin Dreeshen",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Mayor of Calgary",
+      "name": "Jyoti Gondek",
+      "party": null,
+      "jurisdiction": "municipal"
+    }
+  ],
+  "opposition_response": "Mayor Gondek: 'There is no victory in any of this. This is a tragic day.' Councillor Walcott moved amendment asking city to seek legal opinion on transferring costs and liability to the province.",
+  "source_refs": [
+    "R-046",
+    "R-047"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Three cost figures presented transparently (provincial $1.53B withdrawn / total ~$2.1B / wind-down ~$850M per R-047) to invite reader assessment and audience fact-checks. Confirm exact council wind-down vote date (Global News dated Sep 11 2024; withdrawal letter Sep 3 2024). R-046/R-047 URLs need HTTP check. FIREWALL: Minister Dreeshen appears in a separate unsourced conduct record — do NOT link in related_events or UI without dedicated Tier 2 sourcing for that matter.",
+  "standards_flags": [
+    "jurisdiction-misdirection",
+    "stated-vs-actual-impact"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": "SD-014",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

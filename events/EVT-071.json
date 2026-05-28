@@ -1,0 +1,81 @@
+{
+  "id": "EVT-071",
+  "schema_version": "2.0.0",
+  "event_date": "2026-05-12",
+  "event_date_precision": "day",
+  "date_notes": "Legislation confirmed May 12 2026 for fall 2026 session. The initial threat began April 2025 (EVT-064).",
+  "title_en": "Province formally announces legislation to review and remove bike lanes, following Ontario model struck down by courts",
+  "title_fr": "La province annonce formellement une loi pour examiner et supprimer les pistes cyclables, suivant le modèle ontarien invalidé par les tribunaux",
+  "ai_translated": true,
+  "description_en": "Transportation Minister Devin Dreeshen confirms legislation will be tabled in the fall 2026 session giving the Alberta government power to review and remove bike lanes in municipalities. Edmonton Mayor Andrew Knack says he would prefer the province not proceed. Alberta cycling advocates have already consulted with Cycle Toronto — the group that successfully challenged Ontario's similar bike lane legislation in court, where it was deemed unconstitutional (Ontario has since appealed). Dreeshen does not rule out retroactive removal of existing lanes.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_interference",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Transportation Minister",
+      "name": "Devin Dreeshen",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Edmonton Mayor",
+      "name": "Andrew Knack",
+      "party": null,
+      "jurisdiction": "municipal"
+    }
+  ],
+  "opposition_response": {
+    "actor": "Edmonton Mayor",
+    "name": "Andrew Knack",
+    "response_en": "'This whole dynamic of car drivers versus cyclists versus pedestrians, I hate it. I will not subscribe to that.' Knack says Edmonton has been methodical in bike lane placement.",
+    "source_ref": "R-102"
+  },
+  "source_refs": [
+    "R-102"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "alberta-municipal-override",
+      "note": "Formal legislation follows two years of pressure (EVT-064 April 2025, summer 2025 Edmonton standoff)."
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-064",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [
+    "outcome-pending"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": "Created from R-102 (CBC May 2026). Extends EVT-064 (April 2025 threats) into formal legislation arc."
+    }
+  ],
+  "claim_contested_by": [
+    {
+      "counter_claim": "Ontario's similar bike lane legislation was struck down by court as unconstitutional; Ontario has appealed.",
+      "source_ref": "R-102",
+      "counter_claim_type": "legal-finding"
+    }
+  ],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

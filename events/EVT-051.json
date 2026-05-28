@@ -1,0 +1,66 @@
+{
+  "id": "EVT-051",
+  "schema_version": "2.0.0",
+  "event_date": "2019-05-13",
+  "event_date_precision": "day",
+  "date_notes": "Weeks after UCP election win April 16 2019.",
+  "title_en": "Province halts nurses' wage arbitration hearing day-of, pending financial review",
+  "title_fr": "La province arrête l'audition d'arbitrage salarial des infirmières le jour même, en attendant un examen financier",
+  "ai_translated": true,
+  "description_en": "The UCP government halts an arbitration hearing scheduled for May 13, 2019 on nurses' wages for year 3 of the United Nurses of Alberta's current three-year contract. Employer representatives postponed the hearing day-of at government direction, with no new date set. Finance Minister Toews states the pause is pending the MacKinnon blue-ribbon panel report (due August 15). The contract covers approximately 30,000 nurses and has wage freezes in years 1 and 2 with a provision to revisit wages in year 3. The AFL calls it 'the first step toward using state power to cut wages.'",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "labour",
+    "healthcare_privatization"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Jason Kenney",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Health Minister",
+      "name": "Tyler Shandro",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-066"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-007",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": null,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    },
+    {
+      "date": "2026-05-27",
+      "note": "Description corrected: article is about halting arbitration (not wage freeze). Source updated to confirmed R-066 URL."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

@@ -1,29 +1,75 @@
 {
   "meta": {
+    "schema_version": "2.0.0",
     "schema": "domain-map",
-    "project": "CanScan",
-    "version": "0.1.0",
+    "project": "CanadaScanada",
     "last_updated": "2026-05-27",
-    "description": "Maps URL domains to outlet_id. Fetched by the CanScan extension and site to resolve the current tab's outlet to a nutrition label. Join key: domain -> outlet_id -> outlet-database.json.",
-    "note": "outlet_ids must exactly match outlet-database.json (kebab-case). Brand-level domains (e.g. calgaryherald.com) map to the parent outlet_id until brand-level records exist."
+    "note": "Maps URL hostname to outlet_id. Used by CanScan extension and site to look up nutrition labels. Keys are bare hostnames (no www, no path). Add new domains here when a new outlet is added to outlet-database.json.",
+    "usage": "const outletId = domainMap.domains[new URL(articleUrl).hostname.replace('www.','')]"
   },
   "domains": {
     "cbc.ca": "cbc-radio-canada",
     "radio-canada.ca": "cbc-radio-canada",
-    "ici.radio-canada.ca": "cbc-radio-canada",
     "calgaryherald.com": "postmedia",
     "edmontonjournal.com": "postmedia",
-    "nationalpost.com": "national-post",
     "calgarysun.com": "postmedia",
     "edmontonsun.com": "postmedia",
+    "vancouversun.com": "postmedia",
+    "financialpost.com": "postmedia",
+    "ottawacitizen.com": "postmedia",
+    "nationalpost.com": "national-post",
     "globalnews.ca": "global-news",
     "ctvnews.ca": "ctv-news",
     "thetyee.ca": "the-tyee",
     "rebelnews.com": "rebel-news",
     "tnc.news": "true-north",
-    "thecanadianpress.com": "canadian-press",
     "foxnews.com": "fox-news",
+    "thecanadianpress.com": "canadian-press",
     "parklandinstitute.ca": "parkland-institute",
-    "pembina.org": "pembina-institute"
+    "pembina.org": "pembina-institute",
+    "sunnysouthnews.com": "sunny-south-news",
+    "rabble.ca": "rabble",
+    "dailyheraldtribune.com": "daily-herald-tribune",
+    "pressprogress.ca": "pressprogress"
+  },
+  "pending": {
+    "note": "These domains are referenced in references.json or feed-map.json but outlet records don't exist yet in outlet-database.json. Add the outlet record first, then uncomment the domain here.",
+    "domains": [
+      {
+        "domain": "thenarwhal.ca",
+        "outlet_id": "the-narwhal",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "nationalobserver.com",
+        "outlet_id": "national-observer",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "canadaland.com",
+        "outlet_id": "canadaland",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "theijf.org",
+        "outlet_id": "investigative-journalism-foundation",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "albertaviews.ca",
+        "outlet_id": "alberta-views",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "windspeaker.com",
+        "outlet_id": "windspeaker",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "aptnnews.ca",
+        "outlet_id": "aptn-news",
+        "status": "outlet record needed"
+      }
+    ]
   }
 }

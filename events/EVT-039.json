@@ -1,0 +1,70 @@
+{
+  "id": "EVT-039",
+  "schema_version": "2.0.0",
+  "event_date": "2025-03-31",
+  "event_date_precision": "day",
+  "date_notes": "March 31 2025 first rejection documented in UCP Notwithstanding Analysis project file. Distinct from the September 28-29 2025 rejection of the tentative agreement.",
+  "title_en": "Teachers reject first memorandum of agreement in central bargaining",
+  "title_fr": "Les enseignants rejettent un premier protocole d'accord lors des négociations centrales",
+  "ai_translated": true,
+  "description_en": "ATA members reject a first memorandum of agreement in central bargaining. The rejection continues a pattern of unresolved central bargaining that will extend through the summer of 2025. Key unresolved issues at this stage: wage indexation, class-size reporting and caps, and educational assistant staffing levels. This is the first of two rejection votes; a second rejection of a tentative agreement follows in September 2025.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Teachers' Association",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "NEEDS-SOURCE"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "ata-teachers-strike-2025",
+      "note": null
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-038",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-040",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "STUB — needs Tier 2 source. Search: ATA memorandum of agreement rejection March 2025, CBC/CTV Alberta teachers bargaining March 2025.",
+  "standards_flags": [
+    "single-source",
+    "date-unconfirmed"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "note": "Event created. Date from internal project file — needs external Tier 2 confirmation."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

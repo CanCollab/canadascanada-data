@@ -1,0 +1,72 @@
+{
+  "id": "EVT-065",
+  "schema_version": "2.0.0",
+  "event_date": "2025-10-23",
+  "event_date_precision": "day",
+  "date_notes": "Announcement October 23; Back to School Act tabled and passed October 27 (EVT-036).",
+  "title_en": "Premier announces intent to use notwithstanding clause four days before Back to School Act introduced",
+  "title_fr": "La première ministre annonce son intention d'invoquer la clause dérogatoire quatre jours avant le dépôt de la loi Retour à l'école",
+  "ai_translated": true,
+  "description_en": "Premier Smith announces at a news conference that the government will table Bill 2 (the Back to School Act) on Monday October 27, four days away. An order paper is published on the Legislature website the same day specifying one hour of debate per reading. Smith: 'the precondition has to be getting kids back to school.' ATA anticipates the legislation but says it needs to see the bill text. Thousands of teachers rally on legislature grounds the same afternoon. The government formally tables and passes Bill 2 on October 27 (EVT-036).",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "charter",
+    "constitutional_override"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-078"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Four-day warning before EVT-036 (Back to School Act)."
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-036",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-022",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": null,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    },
+    {
+      "date": "2026-05-27",
+      "note": "Source fixed: R-078 now confirmed CBC Oct 23 2025 (replaces dead Alberta.ca URL). Description updated with confirmed details from article."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

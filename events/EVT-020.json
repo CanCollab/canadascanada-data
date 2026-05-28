@@ -1,0 +1,50 @@
+{
+  "id": "EVT-020",
+  "schema_version": "2.0.0",
+  "event_date": "2024-08-01",
+  "event_date_precision": "month",
+  "date_notes": "FOI records show meeting and ministry exploration occurred in 2024; exact dates within that period to confirm.",
+  "title_en": "FOI reveals ministry explored accrediting private online academy",
+  "title_fr": "Une demande d'accès à l'information révèle que le ministère a exploré l'accréditation d'une académie privée en ligne",
+  "ai_translated": true,
+  "description_en": "FOI records show the Premier met with Jordan Peterson and that Advanced Education officials examined a path to recognise the online, US-based Peterson Academy. The ministry stated no formal accreditation proposal was received.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_interference"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-011"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-024",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

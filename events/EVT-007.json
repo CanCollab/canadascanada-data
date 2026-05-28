@@ -1,0 +1,60 @@
+{
+  "id": "EVT-007",
+  "schema_version": "2.0.0",
+  "event_date": "2019-06-01",
+  "event_date_precision": "month",
+  "date_notes": "Bill 9 debate occurred June 2019. The earplug incident reported during committee/legislature sittings — exact date within June to confirm.",
+  "title_en": "Premier distributes earplugs to caucus during labour bill debate",
+  "title_fr": "Le premier ministre distribue des bouchons d'oreilles pendant le débat sur le projet de loi travail",
+  "ai_translated": true,
+  "description_en": "During debate on Bill 9, which delayed public-sector wage arbitration, the Premier distributed earplugs to his caucus members — widely reported as a gesture dismissing labour opposition arguments.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "labour"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Jason Kenney",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": {
+    "display_role": "Official Opposition",
+    "name": "Rachel Notley",
+    "party": "NDP",
+    "date": "2019-06-01",
+    "description": "Official Opposition characterized the gesture as contemptuous of workers and the legislative process.",
+    "source_refs": []
+  },
+  "source_refs": [
+    "R-085",
+    "R-056"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "CBC June 2019 confirmed in handoff; attach exact URL. Opposition response source needed.",
+  "standards_flags": [
+    "single-source",
+    "date-unconfirmed"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": "Added R-085 (Bill 9 protests Jul 2019) as context for Bill 9 scope — 180,000 workers affected."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

@@ -1,0 +1,19 @@
+{
+  "id": "R-046",
+  "schema_version": "2.0.0",
+  "title": "Calgary to wind down Green Line LRT project with costs estimated at $2.1B",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": "Adam MacVicar",
+  "publication_date": "2024-09-11",
+  "url": "https://globalnews.ca/news/10761323/calgary-wind-down-green-line-lrt-costs/",
+  "url_status": "unverified",
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": "Primary source for SD-014 and EVT-034. Province withdrew $1.53B via Dreeshen letter. City council 10-5 to terminate. $850M wind-down + $1.3B spent = $2.1B. Dreeshen: won't cover wind-down, blames 'decade-long mismanagement.'",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

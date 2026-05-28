@@ -1,0 +1,56 @@
+{
+  "id": "EVT-030",
+  "schema_version": "2.0.0",
+  "event_date": "2021-12-10",
+  "event_date_precision": "day",
+  "date_notes": "Date of Alberta government press release. StatsCan December LFS publicly released 2022-01-07; Issik statement cited advance figures.",
+  "title_en": "Associate Minister of Status of Women misrepresents December employment statistics",
+  "title_fr": "La ministre associée du statut de la femme déforme les statistiques d'emploi de décembre",
+  "ai_translated": true,
+  "description_en": "Associate Minister of Status of Women Whitney Issik issues a government press release claiming women in Alberta are 'leading the nation' in employment and that 'unemployment across the province has dropped to its lowest rate since before the pandemic.' Statistics Canada Labour Force Survey data for December 2021 contradicts both claims: Alberta's female unemployment rate increased from 7.3% in November to 7.6% in December; remained 0.7 percentage points above the pre-pandemic benchmark of 6.9% (February 2020); Alberta ranked second-highest in female unemployment among all provinces; and women received 12.6% of new jobs while accounting for 100% of new part-time positions.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "accountability",
+    "fiscal"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Associate Minister of Status of Women",
+      "name": "Whitney Issik",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-040",
+    "R-041",
+    "R-042"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-031",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "R-040 and R-041 URLs need HTTP check via Claude Code. Confirm StatsCan release date (Jan 7 2022) — Issik statement pre-dates public release, meaning she cited advance/internal figures.",
+  "standards_flags": [
+    "data-cherry-pick",
+    "statement-contradicted-by-evidence"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": "SD-012",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

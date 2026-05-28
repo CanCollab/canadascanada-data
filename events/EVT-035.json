@@ -1,0 +1,72 @@
+{
+  "id": "EVT-035",
+  "schema_version": "2.0.0",
+  "event_date": "2026-03-27",
+  "event_date_precision": "day",
+  "date_notes": "Elections Alberta letter dated March 26-27 2026; CBC report March 27 2026. Underlying conduct (accessing the list in response to the recall petition) occurred late 2025.",
+  "title_en": "Minister found to have breached election law by accessing confidential voter list",
+  "title_fr": "Un ministre a enfreint la loi électorale en accédant à la liste confidentielle des électeurs",
+  "ai_translated": true,
+  "description_en": "Elections Alberta finds that the Service Alberta Minister accessed the confidential List of Electors 'for a purpose not authorized by the Election Act' — to obtain information about a constituent who had launched a recall petition against him. The commissioner closes the file without an administrative penalty or letter of reprimand, citing ambiguity in the law, and instead provides advice on future use of the list. The recall petition against the minister failed, gathering about 2,600 of the roughly 15,700 signatures required.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "privacy",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Minister of Service Alberta and Red Tape Reduction",
+      "name": "Dale Nally",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Chief Electoral Officer / Elections Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": {
+    "display_role": "Official Opposition",
+    "name": "Rakhi Pancholi",
+    "party": "NDP",
+    "date": "2026-03-27",
+    "description": "NDP deputy leader criticized the minister for accessing information about a constituent to publicly discredit him, calling it part of a pattern of the UCP acting to silence opposition.",
+    "source_refs": [
+      "R-049"
+    ]
+  },
+  "source_refs": [
+    "R-049"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "alberta-voter-privacy",
+      "note": null
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-028",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Verified against R-049 (CBC/CP, Daniela Germano). Distinct from the Centurion Project matter (EVT-028) though thematically linked under the voter-privacy thread. The finding (breach, no penalty, advice given) is on record. Recall-petition outcome (failed, ~2,600/15,700) also reported.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

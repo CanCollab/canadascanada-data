@@ -1,0 +1,67 @@
+{
+  "id": "EVT-064",
+  "schema_version": "2.0.0",
+  "event_date": "2025-04-22",
+  "event_date_precision": "day",
+  "date_notes": "Transportation Minister Dreeshen first publicly calls for bike lane removal April 22 2025, including letter to Edmonton councillor about 132 Ave project. Pressure on Edmonton continued through summer 2025 (former mayor Sohi asked to reconsider north-side lanes). Legislation formally announced May 12 2026 (EVT-071).",
+  "title_en": "Province threatens to use provincial authority to remove Calgary and Edmonton bike lanes",
+  "title_fr": "La province menace d'utiliser son autorité provinciale pour supprimer les pistes cyclables de Calgary et d'Edmonton",
+  "ai_translated": true,
+  "description_en": "Alberta's Transportation Minister threatens to invoke provincial authority to remove bike lanes in Calgary and Edmonton, citing traffic congestion. The threat follows a pattern of provincial overrides of municipal infrastructure decisions.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_interference",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Transportation Minister",
+      "name": "Devin Dreeshen",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-102",
+    "R-077"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "alberta-municipal-override",
+      "note": "Follows Green Line withdrawal (EVT-034) in pattern of provincial override of municipal infrastructure decisions."
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-034",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": null,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    },
+    {
+      "date": "2026-05-27",
+      "note": "Date corrected to April 22 2025 (first incident). R-077 URL replaced with confirmed CP article. R-102 (May 2026 legislation) added as related outcome."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

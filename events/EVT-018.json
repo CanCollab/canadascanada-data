@@ -1,0 +1,68 @@
+{
+  "id": "EVT-018",
+  "schema_version": "2.0.0",
+  "event_date": "2023-08-18",
+  "event_date_precision": "day",
+  "date_notes": "Announcement made Aug 18; reported Aug 19. Using event date, not publication date.",
+  "title_en": "Province reverses lab privatization, transfers operations back to public system",
+  "title_fr": "La province inverse la privatisation des laboratoires et retransfère les activités au secteur public",
+  "ai_translated": true,
+  "description_en": "The government announces it will transfer DynaLife staff, equipment and property to the public Alberta Precision Laboratories, reversing the privatization. The financial cost of the reversal was not disclosed at the time of announcement.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Minister of Health",
+      "name": "Adriana LaGrange",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": {
+    "display_role": "Official Opposition",
+    "name": "David Shepherd",
+    "party": "NDP",
+    "date": "2023-08-18",
+    "description": "Official Opposition health critic called the reversal a vindication of NDP warnings and demanded a full accounting of costs.",
+    "source_refs": []
+  },
+  "source_refs": [
+    "R-005"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-014",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-019",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "R-006 removed from source_refs (reclassified to Tier 4 finding-tool in v0.5.1 — usable for narrative location only, not citation). R-005 (Globe) is the citation; no byline in original (wire). EVT remains established.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

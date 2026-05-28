@@ -1,0 +1,19 @@
+{
+  "id": "R-055",
+  "schema_version": "2.0.0",
+  "title": "Alberta government reverts expense reporting rules; premier says she was unaware",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-news",
+  "section": "News",
+  "author": "Lisa Johnson",
+  "publication_date": "2025-08-21",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-reverts-expense-reporting-rules-1.7614892",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "wire_source": "canadian-press",
+  "notes": "Expense records reversal. Aug 1 policy removed $100 receipt disclosure + deleted ~500,000 entries (2012-2020). Cabinet reversal Aug 19. Smith says unaware ('lost in translation'). Already referenced by EVT-037 (this merge resolves that dangling reference).",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

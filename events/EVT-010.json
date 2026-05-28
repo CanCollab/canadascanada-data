@@ -1,0 +1,48 @@
+{
+  "id": "EVT-010",
+  "schema_version": "2.0.0",
+  "event_date": "2020-06-01",
+  "event_date_precision": "month",
+  "date_notes": "Corporate tax cut accelerated in 2020; exact announcement date varies across sources (June vs September reported).",
+  "title_en": "Province accelerates corporate tax reduction, framing it as job creation",
+  "title_fr": "La province accélère la réduction d'impôt des sociétés en la présentant comme créatrice d'emplois",
+  "ai_translated": true,
+  "description_en": "The government advances its accelerated corporate income-tax reduction. Independent analysis later disputed the promised job gains. Total cost figure varies across sources ($4.3B to $4.7B) and requires reconciliation.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "fiscal"
+  ],
+  "claim_type": "context",
+  "inference_note": "Independent analysis (R-037, Parkland Institute, Tier 3 advocacy) documents that a majority of oil-sands-major job terminations occurred after the 2019 tax cut. The causal claim that the tax cut CAUSED the job losses is the author's argument/inference, not established fact — present figures as fact, causation as the analyst's interpretation. Total cost figure varies across sources ($4.3B-$4.7B); present both for reader judgment.",
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Jason Kenney",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-037"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "R-037 (Parkland) attached. Still needs a Tier 1/2 source for the announcement itself (CBC announcement) and to reconcile June vs September 2020 date. Figures and causation separated in inference_note.",
+  "standards_flags": [
+    "single-source",
+    "figure-disputed",
+    "date-unconfirmed"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

@@ -1,0 +1,44 @@
+{
+  "id": "EVT-015",
+  "schema_version": "2.0.0",
+  "event_date": "2022-10-11",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "New Premier of Alberta sworn in following UCP leadership race",
+  "title_fr": "Un nouveau premier ministre de l'Alberta est assermenté à la suite de la course à la direction du PCU",
+  "ai_translated": true,
+  "description_en": "Danielle Smith wins the UCP leadership race and is sworn in as Premier of Alberta.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Attach CBC swearing-in source.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

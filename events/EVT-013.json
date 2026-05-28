@@ -1,0 +1,58 @@
+{
+  "id": "EVT-013",
+  "schema_version": "2.0.0",
+  "event_date": "2022-02-14",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Police seize weapons cache at Coutts; charges laid",
+  "title_fr": "La police saisit une cache d'armes à Coutts; des accusations sont portées",
+  "ai_translated": true,
+  "description_en": "RCMP seized firearms and ammunition at Coutts and laid charges including serious conspiracy charges. Outcomes varied: two accused were later acquitted of conspiracy to commit murder while being convicted on other counts. Charges are not convictions.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "political_convoy"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "RCMP",
+      "name": null,
+      "party": null,
+      "jurisdiction": "federal"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-017"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-011",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-012",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Attach RCMP primary release URL and court record (both Tier 1). Acquittal outcome (2025) must be reflected in description.",
+  "standards_flags": [
+    "charges-not-convictions",
+    "outcome-pending"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

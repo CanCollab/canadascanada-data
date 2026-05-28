@@ -1,0 +1,15 @@
+{
+  "current": "2.0.0",
+  "history": [
+    {
+      "version": "2.0.0",
+      "date": "2026-05-27",
+      "notes": "Per-file split, graph relations, url_status, community_can_verify, extensions namespace"
+    },
+    {
+      "version": "0.9.0",
+      "date": "2026-05-27",
+      "notes": "Last monolithic version — timeline-events v0.9.0 / references v1.0.0"
+    }
+  ]
+}

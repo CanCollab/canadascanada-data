@@ -1,0 +1,1868 @@
+{
+  "meta": {
+    "schema_version": "2.0.0",
+    "schema": "events-index",
+    "project": "CanadaScanada",
+    "last_updated": "2026-05-27",
+    "event_count": 71,
+    "source_version": "timeline-events v0.9.0",
+    "migration_notes": "Era labels fixed on EVT-030 to EVT-034. Category vocabulary normalized to 21-term locked set."
+  },
+  "events": [
+    {
+      "id": "EVT-001",
+      "event_date": "2006-01-23",
+      "event_date_precision": "day",
+      "era": "pre2019",
+      "title_en": "Federal government forms Conservative minority",
+      "title_fr": "Le gouvernement fédéral forme une minorité conservatrice",
+      "ai_translated": true,
+      "category": [
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-003",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-004",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-002",
+      "event_date": "2010-01-13",
+      "event_date_precision": "day",
+      "era": "pre2019",
+      "title_en": "Federal government prorogues Parliament amid controversy",
+      "title_fr": "Le gouvernement fédéral proroge le Parlement",
+      "ai_translated": true,
+      "category": [
+        "democratic_interference"
+      ],
+      "claim_type": "context",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "unconfirmed",
+      "relations": []
+    },
+    {
+      "id": "EVT-003",
+      "event_date": "2012-04-04",
+      "event_date_precision": "day",
+      "era": "pre2019",
+      "title_en": "Federal budget cuts CBC funding by $115M over three years",
+      "title_fr": "Le budget fédéral réduit le financement de la CBC de 115 M$ sur trois ans",
+      "ai_translated": true,
+      "category": [
+        "media_suppression"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-004",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-004",
+      "event_date": "2012-04-01",
+      "event_date_precision": "month",
+      "era": "pre2019",
+      "title_en": "Federal government closes majority of fisheries research libraries",
+      "title_fr": "Le gouvernement fédéral ferme la majorité des bibliothèques de recherche halieutique",
+      "ai_translated": true,
+      "category": [
+        "science_suppression"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-003",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-005",
+      "event_date": "2015-08-19",
+      "event_date_precision": "month",
+      "era": "pre2019",
+      "title_en": "National newspaper chain directs papers to endorse governing party",
+      "title_fr": "Une grande chaîne de journaux dirige ses journaux vers l'appui au parti au pouvoir",
+      "ai_translated": true,
+      "category": [
+        "media_suppression"
+      ],
+      "claim_type": "context",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-006",
+      "event_date": "2019-04-16",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "United Conservative Party wins Alberta provincial election",
+      "title_fr": "Le Parti conservateur uni remporte les élections provinciales de l'Alberta",
+      "ai_translated": true,
+      "category": [
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-007",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-007",
+      "event_date": "2019-06-01",
+      "event_date_precision": "month",
+      "era": "kenney",
+      "title_en": "Premier distributes earplugs to caucus during labour bill debate",
+      "title_fr": "Le premier ministre distribue des bouchons d'oreilles pendant le débat sur le projet de loi travail",
+      "ai_translated": true,
+      "category": [
+        "labour"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-008",
+      "event_date": "2019-07-18",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Province commissions $2M external review of health authority",
+      "title_fr": "La province commande un examen externe de 2 M$ de la régie de la santé",
+      "ai_translated": true,
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-009",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-014",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-009",
+      "event_date": "2019-08-01",
+      "event_date_precision": "month",
+      "era": "kenney",
+      "title_en": "Province cancels $595M public laboratory project with $23M already spent",
+      "title_fr": "La province annule un projet de laboratoire public de 595 M$ dont 23 M$ déjà dépensés",
+      "ai_translated": true,
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-008",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-014",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-010",
+      "event_date": "2020-06-01",
+      "event_date_precision": "month",
+      "era": "kenney",
+      "title_en": "Province accelerates corporate tax reduction, framing it as job creation",
+      "title_fr": "La province accélère la réduction d'impôt des sociétés en la présentant comme créatrice d'emplois",
+      "ai_translated": true,
+      "category": [
+        "fiscal"
+      ],
+      "claim_type": "context",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-011",
+      "event_date": "2022-01-29",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Blockade closes Coutts border crossing",
+      "title_fr": "Un blocus ferme le poste frontalier de Coutts",
+      "ai_translated": true,
+      "category": [
+        "political_convoy"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-012",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-013",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-012",
+      "event_date": "2022-02-07",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "UCP leadership candidate publicly supports Coutts protesters",
+      "title_fr": "Une candidate à la direction du PCU appuie publiquement les manifestants de Coutts",
+      "ai_translated": true,
+      "category": [
+        "political_convoy"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-011",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-013",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-013",
+      "event_date": "2022-02-14",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Police seize weapons cache at Coutts; charges laid",
+      "title_fr": "La police saisit une cache d'armes à Coutts; des accusations sont portées",
+      "ai_translated": true,
+      "category": [
+        "political_convoy"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-011",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-012",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-014",
+      "event_date": "2022-07-01",
+      "event_date_precision": "month",
+      "era": "kenney",
+      "title_en": "Private provider assumes Calgary community laboratory services",
+      "title_fr": "Un prestataire privé prend en charge les services de laboratoire communautaires de Calgary",
+      "ai_translated": true,
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-009",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-016",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-018",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-015",
+      "event_date": "2022-10-11",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "New Premier of Alberta sworn in following UCP leadership race",
+      "title_fr": "Un nouveau premier ministre de l'Alberta est assermenté à la suite de la course à la direction du PCU",
+      "ai_translated": true,
+      "category": [
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-016",
+      "event_date": "2023-02-01",
+      "event_date_precision": "month",
+      "era": "smith",
+      "title_en": "Extended wait times documented for privately operated Calgary lab services",
+      "title_fr": "Des délais d'attente prolongés documentés pour les services de laboratoire privés de Calgary",
+      "ai_translated": true,
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "context",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-014",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-018",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-017",
+      "event_date": "2023-05-29",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "UCP wins 2023 provincial election with majority",
+      "title_fr": "Le PCU remporte les élections provinciales de 2023 avec une majorité",
+      "ai_translated": true,
+      "category": [
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-018",
+      "event_date": "2023-08-18",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Province reverses lab privatization, transfers operations back to public system",
+      "title_fr": "La province inverse la privatisation des laboratoires et retransfère les activités au secteur public",
+      "ai_translated": true,
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-014",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-019",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-019",
+      "event_date": "2025-11-01",
+      "event_date_precision": "month",
+      "era": "smith",
+      "title_en": "Kenney captured on recording coordinating UCP leadership review strategy with staff",
+      "title_fr": "Le vérificateur général confirme une perte d'environ 109 M$ dans l'affaire de la privatisation des laboratoires",
+      "ai_translated": true,
+      "category": [
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-018",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-020",
+      "event_date": "2024-08-01",
+      "event_date_precision": "month",
+      "era": "smith",
+      "title_en": "FOI reveals ministry explored accrediting private online academy",
+      "title_fr": "Une demande d'accès à l'information révèle que le ministère a exploré l'accréditation d'une académie privée en ligne",
+      "ai_translated": true,
+      "category": [
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-024",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-021",
+      "event_date": "2025-08-01",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Province removes eight years of expense-disclosure records from public portal",
+      "title_fr": "La province retire huit ans de divulgations de dépenses du portail public",
+      "ai_translated": true,
+      "category": [
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-022",
+      "event_date": "2025-10-06",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Alberta teachers begin province-wide strike",
+      "title_fr": "Les enseignants de l'Alberta déclenchent une grève provinciale",
+      "ai_translated": true,
+      "category": [
+        "labour"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "Strike begins following 89.5% rejection vote (EVT-040) and 94.5% strike authorization (EVT-041)."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-023",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-023",
+      "event_date": "2025-10-28",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Legislature passes back-to-work legislation using the notwithstanding clause",
+      "title_fr": "La législature adopte une loi de retour au travail en utilisant la clause dérogatoire",
+      "ai_translated": true,
+      "category": [
+        "constitutional_override",
+        "labour"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-022",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-025",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-024",
+      "event_date": "2025-11-20",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Legislature passes law removing mandatory Indigenous training requirement for professionals",
+      "title_fr": "La législature adopte une loi supprimant l'obligation de formation autochtone pour les professionnels",
+      "ai_translated": true,
+      "category": [
+        "lgbtq",
+        "charter"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-020",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-025",
+      "event_date": "2025-12-01",
+      "event_date_precision": "month",
+      "era": "smith",
+      "title_en": "Notwithstanding clause invoked in legislation affecting transgender youth",
+      "title_fr": "La clause dérogatoire est invoquée dans une loi concernant les jeunes transgenres",
+      "ai_translated": true,
+      "category": [
+        "lgbtq",
+        "charter"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-023",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-026",
+      "event_date": "2026-03-26",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Alberta Budget 2026 projects $9.4B deficit",
+      "title_fr": "Le budget 2026 de l'Alberta prévoit un déficit de 9,4 G$",
+      "ai_translated": true,
+      "category": [
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-027",
+      "event_date": "2026-03-31",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Education bill restricts flags and prescribed content in school classrooms",
+      "title_fr": "Un projet de loi sur l'éducation restreint les drapeaux et le contenu prescrit dans les salles de classe",
+      "ai_translated": true,
+      "category": [
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-028",
+      "event_date": "2026-04-30",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Court orders separatist group to remove searchable database of 2.9 million voters' data",
+      "title_fr": "Un tribunal ordonne à un groupe séparatiste de retirer une base de données consultable de 2,9 millions d'électeurs",
+      "ai_translated": true,
+      "category": [
+        "election_interference",
+        "privacy"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "alberta-voter-privacy",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-035",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-029",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-029",
+      "event_date": "2026-05-22",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Province announces October 2026 referendum on immigration and constitutional reform",
+      "title_fr": "La province annonce un référendum d'octobre 2026 sur l'immigration et la réforme constitutionnelle",
+      "ai_translated": true,
+      "category": [
+        "election_interference",
+        "federal_provincial"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "smith-federal-confrontation",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-030",
+      "event_date": "2021-12-10",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Associate Minister of Status of Women misrepresents December employment statistics",
+      "title_fr": "La ministre associée du statut de la femme déforme les statistiques d'emploi de décembre",
+      "ai_translated": true,
+      "category": [
+        "accountability",
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-031",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-031",
+      "event_date": "2023-07-31",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Report documents pay gaps and exclusion faced by racialized women despite 'Alberta is Calling' campaign",
+      "title_fr": "Un rapport documente les écarts salariaux vécus par les femmes racisées malgré la campagne 'Alberta is Calling'",
+      "ai_translated": true,
+      "category": [
+        "accountability",
+        "labour"
+      ],
+      "claim_type": "context",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-030",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-032",
+      "event_date": "2024-01-31",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Premier announces restrictions on gender-affirming care and school policies for transgender youth",
+      "title_fr": "La première ministre annonce des restrictions sur les soins d'affirmation de genre pour les jeunes transgenres",
+      "ai_translated": true,
+      "category": [
+        "lgbtq",
+        "charter"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-033",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-033",
+      "event_date": "2024-12-04",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Alberta transgender restriction legislation passes legislature; Charter challenges filed",
+      "title_fr": "La législation albertaine sur les restrictions transgenres est adoptée; des contestations constitutionnelles sont déposées",
+      "ai_translated": true,
+      "category": [
+        "lgbtq",
+        "charter"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-032",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-034",
+      "event_date": "2024-09-03",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Province withdraws $1.53 billion Green Line LRT funding; city faces $2.1 billion in total costs",
+      "title_fr": "La province retire 1,53 milliard de dollars de financement du Green Line; la ville fait face à 2,1 milliards en coûts totaux",
+      "ai_translated": true,
+      "category": [
+        "fiscal",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-035",
+      "event_date": "2026-03-27",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Minister found to have breached election law by accessing confidential voter list",
+      "title_fr": "Un ministre a enfreint la loi électorale en accédant à la liste confidentielle des électeurs",
+      "ai_translated": true,
+      "category": [
+        "privacy",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "alberta-voter-privacy",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-028",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-036",
+      "event_date": "2025-10-27",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Back to School Act invokes notwithstanding clause to end teachers' strike",
+      "title_fr": "La Loi sur le retour à l'école invoque la clause dérogatoire pour mettre fin à la grève des enseignants",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "charter",
+        "education",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "notwithstanding-clause-use",
+          "note": "Part of documented pattern of provincial s.33 invocations. See EVT-004 (Quebec 1988), EVT-027 (Saskatchewan 2023), EVT-028 (Ontario 2022). First Alberta use of s.33 to impose a collective agreement."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-004",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-027",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-037",
+      "event_date": "2025-08-01",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Government removes eight years of ministerial expense records, reverses after public backlash",
+      "title_fr": "Le gouvernement supprime huit ans de dossiers de dépenses ministérielles, puis fait marche arrière après une réaction publique",
+      "ai_translated": true,
+      "category": [
+        "accountability",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-038",
+      "event_date": "2024-08-31",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Alberta teachers' collective agreement expires — bargaining begins",
+      "title_fr": "La convention collective des enseignants albertains expire — les négociations commencent",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "Opening event of the 2025 teachers' strike sequence."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-039",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-040",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-036",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-039",
+      "event_date": "2025-03-31",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Teachers reject first memorandum of agreement in central bargaining",
+      "title_fr": "Les enseignants rejettent un premier protocole d'accord lors des négociations centrales",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-038",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-040",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-040",
+      "event_date": "2025-09-28",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Teachers vote 89.5% to reject tentative agreement",
+      "title_fr": "Les enseignants votent à 89,5 % contre l'accord de principe",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "89.5% rejection triggers strike authorization vote."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-039",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-041",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-036",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-041",
+      "event_date": "2025-10-01",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Teachers vote 94.5% to authorize strike action",
+      "title_fr": "Les enseignants votent à 94,5 % pour autoriser une grève",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "Authorization vote leads directly to October 6 strike start."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-040",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-028",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-042",
+      "event_date": "2025-09-25",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "30 unions form Common Front coalition representing 350,000 Alberta workers",
+      "title_fr": "30 syndicats forment une coalition Front commun représentant 350 000 travailleurs albertains",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "Solidarity formation in direct response to threatened s.33 use."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-041",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-036",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-043",
+      "event_date": "2025-10-09",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "TEBA lockout begins three days into teachers' strike",
+      "title_fr": "Le lock-out du TEBA commence trois jours après le début de la grève des enseignants",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "Lockout compounds the strike; both terminated by Bill 2."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-028",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-036",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-044",
+      "event_date": "2025-10-14",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Negotiations resume with mediator during strike — talks fail",
+      "title_fr": "Les négociations reprennent avec un médiateur pendant la grève — les pourparlers échouent",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "education"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "Failed mediation directly precedes government legislative response."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-043",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-036",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-045",
+      "event_date": "2026-05-13",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Alberta and federal government near deal on industrial carbon pricing at $130 per tonne by 2040",
+      "title_fr": "L'Alberta et le gouvernement fédéral sur le point de s'entendre sur une tarification industrielle du carbone à 130 $/tonne d'ici 2040",
+      "ai_translated": true,
+      "category": [
+        "environment",
+        "federal_provincial",
+        "energy"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "smith-federal-confrontation",
+          "note": "Negotiated resolution after years of Smith-federal confrontation on carbon pricing."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-029",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-046",
+      "event_date": "2026-05-26",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Separatist leader organizes potential UCP leadership review over premier's pro-remain referendum stance",
+      "title_fr": "Un chef séparatiste organise un possible examen de la direction de l'UCP en raison de la position pro-maintien de la première ministre",
+      "ai_translated": true,
+      "category": [
+        "separatism",
+        "party_discipline",
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "smith-federal-confrontation",
+          "note": "Intra-party pressure following premier's federalist turn."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-029",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-045",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-047",
+      "event_date": "2025-11-14",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Investigation finds government's 3,000-teacher strike commitment was pre-existing budget allocation",
+      "title_fr": "Une enquête révèle que l'engagement de 3 000 enseignants était déjà prévu au budget",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "education",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "Post-settlement scrutiny of the strike resolution."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-036",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-048",
+      "event_date": "2023-05-17",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Party leader states candidate 'will not sit in caucus — that is final'; candidate wins and is later seated",
+      "title_fr": "La chef du parti déclare qu'une candidate « ne siégera pas au caucus — c'est définitif »; la candidate est élue puis admise",
+      "ai_translated": true,
+      "category": [
+        "party_discipline",
+        "lgbtq",
+        "election_interference"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-017",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-049",
+      "event_date": "2017-05-18",
+      "event_date_precision": "day",
+      "era": "pre2019",
+      "title_en": "Wildrose Party and Progressive Conservative Party merge to form United Conservative Party",
+      "title_fr": "Le Parti Wildrose et le Parti progressiste-conservateur fusionnent pour former le Parti conservateur uni",
+      "ai_translated": true,
+      "category": [
+        "party_discipline"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-006",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-050",
+      "event_date": "2013-07-16",
+      "event_date_precision": "month",
+      "era": "pre2019",
+      "title_en": "Federal government media protocols restrict scientists from speaking publicly without prior approval",
+      "title_fr": "Des protocoles médiatiques fédéraux empêchent les scientifiques de parler publiquement sans autorisation préalable",
+      "ai_translated": true,
+      "category": [
+        "science_suppression",
+        "media_suppression"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "science-suppression-federal",
+          "note": "Muzzling and library closures are concurrent mechanisms of the same pattern."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-001",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-004",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-051",
+      "event_date": "2019-05-13",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Province halts nurses' wage arbitration hearing day-of, pending financial review",
+      "title_fr": "La province arrête l'audition d'arbitrage salarial des infirmières le jour même, en attendant un examen financier",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "healthcare_privatization"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-007",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-052",
+      "event_date": "2019-06-26",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Province reinstates lower youth minimum wage of $13/hour for workers under 18",
+      "title_fr": "La province rétablit un salaire minimum inférieur de 13 $/h pour les travailleurs de moins de 18 ans",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-053",
+      "event_date": "2020-07-07",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Bill 32 passes restricting union fundraising, organizing, and political spending",
+      "title_fr": "Le projet de loi 32 est adopté, limitant le financement syndical, l'organisation et les dépenses politiques",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "constitutional_override"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-054",
+      "event_date": "2020-02-27",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Budget 2020 holds K-12 provincial funding flat while directing school boards to draw on reserves; post-secondary cut 6%",
+      "title_fr": "Le budget 2020 maintient le financement provincial K-12 sans changement tout en demandant aux conseils scolaires de puiser dans leurs réserves ; les études postsecondaires sont réduites de 6 %",
+      "ai_translated": true,
+      "category": [
+        "education",
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-038",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-055",
+      "event_date": "2021-03-30",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Government releases K-6 curriculum draft drawing criticism for age-inappropriate content and historical inaccuracies",
+      "title_fr": "Le gouvernement publie un projet de programme d'études de la maternelle à la 6e année critiqué pour son contenu inadapté à l'âge et ses inexactitudes historiques",
+      "ai_translated": true,
+      "category": [
+        "education",
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-056",
+      "event_date": "2022-05-18",
+      "event_date_precision": "day",
+      "era": "kenney",
+      "title_en": "Kenney receives 51.4% support in leadership review — below his own stated threshold — and resigns",
+      "title_fr": "Kenney obtient 51,4 % de soutien lors de la révision de la direction — sous son propre seuil déclaré — et démissionne",
+      "ai_translated": true,
+      "category": [
+        "party_discipline"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-015",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-065",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-057",
+      "event_date": "2022-10-06",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Danielle Smith elected UCP leader on sixth ballot, defeating Travis Toews",
+      "title_fr": "Danielle Smith est élue cheffe de l'UCP au sixième tour de scrutin, battant Travis Toews",
+      "ai_translated": true,
+      "category": [
+        "party_discipline"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-015",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-056",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-058",
+      "event_date": "2022-10-12",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Premier states unvaccinated people are 'most discriminated against group' she has witnessed; retracts next day",
+      "title_fr": "La première ministre déclare que les non-vaccinés sont le groupe « le plus discriminé » qu'elle ait jamais vu ; rétractation le lendemain",
+      "ai_translated": true,
+      "category": [
+        "party_discipline",
+        "lgbtq"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-015",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-059",
+      "event_date": "2022-12-06",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Province procures Turkish-manufactured medication at six times standard price; $49M of $70M contract unaccounted",
+      "title_fr": "La province achète des médicaments turcs à six fois le prix standard; 49 M$ sur 70 M$ du contrat restent inexpliqués",
+      "ai_translated": true,
+      "category": [
+        "fiscal",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-060",
+      "event_date": "2023-11-07",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Government announces restructuring of Alberta Health Services into four separate entities",
+      "title_fr": "Le gouvernement annonce la restructuration d'Alberta Health Services en quatre entités distinctes",
+      "ai_translated": true,
+      "category": [
+        "healthcare_privatization",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-061",
+      "event_date": "2024-01-23",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Premier appears alongside Tucker Carlson at Calgary event attended by approximately 4,000 people",
+      "title_fr": "La première ministre apparaît aux côtés de Tucker Carlson lors d'un événement à Calgary auquel participent environ 4 000 personnes",
+      "ai_translated": true,
+      "category": [
+        "democratic_interference",
+        "media_suppression"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-062",
+      "event_date": "2024-11-01",
+      "event_date_precision": "month",
+      "era": "smith",
+      "title_en": "Premier confirms meeting with Heritage Foundation officials following 2024 US election",
+      "title_fr": "La première ministre confirme avoir rencontré des représentants de la Heritage Foundation après les élections américaines de 2024",
+      "ai_translated": true,
+      "category": [
+        "federal_provincial",
+        "democratic_interference"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": []
+    },
+    {
+      "id": "EVT-063",
+      "event_date": "2025-04-03",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "United Nurses of Alberta ratifies 20% wage increase — six months before government calls 12% offer to teachers 'a good deal'",
+      "title_fr": "L'Association des infirmières ratifie une augmentation salariale de 20 %, six mois avant que le gouvernement qualifie de « bonne offre » 12 % pour les enseignants",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-047",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-064",
+      "event_date": "2025-04-22",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Province threatens to use provincial authority to remove Calgary and Edmonton bike lanes",
+      "title_fr": "La province menace d'utiliser son autorité provinciale pour supprimer les pistes cyclables de Calgary et d'Edmonton",
+      "ai_translated": true,
+      "category": [
+        "democratic_interference",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "alberta-municipal-override",
+          "note": "Follows Green Line withdrawal (EVT-034) in pattern of provincial override of municipal infrastructure decisions."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-034",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-065",
+      "event_date": "2025-10-23",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Premier announces intent to use notwithstanding clause four days before Back to School Act introduced",
+      "title_fr": "La première ministre annonce son intention d'invoquer la clause dérogatoire quatre jours avant le dépôt de la loi Retour à l'école",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "charter",
+        "constitutional_override"
+      ],
+      "claim_type": "fact",
+      "needs_verification": null,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "ata-teachers-strike-2025",
+          "note": "Four-day warning before EVT-036 (Back to School Act)."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-036",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-022",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-066",
+      "event_date": "2022-12-08",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Alberta Sovereignty Within a United Canada Act passes 27-7 after cabinet powers stripped by amendment",
+      "title_fr": "La loi sur la souveraineté de l'Alberta dans un Canada uni est adoptée 27-7 après la suppression des pouvoirs du cabinet",
+      "ai_translated": true,
+      "category": [
+        "constitutional_override",
+        "democratic_interference",
+        "federal_provincial"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "smith-federal-confrontation",
+          "note": "Sovereignty Act is the centrepiece of Smith's confrontational approach to federal jurisdiction."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-029",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-045",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-067",
+      "event_date": "2025-01-29",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Government creates Crown corporation to grow Heritage Fund to $250B; hires Stephen Harper as AIMCo chair",
+      "title_fr": "Le gouvernement crée une société d'État pour faire croître le Fonds du patrimoine à 250 G$ ; embauche Stephen Harper à la tête de l'AIMCo",
+      "ai_translated": true,
+      "category": [
+        "fiscal",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-026",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-068",
+      "event_date": "2025-02-06",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Auditor general launches investigation into AHS procurement following termination of CEO who had sought to meet with auditor",
+      "title_fr": "Le vérificateur général lance une enquête sur les marchés d'AHS après le congédiement de la PDG qui cherchait à le rencontrer",
+      "ai_translated": true,
+      "category": [
+        "healthcare_privatization",
+        "accountability",
+        "transparency"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-059",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-060",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-069",
+      "event_date": "2025-10-01",
+      "event_date_precision": "month",
+      "era": "smith",
+      "title_en": "Alberta minimum wage becomes lowest in Canada after seven years frozen; NDP tables bill to increase it",
+      "title_fr": "Le salaire minimum de l'Alberta devient le plus bas au Canada après sept ans de gel ; le NPD dépose un projet de loi pour l'augmenter",
+      "ai_translated": true,
+      "category": [
+        "labour",
+        "fiscal"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-052",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-070",
+      "event_date": "2024-04-10",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Province introduces Bill 18 requiring provincial approval before federal funding reaches municipalities, universities, and health authorities",
+      "title_fr": "La province présente le projet de loi 18 exigeant l'approbation provinciale avant que le financement fédéral n'atteigne les municipalités, universités et autorités sanitaires",
+      "ai_translated": true,
+      "category": [
+        "democratic_interference",
+        "federal_provincial",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "alberta-municipal-override",
+          "note": "Bill 18 extends provincial override of municipal affairs from infrastructure (Green Line, bike lanes) to all federal funding streams."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-064",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-066",
+          "note": null
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-034",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "EVT-071",
+      "event_date": "2026-05-12",
+      "event_date_precision": "day",
+      "era": "smith",
+      "title_en": "Province formally announces legislation to review and remove bike lanes, following Ontario model struck down by courts",
+      "title_fr": "La province annonce formellement une loi pour examiner et supprimer les pistes cyclables, suivant le modèle ontarien invalidé par les tribunaux",
+      "ai_translated": true,
+      "category": [
+        "democratic_interference",
+        "accountability"
+      ],
+      "claim_type": "fact",
+      "needs_verification": false,
+      "community_can_verify": false,
+      "url_status": "live",
+      "relations": [
+        {
+          "type": "part_of_thread",
+          "target_id": null,
+          "thread_id": "alberta-municipal-override",
+          "note": "Formal legislation follows two years of pressure (EVT-064 April 2025, summer 2025 Edmonton standoff)."
+        },
+        {
+          "type": "concurrent_with",
+          "target_id": "EVT-064",
+          "note": null
+        }
+      ]
+    }
+  ]
+}

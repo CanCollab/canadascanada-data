@@ -1,0 +1,75 @@
+{
+  "id": "EVT-044",
+  "schema_version": "2.0.0",
+  "event_date": "2025-10-14",
+  "event_date_precision": "day",
+  "date_notes": "Mediation resumed October 14 2025 per ATA source (ev_037). Talks broke down without resolution; Bill 2 announced October 23.",
+  "title_en": "Negotiations resume with mediator during strike — talks fail",
+  "title_fr": "Les négociations reprennent avec un médiateur pendant la grève — les pourparlers échouent",
+  "ai_translated": true,
+  "description_en": "Negotiations between the ATA and TEBA resume with a mediator on October 14 2025, eight days into the combined strike and lockout. The mediated talks fail to produce a settlement. On October 23 — nine days after mediation resumed — Premier Smith announces that the government will fast-track back-to-work legislation and invoke the notwithstanding clause. The failure of mediation is the proximate trigger for the legislative response.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Teachers' Association",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "ev_037-PENDING"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Failed mediation directly precedes government legislative response."
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-043",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-036",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Confirm ATA source URL is live. Oct 14 mediation resume date and Oct 23 Smith announcement need confirmation.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "note": "Event created for strike lead-up thread."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

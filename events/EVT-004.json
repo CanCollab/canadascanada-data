@@ -1,0 +1,50 @@
+{
+  "id": "EVT-004",
+  "schema_version": "2.0.0",
+  "event_date": "2012-04-01",
+  "event_date_precision": "month",
+  "date_notes": "Closures confirmed spring 2012; exact date of final closure varies by library location.",
+  "title_en": "Federal government closes majority of fisheries research libraries",
+  "title_fr": "Le gouvernement fédéral ferme la majorité des bibliothèques de recherche halieutique",
+  "ai_translated": true,
+  "description_en": "The Department of Fisheries and Oceans closes 7 of 9 regional research libraries. Scientists and librarians reported loss of irreplaceable materials. Documented as a science-information event of the Harper period.",
+  "description_fr": null,
+  "era": "pre2019",
+  "category": [
+    "science_suppression"
+  ],
+  "claim_type": "fact",
+  "inference_note": "INFERENCE (project framing — labelled as such in UI): the federal-era pattern of constraining public science and information is presented as upstream context for later health-skepticism in Alberta. This is a reasoned connection, not an established causal fact.",
+  "actors": [
+    {
+      "display_role": "Department of Fisheries and Oceans",
+      "name": null,
+      "party": "Conservative",
+      "jurisdiction": "federal"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-001"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-003",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

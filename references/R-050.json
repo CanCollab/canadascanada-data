@@ -1,0 +1,19 @@
+{
+  "id": "R-050",
+  "schema_version": "2.0.0",
+  "title": "Elections Alberta issues cease-and-desist letters over voter info breach, privacy commissioner launches probe",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-news",
+  "section": "Edmonton",
+  "author": "Wallis Snowdon",
+  "publication_date": "2026-05-07",
+  "url": "https://www.cbc.ca/news/canada/edmonton/centurion-project-alberta-voters-list-leak-9.7191390",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "FACTUAL ANCHOR for EVT-028 (Centurion Project). Court of King's Bench temporary injunction granted ~Apr 30 2026; database of ~2.9M voters taken down; cease-and-desist to 568 people (23 who received list + 545 who accessed); permanent-injunction hearing set late July; privacy commissioner (McLeod) investigating under PIPA s.36(1)(a); RCMP parallel investigation. List sourced from Republican Party of Alberta's legitimately-issued copy, used by Centurion (third-party advertiser) in unauthorized manner. Justice Thomas Rothwell.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

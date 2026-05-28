@@ -1,0 +1,44 @@
+{
+  "id": "EVT-027",
+  "schema_version": "2.0.0",
+  "event_date": "2026-03-31",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Education bill restricts flags and prescribed content in school classrooms",
+  "title_fr": "Un projet de loi sur l'éducation restreint les drapeaux et le contenu prescrit dans les salles de classe",
+  "ai_translated": true,
+  "description_en": "Education legislation restricts which flags may be displayed in schools (limiting to Alberta and Canadian flags) and restricts prescribed ideological content, framed by the government as removing politics from classrooms.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_interference"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-015"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

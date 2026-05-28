@@ -1,0 +1,51 @@
+{
+  "id": "EVT-024",
+  "schema_version": "2.0.0",
+  "event_date": "2025-11-20",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Legislature passes law removing mandatory Indigenous training requirement for professionals",
+  "title_fr": "La législature adopte une loi supprimant l'obligation de formation autochtone pour les professionnels",
+  "ai_translated": true,
+  "description_en": "The Regulated Professions Neutrality Act removes the Law Society's ability to mandate Indigenous cultural-competency training (The Path), which is tied to TRC Call to Action #27.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "lgbtq",
+    "charter"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-012"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-020",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

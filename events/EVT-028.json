@@ -1,0 +1,69 @@
+{
+  "id": "EVT-028",
+  "schema_version": "2.0.0",
+  "event_date": "2026-04-30",
+  "event_date_precision": "day",
+  "date_notes": "Court of King's Bench granted Elections Alberta a temporary injunction April 30 2026. Permanent-injunction hearing set for late July 2026. Cease-and-desist letters issued May 6-7 2026.",
+  "title_en": "Court orders separatist group to remove searchable database of 2.9 million voters' data",
+  "title_fr": "Un tribunal ordonne à un groupe séparatiste de retirer une base de données consultable de 2,9 millions d'électeurs",
+  "ai_translated": true,
+  "description_en": "A Court of King's Bench judge grants Elections Alberta a temporary injunction ordering the Centurion Project — a pro-sovereignty group registered as a third-party advertiser — to take down a publicly searchable database containing the names, home addresses, phone numbers and elector IDs of approximately 2.9 million Albertans. Elections Alberta states the data originated from the List of Electors legitimately issued to the Republican Party of Alberta and was then used by the Centurion Project in a manner the agency says was unauthorized; third-party advertisers are not eligible to receive the List of Electors. The RCMP opens a parallel investigation and Alberta's Information and Privacy Commissioner launches an investigation under PIPA. Elections Alberta issues cease-and-desist letters to 568 people (23 who received the list and 545 who accessed it). A permanent-injunction hearing is set for late July 2026.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "election_interference",
+    "privacy"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Court of King's Bench of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Chief Electoral Officer / Elections Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-050",
+    "R-052"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "alberta-voter-privacy",
+      "note": null
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-035",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-029",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "RESCOPED from vague 'voter-data injunction' to the documented Centurion Project breach. Injunction is now a CONFIRMED FACT (R-050, CBC, Apr 30 2026 temp injunction; permanent hearing late July). R-052 (Tyee/Climenhaga opinion) = context only. RECOMMENDED: attach the two Elections Alberta primary releases (Apr 30 2026, Tier 1) when harvested — currently locatable via R-053 (Factsmtr finding-tool). 'Centurion Project' name now sourced. R-020 (Substack) and the prior unconfirmed R-021 link removed. STAGED for later: UCP caucus-staff meeting + Kenney doxxing (EVT-NEW-centurion-ucp-link, via R-052) and 10xVotes/foreign-influence angle (EVT-NEW-centurion-foreign, via R-051) — do not merge without their own EVT records.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

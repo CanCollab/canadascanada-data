@@ -1,0 +1,76 @@
+{
+  "id": "EVT-047",
+  "schema_version": "2.0.0",
+  "event_date": "2025-11-14",
+  "event_date_precision": "day",
+  "date_notes": "CBC investigation published Nov 14 2025, ~3 weeks after Back to School Act (EVT-036).",
+  "title_en": "Investigation finds government's 3,000-teacher strike commitment was pre-existing budget allocation",
+  "title_fr": "Une enquête révèle que l'engagement de 3 000 enseignants était déjà prévu au budget",
+  "ai_translated": true,
+  "description_en": "A CBC News investigation reports that the government's commitment to fund 3,000 new teaching positions — presented during the teachers' strike as a new concession and enshrined in the Back to School Act — had already been allocated in the 2025-26 provincial budget passed in March 2025, before the strike began. The budget allocated $750 million for this purpose.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Education Minister",
+      "name": "Demetrios Nicolaides",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": {
+    "actor": "NDP Education Critic",
+    "name": "Amanda Chapman",
+    "response_en": "Chapman states the government was 'misleading' as most Albertans would not have known the hiring was already budgeted.",
+    "source_ref": "R-060"
+  },
+  "source_refs": [
+    "R-060"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "target_id": null,
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Post-settlement scrutiny of the strike resolution."
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-036",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Add 2025-26 Alberta budget (Tier 1) as a future R-064 to confirm $750M allocation date directly.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": "Created from R-060. DID side of SD-016."
+    }
+  ],
+  "claim_contested_by": [
+    {
+      "counter_claim": "Education ministry states the 3,000 positions, while budget-funded, represent real new hiring commitments.",
+      "source_ref": "R-060",
+      "counter_claim_type": "government-statement"
+    }
+  ],
+  "comparison": null,
+  "said_did_ref": "SD-016",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

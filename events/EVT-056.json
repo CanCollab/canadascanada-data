@@ -1,0 +1,64 @@
+{
+  "id": "EVT-056",
+  "schema_version": "2.0.0",
+  "event_date": "2022-05-18",
+  "event_date_precision": "day",
+  "date_notes": "Review vote May 18 2022; resignation announced May 19.",
+  "title_en": "Kenney receives 51.4% support in leadership review — below his own stated threshold — and resigns",
+  "title_fr": "Kenney obtient 51,4 % de soutien lors de la révision de la direction — sous son propre seuil déclaré — et démissionne",
+  "ai_translated": true,
+  "description_en": "Jason Kenney receives 51.4% support in the UCP leadership review — 17,638 yes votes, 16,660 no, from 34,298 mail-in ballots. Though technically sufficient to continue, Kenney states 'it clearly is not adequate support' and announces his resignation as party leader. He asks that a leadership election be scheduled as soon as possible. Danielle Smith issues a statement the same evening hinting at her leadership bid.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "party_discipline"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Jason Kenney",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-071"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-015",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-065",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": null,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    },
+    {
+      "date": "2026-05-27",
+      "note": "R-071 URL confirmed. Specific vote numbers added from article (17,638/16,660/34,298). Single-source flag removed."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

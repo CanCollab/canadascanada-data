@@ -1,0 +1,64 @@
+{
+  "id": "EVT-048",
+  "schema_version": "2.0.0",
+  "event_date": "2023-05-17",
+  "event_date_precision": "day",
+  "date_notes": "Smith's 'final' statement May 17 2023; Johnson won Lacombe-Ponoka May 29 2023 (~70%); caucus seating post-election (confirm exact date from R-058).",
+  "title_en": "Party leader states candidate 'will not sit in caucus — that is final'; candidate wins and is later seated",
+  "title_fr": "La chef du parti déclare qu'une candidate « ne siégera pas au caucus — c'est définitif »; la candidate est élue puis admise",
+  "ai_translated": true,
+  "description_en": "The UCP leader states that candidate Jennifer Johnson 'will not be sitting with the UCP caucus. And that is final.' Johnson had compared transgender children in schools to feces in a cookie-batter analogy in a September 2022 recording. Johnson wins the Lacombe-Ponoka riding on May 29 2023 with approximately 70% of the vote. The Legislative Assembly record confirms Johnson was subsequently seated in the UCP caucus, later resigned, and was later readmitted.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "party_discipline",
+    "lgbtq",
+    "election_interference"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "UCP Leader",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "UCP Candidate, Lacombe-Ponoka",
+      "name": "Jennifer Johnson",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-063",
+    "R-058"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-017",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Confirm exact caucus seating date from R-058 legislative record. CityNews election-night article recommended as future R-065.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": "Created from R-063 + R-058. SD-017 attached."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": "SD-017",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

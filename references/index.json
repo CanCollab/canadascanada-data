@@ -1,0 +1,1032 @@
+{
+  "meta": {
+    "schema_version": "2.0.0",
+    "schema": "references-index",
+    "project": "CanadaScanada",
+    "last_updated": "2026-05-27",
+    "ref_count": 102,
+    "source_version": "references v1.0.0"
+  },
+  "references": [
+    {
+      "id": "R-001",
+      "outlet_id": "the-tyee",
+      "outlet": "The Tyee",
+      "publication_date": "2013-12-09",
+      "url": "https://thetyee.ca/News/2013/12/09/Dismantling-Fishery-Library/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-002",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2012-04-04",
+      "url": "https://www.cbc.ca/news/canada/cbc-cuts-jobs-programming-1.1172870",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-003",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2019-07-18",
+      "url": "https://www.cbc.ca/news/canada/edmonton/ernst-young-wins-2m-contract-to-review-alberta-health-services-1.5217051",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-004",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2019-08-01",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-government-kills-superlab-project-1.5183546",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-005",
+      "outlet_id": "globe-and-mail",
+      "outlet": "The Globe and Mail",
+      "publication_date": "2023-08-19",
+      "url": "https://www.theglobeandmail.com/canada/alberta/article-alberta-moves-to-de-privatize-community-lab-tests-in-face-of-long/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-006",
+      "outlet_id": "alberta-politics-ca",
+      "outlet": "AlbertaPolitics.ca",
+      "publication_date": "2023-08-19",
+      "url": "https://albertapolitics.ca/2023/08/united-conservative-party-nationalizes-privatized-medical-lab-services-who-saw-that-coming/",
+      "url_status": "live",
+      "tier": 4,
+      "verified": true
+    },
+    {
+      "id": "R-007",
+      "outlet_id": "global-news",
+      "outlet": "Global News",
+      "publication_date": "2025-11-01",
+      "url": "https://globalnews.ca/news/11533997/alberta-auditor-general-dynalife-ucp/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-008",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-08-01",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-government-changes-expense-disclosure-policy-removes-eight-years-of-records-1.7604279",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-009",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-10-03",
+      "url": "https://www.cbc.ca/news/canada/edmonton/teachers-refuse-talks-pupil-teacher-ratio-government-9.6942998",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-010",
+      "outlet_id": "global-news",
+      "outlet": "Global News",
+      "publication_date": "2025-10-28",
+      "url": "https://globalnews.ca/news/11497842/alberta-passes-bill-end-teacher-strike/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-011",
+      "outlet_id": "the-tyee",
+      "outlet": "The Tyee",
+      "publication_date": "2025-12-10",
+      "url": "https://thetyee.ca/News/2025/12/10/Jordan-Peterson-School/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-012",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-03-20",
+      "url": "https://www.cbc.ca/news/canada/calgary/alberta-jordan-peterson-the-path-alberta-law-society-9.7136398",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-013",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-12-01",
+      "url": "https://www.cbc.ca/news/canada/calgary/alberta-bill-late-reading-9.7009893",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-014",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-03-26",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-budget-day-2026-9.7106223",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-015",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-03-31",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-education-bill-ideology-politics-classroom-9.7148982",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-016",
+      "outlet_id": "rabble-ca",
+      "outlet": "Rabble.ca",
+      "publication_date": "2024-01-01",
+      "url": "https://rabble.ca/politics/canadian-politics/danielle-smith-distances-herself-from-coutts-defendants/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-017",
+      "outlet_id": "rcmp",
+      "outlet": "RCMP",
+      "publication_date": "2022-02-14",
+      "url": "",
+      "url_status": "dead",
+      "tier": 1,
+      "verified": false
+    },
+    {
+      "id": "R-018",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-05-22",
+      "url": "https://www.cbc.ca/news/canada/calgary/for-danielle-smith-and-alberta-separatists-no-clear-path-left-for-referendum-after-court-loss-9.7200286",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-019",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2023-05-29",
+      "url": "https://www.cbc.ca/news/canada/edmonton/danielle-smith-leads-ucp-to-alberta-majority-government-1.6853380",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-020",
+      "outlet_id": "factsmtr-substack",
+      "outlet": "factsmtr (Substack)",
+      "publication_date": "2026-01-01",
+      "url": "https://open.substack.com/pub/factsmtr/p/what-is-the-centurion-project-and",
+      "url_status": "unverified",
+      "tier": 4,
+      "verified": false
+    },
+    {
+      "id": "R-021",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-04-01",
+      "url": "https://www.cbc.ca/news/canada/edmonton/nally-elections-alberta-letter-9.7145214",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-022",
+      "outlet_id": "calgary-herald",
+      "outlet": "Calgary Herald",
+      "publication_date": "2022-02-01",
+      "url": "https://calgaryherald.com/news/local-news/no-arrests-yet-as-tensions-rise-at-coutts-border-blockade",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-023",
+      "outlet_id": "press-progress",
+      "outlet": "PressProgress",
+      "publication_date": "2022-02-07",
+      "url": "https://pressprogress.ca/we-want-to-see-it-win-in-coutts",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-024",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2019-06-19",
+      "url": "https://www.cbc.ca/news/canada/edmonton/premier-jason-kenney-earplug-stunt-1.5183189",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-025",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2019-04-16",
+      "url": "https://www.cbc.ca/news/canada/edmonton/promise-tracker-election-vowing-alberta-ndp-ucp-1.5063983",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-026",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-10-12",
+      "url": "https://www.cbc.ca/news/canada/morning-brief-october-12-2022-1.6612344",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-027",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-02-01",
+      "url": "https://www.cbc.ca/news/canada/trucker-freedom-convoy-new-normal-1.6355574",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-028",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-02-07",
+      "url": "https://www.cbc.ca/news/canada/calgary/blockade-alberta-economic-impact-1.6336923",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-029",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2024-01-01",
+      "url": "https://www.cbc.ca/news/canada/calgary/trio-found-guilty-of-mischief-for-roles-in-2022-coutts-border-blockade-1.7176001",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-030",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-10-06",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-teachers-vote-new-offer-strike-1.7646216",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-031",
+      "outlet_id": "radio-canada",
+      "outlet": "Radio-Canada / RCI",
+      "publication_date": "2025-10-28",
+      "url": "https://ici.radio-canada.ca/rci/en/news/2201712/back-to-work-legislation-coming-to-end-the-alberta-teachers-strike",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-032",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-11-01",
+      "url": "https://www.cbc.ca/news/canada/calgary/analysis-ucp-convention-alberta-danielle-smith-separatists-boo-9.6998259",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-033",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-11-01",
+      "url": "https://www.cbc.ca/news/canada/calgary/ucp-convention-policy-resolutions-9.6974200",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-034",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-03-01",
+      "url": "https://www.cbc.ca/news/canada/calgary/kenney-recording-ucp-alberta-leadership-review-staff-1.6396647",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-035",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-05-18",
+      "url": "https://www.cbc.ca/news/canada/edmonton/jason-kenney-resignation-ucp-alberta-1.6459124",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-036",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2023-05-30",
+      "url": "https://www.cbc.ca/news/canada/edmonton/what-happened-in-the-alberta-election-here-s-what-the-numbers-say-1.6862401",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-037",
+      "outlet_id": "parkland-institute",
+      "outlet": "Parkland Institute",
+      "publication_date": "2020-01-01",
+      "url": "https://www.parklandinstitute.ca/job_creation_or_job_loss",
+      "url_status": "live",
+      "tier": 3,
+      "verified": true
+    },
+    {
+      "id": "R-038",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-04-01",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-judge-proposed-referendum-unconstitutional-9.7004982",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-039",
+      "outlet_id": "ctv-news",
+      "outlet": "CTV News Calgary",
+      "publication_date": "2022-11-01",
+      "url": "https://calgary.ctvnews.ca/article/danielle-smith-comments-suggest-she-wants-freedoms-like-desantis-and-noem/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-040",
+      "outlet_id": "government-of-alberta",
+      "outlet": "Government of Alberta",
+      "publication_date": "2021-12-10",
+      "url": "https://www.alberta.ca/release.cfm?xID=817041FC9D3C0-0165-84E6-A359FE5D1E08DE10",
+      "url_status": "unverified",
+      "tier": 1,
+      "verified": false
+    },
+    {
+      "id": "R-041",
+      "outlet_id": "statistics-canada",
+      "outlet": "Statistics Canada",
+      "publication_date": "2022-01-07",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/220107/dq220107a-eng.htm",
+      "url_status": "unverified",
+      "tier": 1,
+      "verified": false
+    },
+    {
+      "id": "R-042",
+      "outlet_id": "albertaworker-ca",
+      "outlet": "Alberta Worker",
+      "publication_date": "2021-12-15",
+      "url": "https://albertaworker.ca/news/what-whitney-issik-left-out-about-women-workers/",
+      "url_status": "unverified",
+      "tier": 4,
+      "verified": false
+    },
+    {
+      "id": "R-043",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2023-07-31",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-professional-racialized-women-challenges-1.6919439",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-044",
+      "outlet_id": "global-news",
+      "outlet": "Global News",
+      "publication_date": "2024-02-01",
+      "url": "https://globalnews.ca/news/10266388/danielle-smith-alberta-parental-rights-transgender-kids-policy/",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-045",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2024-12-04",
+      "url": "https://www.cbc.ca/news/canada/calgary/alberta-legislation-on-transgender-youth-student-pronouns-and-sex-education-set-to-become-law-1.7400669",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-046",
+      "outlet_id": "global-news",
+      "outlet": "Global News",
+      "publication_date": "2024-09-11",
+      "url": "https://globalnews.ca/news/10761323/calgary-wind-down-green-line-lrt-costs/",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-047",
+      "outlet_id": "transport-action-prairie",
+      "outlet": "Transport Action Prairie",
+      "publication_date": "2024-10-01",
+      "url": "https://prairie.transportaction.ca/news/green-line-lrt-project-undergoes-upheaval/",
+      "url_status": "unverified",
+      "tier": 3,
+      "verified": false
+    },
+    {
+      "id": "R-048",
+      "outlet_id": "government-of-alberta",
+      "outlet": "Government of Alberta",
+      "publication_date": "2026-01-01",
+      "url": "https://albertareferendum2026.ca/faqs/",
+      "url_status": "live",
+      "tier": 1,
+      "verified": true
+    },
+    {
+      "id": "R-049",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-03-27",
+      "url": "https://www.cbc.ca/news/canada/edmonton/nally-elections-alberta-letter-9.7145214",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-050",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-05-07",
+      "url": "https://www.cbc.ca/news/canada/edmonton/centurion-project-alberta-voters-list-leak-9.7191390",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-051",
+      "outlet_id": "pressprogress",
+      "outlet": "PressProgress",
+      "publication_date": "2026-05-01",
+      "url": "https://pressprogress.ca/alberta-separatist-groups-controversial-voter-id-app-has-links-to-us-ambassador-maga-influencers-and-wealthy-michigan-republicans/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-052",
+      "outlet_id": "the-tyee",
+      "outlet": "The Tyee",
+      "publication_date": "2026-05-06",
+      "url": "https://thetyee.ca/Opinion/2026/05/06/Centurion-Project-Data-Breach-Scandal-Ensnares-UCP/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-053",
+      "outlet_id": "factsmtr",
+      "outlet": "Factsmtr (Substack)",
+      "publication_date": "2026-05-01",
+      "url": "https://factsmtr.substack.com/p/what-is-the-centurion-project-and",
+      "url_status": "live",
+      "tier": 4,
+      "verified": true
+    },
+    {
+      "id": "R-054",
+      "outlet_id": "albertapolitics",
+      "outlet": "AlbertaPolitics.ca",
+      "publication_date": "2026-05-01",
+      "url": "https://albertapolitics.ca/2026/05/massive-list-of-electors-data-breach-was-inevitable-the-ucps-law-bending-style-of-politics-made-it-so/",
+      "url_status": "live",
+      "tier": 4,
+      "verified": true
+    },
+    {
+      "id": "R-055",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-08-21",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-reverts-expense-reporting-rules-1.7614892",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-056",
+      "outlet_id": "ctv-news",
+      "outlet": "CTV News",
+      "publication_date": "2019-06-20",
+      "url": "https://www.ctvnews.ca/canada/article/alberta-premier-hands-out-earplugs-during-debate-on-bill-affecting-union-rights/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-057",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-09-09",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-says-teachers-have-rejected-a-good-deal-as-bargaining-stalemate-continues-1.7628788",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-058",
+      "outlet_id": "alberta-legislature",
+      "outlet": "Legislative Assembly of Alberta",
+      "publication_date": null,
+      "url": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0972&legl=31&from=mla_home",
+      "url_status": "live",
+      "tier": 1,
+      "verified": true
+    },
+    {
+      "id": "R-059",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-05-13",
+      "url": "https://www.cbc.ca/news/politics/alberta-mou-carbon-pricing-9.7197919",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-060",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-11-14",
+      "url": "https://www.cbc.ca/news/canada/edmonton/3000-more-teachers-alberta-strike-government-budget-classrooms-9.6979495",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-061",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-05-26",
+      "url": "https://www.cbc.ca/news/canada/calgary/alberta-separatist-leader-planning-to-challenge-danielle-smith-s-leadership-or-change-referendum-question-9.7212732",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-062",
+      "outlet_id": "airdrie-city-view",
+      "outlet": "Airdrie City View",
+      "publication_date": "2025-10-15",
+      "url": "https://www.airdriecityview.com/local-news/tracing-the-timeline-of-albertas-historic-teachers-strike-11355870",
+      "url_status": "live",
+      "tier": 3,
+      "verified": true
+    },
+    {
+      "id": "R-063",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2023-05-17",
+      "url": "https://www.cbc.ca/news/canada/edmonton/ucp-candidate-will-not-sit-in-caucus-if-elected-after-comments-on-transgender-children-smith-1.6847252",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-064",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2017-05-18",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-wildrose-pc-conservatives-merger-1.4121473",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-065",
+      "outlet_id": "nature-journal",
+      "outlet": "Nature",
+      "publication_date": "2013-07-16",
+      "url": "https://www.nature.com/news/canadian-scientists-push-for-freedom-to-speak-1.13332",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-066",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2019-05-14",
+      "url": "https://www.cbc.ca/news/canada/edmonton/ucp-halts-nurses-wage-talks-citing-ongoing-review-of-alberta-s-finances-1.5135834",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-067",
+      "outlet_id": "global-news",
+      "outlet": "Global News",
+      "publication_date": "2019-06-26",
+      "url": "https://globalnews.ca/news/5434502/lower-minimum-wage-alberta-youth/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-068",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2020-07-07",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-bill-32-workplace-unions-1.5640952",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-069",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2020-02-28",
+      "url": "https://www.cbc.ca/news/canada/edmonton/education-budget-2020-alberta-1.5479043",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-070",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2021-03-30",
+      "url": "https://www.cbc.ca/news/canada/edmonton/proposed-alberta-curriculum-baffles-parents-sparks-protests-1.5970643",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-071",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-05-17",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-premier-jason-kenney-resigning-as-ucp-leader-despite-narrow-win-in-leadership-review-1.6457221",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-072",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-10-12",
+      "url": "https://www.cbc.ca/player/play/video/1.6613358",
+      "url_status": "live",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-073",
+      "outlet_id": "edmonton-journal",
+      "outlet": "Edmonton Journal",
+      "publication_date": "2022-12-06",
+      "url": "https://edmontonjournal.com/news/politics/alberta-fulfilling-2022-70m-contract-turkish-drug-manufacturer",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-074",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2023-11-07",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-health-care-changes-1.7022133",
+      "url_status": "live",
+      "tier": 1,
+      "verified": true
+    },
+    {
+      "id": "R-075",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2024-01-23",
+      "url": "https://www.cbc.ca/news/canada/calgary/tucker-carlson-danielle-smith-calgary-analysis-1.7094117",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-076",
+      "outlet_id": "una-alberta",
+      "outlet": "United Nurses of Alberta",
+      "publication_date": "2025-04-03",
+      "url": "https://una.ca/1280/una-ratifies-four-year-agreement",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-077",
+      "outlet_id": "canadian-press",
+      "outlet": "The Canadian Press",
+      "publication_date": "2025-04-22",
+      "url": "https://canada.constructconnect.com/joc/news/government/2025/04/alberta-transportation-minister-wants-bike-lanes-gone-critics-say-stay-in-your-lane",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-078",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-10-23",
+      "url": "https://www.cbc.ca/news/canada/edmonton/back-to-work-legislation-to-end-alberta-teachers-strike-coming-monday-says-premier-9.6949884",
+      "url_status": "live",
+      "tier": 1,
+      "verified": true
+    },
+    {
+      "id": "R-079",
+      "outlet_id": "desmog",
+      "outlet": "DeSmog",
+      "publication_date": "2024-10-14",
+      "url": "https://www.desmog.com/2025/10/14/danielle-smith-met-with-heritage-foundation/",
+      "url_status": "live",
+      "tier": 3,
+      "verified": true
+    },
+    {
+      "id": "R-080",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-10-06",
+      "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-ucp-leader-alberta-1.6607511",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-081",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-10-12",
+      "url": "https://www.cbc.ca/news/canada/calgary/smith-covid-vaccines-discrimination-minority-communities-1.6613920",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-082",
+      "outlet_id": "the-tyee",
+      "outlet": "The Tyee",
+      "publication_date": "2025-10-14",
+      "url": "https://thetyee.ca/News/2025/10/14/Smith-Reveals-Meeting-Heritage-Foundation/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-083",
+      "outlet_id": "rabble-ca",
+      "outlet": "Rabble",
+      "publication_date": "2024-06-17",
+      "url": "https://rabble.ca/politics/canadian-politics/danielle-smith-seeks-to-use-heritage-fund-savings-to-prop-up-fossil-fuel-industry/",
+      "url_status": "live",
+      "tier": 3,
+      "verified": true
+    },
+    {
+      "id": "R-084",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-01-29",
+      "url": "https://www.cbc.ca/news/canada/calgary/ab-government-politics-heritage-fund-1.7444548",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-085",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2019-07-03",
+      "url": "https://www.cbc.ca/news/canada/calgary/public-sector-protests-calgary-hospital-union-aupe-provincial-alberta-1.5198805",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-086",
+      "outlet_id": "government-of-canada",
+      "outlet": "Government of Canada",
+      "publication_date": null,
+      "url": "https://minwage-salairemin.service.canada.ca/en/since1965.html",
+      "url_status": "live",
+      "tier": 1,
+      "verified": true
+    },
+    {
+      "id": "R-087",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-10-30",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-ndp-minimum-wage-bill-9.6961053",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-088",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2020-07-07",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-bill-32-workplace-unions-1.5640952",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-089",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2020-03-28",
+      "url": "https://www.cbc.ca/news/canada/edmonton/funding-reduction-alberta-k-12-covid-1.5513803",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-090",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2020-10-21",
+      "url": "https://www.cbc.ca/news/canada/edmonton/education-experts-slam-leaked-alberta-curriculum-proposals-1.5766570",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-091",
+      "outlet_id": "ctv-news",
+      "outlet": "CTV News",
+      "publication_date": "2021-04-13",
+      "url": "https://www.ctvnews.ca/calgary/article/more-alberta-school-divisions-decide-not-to-pilot-new-k-6-draft-curriculum/",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-092",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-03-10",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-health-minister-says-children-s-pain-meds-from-turkey-are-safe-for-patients-overseas-1.7479616",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-093",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2025-02-06",
+      "url": "https://www.cbc.ca/news/canada/edmonton/auditor-general-investigation-ahs-1.7452622",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-094",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2023-11-08",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-health-care-changes-1.7022133",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-095",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2022-12-08",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-sovereignty-act-1.6678407",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-096",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2024-04-01",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-bill-requiring-provincial-approval-of-federal-funding-risks-political-meddling-academics-say-1.7171488",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-097",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2024-04-01",
+      "url": "https://www.cbc.ca/news/canada/edmonton/flanagan-bill-18-1.7196499",
+      "url_status": "unverified",
+      "tier": 2,
+      "verified": false
+    },
+    {
+      "id": "R-098",
+      "outlet_id": "livewire-calgary",
+      "outlet": "LiveWire Calgary",
+      "publication_date": "2024-04-10",
+      "url": "https://livewirecalgary.com/2024/04/10/bill-18-federal-provincial-funding-cities-calgary/",
+      "url_status": "live",
+      "tier": 3,
+      "verified": true
+    },
+    {
+      "id": "R-099",
+      "outlet_id": "the-tyee",
+      "outlet": "The Tyee",
+      "publication_date": "2024-11-04",
+      "url": "https://thetyee.ca/Analysis/2024/11/04/Parents-Pain-Alberta-Parental-Rights-Law/",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    },
+    {
+      "id": "R-100",
+      "outlet_id": "alberta-legislature",
+      "outlet": "Legislative Assembly of Alberta",
+      "publication_date": "2020-07-07",
+      "url": "https://docs.assembly.ab.ca/LADDAR_files/docs/bills/bill/legislature_30/session_2/20200225_bill-032.pdf",
+      "url_status": "live",
+      "tier": 1,
+      "verified": true
+    },
+    {
+      "id": "R-101",
+      "outlet_id": "lawofwork-ca",
+      "outlet": "Canadian Law of Work Forum",
+      "publication_date": "2022-01-05",
+      "url": "https://lawofwork.ca/albertaregs/",
+      "url_status": "live",
+      "tier": 3,
+      "verified": true
+    },
+    {
+      "id": "R-102",
+      "outlet_id": "cbc-news",
+      "outlet": "CBC News",
+      "publication_date": "2026-05-12",
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-government-bike-lanes-legislation-9.7195867",
+      "url_status": "live",
+      "tier": 2,
+      "verified": true
+    }
+  ]
+}

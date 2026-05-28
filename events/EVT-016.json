@@ -1,0 +1,62 @@
+{
+  "id": "EVT-016",
+  "schema_version": "2.0.0",
+  "event_date": "2023-02-01",
+  "event_date_precision": "month",
+  "date_notes": "Wait-time issues reported across early-mid 2023. Using earliest confirmed reporting month.",
+  "title_en": "Extended wait times documented for privately operated Calgary lab services",
+  "title_fr": "Des délais d'attente prolongés documentés pour les services de laboratoire privés de Calgary",
+  "ai_translated": true,
+  "description_en": "Reporting documents extended wait times and booking delays for routine lab work in the Calgary zone under private operation.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization"
+  ],
+  "claim_type": "context",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "DynaLife (private lab operator)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": {
+    "display_role": "Official Opposition",
+    "name": "Rachel Notley",
+    "party": "NDP",
+    "date": "2023-02-01",
+    "description": "Official Opposition raised wait times in the legislature and called for action to restore public lab services.",
+    "source_refs": []
+  },
+  "source_refs": [],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-014",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-018",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Attach CBC or Global News coverage of Calgary lab wait times. Opposition response source needed.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

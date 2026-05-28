@@ -1,0 +1,44 @@
+{
+  "id": "EVT-002",
+  "schema_version": "2.0.0",
+  "event_date": "2010-01-13",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Federal government prorogues Parliament amid controversy",
+  "title_fr": "Le gouvernement fédéral proroge le Parlement",
+  "ai_translated": true,
+  "description_en": "Parliament is prorogued; widely reported and debated as a democratic-norms event of the Harper period. Included as upstream context.",
+  "description_fr": null,
+  "era": "pre2019",
+  "category": [
+    "democratic_interference"
+  ],
+  "claim_type": "context",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Prime Minister of Canada",
+      "name": "Stephen Harper",
+      "party": "Conservative",
+      "jurisdiction": "federal"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Currently sourced only to a finding-tool text. Replace with Hansard record or CBC News before publication.",
+  "standards_flags": [
+    "finding-tool-only"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

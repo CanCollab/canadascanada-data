@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "schema_version": "2.0.0",
+    "schema": "feed-map",
+    "project": "CanadaScanada",
+    "last_updated": "2026-05-27",
+    "note": "Maps RSS/API feed URLs to outlet_id (join key to outlet-database.json) and pipeline metadata. Add new feeds here — the fetcher reads this file. Do not add feeds without assigning outlet_id and tier.",
+    "dedup_window_hours": 48,
+    "fetch_frequency": "daily for tier-1 and high-priority tier-2; weekly for others",
+    "feed_count": 23
+  },
+  "feeds": [
+    {
+      "feed_id": "cbc-edmonton",
+      "url": "https://www.cbc.ca/webfeed/rss/rss-canada-edmonton",
+      "outlet_id": "cbc-radio-canada",
+      "outlet_name": "CBC News Edmonton",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "Alberta provincial",
+        "Edmonton municipal"
+      ],
+      "dedup_group": "cbc",
+      "active": true,
+      "notes": null
+    },
+    {
+      "feed_id": "cbc-calgary",
+      "url": "https://www.cbc.ca/webfeed/rss/rss-canada-calgary",
+      "outlet_id": "cbc-radio-canada",
+      "outlet_name": "CBC News Calgary",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "Alberta provincial",
+        "Calgary municipal"
+      ],
+      "dedup_group": "cbc",
+      "active": true,
+      "notes": null
+    },
+    {
+      "feed_id": "cbc-canada",
+      "url": "https://www.cbc.ca/webfeed/rss/rss-canada",
+      "outlet_id": "cbc-radio-canada",
+      "outlet_name": "CBC News Canada",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "federal",
+        "national"
+      ],
+      "dedup_group": "cbc",
+      "active": true,
+      "notes": "Lower Alberta specificity than regional feeds — filter aggressively"
+    },
+    {
+      "feed_id": "cbc-politics",
+      "url": "https://www.cbc.ca/webfeed/rss/rss-politics",
+      "outlet_id": "cbc-radio-canada",
+      "outlet_name": "CBC Politics",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "federal politics",
+        "federal-provincial"
+      ],
+      "dedup_group": "cbc",
+      "active": true,
+      "notes": null
+    },
+    {
+      "feed_id": "cbc-topstories",
+      "url": "https://rss.cbc.ca/lineup/topstories.xml",
+      "outlet_id": "cbc-radio-canada",
+      "outlet_name": "CBC Top Stories",
+      "tier": 2,
+      "priority": "medium",
+      "coverage_focus": [
+        "national top stories"
+      ],
+      "dedup_group": "cbc",
+      "active": true,
+      "notes": "High noise-to-signal for Alberta focus — use as fallback for major national stories only"
+    },
+    {
+      "feed_id": "gc-news-alberta",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?location=ab48&sort=publishedDate&orderBy=desc&publishedDate%3E=2021-10-25&pick=100&format=atom&atomtitle=Alberta",
+      "outlet_id": "government-of-canada",
+      "outlet_name": "Government of Canada News — Alberta",
+      "tier": 1,
+      "priority": "high",
+      "coverage_focus": [
+        "federal announcements",
+        "federal-provincial",
+        "Alberta-specific federal programs"
+      ],
+      "dedup_group": "gc-news",
+      "active": true,
+      "notes": "Tier 1 — Government of Canada primary. Atom format (not RSS 2.0) — parser must handle both. Pre-filtered to Alberta (location=ab48). Note: government press releases have inherent perspective; use as primary source for what was announced, not for characterisation."
+    },
+    {
+      "feed_id": "calgary-herald",
+      "url": "https://calgaryherald.com/feed",
+      "outlet_id": "postmedia",
+      "outlet_name": "Calgary Herald",
+      "tier": 2,
+      "priority": "medium",
+      "coverage_focus": [
+        "Alberta provincial",
+        "Calgary municipal"
+      ],
+      "dedup_group": "postmedia",
+      "active": true,
+      "notes": "Postmedia — documented conservative editorial directive, 66% US foreign ownership (Chatham Asset Management). Flag all items with outlet_stance_note in queue. Corroborate factual claims with non-Postmedia source where possible."
+    },
+    {
+      "feed_id": "calgary-sun",
+      "url": "https://calgarysun.com/feed",
+      "outlet_id": "postmedia",
+      "outlet_name": "Calgary Sun",
+      "tier": 2,
+      "priority": "low",
+      "coverage_focus": [
+        "Alberta provincial",
+        "Calgary"
+      ],
+      "dedup_group": "postmedia",
+      "active": true,
+      "notes": "Postmedia tabloid. High noise. Use only when a story does not appear in Calgary Herald or other sources."
+    },
+    {
+      "feed_id": "edmonton-journal",
+      "url": "https://edmontonjournal.com/feed/",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Journal",
+      "tier": 2,
+      "priority": "medium",
+      "coverage_focus": [
+        "Alberta provincial",
+        "Edmonton municipal",
+        "Legislature"
+      ],
+      "dedup_group": "postmedia",
+      "active": true,
+      "notes": "Postmedia — same flags as Calgary Herald. Edmonton Journal has historically strong Legislature coverage."
+    },
+    {
+      "feed_id": "edmonton-sun",
+      "url": "https://edmontonsun.com/feed",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Sun",
+      "tier": 2,
+      "priority": "low",
+      "coverage_focus": [
+        "Alberta provincial",
+        "Edmonton"
+      ],
+      "dedup_group": "postmedia",
+      "active": true,
+      "notes": "Postmedia tabloid. Low priority — use only when no other source covers the story."
+    },
+    {
+      "feed_id": "national-post",
+      "url": "https://nationalpost.com/feed",
+      "outlet_id": "national-post",
+      "outlet_name": "National Post",
+      "tier": 2,
+      "priority": "medium",
+      "coverage_focus": [
+        "national",
+        "federal politics",
+        "Alberta political"
+      ],
+      "dedup_group": "postmedia",
+      "active": true,
+      "notes": "Postmedia — same flags. National Post has distinct outlet_id from Postmedia brands due to documented separate editorial history."
+    },
+    {
+      "feed_id": "financial-post",
+      "url": "https://feeds.feedburner.com/FP_TopStories",
+      "outlet_id": "postmedia",
+      "outlet_name": "Financial Post",
+      "tier": 2,
+      "priority": "low",
+      "coverage_focus": [
+        "business",
+        "energy sector",
+        "fiscal"
+      ],
+      "dedup_group": "postmedia",
+      "active": true,
+      "notes": "Postmedia. Useful for fiscal and energy category items. Check if feedburner URL is still live — may need direct feed."
+    },
+    {
+      "feed_id": "vancouver-sun",
+      "url": "https://vancouversun.com/feed/?x=1",
+      "outlet_id": "postmedia",
+      "outlet_name": "Vancouver Sun",
+      "tier": 2,
+      "priority": "low",
+      "coverage_focus": [
+        "BC provincial",
+        "national"
+      ],
+      "dedup_group": "postmedia",
+      "active": false,
+      "notes": "Postmedia. Low Alberta relevance. Disabled by default — activate only when BC-Alberta stories are in scope (e.g. Trans Mountain, federal-provincial). The ?x=1 parameter may cause issues — verify."
+    },
+    {
+      "feed_id": "global-news",
+      "url": "https://globalnews.ca/feed/",
+      "outlet_id": "global-news",
+      "outlet_name": "Global News",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "national",
+        "Alberta"
+      ],
+      "dedup_group": "global",
+      "active": true,
+      "notes": null
+    },
+    {
+      "feed_id": "global-news-calgary",
+      "url": "https://globalnews.ca/calgary/feed/",
+      "outlet_id": "global-news",
+      "outlet_name": "Global News Calgary",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "Calgary",
+        "Alberta provincial"
+      ],
+      "dedup_group": "global",
+      "active": true,
+      "notes": null
+    },
+    {
+      "feed_id": "global-news-canada",
+      "url": "https://globalnews.ca/canada/feed/",
+      "outlet_id": "global-news",
+      "outlet_name": "Global News Canada",
+      "tier": 2,
+      "priority": "medium",
+      "coverage_focus": [
+        "national",
+        "federal"
+      ],
+      "dedup_group": "global",
+      "active": true,
+      "notes": null
+    },
+    {
+      "feed_id": "the-tyee",
+      "url": "https://thetyee.ca/rss2.xml",
+      "outlet_id": "the-tyee",
+      "outlet_name": "The Tyee",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "BC and Alberta politics",
+        "investigative",
+        "labour",
+        "environment"
+      ],
+      "dedup_group": "tyee",
+      "active": true,
+      "notes": "Worker cooperative, progressive — no documented editorial mandate. High signal for investigative stories."
+    },
+    {
+      "feed_id": "the-narwhal",
+      "url": "https://thenarwhal.ca/feed/",
+      "outlet_id": "the-narwhal",
+      "outlet_name": "The Narwhal",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "environment",
+        "energy",
+        "orphan wells",
+        "oil sands",
+        "land rights"
+      ],
+      "dedup_group": "narwhal",
+      "active": true,
+      "notes": "Independent investigative — strong on energy/environment categories. High value for Batch B/C content (renewables, orphan wells)."
+    },
+    {
+      "feed_id": "national-observer",
+      "url": "https://www.nationalobserver.com/front/rss",
+      "outlet_id": "national-observer",
+      "outlet_name": "National Observer",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "environment",
+        "federal politics",
+        "energy transition",
+        "climate"
+      ],
+      "dedup_group": "observer",
+      "active": true,
+      "notes": "Independent investigative, progressive-leaning but no documented formal mandate. Strong on environment and energy."
+    },
+    {
+      "feed_id": "rabble",
+      "url": "https://rabble.ca/feed/",
+      "outlet_id": "rabble",
+      "outlet_name": "Rabble.ca",
+      "tier": 2,
+      "priority": "low",
+      "coverage_focus": [
+        "labour",
+        "social policy",
+        "progressive politics"
+      ],
+      "dedup_group": "rabble",
+      "active": true,
+      "notes": "Progressive/labour editorial mandate (self-described). Flag with outlet_stance_note in queue. Use for labour and charter category items; corroborate factual claims with neutral source. NOT in outlet-database yet — add outlet record before using as a source."
+    },
+    {
+      "feed_id": "daily-herald-tribune",
+      "url": "https://www.dailyheraldtribune.com/feed",
+      "outlet_id": "daily-herald-tribune",
+      "outlet_name": "Daily Herald Tribune",
+      "tier": 2,
+      "priority": "low",
+      "coverage_focus": [
+        "Peace Country Alberta",
+        "Grande Prairie region",
+        "northern Alberta"
+      ],
+      "dedup_group": "local-ab",
+      "active": true,
+      "notes": "Local Alberta paper — Grande Prairie area. Low volume, high local specificity. Useful for rural Alberta stories, municipal interference category. NOT in outlet-database yet — add outlet record before using as source."
+    },
+    {
+      "feed_id": "sunny-south-news",
+      "url": "https://www.sunnysouthnews.com/feed/",
+      "outlet_id": "sunny-south-news",
+      "outlet_name": "Sunny South News",
+      "tier": 2,
+      "priority": "low",
+      "coverage_focus": [
+        "southern Alberta",
+        "rural Alberta",
+        "Lethbridge region"
+      ],
+      "dedup_group": "local-ab",
+      "active": false,
+      "notes": "Local Alberta paper — southern Alberta. HTTP not HTTPS — verify if HTTPS version available before activating. NOT in outlet-database yet. Disabled by default pending URL verification and outlet record creation. Feed URL updated to HTTPS — verify live status before first run."
+    },
+    {
+      "feed_id": "pressprogress",
+      "url": "https://pressprogress.ca/feed/",
+      "outlet_id": "pressprogress",
+      "outlet_name": "PressProgress",
+      "tier": 2,
+      "priority": "high",
+      "coverage_focus": [
+        "right-wing political networks",
+        "election campaign finance",
+        "labour",
+        "Diagolon",
+        "UCP connections"
+      ],
+      "dedup_group": "pressprogress",
+      "active": true,
+      "notes": "Progressive mandate, formerly Broadbent Institute (NDP-aligned). Editorially independent since 2022. Published journalistic standards at pressprogress.ca/journalistic-standards/. Strong on UCP network connections and campaign finance. RSS confirmed live at pressprogress.ca/feed/"
+    }
+  ],
+  "dedup_groups": {
+    "cbc": "All CBC feeds share a dedup group — only the highest-priority matching feed's item is kept if duplicate stories appear",
+    "postmedia": "All Postmedia brands share a dedup group — keep the first match found, note Postmedia ownership on all",
+    "global": "Global News feeds share a dedup group",
+    "local-ab": "Local Alberta papers share a dedup group — both can keep an item if they cover different regions"
+  },
+  "feeds_to_find": [
+    "Canadaland — check canadaland.com/feed",
+    "The Beaverton (satire — exclude from pipeline, but monitor for fact-checking prompts)",
+    "Alberta Views — check albertaviews.ca/feed",
+    "Investigative Journalism Foundation (IJF) — check theijf.org/feed",
+    "PressProgress — check pressprogress.ca/feed",
+    "Windspeaker — Indigenous focus, relevant for treaty rights category",
+    "APTN News — relevant for Indigenous land rights, MFSP challenge stories"
+  ]
+}

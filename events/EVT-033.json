@@ -1,0 +1,59 @@
+{
+  "id": "EVT-033",
+  "schema_version": "2.0.0",
+  "event_date": "2024-12-04",
+  "event_date_precision": "day",
+  "date_notes": "Date legislation passed final reading. Announced January 31 2024 (EVT-032). Bills tabled October 31 2024.",
+  "title_en": "Alberta transgender restriction legislation passes legislature; Charter challenges filed",
+  "title_fr": "La législation albertaine sur les restrictions transgenres est adoptée; des contestations constitutionnelles sont déposées",
+  "ai_translated": true,
+  "description_en": "Three bills affecting transgender Albertans pass the Alberta legislature: the Education Amendment Act 2024, the Health Statutes Amendment Act, and the Fairness and Safety in Sport Act. Egale Canada and the Skipping Stone Foundation announce Charter challenges arguing the legislation violates the constitutional rights of young 2SLGBTQ+ people. The Premier states she will not invoke the notwithstanding clause, expressing confidence courts will find the legislation 'reasonable and evidence-based.' Saskatchewan used the notwithstanding clause to shield similar legislation from Charter challenge.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "lgbtq",
+    "charter"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": "Egale Canada director of legal stated the legislation had already caused increased bullying and that some trans youth reported they would not be alive without access to puberty blockers.",
+  "source_refs": [
+    "R-045",
+    "R-099"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-032",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "R-045 URL needs HTTP check. Monitor for court decisions. Premier declined to confirm or deny future notwithstanding clause use if courts strike legislation down.",
+  "standards_flags": [
+    "charter-challenge-pending"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": "Added R-099 as supporting context. Also note: EVT-032/033 use pre-lock categories ['rights','governance'] — update to ['lgbtq','charter'] in next category cleanup pass."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": "SD-013",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

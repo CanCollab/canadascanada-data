@@ -1,0 +1,66 @@
+{
+  "id": "EVT-023",
+  "schema_version": "2.0.0",
+  "event_date": "2025-10-28",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Legislature passes back-to-work legislation using the notwithstanding clause",
+  "title_fr": "La législature adopte une loi de retour au travail en utilisant la clause dérogatoire",
+  "ai_translated": true,
+  "description_en": "The government passes back-to-work legislation invoking section 33 of the Charter (the notwithstanding clause) to order striking teachers back to work.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "constitutional_override",
+    "labour"
+  ],
+  "claim_type": "fact",
+  "inference_note": "Some reporting characterized this as the first use of the notwithstanding clause to override a labour action in Canada. This 'first' framing is contested: Ontario invoked s.33 against ~55,000 education workers in 2022 (Bill 28, later repealed). Treat the s.33 back-to-work passage as fact; treat the 'first in Canada' claim as unverified/likely inaccurate.",
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": {
+    "display_role": "Official Opposition",
+    "name": "Naheed Nenshi",
+    "party": "NDP",
+    "date": "2025-10-28",
+    "description": "Official Opposition condemned the use of the notwithstanding clause against workers as unprecedented and constitutionally irresponsible.",
+    "source_refs": []
+  },
+  "source_refs": [
+    "R-010"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-022",
+      "note": "Carry-forward from related_events — confirm relation type"
+    },
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-025",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "RECONCILIATION: EVT-036 is the authoritative Back to School Act record. Suppress in UI.",
+  "standards_flags": [
+    "single-source",
+    "superseded-by-EVT-036"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

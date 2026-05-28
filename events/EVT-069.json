@@ -1,0 +1,63 @@
+{
+  "id": "EVT-069",
+  "schema_version": "2.0.0",
+  "event_date": "2025-10-01",
+  "event_date_precision": "month",
+  "date_notes": "Five Canadian provinces raised minimum wages October 1 2025, leaving Alberta's $15/hr rate the lowest in Canada. Alberta's rate unchanged since October 2018.",
+  "title_en": "Alberta minimum wage becomes lowest in Canada after seven years frozen; NDP tables bill to increase it",
+  "title_fr": "Le salaire minimum de l'Alberta devient le plus bas au Canada après sept ans de gel ; le NPD dépose un projet de loi pour l'augmenter",
+  "ai_translated": true,
+  "description_en": "Following minimum wage increases in Ontario, Manitoba, Saskatchewan, Nova Scotia, and Prince Edward Island on October 1 2025, Alberta's $15/hour minimum wage — unchanged since the NDP raised it in October 2018 — becomes the lowest in Canada. The UCP government has not raised the minimum wage in over seven years in office. NDP MLA Kathleen Ganley tables Bill 201 proposing $1 annual increases reaching $18 by October 2027. Alberta's youth minimum wage remains $13/hour for workers under 18.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "fiscal"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "NDP MLA",
+      "name": "Kathleen Ganley",
+      "party": "NDP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-086",
+    "R-087"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-052",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": "Sourced from R-086 (Service Canada Tier 1) and R-087 (CBC Oct 30 2025). EVT-052 is the 2019 youth minimum wage reduction."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

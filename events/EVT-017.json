@@ -1,0 +1,44 @@
+{
+  "id": "EVT-017",
+  "schema_version": "2.0.0",
+  "event_date": "2023-05-29",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "UCP wins 2023 provincial election with majority",
+  "title_fr": "Le PCU remporte les élections provinciales de 2023 avec une majorité",
+  "ai_translated": true,
+  "description_en": "The UCP wins the provincial general election, returning the government with a majority.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-019"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

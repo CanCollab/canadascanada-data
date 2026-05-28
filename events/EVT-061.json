@@ -1,0 +1,56 @@
+{
+  "id": "EVT-061",
+  "schema_version": "2.0.0",
+  "event_date": "2024-01-23",
+  "event_date_precision": "day",
+  "date_notes": "Event January 23 2024, Calgary.",
+  "title_en": "Premier appears alongside Tucker Carlson at Calgary event attended by approximately 4,000 people",
+  "title_fr": "La première ministre apparaît aux côtés de Tucker Carlson lors d'un événement à Calgary auquel participent environ 4 000 personnes",
+  "ai_translated": true,
+  "description_en": "Premier Danielle Smith appears at a Calgary event featuring Tucker Carlson, attended by approximately 4,000 people. Federal ministers condemn the event, citing Carlson's record of amplifying misinformation and promoting replacement theory.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_interference",
+    "media_suppression"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Television personality",
+      "name": "Tucker Carlson",
+      "party": null,
+      "jurisdiction": "us"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-075"
+  ],
+  "relations": [],
+  "needs_verification": null,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

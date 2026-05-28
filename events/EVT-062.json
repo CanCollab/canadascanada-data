@@ -1,0 +1,54 @@
+{
+  "id": "EVT-062",
+  "schema_version": "2.0.0",
+  "event_date": "2024-11-01",
+  "event_date_precision": "month",
+  "date_notes": "Meeting occurred 'not long after the 2024 US election' (November 2024). Smith revealed the meeting publicly at the Canada Strong and Free conference in Calgary, approximately September 2025. Article published October 14 2025.",
+  "title_en": "Premier confirms meeting with Heritage Foundation officials following 2024 US election",
+  "title_fr": "La première ministre confirme avoir rencontré des représentants de la Heritage Foundation après les élections américaines de 2024",
+  "ai_translated": true,
+  "description_en": "Premier Smith confirms she met with Heritage Foundation officials following the 2024 US presidential election. The Heritage Foundation authored Project 2025, the policy blueprint for the Trump administration.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "federal_provincial",
+    "democratic_interference"
+  ],
+  "claim_type": "fact",
+  "inference_note": true,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-082"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "R-082 (The Tyee/Desmog, Oct 14 2025) confirmed. Tyee is Tier 2. Smith confirmed meeting in her own words at conference. Date corrected from wrong 2024-10-14 to 2024-11 (approximate meeting date).",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "note": ""
+    },
+    {
+      "date": "2026-05-27",
+      "note": "Date corrected (was 2024-10-14, meeting was ~Nov 2024 post-election). Source upgraded from R-079 (Desmog T3) to R-082 (Tyee T2). HOLD resolved."
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

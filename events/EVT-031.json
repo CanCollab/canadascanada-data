@@ -1,0 +1,53 @@
+{
+  "id": "EVT-031",
+  "schema_version": "2.0.0",
+  "event_date": "2023-07-31",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Report documents pay gaps and exclusion faced by racialized women despite 'Alberta is Calling' campaign",
+  "title_fr": "Un rapport documente les écarts salariaux vécus par les femmes racisées malgré la campagne 'Alberta is Calling'",
+  "ai_translated": true,
+  "description_en": "A CBC News investigation documents the experience of racialized and Black professional women in Edmonton workplaces during the period of Alberta's 'Alberta is Calling' recruitment campaign. Statistics Canada data shows Edmonton men's median after-tax income was $47,200 in 2020 versus $36,400 for women overall and $34,800 for Black women specifically. Experts cite racialized hierarchies in the workforce and a gap between campaign messaging and the lived experience of targeted migrants.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "accountability",
+    "labour"
+  ],
+  "claim_type": "context",
+  "inference_note": "The gap between 'Alberta is Calling' recruitment messaging and outcomes for racialized women is documented context. The causal relationship to government policy is analytical, not directly stated by government.",
+  "actors": [
+    {
+      "display_role": "Province of Alberta",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-043"
+  ],
+  "relations": [
+    {
+      "type": "concurrent_with",
+      "target_id": "EVT-030",
+      "note": "Carry-forward from related_events — confirm relation type"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "R-043 URL needs HTTP check. StatsCan income figures are for 2020 reference year.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

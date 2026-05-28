@@ -1,0 +1,44 @@
+{
+  "id": "EVT-005",
+  "schema_version": "2.0.0",
+  "event_date": "2015-08-19",
+  "event_date_precision": "month",
+  "date_notes": "Reported during 2015 federal election campaign. Exact directive date not publicly confirmed.",
+  "title_en": "National newspaper chain directs papers to endorse governing party",
+  "title_fr": "Une grande chaîne de journaux dirige ses journaux vers l'appui au parti au pouvoir",
+  "ai_translated": true,
+  "description_en": "Reporting indicates Postmedia's leadership directed its newspapers to run editorial endorsements of the federal Conservative Party in the 2015 election — documented as a media-ownership event.",
+  "description_fr": null,
+  "era": "pre2019",
+  "category": [
+    "media_suppression"
+  ],
+  "claim_type": "context",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Postmedia Network (newspaper chain)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "national"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Handoff notes multiple Tier-2 sources exist but no single URL captured. Attach before publication.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "said_did_ref": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}
