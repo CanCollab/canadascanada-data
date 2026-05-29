@@ -3,11 +3,112 @@
     "schema_version": "2.0.0",
     "schema": "rss-queue",
     "project": "CanadaScanada",
-    "last_updated": "2026-05-28T21:04:45.449963+00:00",
-    "item_count": 16,
-    "new_this_run": 16
+    "last_updated": "2026-05-29T21:06:33.121394+00:00",
+    "item_count": 22,
+    "new_this_run": 6
   },
   "items": [
+    {
+      "queue_id": "RSS-F545F9CB",
+      "feed_id": "global-news-canada",
+      "outlet_id": "global-news",
+      "outlet_name": "Global News Canada",
+      "tier": 2,
+      "dedup_group": "global",
+      "title": "B.C. boy badly injured by child riding e-scooter on school grounds",
+      "url": "https://globalnews.ca/news/11874107/bc-boy-badly-injured-child-riding-e-scooter-school-grounds/",
+      "summary": "Safety advocates say injuries involving e-scooters — which you have to be 16 to ride in B.C. — are becoming more frequent, serious and sometimes fatal.",
+      "publication_date": "2026-05-29T19:52:47+00:00",
+      "fetched_at": "2026-05-29T21:06:24.067595+00:00",
+      "matched_categories": [
+        "labour",
+        "education"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": null,
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-37617DD3",
+      "feed_id": "edmonton-journal",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Journal",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "'Baseless humiliation': Podcasters cited for criminal contempt after targeting former Alberta Health Services CEO",
+      "url": "https://edmontonjournal.com/news/politics/podcasters-criminal-contempt-alberta-health-services-athana-mentzelopoulos",
+      "summary": "\"It is baseless humiliation and demonization of a litigant in this court for no apparent purpose other than sapping her will to continue with her case,” Justice Michael Lema wrote in his ruling",
+      "publication_date": "2026-05-29T18:21:33+00:00",
+      "fetched_at": "2026-05-29T21:06:23.563553+00:00",
+      "matched_categories": [
+        "healthcare_privatization"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia — same flags as Calgary Herald. Edmonton Journal has historically strong Legislature coverage.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-72B82C81",
+      "feed_id": "edmonton-journal",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Journal",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Alberta legislature pool closed, under repair 2 years after reopening",
+      "url": "https://edmontonjournal.com/news/local-news/alberta-legislature-pool-closed-repair",
+      "summary": "It reopened on Canada Day in 2024 after a $20-million overhaul of the three water features at the legislature grounds first announced in May of 2022",
+      "publication_date": "2026-05-29T13:47:24+00:00",
+      "fetched_at": "2026-05-29T21:06:23.563843+00:00",
+      "matched_categories": [
+        "democratic_interference"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia — same flags as Calgary Herald. Edmonton Journal has historically strong Legislature coverage.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-F85C992C",
+      "feed_id": "calgary-sun",
+      "outlet_id": "postmedia",
+      "outlet_name": "Calgary Sun",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Letters, May 29, 2026: ‘Farkas cheap shot on Smith was unwarranted’",
+      "url": "https://calgarysun.com/opinion/letters/letters-may-29-2026-farkas-cheap-shot-on-smith-was-unwarranted",
+      "summary": "Angry with Farkas I am beyond upset with Mayor Farkas using his position to attempt to demean Danielle Smith. With the legal challenges against the separation vote Smith had little choice but to open the question for Albertans. We do not support separation but we do believe the choice is Albertans&#8217; to make. It’s called [&#8230;]",
+      "publication_date": "2026-05-29T11:00:52+00:00",
+      "fetched_at": "2026-05-29T21:06:23.145940+00:00",
+      "matched_categories": [
+        "separatism"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia tabloid. High noise. Use only when a story does not appear in Calgary Herald or other sources.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-3290207C",
+      "feed_id": "daily-herald-tribune",
+      "outlet_id": "daily-herald-tribune",
+      "outlet_name": "Daily Herald Tribune",
+      "tier": 2,
+      "dedup_group": "local-ab",
+      "title": "MacMaster and Leahy family take to Grande Prairie stage",
+      "url": "https://www.dailyheraldtribune.com/news/macmaster-and-leahy-family-take-to-grande-prairie-stage",
+      "summary": "Natalie MacMaster talks family, music, food and love leading up to their June 4 concert in Grande Prairie",
+      "publication_date": "2026-05-29T08:35:23+00:00",
+      "fetched_at": "2026-05-29T21:06:24.520392+00:00",
+      "matched_categories": [
+        "labour"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Local Alberta paper — Grande Prairie area. Low volume, high local specificity. Useful for rural Alberta stories, municipal interference category. NOT in outlet-database yet — add outlet record before using as source.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
     {
       "queue_id": "RSS-B685BB8C",
       "feed_id": "calgary-herald",
@@ -310,6 +411,27 @@
       ],
       "confidence": "medium",
       "outlet_stance_note": "Postmedia tabloid. Low priority — use only when no other source covers the story.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-36731642",
+      "feed_id": "edmonton-journal",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Journal",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "We asked all 47 Alberta UCP MLAs how they will vote in the fall referendum. Here is what they said (and didn't say)",
+      "url": "https://edmontonjournal.com/news/politics/alberta-ucp-mla-seperation-referendum",
+      "summary": "Postmedia emailed the offices of 26 cabinet ministers and the 21 other government MLAs asking how they intended to vote on the question",
+      "publication_date": "2026-05-29T11:05:13+00:00",
+      "fetched_at": "2026-05-29T21:06:23.564024+00:00",
+      "matched_categories": [
+        "separatism",
+        "party_discipline"
+      ],
+      "confidence": "high",
+      "outlet_stance_note": "Postmedia — same flags as Calgary Herald. Edmonton Journal has historically strong Legislature coverage.",
       "editorial_decision": "pending",
       "editorial_notes": null
     },
