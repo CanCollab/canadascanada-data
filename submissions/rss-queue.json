@@ -3,9 +3,9 @@
     "schema_version": "2.0.0",
     "schema": "rss-queue",
     "project": "CanadaScanada",
-    "last_updated": "2026-05-29T21:06:33.121394+00:00",
-    "item_count": 22,
-    "new_this_run": 6
+    "last_updated": "2026-05-30T16:36:45.138496+00:00",
+    "item_count": 23,
+    "new_this_run": 1
   },
   "items": [
     {
@@ -411,6 +411,27 @@
       ],
       "confidence": "medium",
       "outlet_stance_note": "Postmedia tabloid. Low priority — use only when no other source covers the story.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-04677E54",
+      "feed_id": "edmonton-journal",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Journal",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Saturday's letters: Referendum a waste of public money",
+      "url": "https://edmontonjournal.com/opinion/letters/saturdays-letters-referendum-a-waste-of-public-money",
+      "summary": "This UCP government’s decision to pursue a non-binding separatist referendum is not just misguided — it is a blatant waste of public money and a clear sign of how disconnected it has become from Albertans. While families struggle with rising costs and an overstretched health-care system, this government is prepared to spend over $50 million [&#8230;]",
+      "publication_date": "2026-05-30T10:00:55+00:00",
+      "fetched_at": "2026-05-30T16:36:35.671966+00:00",
+      "matched_categories": [
+        "labour",
+        "separatism"
+      ],
+      "confidence": "high",
+      "outlet_stance_note": "Postmedia — same flags as Calgary Herald. Edmonton Journal has historically strong Legislature coverage.",
       "editorial_decision": "pending",
       "editorial_notes": null
     },
