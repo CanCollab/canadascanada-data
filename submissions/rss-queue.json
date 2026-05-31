@@ -3,11 +3,112 @@
     "schema_version": "2.0.0",
     "schema": "rss-queue",
     "project": "CanadaScanada",
-    "last_updated": "2026-05-30T16:36:45.138496+00:00",
-    "item_count": 23,
-    "new_this_run": 1
+    "last_updated": "2026-05-31T16:46:24.078717+00:00",
+    "item_count": 28,
+    "new_this_run": 5
   },
   "items": [
+    {
+      "queue_id": "RSS-95724E59",
+      "feed_id": "national-post",
+      "outlet_id": "national-post",
+      "outlet_name": "National Post",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Interview: Danielle Smith explains why she trusts Mark Carney",
+      "url": "https://nationalpost.com/news/canada/interview-danielle-smith-explains-why-she-trusts-mark-carney",
+      "summary": "'The main reason is the complete difference in dealing with this prime minister than the previous one,' says the Alberta premier",
+      "publication_date": "2026-05-31T13:00:10+00:00",
+      "fetched_at": "2026-05-31T16:46:14.397846+00:00",
+      "matched_categories": [
+        "federal_provincial"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia — same flags. National Post has distinct outlet_id from Postmedia brands due to documented separate editorial history.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-975E6EA0",
+      "feed_id": "national-post",
+      "outlet_id": "national-post",
+      "outlet_name": "National Post",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Canadian pilot, 30, evacuates family of American doctor who contracted Ebola virus",
+      "url": "https://nationalpost.com/news/canadian-pilot-evacuates-family-of-doctor-with-ebola-virus-as-outbreak-spreads-in-drc",
+      "summary": "Mission Aviation Fellowship pilot Dominic Villeneuve, originally from Kamloops, B.C., flew the family to safety after an American doctor tested positive for the virus",
+      "publication_date": "2026-05-31T12:00:14+00:00",
+      "fetched_at": "2026-05-31T16:46:14.397989+00:00",
+      "matched_categories": [
+        "healthcare_privatization",
+        "election_interference"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia — same flags. National Post has distinct outlet_id from Postmedia brands due to documented separate editorial history.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-DFD3C600",
+      "feed_id": "global-news",
+      "outlet_id": "global-news",
+      "outlet_name": "Global News",
+      "tier": 2,
+      "dedup_group": "global",
+      "title": "Toronto police seek suspects after 27-year-old fatally shot ‘steps from home’",
+      "url": "https://globalnews.ca/news/11875068/toronto-police-shooting/",
+      "summary": "Investigators said a dark-coloured vehicle pulled up before the shooting and the suspects were on foot when the incident occurred, with the victim just steps from his home.",
+      "publication_date": "2026-05-30T22:04:42+00:00",
+      "fetched_at": "2026-05-31T16:46:14.420141+00:00",
+      "matched_categories": [
+        "labour"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": null,
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-1180212D",
+      "feed_id": "edmonton-journal",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Journal",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "'Albertans to decide': Premier Smith says separatist referendum needed to know where to go from here",
+      "url": "https://edmontonjournal.com/news/local-news/albertans-premier-smith-separatist-referendum",
+      "summary": "'I think I'll be able to get a good indication from Albertans about which direction they want to go, and I need to hear it'",
+      "publication_date": "2026-05-30T21:38:51+00:00",
+      "fetched_at": "2026-05-31T16:46:14.247725+00:00",
+      "matched_categories": [
+        "separatism"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia — same flags as Calgary Herald. Edmonton Journal has historically strong Legislature coverage.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
+    {
+      "queue_id": "RSS-262DEF23",
+      "feed_id": "edmonton-sun",
+      "outlet_id": "postmedia",
+      "outlet_name": "Edmonton Sun",
+      "tier": 2,
+      "dedup_group": "postmedia",
+      "title": "Letters: Majority of UCP supporters choose to stay in Canada",
+      "url": "https://edmontonsun.com/opinion/letters/letters-majority-of-ucp-supporters-choose-to-stay-in-canada",
+      "summary": "Will you take in any Downtown events this summer? VOTE IN OUR ONLINE POLL! TIRED OF RHETORIC The majority of us elected Danielle Smith as premier in the last provincial election. I believe the majority of Albertans today support Danielle’s UCP and the desire for Alberta to remain a province in Canada. I am sick [&#8230;]",
+      "publication_date": "2026-05-30T11:00:25+00:00",
+      "fetched_at": "2026-05-31T16:46:14.317374+00:00",
+      "matched_categories": [
+        "election_interference"
+      ],
+      "confidence": "medium",
+      "outlet_stance_note": "Postmedia tabloid. Low priority — use only when no other source covers the story.",
+      "editorial_decision": "pending",
+      "editorial_notes": null
+    },
     {
       "queue_id": "RSS-F545F9CB",
       "feed_id": "global-news-canada",
