@@ -1,0 +1,43 @@
+{
+  "id": "EXP-notwithstanding",
+  "schema_version": "3.0.0",
+  "type": "standard",
+
+  "title": {
+    "en-CA": "The notwithstanding clause: scope and limits",
+    "fr-CA": null
+  },
+  "summary": {
+    "en-CA": "The notwithstanding clause is Section 33 of the Charter of Rights and Freedoms, written into it as part of the 1982 agreement that created the Charter. It lets Parliament or a provincial legislature pass a law that operates despite certain Charter rights: it can set aside fundamental freedoms, legal rights, and equality rights, but not democratic, mobility, or language rights. A law using the clause does not repeal the right or remove it from the Charter. The right is set aside only for that law, and applies again once the clause stops applying. A declaration expires after five years unless the legislature votes to re-enact it.",
+    "fr-CA": null
+  },
+  "body": {
+    "en-CA": null,
+    "fr-CA": null
+  },
+  "key_points": [
+    { "en-CA": "The fundamental freedoms it can set aside (Section 2) include freedom of expression, freedom of religion, and the right to peaceful assembly.",
+      "fr-CA": null },
+    { "en-CA": "The legal and equality rights it can set aside (Sections 7 to 15) include protections around search, detention, and arrest, and the right to equal treatment without discrimination.",
+      "fr-CA": null },
+    { "en-CA": "It cannot set aside democratic rights such as the right to vote, mobility rights such as the right to live and work anywhere in Canada, or official-language rights.",
+      "fr-CA": null },
+    { "en-CA": "A law using the clause is introduced as a bill in the legislature, usually by a government minister, debated, and passed by a vote of the members. The override must be written into the law expressly.",
+      "fr-CA": null },
+    { "en-CA": "The five-year sunset means an override ends on its own unless the legislature votes to re-enact it, which it can do repeatedly.",
+      "fr-CA": null }
+  ],
+
+  "ai_translated": { "fr-CA": false },
+
+  "applies_to": ["notwithstanding_clause", "charter_rights"],
+  "source_refs": ["R-charter-s33", "R-constitution-1982-history", "R-alberta-legislative-process"],
+  "related_explainers": [],
+
+  "needs_verification": true,
+  "evidence_status": "established",
+  "update_log": [],
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

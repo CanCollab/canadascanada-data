@@ -1,0 +1,34 @@
+{
+  "outlet_id": "the-tyee",
+  "name_en": "The Tyee",
+  "outlet_type": "independent_digital",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "The Tyee Solutions Society",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": false,
+      "verified": true,
+      "evidence_type": "none_found",
+      "source_url": "https://thetyee.ca/contact/"
+    },
+    "editorial_standards_published": {
+      "value": null,
+      "verified": false
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": false,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

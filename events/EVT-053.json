@@ -1,0 +1,71 @@
+{
+  "id": "EVT-053",
+  "schema_version": "3.0.0",
+  "event_date": "2020-07-07",
+  "event_date_precision": "day",
+  "date_notes": "Bill 32 passed July 7 2020; effective November 2020.",
+  "title_en": "Bill 32 passes restricting union fundraising, organizing, and political spending",
+  "title_fr": "Le projet de loi 32 est adopté, limitant le financement syndical, l'organisation et les dépenses politiques",
+  "ai_translated": true,
+  "description_en": "The Restoring Balance in Alberta's Workplaces Act (Bill 32) passes, restricting union activities including political donations without explicit member consent, limiting picketing, and increasing employer access to union financial records. The Alberta Federation of Labour calls it the most anti-union legislation in decades.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "labour",
+    "constitutional_override"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Jason Kenney",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Labour Minister",
+      "name": "Jason Copping",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-100",
+    "R-068",
+    "R-088"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-05-27",
+      "change": "Added R-088 (CBC Edmonton Bill 32 introduction). Removed single-source flag.",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-05-27",
+      "change": "Added R-100 (bill text Tier 1), R-101 (Athabasca analysis). Removed single-source flag.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

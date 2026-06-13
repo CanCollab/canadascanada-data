@@ -1,0 +1,52 @@
+{
+  "id": "EVT-078",
+  "schema_version": "3.0.0",
+  "event_date": "2025-05-15",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Spring 2025 legislative session concludes",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The spring 2025 sitting of the Alberta legislature concluded; the government cited 19 bills, against a backdrop of debate over tariffs and a separation vote.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_process"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-DC24002D",
+    "R-D1FE2308",
+    "R-BD1605A3"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (3/3 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-DC24002D",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

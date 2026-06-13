@@ -1,0 +1,52 @@
+{
+  "id": "EVT-092",
+  "schema_version": "3.0.0",
+  "event_date": "2024-01-01",
+  "event_date_precision": "year",
+  "date_notes": null,
+  "title_en": "'Modern police service' announcement",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The government announced a policing modernization initiative.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": "Government framing page; announcement is fact, the characterisation is the government's.",
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-839F9739"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (1/1 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-839F9739",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

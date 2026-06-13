@@ -1,0 +1,20 @@
+{
+  "id": "R-543A0D0A",
+  "schema_version": "3.0.0",
+  "title": "Breitbart interview controversy",
+  "outlet": "CTV News",
+  "outlet_id": "ctv-news",
+  "section": "News",
+  "author": null,
+  "publication_date": null,
+  "url": "https://www.ctvnews.ca/calgary/article/lets-just-put-things-on-pause-alberta-premier-under-fire-for-breitbart-interview/",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

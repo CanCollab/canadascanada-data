@@ -1,0 +1,58 @@
+{
+  "id": "EVT-112",
+  "schema_version": "3.0.0",
+  "event_date": "2026-03-26",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Electoral Boundaries Commission final report recommending two additional seats",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The independent Electoral Boundaries Commission delivered its final report, recommending an increase from 87 to 89 seats with consolidations and new ridings in Calgary and Edmonton. Two commissioners filed a minority report proposing a different set of divisions. Under the governing statute the Legislative Assembly may adopt the majority report in full or with amendments. The Opposition raised concerns about the effect on rural representation.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "electoral_process",
+    "democratic_process"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Electoral Boundaries Commission",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-D0000007",
+    "R-D0000008"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Reclassified from a say/do contradiction after verification: the report was delivered and is under review, not 'set aside'. Do NOT frame as a discarded review. Gerrymandering is an opposition characterization, not a documented override. Becomes a conflicts_with only if the government overrides the majority report.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-11",
+      "change": "Created from harvest batch (reclassified from SD-16); R-D0000007 verified; suppressed.",
+      "source_ref": "R-D0000007",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

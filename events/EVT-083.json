@@ -1,0 +1,53 @@
+{
+  "id": "EVT-083",
+  "schema_version": "3.0.0",
+  "event_date": "2026-06-03",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Conservation assessment and parks management",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "A conservation report assigned Alberta a failing grade; related coverage addressed Kananaskis parks policy, forestry and parks mandates, and grasslands protection advocacy.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "environment"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-48466C54",
+    "R-DB94D6F0",
+    "R-8DFE6F9F",
+    "R-6A452895"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (4/4 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-48466C54",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

@@ -1,0 +1,51 @@
+{
+  "id": "EVT-002",
+  "schema_version": "3.0.0",
+  "event_date": "2010-01-13",
+  "event_date_precision": "day",
+  "date_notes": "The prorogation request was made December 30, 2009 (R-104). The date 2010-01-13 in this record appears to reflect the controversy period / protest date rather than the prorogation itself. Harper prorogued Parliament multiple times: December 2008 (coalition crisis) and December 2009–March 2010 (this event). Consider updating event_date to 2009-12-30.",
+  "title_en": "Federal government prorogues Parliament amid controversy",
+  "title_fr": "Le gouvernement fédéral proroge le Parlement",
+  "ai_translated": true,
+  "description_en": "Parliament is prorogued; widely reported and debated as a democratic-norms event of the Harper period. Included as upstream context.",
+  "description_fr": null,
+  "era": "pre2019",
+  "category": [
+    "democratic_process"
+  ],
+  "claim_type": "context",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Prime Minister of Canada",
+      "name": "Stephen Harper",
+      "party": "Conservative",
+      "jurisdiction": "federal"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-104",
+    "R-105"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Currently sourced only to a finding-tool text. Replace with Hansard record or CBC News before publication.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-06-02",
+      "change": "Added R-104 (CBC Dec 30 2009 prorogation), R-105 (CBC protests Jan 2010). Noted date discrepancy in date_notes.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

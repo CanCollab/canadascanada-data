@@ -1,0 +1,36 @@
+{
+  "outlet_id": "rabble",
+  "name_en": "Rabble.ca",
+  "outlet_type": "independent_digital",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Rabble.ca News and Politics Cooperative",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "in_code_commitment",
+      "source_url": "https://rabble.ca/about/journalistic-policy/"
+    },
+    "editorial_standards_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "standalone_code",
+      "source_url": "https://rabble.ca/about/journalistic-policy/"
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": false,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

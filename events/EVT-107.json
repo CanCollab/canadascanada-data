@@ -1,0 +1,60 @@
+{
+  "id": "EVT-107",
+  "schema_version": "3.0.0",
+  "event_date": "2023-09-21",
+  "event_date_precision": "day",
+  "date_notes": "Anchored to the September 2023 provincial pension report; the initiative spans 2023 to 2025.",
+  "title_en": "Alberta Pension Plan pursuit and shelving",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The Government of Alberta pursued withdrawal from the Canada Pension Plan in favour of a provincial plan. A provincial report claimed an entitlement of approximately 334 billion dollars to CPP assets. The CPP chief actuary did not provide an Alberta-specific figure. Public response was substantially opposed, and the initiative was shelved in 2025.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "fiscal",
+    "federal_provincial"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-D0000009",
+    "R-D000000A",
+    "R-D000000B",
+    "R-D000000C"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "The ~$334B figure is the provincial claim; R-D0000009 (actuary did not estimate an Alberta share) is the counterweight and must be carried with it. Confirm the opposition-polling figure (~60-63%) against a primary before stating it.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-11",
+      "change": "Created from harvest batch; suppressed pending verification.",
+      "source_ref": "R-D0000009",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

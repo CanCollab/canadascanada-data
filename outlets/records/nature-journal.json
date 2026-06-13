@@ -1,0 +1,16 @@
+{
+  "outlet_id": "nature-journal",
+  "name_en": "Nature (journal)",
+  "outlet_type": "advocacy_research",
+  "rated": false,
+  "citable": true,
+  "ownership_pct_canadian_derived": 0,
+  "ownership_breakdown": [
+    {
+      "entity": "Springer Nature (Holtzbrinck Publishing Group)",
+      "country": "DE",
+      "percentage": 100
+    }
+  ],
+  "not_rated_reason": "Advocacy/research organization — cited as a source, not rated as a news outlet."
+}

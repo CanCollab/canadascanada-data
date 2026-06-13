@@ -1,0 +1,36 @@
+{
+  "outlet_id": "canadaland",
+  "name_en": "Canadaland",
+  "outlet_type": "independent_digital",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Canadaland Media Inc.",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "standalone_page",
+      "source_url": "https://www.canadaland.com/tag/corrections/"
+    },
+    "editorial_standards_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "standalone_code",
+      "source_url": "https://www.canadaland.com/disclosure/"
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": true,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

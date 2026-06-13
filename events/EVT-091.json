@@ -1,0 +1,51 @@
+{
+  "id": "EVT-091",
+  "schema_version": "3.0.0",
+  "event_date": "2024-01-01",
+  "event_date_precision": "year",
+  "date_notes": null,
+  "title_en": "Government 'health-care access' announcements",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The government published announcements branding its health-care direction as expanding access and supporting a 'world-class' system.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization"
+  ],
+  "claim_type": "fact",
+  "inference_note": "Government framing pages; the announcements are primary fact, the 'access'/'world-class' characterisation is the government's own.",
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-21184D07",
+    "R-17E4C7FE"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (2/2 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-21184D07",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

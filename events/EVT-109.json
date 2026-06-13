@@ -1,0 +1,60 @@
+{
+  "id": "EVT-109",
+  "schema_version": "3.0.0",
+  "event_date": "2025-11-19",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Auditor General report on lab-services procurement failures and withheld records",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The Auditor General of Alberta reported on community laboratory services procurement, documenting approximately 109 million dollars in losses. The report stated that the Health Minister directed Alberta Health Services to proceed after projected savings collapsed, that approximately 1,200 documents were withheld, and that records including a former chief executive's notebooks were destroyed during the audit.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization",
+    "transparency",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Auditor General of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Minister of Health",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-D0000002"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Strongest tier-1 item in the harvest, but currently sourced only to the CBC summary (R-D0000002). TO ADD as the load-bearing primary: the OAG release and full report once the office-of-the-auditor-general outlet exists. Distinct from the 2022-2023 lab-privatization events EVT-014/016/018.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-11",
+      "change": "Created from harvest batch; suppressed; OAG primary pending outlet.",
+      "source_ref": "R-D0000002",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

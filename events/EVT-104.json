@@ -1,0 +1,53 @@
+{
+  "id": "EVT-104",
+  "schema_version": "3.0.0",
+  "event_date": "2025-04-28",
+  "event_date_precision": "day",
+  "date_notes": "Bill number/text not yet confirmed; verify on assembly.ab.ca.",
+  "title_en": "Provincial legislation on municipal bike lanes",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The province signaled legislation affecting municipal bike lanes, with the transportation minister's involvement; reporting noted Alberta monitoring Ontario's approach. Bill text pending.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_process"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-DA3D9BC6",
+    "R-5675277E",
+    "R-1615AD96",
+    "R-1C4AF1EA"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (4/4 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-DA3D9BC6",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

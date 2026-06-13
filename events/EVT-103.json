@@ -1,0 +1,54 @@
+{
+  "id": "EVT-103",
+  "schema_version": "3.0.0",
+  "event_date": "2023-04-01",
+  "event_date_precision": "month",
+  "date_notes": null,
+  "title_en": "UCP public health-care guarantee",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The UCP issued a public health-care guarantee in 2023; the framing echoed an earlier Kenney-era 'guarantee.' The premier's later statements describe applying private-sector and 'internal market' principles to health-care delivery.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization"
+  ],
+  "claim_type": "fact",
+  "inference_note": "The promise-vs-direction tension (guarantee vs. 'internal market'/'funding follows the patient' in the Nixon interview) is editorial framing to resolve on review; quote her verbatim, do not assert a contradiction as fact.",
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-CCD9F402",
+    "R-FC6C04D7",
+    "R-13ADABA3",
+    "R-F10503BB",
+    "R-C11FA1E5"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (5/5 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-CCD9F402",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

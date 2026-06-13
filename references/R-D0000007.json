@@ -1,0 +1,20 @@
+{
+  "id": "R-D0000007",
+  "schema_version": "3.0.0",
+  "title": "Electoral boundaries commission recommends more ridings",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": null,
+  "publication_date": "2026-03-26",
+  "url": "https://globalnews.ca/news/11747489/alberta-electoral-boundaries-commission-recommends-more-ridings-boundary-changes/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "VERIFIED this session: final report 87->89, minority report, government reviewing. No 'set aside' on the record.",
+  "submission_source": "manual-intake",
+  "submission_status": "accepted"
+}

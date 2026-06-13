@@ -1,0 +1,20 @@
+{
+  "id": "R-FB3AB4BC",
+  "schema_version": "3.0.0",
+  "title": "Alberta Next panel consultation",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": null,
+  "publication_date": null,
+  "url": "https://globalnews.ca/news/11457577/alberta-next-panel-danielle-smith-calgary/",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

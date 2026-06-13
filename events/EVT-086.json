@@ -1,0 +1,52 @@
+{
+  "id": "EVT-086",
+  "schema_version": "3.0.0",
+  "event_date": "2025-03-01",
+  "event_date_precision": "month",
+  "date_notes": null,
+  "title_en": "Education property-tax increase and municipal response",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "An increase to the education property tax drew objections from municipalities; related coverage addressed personal-finance impacts of the provincial budget.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "fiscal",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-0C50FF8D",
+    "R-9C5549BA"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (2/2 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-0C50FF8D",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

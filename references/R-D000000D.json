@@ -1,0 +1,20 @@
+{
+  "id": "R-D000000D",
+  "schema_version": "3.0.0",
+  "title": "Premier says pension and police not in campaign",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": null,
+  "publication_date": "2023-05-05",
+  "url": "https://globalnews.ca/",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": "PLACEHOLDER: bare domain. FIND the specific Global News Morning clip (2023-05-05) with the verbatim 'not in our campaign' quote before this leaves needs_verification.",
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

@@ -1,0 +1,16 @@
+{
+  "outlet_id": "city-of-calgary",
+  "name_en": "The City of Calgary",
+  "outlet_type": "government_institution",
+  "rated": false,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "The City of Calgary (municipal government)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "not_rated_reason": "Government/institutional primary source — not a news outlet; journalism standards do not apply. Cited as a primary source."
+}

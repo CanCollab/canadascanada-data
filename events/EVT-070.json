@@ -1,0 +1,86 @@
+{
+  "id": "EVT-070",
+  "schema_version": "3.0.0",
+  "event_date": "2024-04-10",
+  "event_date_precision": "day",
+  "date_notes": "Bill 18 introduced April 10 2024. Passage date requires confirmation — CBC sources (R-096/R-097) may confirm. IMPORTANT: This is the 2024 spring session Bill 18 (federal funding approval) — distinct from Bill 18 in the 2023 session (Online Harms Act, separate event without source yet).",
+  "title_en": "Province introduces Bill 18 requiring provincial approval before federal funding reaches municipalities, universities, and health authorities",
+  "title_fr": "La province présente le projet de loi 18 exigeant l'approbation provinciale avant que le financement fédéral n'atteigne les municipalités, universités et autorités sanitaires",
+  "ai_translated": true,
+  "description_en": "The Alberta government tables Bill 18, requiring provincial approval before the federal government can make direct funding agreements with 243 public entities including municipalities, universities, school boards, regional health authorities, and housing bodies. Premier Smith frames the bill as asserting provincial jurisdiction over federal 'meddling.' Calgary Mayor Gondek calls it a 'bureau of overreach' that will divert federal housing funding from Calgary. Alberta Municipalities states it was not consulted before the bill's tabling. Academics warn the bill creates risks of political interference in funding decisions.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_process",
+    "federal_provincial",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Minister of Municipal Affairs",
+      "name": "Ric McIver",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Calgary Mayor",
+      "name": "Jyoti Gondek",
+      "party": null,
+      "jurisdiction": "municipal"
+    }
+  ],
+  "opposition_response": {
+    "actor": "Calgary Mayor",
+    "name": "Jyoti Gondek",
+    "response_en": "'I cannot accept that a provincial government with control issues is about to take away what rightfully belongs to Calgarians.' Gondek states other cities will receive federal funding that should go to Calgary while Alberta waits for provincial approval.",
+    "source_ref": "R-098"
+  },
+  "source_refs": [
+    "R-096",
+    "R-097",
+    "R-098"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "alberta-municipal-override",
+      "note": "Bill 18 extends provincial override of municipal affairs from infrastructure (Green Line, bike lanes) to all federal funding streams."
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Passage date unknown from current sources — bill was introduced April 10, 2024. Check R-096/R-097 for passage date and vote. Also: two different Bill 18s exist (2023 Online Harms Act; 2024 federal funding approval — this event). Confirm correct bill number for 2024 session.",
+  "standards_flags": [
+    "outcome-pending",
+    "passage-date-unconfirmed"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "Created from R-096/097/098. Bill 18 (2024 spring session) — federal funding approval. Group B gap filled.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [
+    {
+      "counter_claim": "Federal housing minister Sean Fraser states Alberta receives 11.4% of total funding, proportionate to its 11.5% population share.",
+      "source_ref": "R-098",
+      "counter_claim_type": "government-statement"
+    }
+  ],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

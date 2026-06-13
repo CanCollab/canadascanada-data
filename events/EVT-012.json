@@ -1,0 +1,51 @@
+{
+  "id": "EVT-012",
+  "schema_version": "3.0.0",
+  "event_date": "2022-02-07",
+  "event_date_precision": "day",
+  "date_notes": "Statement made during the blockade period while Smith was a UCP leadership candidate, not yet Premier.",
+  "title_en": "UCP leadership candidate publicly supports Coutts protesters",
+  "title_fr": "Une candidate à la direction du PCU appuie publiquement les manifestants de Coutts",
+  "ai_translated": true,
+  "description_en": "Then-UCP leadership candidate Danielle Smith publicly expressed support for the Coutts protesters. She later distanced herself from individuals charged in connection with the blockade. Both statements are documented here for a complete record.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "political_convoy"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "UCP leadership candidate",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-023",
+    "R-016"
+  ],
+  "relations": [
+    {
+      "type": "same_actor",
+      "target_id": "EVT-013"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Both halves sourced. R-023 (PressProgress) = original support statement, on-record video quote ('we want to see it win in Coutts'); note advocacy lean in UI. R-016 (Climenhaga/Rabble, opinion) = later distancing. Cite together; neither alone documents the full said-then-distanced record.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

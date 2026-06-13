@@ -1,0 +1,55 @@
+{
+  "id": "EVT-006",
+  "schema_version": "3.0.0",
+  "event_date": "2019-04-16",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "United Conservative Party wins Alberta provincial election",
+  "title_fr": "Le Parti conservateur uni remporte les élections provinciales de l'Alberta",
+  "ai_translated": true,
+  "description_en": "The UCP wins a majority in the Alberta general election, ending the NDP government that had held office since 2015.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "electoral_process"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta (incoming)",
+      "name": "Jason Kenney",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-107"
+  ],
+  "relations": [
+    {
+      "type": "enables",
+      "target_id": "EVT-007"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Attach Elections Alberta official result (Tier 1) and CBC election-night source.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-06-02",
+      "change": "Added R-107 (Elections Alberta 2019 official results PDF). Sourcing resolved.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

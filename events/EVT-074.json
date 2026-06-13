@@ -1,0 +1,56 @@
+{
+  "id": "EVT-074",
+  "schema_version": "3.0.0",
+  "event_date": "2025-01-01",
+  "event_date_precision": "year",
+  "date_notes": null,
+  "title_en": "Alberta's position on the renewed federal child-care agreement",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "Reporting covered Alberta's stance on renewing the federal child-care agreement, including the role of for-profit spaces and a period in which the province indicated it would not sign a renewed deal, alongside a mid-point status review.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "federal_provincial",
+    "fiscal"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-C11ABD14",
+    "R-4660D0B4",
+    "R-41E4C309",
+    "R-338108BD",
+    "R-3664DCBA",
+    "R-B9FE8BB2"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (6/6 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-C11ABD14",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

@@ -1,0 +1,61 @@
+{
+  "id": "EVT-059",
+  "schema_version": "3.0.0",
+  "event_date": "2022-12-06",
+  "event_date_precision": "day",
+  "date_notes": "Reported December 2022; $49M still unaccounted at time of reporting.",
+  "title_en": "Province procures Turkish-manufactured medication at six times standard price; $49M of $70M contract unaccounted",
+  "title_fr": "La province achète des médicaments turcs à six fois le prix standard; 49 M$ sur 70 M$ du contrat restent inexpliqués",
+  "ai_translated": true,
+  "description_en": "The Alberta government fulfils a $70 million contract for Turkish-manufactured ibuprofen and acetaminophen procured during the COVID-19 pandemic at approximately six times the standard market price. Only 30% of the order is received. Alberta Health Services uses the medication for approximately two months before stopping in neonatal intensive care units due to a higher risk of clogging feeding tubes. Approximately 1.4 million bottles remain unused. The province later considers donating the unused supply to Ukraine. The auditor general's subsequent investigation includes the medication contract as part of a broader AHS procurement probe.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "fiscal",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-073",
+    "R-092",
+    "R-093"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-05-27",
+      "change": "Updated with R-092 (Mar 2025 — health minister defends meds, Ukraine donation), R-093 (auditor general probe includes medication). Expanded description with confirmed facts.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

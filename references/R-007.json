@@ -1,0 +1,20 @@
+{
+  "id": "R-007",
+  "schema_version": "3.0.0",
+  "title": "Alberta auditor general finds $109M loss on DynaLife lab privatization",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": null,
+  "publication_date": "2025-11-01",
+  "url": "https://globalnews.ca/news/11533997/alberta-auditor-general-dynalife-ucp/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "$109M confirmed. No byline in original (wire). Attach oag.ab.ca AG report (Tier 1) as separate ref before publication.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

@@ -1,0 +1,16 @@
+{
+  "outlet_id": "una-alberta",
+  "name_en": "United Nurses of Alberta",
+  "outlet_type": "advocacy_research",
+  "rated": false,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "United Nurses of Alberta (labour union)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "not_rated_reason": "Advocacy/research organization — cited as a source, not rated as a news outlet."
+}

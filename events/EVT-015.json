@@ -1,0 +1,50 @@
+{
+  "id": "EVT-015",
+  "schema_version": "3.0.0",
+  "event_date": "2022-10-11",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "New Premier of Alberta sworn in following UCP leadership race",
+  "title_fr": "Un nouveau premier ministre de l'Alberta est assermenté à la suite de la course à la direction du PCU",
+  "ai_translated": true,
+  "description_en": "Danielle Smith wins the UCP leadership race on October 6, 2022 and is sworn in as Premier of Alberta on October 11, 2022. At the time of swearing-in, Smith is not a sitting Member of the Legislative Assembly — she had not won a seat in the legislature. She subsequently wins the Brooks-Medicine Hat by-election on November 22, 2022, establishing her elected mandate. The by-election result is documented in the Elections Alberta 2022 by-election report.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-108"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Attach CBC swearing-in source.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-06-02",
+      "change": "Added R-108 (Elections Alberta 2022 by-election report). Description updated to note Smith was not a sitting MLA at swearing-in and won Brooks-Medicine Hat by-election November 22, 2022.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

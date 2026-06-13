@@ -1,0 +1,59 @@
+{
+  "id": "EVT-105",
+  "schema_version": "3.0.0",
+  "event_date": "2023-08-03",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Province pauses approvals for new renewable electricity generation",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The Government of Alberta announced a pause on approvals of new renewable electricity generation projects, directing the regulator to halt processing of applications during a review period. A subsequent analysis estimated significant stalled private investment associated with the pause.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "energy",
+    "environment"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Minister of Affordability and Utilities",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-D0000001"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from didyouvoteforthis.ca harvest 2026-06-11 (1/1 existing-outlet sources resolved). Suppressed pending verification of date, framing, and the stalled-investment figure. TO ADD: the Pembina ~$33B estimate as a tier-3 CTX ref once the pembina-institute outlet exists (Bell rule: cannot load-bear without corroboration).",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-11",
+      "change": "Created from didyouvoteforthis harvest batch; suppressed pending verification.",
+      "source_ref": "R-D0000001",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

@@ -1,0 +1,51 @@
+{
+  "id": "EVT-100",
+  "schema_version": "3.0.0",
+  "event_date": "2023-09-01",
+  "event_date_precision": "month",
+  "date_notes": null,
+  "title_en": "Statements on gender policy and the One Million March",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The premier made statements related to gender policy and the 'One Million March'; analysis examined the policy direction.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "lgbtq"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-51B89BB3",
+    "R-25046D53"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (2/2 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-51B89BB3",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

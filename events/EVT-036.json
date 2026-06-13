@@ -1,0 +1,80 @@
+{
+  "id": "EVT-036",
+  "schema_version": "3.0.0",
+  "event_date": "2025-10-27",
+  "event_date_precision": "day",
+  "date_notes": "Bill 2 tabled October 27 2025 (Second Session, 31st Legislature). Strike began October 6; lockout October 9. ATA court challenge filed November 6 2025. Royal Assent date not printed on bill face — record of debate page blank.",
+  "title_en": "Back to School Act invokes notwithstanding clause to end teachers' strike",
+  "title_fr": "La Loi sur le retour à l'école invoque la clause dérogatoire pour mettre fin à la grève des enseignants",
+  "ai_translated": true,
+  "description_en": "The Alberta government tables Bill 2, the Back to School Act, to end a strike by approximately 51,000 public, Catholic, and francophone teachers that began October 6 2025 following two rejected contract offers. The bill imposes a collective agreement (effective September 1 2024, expiring August 31 2028) and invokes s.33 of the Charter against sections 2 and 7–15, shielding the legislation from Charter challenge. Section 13 of the bill explicitly strips the Labour Relations Board, human rights tribunals, and arbitrators of jurisdiction to rule on the constitutionality of any provision. Section 14 extinguishes all causes of action against the Crown, including under s.24(1) Charter remedies, and retrospectively dismisses any proceedings commenced before the act's coming into force. The contract imposed is based on a memorandum of agreement the ATA and TEBA had reached September 23 2025 but which ATA members had not ratified. On November 6 2025, the ATA filed a constitutional challenge in Alberta's Court of King's Bench, seeking a declaration that the government's use of s.33 was improper and an injunction against some or all effects of the bill while the challenge is heard. Justice Minister Mickey Amery said the government will defend the act.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "constitutional_override",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "President of Treasury Board and Minister of Finance",
+      "name": "Nate Horner",
+      "party": "UCP",
+      "jurisdiction": "provincial",
+      "note": "Tabling minister as named on bill face"
+    },
+    {
+      "display_role": "Minister of Justice",
+      "name": "Mickey Amery",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "President, Alberta Teachers' Association",
+      "name": "Jason Schilling",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": "ATA president Jason Schilling: 'Let's call this what it is — it is abuse of power. This clause was not used to protect children, or to preserve democracy, or to address an emergency. It was used to win an argument.' ATA filed constitutional challenge November 6 2025 seeking declaration that use of s.33 was improper and invalid. BCCLA litigation director Vibert Jack noted courts have historically been deferential to provinces that invoke s.33: 'It might be an uphill battle, I would say, for the union.'",
+  "source_refs": [
+    "R-053",
+    "R-054"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "notwithstanding-clause-use",
+      "note": "Part of documented pattern of provincial s.33 invocations. See EVT-004 (Quebec 1988), EVT-027 (Saskatchewan 2023), EVT-028 (Ontario 2022). First Alberta use of s.33 to impose a collective agreement."
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Tier 1 source confirmed: docs.assembly.ab.ca/LADDAR_files/docs/bills/bill/legislature_31/session_2/20251023_bill-002.pdf. Tier 2 CBC confirmed: cbc.ca/news/canada/edmonton/alberta-teachers-association-bill-2-court-challenge-notwithstanding-9.6969870. Section citations (s.3, s.13, s.14) verified against bill text directly. MOA date September 23 2025 confirmed in bill Schedule.",
+  "standards_flags": [
+    "outcome-pending"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "change": "Event created. Sources confirmed from uploaded bill PDF and CBC article. Court challenge outcome pending — update when Court of King's Bench rules on injunction application.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [
+    {
+      "actor": "Minister of Justice Mickey Amery",
+      "position": "Government used s.33 to achieve finality and return children to school after three weeks of cancelled classes. Will defend Back to School Act.",
+      "source_ref": "R-054"
+    }
+  ],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

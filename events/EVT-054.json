@@ -1,0 +1,70 @@
+{
+  "id": "EVT-054",
+  "schema_version": "3.0.0",
+  "event_date": "2020-02-27",
+  "event_date_precision": "day",
+  "date_notes": "Budget 2020 tabled Feb 27 2020; this article Feb 28. Related: COVID education redirection March 28 2020 (R-089) is a distinct action covering different funds.",
+  "title_en": "Budget 2020 holds K-12 provincial funding flat while directing school boards to draw on reserves; post-secondary cut 6%",
+  "title_fr": "Le budget 2020 maintient le financement provincial K-12 sans changement tout en demandant aux conseils scolaires de puiser dans leurs réserves ; les études postsecondaires sont réduites de 6 %",
+  "ai_translated": true,
+  "description_en": "Budget 2020 holds provincial K-12 education funding essentially flat ($7.209B, down from $7.218B — a reduction of $9M). School boards are expected to draw $681M from their own reserves and own-source revenue to cover operating expenses. A total of 138 certificated and 106 non-certificated positions are not to be replaced. Post-secondary (Campus Alberta grants) is cut by 6%, from $5.5B to $5.1B, following a 5% cut the prior year. NOTE: A separate $128M COVID-related education redirection occurred March 28 2020 (R-089 — different event, different mechanism).",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "education",
+    "fiscal"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Jason Kenney",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Education Minister",
+      "name": "Adriana LaGrange",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-069",
+    "R-089"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-05-27",
+      "change": "Updated to cover both Feb 27 budget cut and March 28 COVID redirection. Added R-089. Both are $128M actions on K-12 funding.",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-05-27",
+      "change": "CORRECTION: Previous description incorrectly stated $128M cut. Budget 2020 held K-12 funding flat; reserves drawdown required. The $128M figure belongs to the March 2020 COVID redirection (R-089). Both refs retained.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

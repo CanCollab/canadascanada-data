@@ -1,0 +1,20 @@
+{
+  "id": "R-107",
+  "schema_version": "3.0.0",
+  "title": "2019 Provincial General Election — Statement of Votes, Volume 1",
+  "outlet": "Elections Alberta",
+  "outlet_id": "elections-alberta",
+  "section": null,
+  "author": null,
+  "publication_date": "2019-01-01",
+  "url": "https://www.elections.ab.ca/wp-content/uploads/Volume-1-2019-Provincial-General-Election-Report.pdf",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Elections Alberta official results for the April 16, 2019 provincial general election. UCP won 63 of 87 seats; NDP won 24. Confirms UCP majority government.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

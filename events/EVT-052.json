@@ -1,0 +1,51 @@
+{
+  "id": "EVT-052",
+  "schema_version": "3.0.0",
+  "event_date": "2019-06-26",
+  "event_date_precision": "day",
+  "date_notes": "Passed in first UCP budget, June 2019.",
+  "title_en": "Province reinstates lower youth minimum wage of $13/hour for workers under 18",
+  "title_fr": "La province rétablit un salaire minimum inférieur de 13 $/h pour les travailleurs de moins de 18 ans",
+  "ai_translated": true,
+  "description_en": "The government reinstates a two-tier minimum wage, setting $13/hour for workers under 18 — $2/hour below the general minimum of $15/hour — reversing the previous government's single-tier rate.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "labour",
+    "fiscal"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Jason Kenney",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-067"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

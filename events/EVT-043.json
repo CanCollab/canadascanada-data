@@ -1,0 +1,57 @@
+{
+  "id": "EVT-043",
+  "schema_version": "3.0.0",
+  "event_date": "2025-10-09",
+  "event_date_precision": "day",
+  "date_notes": "Lockout began October 9 2025, three days after strike began October 6. Both dates confirmed in Bill 2 section 2.",
+  "title_en": "TEBA lockout begins three days into teachers' strike",
+  "title_fr": "Le lock-out du TEBA commence trois jours après le début de la grève des enseignants",
+  "ai_translated": true,
+  "description_en": "The Teachers' Employer Bargaining Association (TEBA) institutes a lockout of ATA members on October 9 2025 — three days after the strike began. The lockout combined with the ongoing strike removes 740,000+ students from classrooms province-wide. Both the strike and lockout are referenced in Bill 2 section 2, which defines the purpose of the act as ending 'the strike by the employees that started on October 6, 2025 and lockout by the TEBA that started on October 9, 2025.' The lockout is the employer action; the strike is the worker action — both are terminated simultaneously by Bill 2 on October 27.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-053"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Lockout compounds the strike; both terminated by Bill 2."
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Dates confirmed directly in Bill 2 section 2. Tier 1 source. No additional verification required.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "change": "Event created. Dates sourced directly from Bill 2 section 2 — Tier 1.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

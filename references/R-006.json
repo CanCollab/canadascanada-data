@@ -1,0 +1,20 @@
+{
+  "id": "R-006",
+  "schema_version": "3.0.0",
+  "title": "United Conservative Party nationalizes privatized medical lab services",
+  "outlet": "AlbertaPolitics.ca",
+  "outlet_id": "alberta-politics",
+  "section": "Opinion",
+  "author": "David Climenhaga",
+  "publication_date": "2023-08-19",
+  "url": "https://albertapolitics.ca/2023/08/united-conservative-party-nationalizes-privatized-medical-lab-services-who-saw-that-coming/",
+  "source_type": "finding_tool",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 4,
+  "verified": true,
+  "wire_source": null,
+  "notes": "FINDING TOOL ONLY (reclassified from opinion per HANDOFF_v3). Climenhaga analysis — do not cite as source_ref. Removed from EVT-018 source_refs. Use to locate Tier 1/2 facts only.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

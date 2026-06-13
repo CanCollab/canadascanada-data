@@ -1,0 +1,45 @@
+{
+  "schema_version": "3.1.0",
+  "note": "Discrepancy leads with no underlying event records yet. Author the events first, then link with a conflicts_with edge. Not published.",
+  "leads": [
+    {
+      "former_id": "SD-019",
+      "discrepancy_type": "statement_contradicted_by_evidence",
+      "speaker": {
+        "display_role": "Premier of Alberta",
+        "name": "Jason Kenney",
+        "party": "UCP",
+        "jurisdiction": "provincial"
+      },
+      "said": "UCP Governance Manual confidentiality provisions — Kenney cited governance rules requiring confidentiality of internal party deliberations.",
+      "did": "Kenney was secretly recorded coordinating with staff and loyalists on how to manage the UCP internal leadership review. The recording revealed internal political strategy discussions inconsistent with stated governance norms.",
+      "source_lead": "cbc.ca/news/canada/calgary/kenney-recording-ucp-alberta-leadership-review-staff-1.6396647"
+    },
+    {
+      "former_id": "SD-020",
+      "discrepancy_type": "reversed_position",
+      "speaker": {
+        "display_role": "Government of Alberta",
+        "name": null,
+        "party": "UCP",
+        "jurisdiction": "provincial"
+      },
+      "said": "UCP government ended mandatory public reporting of class sizes, citing administrative burden.",
+      "did": "Under public and stakeholder pressure, UCP government reversed its position and restarted mandatory public reporting of Alberta class sizes.",
+      "source_lead": "edmontonjournal.com/news/ucp-reverses-stance-will-restart-public-reporting-of-alberta-class-sizes"
+    },
+    {
+      "former_id": "SD-021",
+      "discrepancy_type": "statement_contradicted_by_action",
+      "speaker": {
+        "display_role": "Premier of Alberta",
+        "name": "Jason Kenney",
+        "party": "UCP",
+        "jurisdiction": "provincial"
+      },
+      "said": "Government listens to Albertans. [General stated commitment to public consultation — specific quote to be sourced from 2019 campaign or early government period.]",
+      "did": "During an overnight legislature debate on Bill 9 — which delayed wage reopener talks for 180,000 public sector workers including nurses, teachers, and government employees — Premier Kenney distributed earplugs to his UCP caucus members. NDP MLA Thomas Dang reported hearing Kenney say 'this is so you don't have to listen to Thomas and the others over there.' NDP MLA David Eggen addressed the legislature: 'I can see that many of them are wearing bright pink earplugs that their premier is handing out to all of them right now.' Kenney's press secretary Christine Myatt called it 'a harmless and light-hearted attempt to boost government caucus morale.' Bill 9 passed third reading just before 7am after an all-night session. AFL president Gil McGowan: 'They showed disrespect and contempt for both Alberta workers and the democratic process.'",
+      "source_lead": "cbc.ca/news/canada/edmonton/premier-jason-kenney-earplug-stunt-1.5183189"
+    }
+  ]
+}

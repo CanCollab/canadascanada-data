@@ -1,0 +1,60 @@
+{
+  "id": "EVT-019",
+  "schema_version": "3.0.0",
+  "event_date": "2025-11-01",
+  "event_date_precision": "month",
+  "date_notes": "Auditor General report released 2025. Handoff carried a 2024-09-24 date that appears to be an error — Global News coverage surfaced November 2025. AG report publication date must be confirmed at oag.ab.ca.",
+  "title_en": "Kenney captured on recording coordinating UCP leadership review strategy with staff",
+  "title_fr": "Le vérificateur général confirme une perte d'environ 109 M$ dans l'affaire de la privatisation des laboratoires",
+  "ai_translated": true,
+  "description_en": "A recording surfaces in which Premier Kenney is heard coordinating with staff and loyalists on how to manage the UCP internal leadership review — inconsistent with his government's stated governance norms around confidentiality of internal deliberations. The recording was made by a third party and released without Kenney's knowledge or consent; that context is noted here and is relevant to how the material was obtained. The content of the recording revealed internal political strategy discussions. Source URL under verification: cbc.ca/news/canada/calgary/kenney-recording-ucp-alberta-leadership-review-staff-1.6396647",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Auditor General of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": {
+    "display_role": "Official Opposition",
+    "name": "David Shepherd",
+    "party": "NDP",
+    "date": "2025-11-24",
+    "description": "Official Opposition health critic challenged the government in Question Period over poor documentation and transparency following the Auditor General report.",
+    "source_refs": []
+  },
+  "source_refs": [
+    "R-007"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "$109M taxpayer-cost finding verified against R-007 (Global News). RECOMMENDED: attach oag.ab.ca AG report (Tier 1) as corroborating primary before final publication; figure itself is confirmed. $109M supersedes earlier $97M project estimate.",
+  "standards_flags": [
+    "date-unconfirmed",
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "change": "Language corrected: 'secretly recorded' replaced with 'captured on recording' to accurately reflect that Kenney was recorded by a third party, not that he did the recording. Recording context (third-party, without consent) added to description.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

@@ -1,0 +1,20 @@
+{
+  "id": "R-036",
+  "schema_version": "3.0.0",
+  "title": "Alberta elections — what happened in the 2023 election",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2023-05-30",
+  "url": "https://www.cbc.ca/news/canada/edmonton/what-happened-in-the-alberta-election-here-s-what-the-numbers-say-1.6862401",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Confirmed live from RTF. Election analysis — corroborates R-019.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

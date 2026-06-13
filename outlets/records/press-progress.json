@@ -1,0 +1,36 @@
+{
+  "outlet_id": "press-progress",
+  "name_en": "PressProgress",
+  "outlet_type": "independent_digital",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "PressProgress (independent non-profit)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "in_standards",
+      "source_url": "https://pressprogress.ca/journalistic-standards/"
+    },
+    "editorial_standards_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "standalone_code",
+      "source_url": "https://pressprogress.ca/journalistic-standards/"
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": true,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

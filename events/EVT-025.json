@@ -1,0 +1,44 @@
+{
+  "id": "EVT-025",
+  "schema_version": "3.0.0",
+  "event_date": "2025-12-01",
+  "event_date_precision": "month",
+  "date_notes": "One of four s.33 invocations within a two-month span. Exact date to confirm.",
+  "title_en": "Notwithstanding clause invoked in legislation affecting transgender youth",
+  "title_fr": "La clause dérogatoire est invoquée dans une loi concernant les jeunes transgenres",
+  "ai_translated": true,
+  "description_en": "The government invokes section 33 of the Charter in legislation concerning policies affecting transgender youth — reported as the fourth such invocation within an approximately two-month period.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "constitutional_override",
+    "lgbtq"
+  ],
+  "claim_type": "fact",
+  "inference_note": "The count (fourth s.33 invocation in roughly two months) is supported by R-013. The further characterization that this pace is 'without precedent in Canadian provincial history' is attributed to critics (e.g. Ganley, Egale) in the source, not asserted as fact by the outlet — carry it as attributed inference, not fact.",
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-013"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "s.33 invocation and 'fourth in ~two months' count verified against R-013 (CBC). 'Without precedent in provincial history' moved to inference_note as critics' characterization, not fact. Exact date still month-precision — confirm if day precision needed.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

@@ -1,0 +1,77 @@
+{
+  "id": "EVT-040",
+  "schema_version": "3.0.0",
+  "event_date": "2025-09-28",
+  "event_date_precision": "day",
+  "date_notes": "Vote held September 28-29 2025 per notwithstanding analysis. Result: 89.5% rejection. ATA source URL: teachers.ab.ca/News Room/ata news/Pages/Teachers-reject-tentative-agreement.aspx (ev_005).",
+  "title_en": "Teachers vote 89.5% to reject tentative agreement",
+  "title_fr": "Les enseignants votent à 89,5 % contre l'accord de principe",
+  "ai_translated": true,
+  "description_en": "ATA members vote 89.5% to reject a tentative agreement reached in central bargaining — one of the highest rejection rates in Canadian teacher bargaining history. The rejected agreement had offered a 12% wage increase over four years (approximately 3% annually against 2–3% annual inflation), leaving teachers' real wages flat. Teachers also rejected the agreement for its failure to include binding class-size caps and adequate educational assistant commitments. Median teacher salary at time of vote: approximately $70,000. The 12% offer would have brought that to approximately $78,400 over four years.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Teachers' Association",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-112",
+    "R-113",
+    "R-114"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "89.5% rejection triggers strike authorization vote."
+    },
+    {
+      "type": "enables",
+      "target_id": "EVT-041"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Confirm ATA source URL is live. 89.5% figure and September 28-29 date need confirmation against ATA primary source.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "change": "Event created for strike lead-up thread.",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-06-02",
+      "change": "Added R-112 (Global News), R-113 (Rocky Mountain Outlook), R-114 (Alberta Politics Tier 4). The 89.5% figure and Sept 28 date require ATA primary confirmation. single-source flag retained.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

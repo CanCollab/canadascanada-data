@@ -1,0 +1,52 @@
+{
+  "id": "EVT-089",
+  "schema_version": "3.0.0",
+  "event_date": "2025-02-01",
+  "event_date_precision": "month",
+  "date_notes": null,
+  "title_en": "Statements on imported children's pain medication",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The health minister stated that imported children's pain medication was safe for patients overseas, drawing scrutiny.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-F59AACE7"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (1/1 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-F59AACE7",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

@@ -1,0 +1,55 @@
+{
+  "id": "EVT-014",
+  "schema_version": "3.0.0",
+  "event_date": "2022-07-01",
+  "event_date_precision": "month",
+  "date_notes": "DynaLife assumed services July 2022; exact handover date to confirm.",
+  "title_en": "Private provider assumes Calgary community laboratory services",
+  "title_fr": "Un prestataire privé prend en charge les services de laboratoire communautaires de Calgary",
+  "ai_translated": true,
+  "description_en": "Private provider DynaLife assumes community lab services in the Calgary zone under contract, expanding the approach that followed the public superlab cancellation.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "healthcare_privatization"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta / Alberta Health Services",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-022"
+  ],
+  "relations": [
+    {
+      "type": "enables",
+      "target_id": "EVT-016"
+    },
+    {
+      "type": "enables",
+      "target_id": "EVT-018"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Attach AHS/Calgary Herald or CBC source for DynaLife handover date.",
+  "standards_flags": [
+    "single-source",
+    "date-unconfirmed"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

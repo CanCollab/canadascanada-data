@@ -1,0 +1,59 @@
+{
+  "id": "EVT-110",
+  "schema_version": "3.0.0",
+  "event_date": "2025-04-30",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Tabled cabinet notes alleging cabinet was misled on health board dismissal",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "A former Infrastructure Minister, sitting as an Independent, tabled handwritten cabinet-committee notes and a letter to the Auditor General in the Legislature. The materials allege that the stated rationale for dismissing the Alberta Health Services board omitted an ongoing procurement investigation and a former chief executive's allegations. The Premier responded in Question Period that no one was misled.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "accountability",
+    "transparency",
+    "healthcare_privatization"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Member of the Legislative Assembly (Independent)",
+      "name": "Peter Guthrie",
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-D0000003",
+    "R-D0000004"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "The tabled record (Hansard / Standing Order) is the underlying primary; confirm the tabling date and include the government's response on the same record. Note the authenticity of the notes was not disputed by government.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-11",
+      "change": "Created from harvest batch; suppressed pending verification.",
+      "source_ref": "R-D0000003",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

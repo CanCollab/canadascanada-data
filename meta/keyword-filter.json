@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "schema_version": "2.0.0",
+    "schema": "keyword-filter",
+    "project": "CanadaScanada",
+    "last_updated": "2026-05-27",
+    "logic": "A story must match AT LEAST ONE term from 'actors_any' AND at least one term from ANY category group to pass the filter. Single-dimension matches (actor only, or category only) are discarded as too noisy. All matching is case-insensitive. Terms are checked against title + description/summary fields in the feed item.",
+    "note": "This file drives the zero-LLM filtering step. No tokens consumed here. Add terms freely — the cost of a false positive is one extra item in the review queue; the cost of a false negative is a missed story."
+  },
+  "actors_any": {
+    "description": "Story must mention at least one of these to pass — prevents unrelated Alberta stories from flooding the queue",
+    "terms": [
+      "Danielle Smith", "Premier Smith",
+      "Jason Kenney", "Premier Kenney",
+      "Stephen Harper", "Harper government",
+      "UCP", "United Conservative",
+      "Alberta government", "Alberta legislature",
+      "ATA", "Alberta Teachers", "teachers union",
+      "AHS", "Alberta Health Services",
+      "Sovereignty Act", "Alberta Sovereignty",
+      "Notley", "NDP government",
+      "Dreeshen", "Nally", "Issik", "Neudorf",
+      "Coutts", "Diagolon",
+      "ATCO", "Postmedia",
+      "notwithstanding clause", "section 33", "s. 33",
+      "Bill 2", "Bill 18",
+      "Centurion", "Long Run",
+      "Sequoia Resources",
+      "Auditor General Alberta",
+      "Elections Alberta",
+      "CRTC",
+      "Athabasca Chipewyan"
+    ]
+  },
+  "categories": {
+    "science_suppression": {
+      "label": "Science suppression",
+      "terms": [
+        "muzzle", "muzzling", "scientist", "scientific communication",
+        "DFO library", "fisheries library", "climate data",
+        "research funding cut", "science funding",
+        "Environment Canada scientist", "statscan",
+        "long-form census"
+      ]
+    },
+    "media_suppression": {
+      "label": "Media suppression",
+      "terms": [
+        "CBC funding", "CBC cuts", "CBC defund",
+        "press freedom", "media freedom",
+        "Online News Act", "Bill C-18",
+        "journalism funding", "QCJO",
+        "Rebel Media", "True North",
+        "Postmedia layoff", "newsroom cut",
+        "media ownership"
+      ]
+    },
+    "healthcare_privatization": {
+      "label": "Healthcare privatization",
+      "terms": [
+        "AHS", "Alberta Health Services",
+        "privatize", "privatization", "private surgery",
+        "Dynalife", "DynaLIFE",
+        "Turkish Tylenol", "Atabay",
+        "surgical wait", "wait time",
+        "health care cut", "health budget",
+        "doctor", "nurse", "physician",
+        "emergency room", "ER wait"
+      ]
+    },
+    "fiscal": {
+      "label": "Fiscal policy",
+      "terms": [
+        "budget", "deficit", "surplus",
+        "corporate tax", "tax cut", "tax rate",
+        "Heritage Fund", "Sustainability Fund",
+        "fiscal", "spending", "debt",
+        "resource revenue", "royalty",
+        "financial statement", "public accounts"
+      ]
+    },
+    "labour": {
+      "label": "Labour",
+      "terms": [
+        "strike", "lockout", "collective bargaining",
+        "back to work", "essential services",
+        "ATA", "AUPE", "UNA", "Unifor",
+        "wage", "compensation",
+        "labour dispute", "arbitration",
+        "layoff", "workforce reduction"
+      ]
+    },
+    "education": {
+      "label": "Education",
+      "terms": [
+        "school", "teacher", "student",
+        "curriculum", "class size",
+        "school board", "school division",
+        "K-12", "post-secondary",
+        "university", "college",
+        "education funding", "education cut",
+        "school book", "banned book",
+        "draft curriculum"
+      ]
+    },
+    "charter": {
+      "label": "Charter rights",
+      "terms": [
+        "Charter", "Charter of Rights",
+        "rights violation", "constitutional challenge",
+        "freedom of expression", "freedom of religion",
+        "equality rights", "section 15",
+        "judicial review",
+        "Supreme Court", "Court of Appeal"
+      ]
+    },
+    "constitutional_override": {
+      "label": "Constitutional override",
+      "terms": [
+        "notwithstanding clause", "section 33", "s. 33",
+        "notwithstanding", "override",
+        "constitutional", "constitution",
+        "Sovereignty Act", "Alberta Sovereignty",
+        "Bill 1"
+      ]
+    },
+    "democratic_interference": {
+      "label": "Democratic interference",
+      "terms": [
+        "democratic", "democracy",
+        "legislature", "dissolution",
+        "prorogation", "prorogue",
+        "election interference",
+        "gerrymandering", "electoral boundary",
+        "recall", "Bill 2 recall",
+        "voter suppression",
+        "municipal interference", "city council override"
+      ]
+    },
+    "election_interference": {
+      "label": "Election interference",
+      "terms": [
+        "election", "electoral",
+        "voter list", "voter data", "elector list",
+        "Campaign Research", "third party",
+        "Elections Alberta", "election law",
+        "robocall", "in-and-out",
+        "Nally", "Centurion"
+      ]
+    },
+    "privacy": {
+      "label": "Privacy",
+      "terms": [
+        "surveillance", "privacy",
+        "voter data", "personal information",
+        "FOIP", "freedom of information",
+        "data breach", "data collection"
+      ]
+    },
+    "transparency": {
+      "label": "Transparency",
+      "terms": [
+        "FOIP", "freedom of information",
+        "access to information",
+        "transparency", "accountability",
+        "expense", "expense claim",
+        "deleted records", "record destruction",
+        "Auditor General", "public accounts"
+      ]
+    },
+    "accountability": {
+      "label": "Accountability",
+      "terms": [
+        "Auditor General", "AG report",
+        "misconduct", "investigation",
+        "accountability",
+        "expense scandal", "conflict of interest",
+        "sole source", "sole-sourced contract",
+        "public inquiry",
+        "AHS investigation"
+      ]
+    },
+    "energy": {
+      "label": "Energy policy",
+      "terms": [
+        "renewable energy", "moratorium",
+        "oil sands", "oilsands", "oil patch",
+        "orphan well", "abandoned well",
+        "pipeline", "Trans Mountain",
+        "carbon capture", "carbon tax",
+        "coal", "electricity",
+        "AER", "Alberta Energy Regulator",
+        "net zero", "emission"
+      ]
+    },
+    "environment": {
+      "label": "Environment",
+      "terms": [
+        "environment", "environmental",
+        "climate", "wildfire", "flood",
+        "Jasper fire",
+        "tailings pond", "reclamation",
+        "Mine Financial Security Program", "MFSP",
+        "Treaty 8", "land rights",
+        "endangered species"
+      ]
+    },
+    "federal_provincial": {
+      "label": "Federal-provincial relations",
+      "terms": [
+        "federal government", "Ottawa",
+        "equalization", "transfer payment",
+        "carbon price", "federal carbon",
+        "federal-provincial",
+        "Trudeau", "prime minister",
+        "jurisdiction", "provincial rights",
+        "Senate", "Parliament"
+      ]
+    },
+    "political_convoy": {
+      "label": "Political convoy",
+      "terms": [
+        "convoy", "Freedom Convoy",
+        "yellow vest", "yellow-vest",
+        "Coutts", "blockade",
+        "border crossing",
+        "Maverick", "Wexit",
+        "protest camp"
+      ]
+    },
+    "separatism": {
+      "label": "Separatism",
+      "terms": [
+        "separatism", "separation",
+        "referendum", "independence",
+        "Wexit", "Maverick Party",
+        "Alberta independence",
+        "sovereignty vote",
+        "firewall"
+      ]
+    },
+    "party_discipline": {
+      "label": "Party discipline",
+      "terms": [
+        "caucus", "expelled", "resignation",
+        "floor crossing", "party discipline",
+        "MLA", "leadership review",
+        "Preston Manning",
+        "internal conflict"
+      ]
+    },
+    "lgbtq": {
+      "label": "LGBTQ+ rights",
+      "terms": [
+        "transgender", "trans",
+        "gender", "gender-affirming",
+        "LGBTQ", "LGBT", "queer",
+        "bathroom bill", "pronouns",
+        "sports ban", "sex education",
+        "safe school"
+      ]
+    },
+    "diagolon": {
+      "label": "Diagolon",
+      "terms": [
+        "Diagolon",
+        "Jeremy MacKenzie",
+        "far-right network",
+        "extremist",
+        "Coutts weapons",
+        "accelerationism"
+      ]
+    }
+  },
+  "exclusions": {
+    "description": "Stories matching these terms are dropped regardless of other matches — prevents satire, sports, and entertainment from entering the queue",
+    "terms": [
+      "Beaverton",
+      "Edmonton Oilers", "Calgary Flames", "Edmonton Elks",
+      "recipe", "horoscope",
+      "obituary",
+      "weather forecast",
+      "lottery",
+      "crossword"
+    ]
+  },
+  "confidence_scoring": {
+    "description": "Rough priority signal for the review queue — helps you triage which items to look at first",
+    "high": "Matches 2+ actor terms AND 2+ category terms",
+    "medium": "Matches 1 actor term AND 1 category term",
+    "low": "Matches actor terms only OR is from a low-priority feed — may be noise"
+  }
+}

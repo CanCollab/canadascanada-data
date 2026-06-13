@@ -1,0 +1,20 @@
+{
+  "id": "R-037",
+  "schema_version": "3.0.0",
+  "title": "Parkland Institute — Job Creation Tax Cut analysis",
+  "outlet": "Parkland Institute",
+  "outlet_id": "parkland-institute",
+  "section": "Research",
+  "author": null,
+  "publication_date": "2020-01-01",
+  "url": "https://www.parklandinstitute.ca/job_creation_or_job_loss",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 3,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Tier 3 research institute (advocacy lean). Figures usable as fact; tax-cut->job-loss causation is the author's inference, not established fact. Corroborates EVT-010.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

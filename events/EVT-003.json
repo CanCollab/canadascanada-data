@@ -1,0 +1,61 @@
+{
+  "id": "EVT-003",
+  "schema_version": "3.0.0",
+  "event_date": "2012-04-04",
+  "event_date_precision": "day",
+  "date_notes": "Event anchored to the April 2012 federal budget funding reduction. Note: distinct from the later April 2014 announcement of 657 job cuts (which R-002's title describes). R-002 needs review — its title/date may correspond to the 2014 round rather than the 2012 budget. Confirm which event R-002 documents and re-source if needed.",
+  "title_en": "Federal budget cuts CBC funding by $115M over three years",
+  "title_fr": "Le budget fédéral réduit le financement de la CBC de 115 M$ sur trois ans",
+  "ai_translated": true,
+  "description_en": "The 2012 federal budget reduces CBC/Radio-Canada funding by $115 million phased over three years. The broadcaster subsequently announced job and programming reductions. Documented as part of the public-information environment of this period.",
+  "description_fr": null,
+  "era": "pre2019",
+  "category": [
+    "media_suppression"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Canada",
+      "name": null,
+      "party": "Conservative",
+      "jurisdiction": "federal"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-002"
+  ],
+  "relations": [
+    {
+      "type": "same_actor",
+      "target_id": "EVT-004"
+    },
+    {
+      "type": "conflicts_with",
+      "target_id": "EVT-004",
+      "discrepancy": "promise_broken",
+      "framing_en": "A 2011 commitment to maintain or increase CBC funding, followed in 2012 by the largest single-year reduction to the broadcaster's budget since the mid-1990s.",
+      "framing_fr": null,
+      "source_refs": [
+        "R-002",
+        "R-001"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "DATE/SOURCE MISMATCH: event is the April 2012 budget funding cut ($115M/3yr), but R-002's title ('CBC cuts 657 jobs') describes the April 2014 announcement — these are different events ~2 years apart. The corpus .txt for R-001/R-002 also contained the wrong article (a mall-roof-collapse story) — a harvest error. ACTION: re-harvest R-002; attach a 2012-budget source (e.g. Globe 'CBC to cut 650 jobs', Apr 4 2012) for this event, or split into a separate 2014 event if both are wanted.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

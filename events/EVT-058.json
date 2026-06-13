@@ -1,0 +1,57 @@
+{
+  "id": "EVT-058",
+  "schema_version": "3.0.0",
+  "event_date": "2022-10-12",
+  "event_date_precision": "day",
+  "date_notes": "First-day press conference October 12 2022; retraction October 13.",
+  "title_en": "Premier states unvaccinated people are 'most discriminated against group' she has witnessed; retracts next day",
+  "title_fr": "La première ministre déclare que les non-vaccinés sont le groupe « le plus discriminé » qu'elle ait jamais vu ; rétractation le lendemain",
+  "ai_translated": true,
+  "description_en": "On her first day as premier, Danielle Smith states the unvaccinated have been 'the most discriminated against group that I've ever witnessed in my lifetime.' The statement draws criticism from Indigenous, Black, and LGBTQ community leaders. Smith retracts the statement the following day.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "party_discipline",
+    "lgbtq"
+  ],
+  "claim_type": "fact",
+  "inference_note": true,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-081"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "R-081 (CBC text article, Elise von Scheel, Oct 12 2022) confirmed. Resolves R-072 player URL HOLD. Article covers: original statement ('most discriminated against group'), clarification statement (did not intend to trivialize), criticism from Indigenous scholars and BC premier.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-05-27",
+      "change": "HOLD resolved. R-072 (player URL) replaced with R-081 (text article, verified).",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

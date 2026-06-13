@@ -1,0 +1,57 @@
+{
+  "id": "EVT-111",
+  "schema_version": "3.0.0",
+  "event_date": "2025-10-27",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Premier's Saudi-funded private-jet travel during Back to School Act passage",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "As the Back to School Act was tabled and passed using the notwithstanding clause, the Premier was absent from the Legislature, travelling to Saudi Arabia and the United Arab Emirates. The Premier's office later confirmed the travel was on a private jet paid for by the Saudi government.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "transparency",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-D0000005",
+    "R-D0000006"
+  ],
+  "relations": [
+    {
+      "type": "same_actor",
+      "target_id": "EVT-036"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Keep strictly to what the Premier's office confirmed (Saudi-government-paid travel). Quote the confirmation rather than paraphrasing. Links to EVT-036 (Back to School Act, same day).",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-11",
+      "change": "Created from harvest batch; suppressed pending verification.",
+      "source_ref": "R-D0000005",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

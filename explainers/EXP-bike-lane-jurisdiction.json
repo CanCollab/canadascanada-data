@@ -1,0 +1,43 @@
+{
+  "id": "EXP-bike-lane-jurisdiction",
+  "schema_version": "3.0.0",
+  "type": "jurisdiction",
+
+  "title": {
+    "en-CA": "City and provincial roles for local roads and bike lanes",
+    "fr-CA": null
+  },
+  "summary": {
+    "en-CA": "Local streets, including their bike lanes, are owned and designed by the city. Albertans elect a city council to run their municipality (the city or town) and separately elect MLAs to the provincial legislature. The province sets the statutory framework municipalities work within, owns and maintains provincial highways, and provides infrastructure grant funding that cities may apply to local roads and pathways. Because municipal powers come from provincial statute rather than the Constitution, the province can change or override them by passing a law through a vote in the Legislature.",
+    "fr-CA": null
+  },
+  "body": {
+    "en-CA": null,
+    "fr-CA": null
+  },
+  "key_points": [
+    { "en-CA": "Albertans elect a city or town council to run their municipality. \"Municipal\" and \"city\" refer to the same level of local government.",
+      "fr-CA": null },
+    { "en-CA": "Albertans separately elect members of the Legislative Assembly (MLAs), who form the provincial government.",
+      "fr-CA": null },
+    { "en-CA": "The city owns and designs its local streets, including their bike lanes, sidewalks, and pathways.",
+      "fr-CA": null },
+    { "en-CA": "The province sets the statutes municipalities operate under, owns and maintains provincial highways, and provides infrastructure grant funding that cities may apply to local roads and pathways.",
+      "fr-CA": null },
+    { "en-CA": "Municipal powers come from provincial statute, not the Constitution, so the province can change or override them. Doing so requires passing a law, voted on by MLAs in the Legislature.",
+      "fr-CA": null }
+  ],
+
+  "ai_translated": { "fr-CA": false },
+
+  "applies_to": ["municipal_jurisdiction"],
+  "source_refs": ["R-mga", "R-calgary-bike-infrastructure", "R-calgary-traffic-bylaw", "R-prov-infrastructure-funding"],
+  "related_explainers": [],
+
+  "needs_verification": true,
+  "evidence_status": "established",
+  "update_log": [],
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

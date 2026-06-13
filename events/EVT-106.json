@@ -1,0 +1,66 @@
+{
+  "id": "EVT-106",
+  "schema_version": "3.0.0",
+  "event_date": "2023-08-14",
+  "event_date_precision": "month",
+  "date_notes": "Approximate date of the public statement; confirm exact date from the source.",
+  "title_en": "Statement attributing the renewables approval pause to an electricity-operator request",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The Premier publicly stated that the pause on renewable approvals had been requested by the Alberta Electricity System Operator. Access-to-information records later indicated that the operator's chief executive had recorded discomfort with the request and that the request had originated with government.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "energy",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-D0000001"
+  ],
+  "relations": [
+    {
+      "type": "conflicts_with",
+      "target_id": "EVT-105",
+      "discrepancy": "claim_vs_evidence",
+      "framing_en": "A public statement attributing the approval pause to a request from the electricity system operator, set against access-to-information records in which the operator's chief executive recorded discomfort and the request's origin in government.",
+      "framing_fr": null,
+      "source_refs": [
+        "R-D0000001"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Say/do pair (statement side) from harvest. Both the statement and the FOI record rest on R-D0000001; quote the AESO email language verbatim and confirm the statement date before publishing.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-11",
+      "change": "Created from harvest batch; conflicts_with EVT-105; suppressed.",
+      "source_ref": "R-D0000001",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

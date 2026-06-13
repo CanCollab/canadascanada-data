@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.1.0",
+  "note": "Qualifier on conflicts_with edges. Describes the shape of the tension; never a verdict.",
+  "discrepancy_types": [
+    {
+      "id": "reversed_position",
+      "label_en": "Reversed position"
+    },
+    {
+      "id": "promise_broken",
+      "label_en": "Commitment not met"
+    },
+    {
+      "id": "position_vs_outcome",
+      "label_en": "Position vs. outcome"
+    },
+    {
+      "id": "claim_vs_evidence",
+      "label_en": "Claim vs. evidence"
+    }
+  ]
+}

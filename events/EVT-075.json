@@ -1,0 +1,53 @@
+{
+  "id": "EVT-075",
+  "schema_version": "3.0.0",
+  "event_date": "2025-03-24",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Premier's Breitbart interview and the US-Canada election-interference controversy",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The premier faced criticism after a Breitbart interview during the 2025 federal election period, with commentary over remarks interpreted as relating to US-Canada election dynamics.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "electoral_process",
+    "federal_provincial"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-1DBFAD39",
+    "R-543A0D0A",
+    "R-AC5E16B9"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (3/3 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-1DBFAD39",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

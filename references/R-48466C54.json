@@ -1,0 +1,20 @@
+{
+  "id": "R-48466C54",
+  "schema_version": "3.0.0",
+  "title": "Alberta conservation failing grade",
+  "outlet": "The Albertan",
+  "outlet_id": "the-albertan",
+  "section": "News",
+  "author": null,
+  "publication_date": null,
+  "url": "https://www.thealbertan.com/local-news/report-gives-alberta-failing-grade-in-nature-conservation-10437261",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 3,
+  "verified": false,
+  "wire_source": null,
+  "notes": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

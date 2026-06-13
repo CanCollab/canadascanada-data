@@ -1,0 +1,79 @@
+{
+  "id": "EVT-108",
+  "schema_version": "3.0.0",
+  "event_date": "2023-05-05",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Statement that a provincial pension plan and police service were not campaign commitments",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "Around the time of the 2023 provincial election, the Premier stated that a provincial pension plan and a provincial police service were not part of the United Conservative Party campaign. Both were subsequently pursued by the government.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "fiscal",
+    "democratic_process"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-D000000D"
+  ],
+  "relations": [
+    {
+      "type": "conflicts_with",
+      "target_id": "EVT-107",
+      "discrepancy": "reversed_position",
+      "framing_en": "A pre-election statement that a provincial pension plan was not a campaign commitment, followed by a multi-year initiative to withdraw from the Canada Pension Plan.",
+      "framing_fr": null,
+      "source_refs": [
+        "R-D000000D"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true
+    },
+    {
+      "type": "conflicts_with",
+      "target_id": "EVT-092",
+      "discrepancy": "reversed_position",
+      "framing_en": "A pre-election statement that a provincial police service was not a campaign commitment, followed by continued steps toward establishing one.",
+      "framing_fr": null,
+      "source_refs": [
+        "R-D000000D"
+      ],
+      "claim_type": "fact",
+      "needs_verification": true
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "BLOCKED on sourcing: R-D000000D is a bare-domain placeholder. Find the specific 2023-05-05 Global News Morning clip with the verbatim quote before this can leave needs_verification. Conflicts_with EVT-092 (existing police event) and EVT-107.",
+  "standards_flags": [
+    "single-source",
+    "placeholder-source"
+  ],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-11",
+      "change": "Created from harvest batch; placeholder source; suppressed.",
+      "source_ref": "R-D000000D",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

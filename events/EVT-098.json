@@ -1,0 +1,52 @@
+{
+  "id": "EVT-098",
+  "schema_version": "3.0.0",
+  "event_date": "2025-01-01",
+  "event_date_precision": "year",
+  "date_notes": null,
+  "title_en": "Regulated Professions Neutrality Act and the Peterson disciplinary case",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The government introduced a Regulated Professions Neutrality Act; related coverage addressed Jordan Peterson's disciplinary matter with a professional regulator.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "charter"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-03E178F6",
+    "R-231ACBF7",
+    "R-00A05F64"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (3/3 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-03E178F6",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

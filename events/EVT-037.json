@@ -1,0 +1,65 @@
+{
+  "id": "EVT-037",
+  "schema_version": "3.0.0",
+  "event_date": "2025-08-01",
+  "event_date_precision": "day",
+  "date_notes": "New expense rules published August 1 2025. CBC first reported the deletion August 2025. Government reversal announced August 21 2025 (CP/CBC report). Smith stated she was 'unaware' of the changes at time of implementation.",
+  "title_en": "Government removes eight years of ministerial expense records, reverses after public backlash",
+  "title_fr": "Le gouvernement supprime huit ans de dossiers de dépenses ministérielles, puis fait marche arrière après une réaction publique",
+  "ai_translated": true,
+  "description_en": "On August 1 2025, the Alberta government quietly published new expense disclosure rules removing the requirement for the Premier, ministers, political staff, and deputy ministers to publicly post receipts for expenses over $100. Eight years of previously accessible ministerial expense records were simultaneously deleted from the government's public website. When CBC News reported the changes, Premier Smith stated she had been unaware of them and that the situation arose because 'something got lost in translation.' Her former infrastructure minister Peter Guthrie, who had already been removed from UCP caucus, said publicly: 'Under the Smith-Anderson duo-cracy, nothing moves without their permission.' After backlash from critics across the political spectrum — including the Canadian Taxpayers Federation, whose Alberta director Kris Sims called it a mistake — the government reversed course on August 21 2025, announced it was reverting to its previous expense disclosure rules, and promised to re-post all eight years of deleted records. Finance Minister Horner's office had originally characterized the changes as cutting red tape and aligning Alberta with other provinces.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "accountability",
+    "transparency"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Minister of Finance",
+      "name": "Nate Horner",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": "NDP Leader Naheed Nenshi: reversal is good but 'shows the government is making up things as it goes along.' Former UCP minister Peter Guthrie (removed from caucus): 'This premier grabs credit when things go right and skirts blame when they don't.'",
+  "source_refs": [
+    "R-055"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Sourced from CBC/CP report August 21 2025. Smith 'unaware' claim, Guthrie quote, CTF quote, Horner red-tape justification, and reversal commitment all from same article. Single source — flag resolved when a second report confirming the deletion and reversal sequence is added.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "change": "Event created. Source confirmed from supplied CBC/CP article. SD-018 updated to revised_position type with full sequence documented.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [
+    {
+      "actor": "Premier Smith",
+      "position": "Was unaware of the changes; described as 'something got lost in translation.' Direction was to redact hotel information for security reasons, not to remove all expense transparency.",
+      "source_ref": "R-055"
+    }
+  ],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

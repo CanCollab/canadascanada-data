@@ -1,0 +1,33 @@
+{
+  "outlet_id": "alberta-politics",
+  "name_en": "Alberta Politics (Dave Cournoyer)",
+  "outlet_type": "independent_digital",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Dave Cournoyer (independent)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": null,
+      "verified": false
+    },
+    "editorial_standards_published": {
+      "value": false,
+      "verified": false,
+      "evidence_type": "none_found"
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": false,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

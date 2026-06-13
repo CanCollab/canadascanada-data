@@ -1,0 +1,20 @@
+{
+  "id": "R-5A3FD52F",
+  "schema_version": "3.0.0",
+  "title": "Smoking health claims",
+  "outlet": "PressProgress",
+  "outlet_id": "press-progress",
+  "section": "News",
+  "author": null,
+  "publication_date": null,
+  "url": "https://pressprogress.ca/danielle-smith-claimed-smoking-cigarettes-had-positive-health-benefits/",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 4,
+  "verified": false,
+  "wire_source": null,
+  "notes": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

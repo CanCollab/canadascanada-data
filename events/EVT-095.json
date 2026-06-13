@@ -1,0 +1,57 @@
+{
+  "id": "EVT-095",
+  "schema_version": "3.0.0",
+  "event_date": "2025-01-01",
+  "event_date_precision": "year",
+  "date_notes": "Spans late 2024-2026; verify and consider splitting per engagement.",
+  "title_en": "Premier's US engagements: Mar-a-Lago, Florida gala, and tariff diplomacy",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The premier undertook a series of US engagements, including a Mar-a-Lago visit and a Florida gala with associated 51st-state rhetoric, and remarks to US audiences. In the same period she stated support for the federal response to US tariffs and, separately, affirmed keeping Alberta in Canada.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "federal_provincial"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-3771B047",
+    "R-5318636E",
+    "R-F59A44B6",
+    "R-3B12B969",
+    "R-A8C24431",
+    "R-77B2AC8A",
+    "R-98237491",
+    "R-45036670"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (8/8 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-3771B047",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

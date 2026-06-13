@@ -1,0 +1,65 @@
+{
+  "right-populist-escalation": {
+    "label_en": "From protest to blockade: right-populist escalation 2018\u20132022",
+    "label_fr": "De la protestation au blocus\u00a0: l\u2019escalade populiste de droite 2018\u20132022",
+    "date_range": "2018-2022",
+    "events": [],
+    "causal_note": "Yellow vest organizing in Canada (2018) seeded the networks and rhetoric that re-emerged in the 2022 convoy and Coutts blockade. Documented overlap in organizers, funding sources, and messaging. Diagolon emerged from this milieu as an explicitly accelerationist network.",
+    "status": "staged",
+    "requires_sourcing": true
+  },
+  "science-suppression-federal": {
+    "label_en": "The muzzling years: federal science suppression 2006\u20132015",
+    "label_fr": "Les ann\u00e9es de b\u00e2illon\u00a0: suppression de la science f\u00e9d\u00e9rale 2006\u20132015",
+    "date_range": "2006-2015",
+    "events": ["EVT-001","EVT-003","EVT-004","EVT-005"],
+    "causal_note": "A documented pattern of Harper government actions restricting federal scientists from communicating findings publicly, closing research facilities, and defunding independent science. Pattern established across multiple independent sources including Auditor General, CBC, Globe, and peer-reviewed commentary.",
+    "status": "active",
+    "requires_sourcing": false
+  },
+  "alberta-municipal-override": {
+    "label_en": "Province over city: UCP intervention in municipal decisions",
+    "label_fr": "La province contre la ville\u00a0: intervention de l\u2019UCP dans les d\u00e9cisions municipales",
+    "date_range": "2019-2026",
+    "events": ["EVT-034"],
+    "causal_note": "A pattern of UCP government actions that override, defund, or legislatively constrain municipal decisions \u2014 particularly in Calgary and Edmonton. Includes Green Line withdrawal, bike lane legislation, and other interventions.",
+    "status": "staged",
+    "requires_sourcing": false
+  },
+  "smith-federal-confrontation": {
+    "label_en": "Collision course: Smith vs federal government 2022\u20132026",
+    "label_fr": "Trajectoire de collision\u00a0: Smith contre le gouvernement f\u00e9d\u00e9ral 2022\u20132026",
+    "date_range": "2022-2026",
+    "events": ["EVT-029"],
+    "causal_note": "Smith government actions framed as provincial autonomy vs federal overreach: Sovereignty Act, proposed pension withdrawal, cross-border policy alignment statements, separatism referendum push.",
+    "status": "staged",
+    "requires_sourcing": false
+  },
+  "alberta-voter-privacy": {
+    "label_en": "The voter-data breaches: privacy of Alberta citizens 2026",
+    "label_fr": "Les atteintes aux donn\u00e9es \u00e9lectorales\u00a0: la vie priv\u00e9e des citoyens albertains 2026",
+    "date_range": "2026",
+    "events": ["EVT-035","EVT-028"],
+    "causal_note": "A pattern of mishandling of Albertans\u2019 confidential voter data in 2026. A sitting minister accessed the List of Electors for an unauthorized purpose; separately, a separatist third-party group published a searchable database of approximately 2.9 million voters\u2019 personal information.",
+    "status": "active",
+    "requires_sourcing": true
+  },
+  "ata-teachers-strike-2025": {
+    "label_en": "ATA strike 2025: teachers, Bill 15, and the UCP",
+    "label_fr": "Gr\u00e8ve de l\u2019ATA 2025\u00a0: les enseignants, le projet de loi 15 et l\u2019UCP",
+    "date_range": "2025",
+    "events": [],
+    "causal_note": "A series of UCP government actions relating to the Alberta Teachers\u2019 Association labour dispute and related legislation. Thread to be expanded as events are sourced and verified.",
+    "status": "staged",
+    "requires_sourcing": true
+  },
+  "notwithstanding-clause-use": {
+    "label_en": "Section 33 and the pre-emptive shield: UCP use of the notwithstanding clause",
+    "label_fr": "L\u2019article 33 et le bouclier pr\u00e9ventif\u00a0: recours de l\u2019UCP \u00e0 la clause d\u00e9rogatoire",
+    "date_range": "2022-2026",
+    "events": [],
+    "causal_note": "UCP government use and threatened use of s.33 of the Charter of Rights and Freedoms as a pre-emptive legislative tool. Thread to be expanded as events are sourced and verified.",
+    "status": "staged",
+    "requires_sourcing": true
+  }
+}

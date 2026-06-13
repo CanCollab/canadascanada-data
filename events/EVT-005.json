@@ -1,0 +1,50 @@
+{
+  "id": "EVT-005",
+  "schema_version": "3.0.0",
+  "event_date": "2015-10-01",
+  "event_date_precision": "month",
+  "date_notes": "Canadaland (R-106) confirms the 2015 directive but does not pin the date. The 2015 federal election was October 19; endorsement editorials would have run in the days before. Original date 2015-08-19 was unsourced; updated to 2015-10 (month precision). The same practice was formalised in 2019 via the Kevin Libin appointment — a separate event may be warranted for the 2019 escalation.",
+  "title_en": "National newspaper chain directs papers to endorse governing party",
+  "title_fr": "Une grande chaîne de journaux dirige ses journaux vers l'appui au parti au pouvoir",
+  "ai_translated": true,
+  "description_en": "Reporting confirms Postmedia leadership directed its newspapers to run editorial endorsements of the federal Conservative Party in the 2015 election. The Ottawa Citizen editorial board resigned the following month. A 2019 Canadaland investigation documented the same practice as a formally centralised directive, with Kevin Libin appointed as \"executive editor of Postmedia politics\" with a mandate to make the chain \"reliably conservative.\" Paul Godfrey (Postmedia executive chair) identified as a longtime Conservative donor. Documented as a media-ownership event with ongoing structural implications.",
+  "description_fr": null,
+  "era": "pre2019",
+  "category": [
+    "media_suppression"
+  ],
+  "claim_type": "context",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Postmedia Network (newspaper chain)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "national"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-106"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Handoff notes multiple Tier-2 sources exist but no single URL captured. Attach before publication.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-06-02",
+      "change": "Added R-106 (Canadaland, Aug 2019). Date updated 2015-08-19 → 2015-10 (month). Description expanded to note 2019 formalisation. Original unsourced date noted in date_notes.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

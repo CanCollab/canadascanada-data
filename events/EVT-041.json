@@ -1,0 +1,67 @@
+{
+  "id": "EVT-041",
+  "schema_version": "3.0.0",
+  "event_date": "2025-10-01",
+  "event_date_precision": "day",
+  "date_notes": "Strike authorization vote result announced October 1 2025 per notwithstanding analysis. ATA source URL: teachers.ab.ca/News Room/ata news/strike-authorization (ev_015).",
+  "title_en": "Teachers vote 94.5% to authorize strike action",
+  "title_fr": "Les enseignants votent à 94,5 % pour autoriser une grève",
+  "ai_translated": true,
+  "description_en": "Following the 89.5% rejection of the tentative agreement, ATA members vote 94.5% in favour of authorizing strike action — a near-unanimous mandate. The 94.5% authorization is one of the strongest strike mandates in Alberta labour history. The ATA sets a strike date of October 6 2025, giving the government and TEBA five days to return to the table with a materially different offer.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Teachers' Association",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-112",
+    "R-113"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Authorization vote leads directly to October 6 strike start."
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Confirm ATA source URL is live. 94.5% figure and October 1 date need confirmation.",
+  "standards_flags": [
+    "single-source",
+    "date-unconfirmed"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "change": "Event created for strike lead-up thread.",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-06-02",
+      "change": "Added R-112 and R-113 as partial sources — both articles cover the October 2025 strike setup but may not cite the 94.5% authorization vote specifically. The 94.5% figure and Oct 1 date still need a direct ATA or CBC source. Retained unverified flags.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

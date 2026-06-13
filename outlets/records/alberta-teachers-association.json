@@ -1,0 +1,16 @@
+{
+  "outlet_id": "alberta-teachers-association",
+  "name_en": "Alberta Teachers' Association",
+  "outlet_type": "advocacy_research",
+  "rated": false,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Alberta Teachers' Association (labour union)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "not_rated_reason": "Advocacy/research organization (labour union) — cited as a source, not rated as a news outlet."
+}

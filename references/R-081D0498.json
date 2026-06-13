@@ -1,0 +1,20 @@
+{
+  "id": "R-081D0498",
+  "schema_version": "3.0.0",
+  "title": "AHS corruption timeline",
+  "outlet": "AB Resistance (Substack)",
+  "outlet_id": "substack-abresistance",
+  "section": "News",
+  "author": null,
+  "publication_date": null,
+  "url": "https://abresistance.substack.com/p/timeline-of-albertas-corrupt-care",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 4,
+  "verified": false,
+  "wire_source": null,
+  "notes": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

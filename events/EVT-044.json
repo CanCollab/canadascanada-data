@@ -1,0 +1,65 @@
+{
+  "id": "EVT-044",
+  "schema_version": "3.0.0",
+  "event_date": "2025-10-17",
+  "event_date_precision": "day",
+  "date_notes": "Oct 14 2025 ATA proposal to TEBA; Oct 16 government 'enhanced mediation' proposal; Oct 17 ATA Provincial Executive Council rejects it and Premier Smith signals back-to-work legislation the week of Oct 27. Source: ATA (R-ata-enhanced-mediation-2025). Corrects prior 'Oct 23' date.",
+  "title_en": "ATA rejects government's enhanced-mediation proposal; back-to-work legislation signalled",
+  "title_fr": "L'ATA rejette la proposition de médiation renforcée du gouvernement; une loi de retour au travail est annoncée",
+  "ai_translated": true,
+  "description_en": "Eight days into the combined strike and lockout, the Alberta Teachers' Association presents a bargaining proposal to TEBA (Oct 14 2025). On Oct 16 the government puts forward an 'enhanced mediation' proposal; on Oct 17 the ATA's Provincial Executive Council rejects it, and Premier Smith states the government expects to introduce back-to-work legislation the week of Oct 27. The breakdown is the proximate trigger for the legislative response.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Teachers' Association",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Teachers' Employer Bargaining Association (TEBA)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-ata-enhanced-mediation-2025"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Failed mediation directly precedes government legislative response."
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Sourced to ATA (R-ata-enhanced-mediation-2025), published 2025-10-28. Dates corrected: Oct 14 ATA proposal / Oct 16 govt enhanced mediation / Oct 17 rejection + Smith legislation signal (prior 'Oct 23' was erroneous). Ready for verification sign-off.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Dates corrected to Oct 14/16/17 2025 and sourced to ATA (R-ata-enhanced-mediation-2025); prior 'Oct 23 Smith announcement' was erroneous.",
+      "source_ref": "R-ata-enhanced-mediation-2025",
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

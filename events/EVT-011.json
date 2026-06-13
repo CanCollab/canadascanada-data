@@ -1,0 +1,55 @@
+{
+  "id": "EVT-011",
+  "schema_version": "3.0.0",
+  "event_date": "2022-01-29",
+  "event_date_precision": "day",
+  "date_notes": null,
+  "title_en": "Blockade closes Coutts border crossing",
+  "title_fr": "Un blocus ferme le poste frontalier de Coutts",
+  "ai_translated": true,
+  "description_en": "A blockade at the Coutts, Alberta border crossing begins alongside wider convoy protests, disrupting a major Canada-US trade route. Note: the $44M/day figure in reporting refers to the per-day trade value at that crossing, not a total blockade cost.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "political_convoy"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Protest organizers",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-022"
+  ],
+  "relations": [
+    {
+      "type": "same_actor",
+      "target_id": "EVT-012"
+    },
+    {
+      "type": "enables",
+      "target_id": "EVT-013"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Verified against R-022 (Calgary Herald): blockade closes Coutts crossing, protest against COVID-19 health measures. Note: $44M/day is a per-day cross-border trade figure, not total cost — do not present as cost of the blockade.",
+  "standards_flags": [
+    "single-source",
+    "figure-disputed"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

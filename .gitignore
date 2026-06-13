@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V*/
+.Trashes
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+.env
+*.egg-info/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build output (do not commit; GitHub Pages can rebuild)
+docs/
+
+# Logs
+*.log

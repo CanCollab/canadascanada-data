@@ -1,0 +1,57 @@
+{
+  "id": "EVT-022",
+  "schema_version": "3.0.0",
+  "event_date": "2025-10-06",
+  "event_date_precision": "day",
+  "date_notes": "Strike began Oct 6. R-009 (publication date Oct 3) reports on impending dispute — source date and event date differ here.",
+  "title_en": "Alberta teachers begin province-wide strike",
+  "title_fr": "Les enseignants de l'Alberta déclenchent une grève provinciale",
+  "ai_translated": true,
+  "description_en": "Teachers begin a province-wide strike over class size, complexity and compensation — the first province-wide teachers' strike in Alberta in decades.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Teachers' Association",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-009"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Strike begins following 89.5% rejection vote (EVT-040) and 94.5% strike authorization (EVT-041)."
+    },
+    {
+      "type": "same_legislation",
+      "target_id": "EVT-023"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Strike-start date (Oct 6) confirmed in R-009 body ('walked off the job on Oct. 6'). R-009's primary focus is the later refusal-of-mediation development, but the start date is stated. 'First in decades' framing implied (2002 reference) — do not assert as fact without a dedicated source.",
+  "standards_flags": [
+    "single-source",
+    "date-unconfirmed",
+    "stub-promote-to-full"
+  ],
+  "evidence_status": "established",
+  "update_log": [],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

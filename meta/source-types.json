@@ -1,0 +1,62 @@
+{
+  "schema_version": "3.0.0",
+  "source_types": [
+    {
+      "id": "url_article",
+      "label_en": "News or analysis article",
+      "expects": [
+        "url",
+        "publication_date"
+      ],
+      "note": "Default type for named-journalist reporting with a URL."
+    },
+    {
+      "id": "wire_article",
+      "label_en": "Wire service dispatch",
+      "expects": [
+        "url",
+        "publication_date"
+      ],
+      "note": "Canadian Press or similar wire dispatch; may appear in multiple outlets."
+    },
+    {
+      "id": "primary_record",
+      "label_en": "Primary document or record",
+      "expects": [
+        "url"
+      ],
+      "note": "Legislation text, court record, government statistical release, Hansard, order paper."
+    },
+    {
+      "id": "government_statement",
+      "label_en": "Government statement or press release",
+      "expects": [
+        "url"
+      ],
+      "note": "Official government or institutional communications."
+    },
+    {
+      "id": "finding_tool",
+      "label_en": "Finding-tool summary (Tier 4)",
+      "expects": [],
+      "note": "AI/search-tool generated summary. Not independently citable. Use to locate primary sources; replace before publication gate."
+    },
+    {
+      "id": "video_transcript",
+      "label_en": "Video with transcript excerpt",
+      "expects": [
+        "url",
+        "transcript_excerpt"
+      ],
+      "note": "A video source; the record must include a verbatim transcript excerpt of the relevant passage."
+    },
+    {
+      "id": "pasted_text",
+      "label_en": "Pasted text (source not online)",
+      "expects": [
+        "pasted_content"
+      ],
+      "note": "A document provided directly, not accessible via URL. Include the pasted content field."
+    }
+  ]
+}

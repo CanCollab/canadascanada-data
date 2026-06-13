@@ -1,0 +1,20 @@
+{
+  "id": "R-673694B2",
+  "schema_version": "3.0.0",
+  "title": "Centurion project voter-list accusations",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": null,
+  "publication_date": null,
+  "url": "https://globalnews.ca/news/11838074/alberta-separatism-centurion-project-voter-list-politician-accusations/",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

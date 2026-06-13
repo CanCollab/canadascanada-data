@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.0.0",
+  "eras": [
+    {
+      "id": "pre2019",
+      "label_en": "Federal Harper era / pre-UCP context",
+      "date_range": "2006–2019",
+      "note": "Federal Conservative government under Harper (2006–2015) and provincial context preceding the 2019 UCP win."
+    },
+    {
+      "id": "kenney",
+      "label_en": "UCP — Kenney government",
+      "date_range": "2019–2022",
+      "note": "Jason Kenney as Premier of Alberta, April 2019 to October 2022."
+    },
+    {
+      "id": "smith",
+      "label_en": "UCP — Smith government",
+      "date_range": "2022–present",
+      "note": "Danielle Smith as Premier of Alberta, October 2022 to present."
+    }
+  ]
+}

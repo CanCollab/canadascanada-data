@@ -1,0 +1,78 @@
+{
+  "schema_version": "3.0.0",
+  "note": "Store each edge once, on the source record. Build derives the inverse for rendering.",
+  "relation_types": [
+    {
+      "id": "part_of_thread",
+      "inverse": "part_of_thread",
+      "symmetric": true,
+      "note": "Event is a member of a named narrative thread. Carries thread_id, not target_id."
+    },
+    {
+      "id": "enables",
+      "inverse": "enabled_by",
+      "symmetric": false,
+      "note": "Earlier event creates the conditions for the target event."
+    },
+    {
+      "id": "enabled_by",
+      "inverse": "enables",
+      "symmetric": false,
+      "note": "Derived inverse of enables. Do not store manually."
+    },
+    {
+      "id": "responds_to",
+      "inverse": "prompted",
+      "symmetric": false,
+      "note": "This event is a documented response to the target event."
+    },
+    {
+      "id": "prompted",
+      "inverse": "responds_to",
+      "symmetric": false,
+      "note": "Derived inverse of responds_to. Do not store manually."
+    },
+    {
+      "id": "same_actor",
+      "inverse": "same_actor",
+      "symmetric": true,
+      "note": "Events share a primary actor in the same role."
+    },
+    {
+      "id": "same_legislation",
+      "inverse": "same_legislation",
+      "symmetric": true,
+      "note": "Events concern the same piece of legislation or statutory instrument."
+    },
+    {
+      "id": "financial_link",
+      "inverse": "financial_link",
+      "symmetric": true,
+      "note": "Events are connected by a documented financial transaction or budget line."
+    },
+    {
+      "id": "supersedes",
+      "inverse": "superseded_by",
+      "symmetric": false,
+      "note": "This event record replaces or updates the target."
+    },
+    {
+      "id": "superseded_by",
+      "inverse": "supersedes",
+      "symmetric": false,
+      "note": "Derived inverse of supersedes. Do not store manually."
+    },
+    {
+      "id": "conflicts_with",
+      "inverse": "conflicts_with",
+      "symmetric": true,
+      "note": "Two sourced events in documented tension. Carries target_id, a 'discrepancy' qualifier (see meta/discrepancy-types.json), and factual framing. Renders as a 'Discrepancy' connection. No verdict language."
+    },
+    {
+      "id": "jurisdiction_clarification",
+      "inverse": "jurisdiction_clarification",
+      "symmetric": false,
+      "note": "Event attributes responsibility/outcome to an external party; the clarification documents actual jurisdiction and funding. Carries explainer_ref (educational) and optional target_id (a counter-event). Framing stays factual; the explainer educates."
+    }
+  ]
+}

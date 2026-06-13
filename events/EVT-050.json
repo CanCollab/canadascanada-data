@@ -1,0 +1,59 @@
+{
+  "id": "EVT-050",
+  "schema_version": "3.0.0",
+  "event_date": "2013-07-16",
+  "event_date_precision": "month",
+  "date_notes": "Nature magazine documents muzzling policy July 2013; practice documented from 2007 onward.",
+  "title_en": "Federal government media protocols restrict scientists from speaking publicly without prior approval",
+  "title_fr": "Des protocoles médiatiques fédéraux empêchent les scientifiques de parler publiquement sans autorisation préalable",
+  "ai_translated": true,
+  "description_en": "The Harper government's media protocol requires federal scientists to obtain government approval before speaking to journalists. The policy particularly affects climate, fisheries, and environmental researchers. Thousands of positions are eliminated and research libraries are closed during this period.",
+  "description_fr": null,
+  "era": "pre2019",
+  "category": [
+    "science_suppression",
+    "media_suppression"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Prime Minister",
+      "name": "Stephen Harper",
+      "party": "Conservative",
+      "jurisdiction": "federal"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-065"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "science-suppression-federal",
+      "note": "Muzzling and library closures are concurrent mechanisms of the same pattern."
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

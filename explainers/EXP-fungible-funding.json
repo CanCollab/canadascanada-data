@@ -1,0 +1,45 @@
+{
+  "id": "EXP-fungible-funding",
+  "schema_version": "3.0.0",
+  "type": "funding",
+
+  "title": {
+    "en-CA": "Funding labels and actual spending",
+    "fr-CA": null
+  },
+  "summary": {
+    "en-CA": "Governments often announce money for a named area such as health or education. But the government that receives the money usually sets its own budget, so the announced amount and what is actually spent on that area are two different things. For example, the federal government sends money to provinces for health through the Canada Health Transfer, but each province sets its own health budget and runs health care itself. The same pattern repeats one level down when a province funds a city for an area such as roads and the city decides what it builds. Because money received for a stated purpose can take the place of money a government had already planned to spend there, total spending on the area need not rise by the announced amount, or at all. This is a routine feature of how budgets work for every government regardless of party, not a sign of wrongdoing, and it means the only way to know what reached an area is to check that government's own budget and public accounts for the year.",
+    "fr-CA": null
+  },
+  "body": {
+    "en-CA": null,
+    "fr-CA": null
+  },
+  "key_points": [
+    { "en-CA": "Not all money announced for an area is the same kind. Some is an unconditional transfer the receiving government adds to its budget and spends as it chooses, such as the Canada Health Transfer to provinces. Some is a program the sending government runs and pays for directly, such as the federal dental benefit.",
+      "fr-CA": null },
+    { "en-CA": "The pattern layers. The federal government funds provinces, and provinces fund municipalities, and at each step the receiving government sets its own budget within the broad conditions attached to the money.",
+      "fr-CA": null },
+    { "en-CA": "Because money received for a stated purpose can take the place of money a government had already budgeted there, a government can receive funding for an area while its own spending on that area stays flat or falls. This property of money is called fungibility.",
+      "fr-CA": null },
+    { "en-CA": "This applies to every government regardless of party. It describes how budgets work and is not on its own evidence of misuse.",
+      "fr-CA": null },
+    { "en-CA": "An earmark does not fully escape this. Alberta's education property tax can only be used to fund education, but education is also funded from general provincial revenue, so when the share paid by the property tax rises, the share from general revenue can fall correspondingly. A higher education property tax does not by itself mean higher total spending on education.",
+      "fr-CA": null },
+    { "en-CA": "To see what was actually spent, compare the announcement against the government's budget and its public accounts, which report spending after the fact.",
+      "fr-CA": null }
+  ],
+
+  "ai_translated": { "fr-CA": false },
+
+  "applies_to": ["funding_fungibility", "intergovernmental_transfers"],
+  "source_refs": ["R-federal-transfer-framework", "R-provincial-budget-docs", "R-public-accounts", "R-alberta-education-funding"],
+  "related_explainers": ["EXP-bike-lane-jurisdiction"],
+
+  "needs_verification": true,
+  "evidence_status": "established",
+  "update_log": [],
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

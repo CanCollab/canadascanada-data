@@ -1,0 +1,43 @@
+{
+  "id": "EXP-prior-legal-status",
+  "schema_version": "3.0.0",
+  "type": "term",
+
+  "title": {
+    "en-CA": "When provincial and federal laws cover the same ground",
+    "fr-CA": null
+  },
+  "summary": {
+    "en-CA": "Canada divides law-making between Parliament and the provincial legislatures, each with its own areas of authority set out in the Constitution. The boundaries are not always sharp, so a province and Parliament can both have laws touching the same subject. When a valid federal law and a valid provincial law genuinely conflict, the federal law prevails to the extent of the conflict, a rule called federal paramountcy. The provincial law is not erased; it stops operating only where it actually conflicts. This means a province can pass a law on something already addressed in federal law. Whether two such laws duplicate, complement, or conflict is a specific legal question about those particular laws, not something that follows from the overlap alone.",
+    "fr-CA": null
+  },
+  "body": {
+    "en-CA": null,
+    "fr-CA": null
+  },
+  "key_points": [
+    { "en-CA": "Canada's Constitution assigns different areas of law-making to Parliament (federal) and to the provincial legislatures. Some areas belong to one level only; in a few, both can legislate.",
+      "fr-CA": null },
+    { "en-CA": "Because the boundaries between these areas are not always sharp, both levels can end up with laws that touch the same subject.",
+      "fr-CA": null },
+    { "en-CA": "When a valid federal and a valid provincial law genuinely conflict, the federal law prevails to the extent of the conflict. This is called federal paramountcy. The provincial law is not struck down; it simply stops operating where it conflicts.",
+      "fr-CA": null },
+    { "en-CA": "Because of this, a province can enact a law on something already addressed federally.",
+      "fr-CA": null },
+    { "en-CA": "Whether two laws on the same subject duplicate, complement, or conflict with one another is a specific legal question about those particular statutes. It does not follow from the fact of overlap alone.",
+      "fr-CA": null }
+  ],
+
+  "ai_translated": { "fr-CA": false },
+
+  "applies_to": ["prior_legal_status", "division_of_powers"],
+  "source_refs": ["R-constitution-division-powers", "R-paramountcy-doctrine"],
+  "related_explainers": [],
+
+  "needs_verification": true,
+  "evidence_status": "established",
+  "update_log": [],
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

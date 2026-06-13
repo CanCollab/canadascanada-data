@@ -1,0 +1,32 @@
+{
+  "outlet_id": "desmog",
+  "name_en": "DeSmog",
+  "outlet_type": "independent_digital",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "DeSmog Media Inc. (Canadian)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": null,
+      "verified": false
+    },
+    "editorial_standards_published": {
+      "value": null,
+      "verified": false
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": false,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

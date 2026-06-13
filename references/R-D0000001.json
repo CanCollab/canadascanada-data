@@ -1,0 +1,20 @@
+{
+  "id": "R-D0000001",
+  "schema_version": "3.0.0",
+  "title": "Alberta renewables pause and AESO FOIP records",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": null,
+  "url": "https://www.cbc.ca/news/canada/calgary/alberta-renewables-pause-moratorium-aeso-foip-1.7196943",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": "FOI emails re origin of the pause; confirm publication date and that AESO-CEO-discomfort language is verbatim.",
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

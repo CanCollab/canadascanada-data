@@ -1,0 +1,52 @@
+{
+  "id": "EVT-088",
+  "schema_version": "3.0.0",
+  "event_date": "2021-09-01",
+  "event_date_precision": "month",
+  "date_notes": null,
+  "title_en": "COVID-era ivermectin misinformation",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "During the pandemic, false claims that ivermectin or other unproven remedies treat COVID-19 circulated in Alberta; outlets documented the misinformation and its effects.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "science_suppression"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-C42F6E0F",
+    "R-BBF96D05",
+    "R-161F0DF5"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (3/3 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-C42F6E0F",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

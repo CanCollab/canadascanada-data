@@ -1,0 +1,41 @@
+{
+  "outlet_id": "calgary-herald",
+  "name_en": "Calgary Herald",
+  "outlet_type": "daily_print_digital",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 34,
+  "ownership_breakdown": [
+    {
+      "entity": "Chatham Asset Management (via Postmedia)",
+      "country": "US",
+      "percentage": 66
+    },
+    {
+      "entity": "Canadian shareholders",
+      "country": "CA",
+      "percentage": 34
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "standalone_page",
+      "source_url": "https://calgaryherald.com/tag/corrections/"
+    },
+    "editorial_standards_published": {
+      "value": false,
+      "verified": true,
+      "evidence_type": "none_found",
+      "source_url": "https://calgaryherald.com/contact/"
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": true,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

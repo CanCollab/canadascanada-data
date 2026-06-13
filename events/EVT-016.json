@@ -1,0 +1,63 @@
+{
+  "id": "EVT-016",
+  "schema_version": "3.0.0",
+  "event_date": "2023-02-01",
+  "event_date_precision": "month",
+  "date_notes": "Wait-time issues reported across early-mid 2023. Using earliest confirmed reporting month.",
+  "title_en": "Extended wait times documented for privately operated Calgary lab services",
+  "title_fr": "Des délais d'attente prolongés documentés pour les services de laboratoire privés de Calgary",
+  "ai_translated": true,
+  "description_en": "Reporting documents extended wait times and booking delays for routine lab work in the Calgary zone under private operation.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization"
+  ],
+  "claim_type": "context",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "DynaLife (private lab operator)",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": {
+    "display_role": "Official Opposition",
+    "name": "Rachel Notley",
+    "party": "NDP",
+    "date": "2023-02-01",
+    "description": "Official Opposition raised wait times in the legislature and called for action to restore public lab services.",
+    "source_refs": []
+  },
+  "source_refs": [
+    "R-109",
+    "R-110"
+  ],
+  "relations": [
+    {
+      "type": "enables",
+      "target_id": "EVT-018"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Attach CBC or Global News coverage of Calgary lab wait times. Opposition response source needed.",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-06-02",
+      "change": "Added R-109 (CBC 2023 lab waits), R-110 (Global News DynaLife delays). Sourcing resolved.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

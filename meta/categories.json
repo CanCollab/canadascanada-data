@@ -1,0 +1,101 @@
+{
+  "schema_version": "3.0.0",
+  "note": "Locked vocabulary. Every event category must be one of these 21 ids. Enforced by validate.py.",
+  "categories": [
+    {
+      "id": "science_suppression",
+      "label_en": "Science suppression"
+    },
+    {
+      "id": "media_suppression",
+      "label_en": "Media suppression"
+    },
+    {
+      "id": "healthcare_privatization",
+      "label_en": "Healthcare privatization"
+    },
+    {
+      "id": "fiscal",
+      "label_en": "Fiscal"
+    },
+    {
+      "id": "labour",
+      "label_en": "Labour"
+    },
+    {
+      "id": "education",
+      "label_en": "Education"
+    },
+    {
+      "id": "charter",
+      "label_en": "Charter of Rights"
+    },
+    {
+      "id": "constitutional_override",
+      "label_en": "Constitutional override"
+    },
+    {
+      "id": "democratic_process",
+      "label_en": "Democratic process"
+    },
+    {
+      "id": "electoral_process",
+      "label_en": "Electoral process"
+    },
+    {
+      "id": "privacy",
+      "label_en": "Privacy"
+    },
+    {
+      "id": "transparency",
+      "label_en": "Transparency"
+    },
+    {
+      "id": "accountability",
+      "label_en": "Accountability"
+    },
+    {
+      "id": "energy",
+      "label_en": "Energy"
+    },
+    {
+      "id": "environment",
+      "label_en": "Environment"
+    },
+    {
+      "id": "federal_provincial",
+      "label_en": "Federal–provincial"
+    },
+    {
+      "id": "political_convoy",
+      "label_en": "Political convoy"
+    },
+    {
+      "id": "separatism",
+      "label_en": "Separatism"
+    },
+    {
+      "id": "party_discipline",
+      "label_en": "Party discipline"
+    },
+    {
+      "id": "lgbtq",
+      "label_en": "LGBTQ+"
+    },
+    {
+      "id": "diagolon",
+      "label_en": "Diagolon"
+    }
+  ],
+  "migration_map": {
+    "labour_action": "labour",
+    "electoral": "electoral_process",
+    "federalism": "federal_provincial",
+    "healthcare": "healthcare_privatization",
+    "democratic_interference": "democratic_process",
+    "election_interference": "electoral_process",
+    "governance": "per-event — see HANDOFF_v8 recategorisation log",
+    "rights": "per-event — see HANDOFF_v8 recategorisation log",
+    "speech": "per-event (no instances in v1 data)"
+  }
+}

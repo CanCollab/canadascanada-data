@@ -1,0 +1,56 @@
+{
+  "id": "EVT-049",
+  "schema_version": "3.0.0",
+  "event_date": "2017-05-18",
+  "event_date_precision": "day",
+  "date_notes": "Merger vote May 18 2017.",
+  "title_en": "Wildrose Party and Progressive Conservative Party merge to form United Conservative Party",
+  "title_fr": "Le Parti Wildrose et le Parti progressiste-conservateur fusionnent pour former le Parti conservateur uni",
+  "ai_translated": true,
+  "description_en": "The Wildrose and Progressive Conservative parties vote to merge, creating the United Conservative Party. The merger unifies Alberta's right-of-centre vote under a single party that will win the 2019 election under Jason Kenney.",
+  "description_fr": null,
+  "era": "pre2019",
+  "category": [
+    "party_discipline"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Wildrose Party",
+      "name": null,
+      "party": "Wildrose",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Progressive Conservative Party",
+      "name": null,
+      "party": "PC",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-064"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

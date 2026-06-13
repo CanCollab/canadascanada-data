@@ -1,0 +1,20 @@
+{
+  "id": "R-F2D10EB1",
+  "schema_version": "3.0.0",
+  "title": "Federal transfers Alberta",
+  "outlet": "Government of Canada",
+  "outlet_id": "government-of-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": null,
+  "url": "https://www.canada.ca/en/department-finance/programs/federal-transfers/major-federal-transfers.html#Alberta",
+  "source_type": "government_statement",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 1,
+  "verified": false,
+  "wire_source": null,
+  "notes": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "R-073",
+  "schema_version": "3.0.0",
+  "title": "Alberta fulfilling $70M contract with Turkish drug manufacturer",
+  "outlet": "Edmonton Journal",
+  "outlet_id": "edmonton-journal",
+  "section": null,
+  "author": null,
+  "publication_date": "2022-12-06",
+  "url": "https://edmontonjournal.com/news/politics/alberta-fulfilling-2022-70m-contract-turkish-drug-manufacturer",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Turkish ibuprofen procurement at 6x market price; $49M unaccounted. Anchors EVT-059. URL from Evidence-Part — verify.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "R-00A05F64",
+  "schema_version": "3.0.0",
+  "title": "Jordan Peterson school",
+  "outlet": "The Tyee",
+  "outlet_id": "the-tyee",
+  "section": "News",
+  "author": null,
+  "publication_date": "2025-12-10",
+  "url": "https://thetyee.ca/News/2025/12/10/Jordan-Peterson-School/",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 3,
+  "verified": false,
+  "wire_source": null,
+  "notes": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

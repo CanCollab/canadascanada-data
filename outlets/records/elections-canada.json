@@ -1,0 +1,16 @@
+{
+  "outlet_id": "elections-canada",
+  "name_en": "Elections Canada",
+  "outlet_type": "government_institution",
+  "rated": false,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Government of Canada (independent officer of Parliament)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "not_rated_reason": "Government/institutional primary source — not a news outlet; journalism standards do not apply. Cited as a primary source."
+}

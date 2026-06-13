@@ -1,0 +1,20 @@
+{
+  "id": "R-D0000002",
+  "schema_version": "3.0.0",
+  "title": "Auditor general report on DynaLIFE lab services",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2025-11-19",
+  "url": "https://www.cbc.ca/news/canada/edmonton/auditor-general-report-dynalife-9.6985328",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": "Secondary to the OAG primary; add the OAG report once office-of-the-auditor-general outlet exists.",
+  "submission_source": "manual-intake",
+  "submission_status": "pending"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "EVT-082",
+  "schema_version": "3.0.0",
+  "event_date": "2024-01-01",
+  "event_date_precision": "year",
+  "date_notes": null,
+  "title_en": "Wildlife and habitat policy measures",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "A series of provincial wildlife and habitat measures drew attention, spanning caribou, wolverine, wetlands and prairie potholes, bison and other species.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "environment"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-686B96A2",
+    "R-619C5956",
+    "R-C3928798",
+    "R-4325C6E5",
+    "R-05038288",
+    "R-EA1577BD"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (6/6 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-686B96A2",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

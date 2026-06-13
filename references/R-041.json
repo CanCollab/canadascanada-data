@@ -1,0 +1,20 @@
+{
+  "id": "R-041",
+  "schema_version": "3.0.0",
+  "title": "Labour Force Survey, December 2021",
+  "outlet": "Statistics Canada",
+  "outlet_id": "statistics-canada",
+  "section": "Daily release",
+  "author": null,
+  "publication_date": "2022-01-07",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/220107/dq220107a-eng.htm",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": false,
+  "wire_source": null,
+  "notes": "Tier 1 primary for SD-012 DID side. AB female unemployment 7.6% Dec 2021 (up from 7.3% Nov; above 6.9% pre-pandemic Feb 2020). Women received 12.6% of new jobs and 100% of new part-time jobs. URL needs HTTP verification.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

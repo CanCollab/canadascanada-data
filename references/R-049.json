@@ -1,0 +1,20 @@
+{
+  "id": "R-049",
+  "schema_version": "3.0.0",
+  "title": "Service Alberta Minister Dale Nally breached election law, investigation finds",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "Edmonton",
+  "author": "Daniela Germano (The Canadian Press)",
+  "publication_date": "2026-03-27",
+  "url": "https://www.cbc.ca/news/canada/edmonton/nally-elections-alberta-letter-9.7145214",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": "The Canadian Press",
+  "notes": "Anchor for EVT-035. Elections Alberta found Nally accessed confidential List of Electors 'for a purpose not authorized by the Election Act'; no penalty, advice given. Recall petition against Nally failed (~2,600 of 15,700 signatures). Related to but distinct from Centurion Project.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

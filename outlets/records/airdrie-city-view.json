@@ -1,0 +1,35 @@
+{
+  "outlet_id": "airdrie-city-view",
+  "name_en": "Airdrie City View",
+  "outlet_type": "independent_digital",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Great West Newspapers (Canadian)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": false,
+      "verified": true,
+      "evidence_type": "none_found",
+      "source_url": "https://www.airdriecityview.com/other/contact-us"
+    },
+    "editorial_standards_published": {
+      "value": false,
+      "verified": false,
+      "evidence_type": "none_found"
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": true,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

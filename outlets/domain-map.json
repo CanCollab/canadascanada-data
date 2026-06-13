@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "schema_version": "3.0.0",
+    "schema": "domain-map",
+    "project": "CanadaScanada",
+    "last_updated": "2026-06-04",
+    "note": "Maps URL hostname to outlet_id. Used by the CanScan extension and site to look up nutrition labels. Keys are bare hostnames (no www, no path). When a new outlet is added to outlet-database.json, add its domain here and remove it from todo_missing_domains / pending as appropriate.",
+    "usage": "const outletId = domainMap.domains[new URL(articleUrl).hostname.replace('www.','')]",
+    "todo_missing_domains": [
+      "airdrie-city-view",
+      "albertaworker-ca",
+      "transport-action-prairie"
+    ],
+    "_todo_note": "These outlet_ids exist in outlet-database.json but have no hostname mapped. Confirm the correct hostname for each and move it into 'domains'."
+  },
+  "domains": {
+    "alberta.ca": "government-of-alberta",
+    "albertapolitics.ca": "alberta-politics",
+    "assembly.ab.ca": "alberta-legislature",
+    "calgaryherald.com": "calgary-herald",
+    "canada.ca": "government-of-canada",
+    "canadaland.com": "canadaland",
+    "cbc.ca": "cbc-radio-canada",
+    "ctvnews.ca": "ctv-news",
+    "desmog.com": "desmog",
+    "edmontonjournal.com": "edmonton-journal",
+    "elections.ab.ca": "elections-alberta",
+    "elections.ca": "elections-canada",
+    "factsmtr.substack.com": "factsmtr",
+    "globalnews.ca": "global-news",
+    "lawofwork.ca": "lawofwork-ca",
+    "livewirecalgary.com": "livewire-calgary",
+    "nature.com": "nature-journal",
+    "open.alberta.ca": "government-of-alberta",
+    "parklandinstitute.ca": "parkland-institute",
+    "pressprogress.ca": "press-progress",
+    "rabble.ca": "rabble",
+    "radio-canada.ca": "cbc-radio-canada",
+    "rcmp-grc.gc.ca": "rcmp",
+    "rmoutlook.com": "rocky-mountain-outlook",
+    "statcan.gc.ca": "statistics-canada",
+    "thecanadianpress.com": "canadian-press",
+    "theglobeandmail.com": "globe-and-mail",
+    "thetyee.ca": "the-tyee",
+    "una.ab.ca": "una-alberta"
+  },
+  "pending": {
+    "note": "Domains referenced in references.json or feed-map.json whose outlet records do not yet exist in outlet-database.json. Create the outlet record first, then move the domain into 'domains'.",
+    "domains": [
+      {
+        "domain": "thenarwhal.ca",
+        "outlet_id": "the-narwhal",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "nationalobserver.com",
+        "outlet_id": "national-observer",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "theijf.org",
+        "outlet_id": "investigative-journalism-foundation",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "albertaviews.ca",
+        "outlet_id": "alberta-views",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "windspeaker.com",
+        "outlet_id": "windspeaker",
+        "status": "outlet record needed"
+      },
+      {
+        "domain": "aptnnews.ca",
+        "outlet_id": "aptn-news",
+        "status": "outlet record needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "EVT-068",
+  "schema_version": "3.0.0",
+  "event_date": "2025-02-06",
+  "event_date_precision": "day",
+  "date_notes": "Auditor general announced investigation January 31 2025; reported publicly February 6 2025.",
+  "title_en": "Auditor general launches investigation into AHS procurement following termination of CEO who had sought to meet with auditor",
+  "title_fr": "Le vérificateur général lance une enquête sur les marchés d'AHS après le congédiement de la PDG qui cherchait à le rencontrer",
+  "ai_translated": true,
+  "description_en": "Alberta Auditor General Doug Wylie launches an investigation into procurement and contracting within Alberta Health Services, covering chartered surgical facilities, Turkish-manufactured medication, and COVID-19 PPE. The Globe and Mail reports that former AHS CEO Athana Mentzelopoulos was terminated days before a scheduled meeting with the auditor general to discuss her own internal procurement review. NDP Leader Naheed Nenshi calls the allegations 'the strongest I have ever seen against an Alberta government.' AHS board has been replaced by a Deputy Minister administrator.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "healthcare_privatization",
+    "accountability",
+    "transparency"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Auditor General",
+      "name": "Doug Wylie",
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-093"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "Sourced from R-093 (CBC/French Feb 6 2025). Extends Turkish medication story and AHS restructuring arc.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

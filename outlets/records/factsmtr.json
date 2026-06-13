@@ -1,0 +1,16 @@
+{
+  "outlet_id": "factsmtr",
+  "name_en": "FactsMTR (factsmtr.substack.com — needs verification)",
+  "outlet_type": "independent_digital",
+  "rated": false,
+  "citable": false,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Source under verification",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "not_rated_reason": "Single-subject investigative project (Substack) — cited as a source, not rated as a general news outlet."
+}

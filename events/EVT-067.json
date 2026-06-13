@@ -1,0 +1,63 @@
+{
+  "id": "EVT-067",
+  "schema_version": "3.0.0",
+  "event_date": "2025-01-29",
+  "event_date_precision": "day",
+  "date_notes": "Heritage Fund Opportunities Corp announced January 29 2025. AIMCo CEO and board sacked November 2024; Harper appointed AIMCo chair December 2024.",
+  "title_en": "Government creates Crown corporation to grow Heritage Fund to $250B; hires Stephen Harper as AIMCo chair",
+  "title_fr": "Le gouvernement crée une société d'État pour faire croître le Fonds du patrimoine à 250 G$ ; embauche Stephen Harper à la tête de l'AIMCo",
+  "ai_translated": true,
+  "description_en": "Premier Smith announces the Heritage Fund Opportunities Corp, a new Crown corporation to direct policy for the Alberta Heritage Savings Trust Fund and independently manage new deposits, targeting growth to $250 billion by 2050. The corporation will invest a $2 billion seed deposit separately from AIMCo. Separately, the province confirms it hired former Prime Minister Stephen Harper as AIMCo chair, weeks after sacking the entire AIMCo board and CEO in November 2024.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "fiscal",
+    "accountability"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Finance Minister",
+      "name": "Nate Horner",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "AIMCo Chair (appointed)",
+      "name": "Stephen Harper",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-084"
+  ],
+  "relations": [],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "Sourced from R-084 (CBC/CP Jan 29 2025). Harper appointment is significant — former PM as AIMCo chair.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

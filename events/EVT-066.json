@@ -1,0 +1,60 @@
+{
+  "id": "EVT-066",
+  "schema_version": "3.0.0",
+  "event_date": "2022-12-08",
+  "event_date_precision": "day",
+  "date_notes": "Passed approximately 1 a.m. December 8 2022 following all-night session.",
+  "title_en": "Alberta Sovereignty Within a United Canada Act passes 27-7 after cabinet powers stripped by amendment",
+  "title_fr": "La loi sur la souveraineté de l'Alberta dans un Canada uni est adoptée 27-7 après la suppression des pouvoirs du cabinet",
+  "ai_translated": true,
+  "description_en": "The Alberta Legislature passes the Sovereignty Within a United Canada Act (Bill 1), Premier Smith's signature legislation asserting provincial jurisdiction against federal overreach. Before passage, the UCP uses its majority to strip out the provision granting cabinet power to rewrite legislation by order-in-council — a clause that had drawn widespread criticism. The final vote is 27-7 along party lines. Smith: 'time to reset the relationship with the Trudeau government.' First Nations chiefs from Alberta and Saskatchewan call the bill unconstitutional and an infringement of Indigenous rights.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "constitutional_override",
+    "democratic_process",
+    "federal_provincial"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-095"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "smith-federal-confrontation",
+      "note": "Sovereignty Act is the centrepiece of Smith's confrontational approach to federal jurisdiction."
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "Harvested from 2023-2025.json stub. Now fully sourced via R-095.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

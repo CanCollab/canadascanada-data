@@ -1,0 +1,73 @@
+{
+  "id": "EVT-045",
+  "schema_version": "3.0.0",
+  "event_date": "2026-05-13",
+  "event_date_precision": "day",
+  "date_notes": "Deal confirmed by CBC from anonymous sources; formal announcement pending late May 2026.",
+  "title_en": "Alberta and federal government near deal on industrial carbon pricing at $130 per tonne by 2040",
+  "title_fr": "L'Alberta et le gouvernement fédéral sur le point de s'entendre sur une tarification industrielle du carbone à 130 $/tonne d'ici 2040",
+  "ai_translated": true,
+  "description_en": "Alberta and the federal government agree to an effective industrial carbon price of $130/tonne under Alberta's TIER system by 2040. The current effective price in Alberta is approximately $45/tonne, below the headline price of $95/tonne, attributed by critics to an oversupply of credits. The Canadian Climate Institute states the 2040 timeline is insufficient for Canada's net-zero targets.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "environment",
+    "federal_provincial",
+    "energy"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Prime Minister",
+      "name": "Mark Carney",
+      "party": "Liberal",
+      "jurisdiction": "federal"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-059"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "smith-federal-confrontation",
+      "note": "Negotiated resolution after years of Smith-federal confrontation on carbon pricing."
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Update when formally announced; remove outcome-pending flag when signed.",
+  "standards_flags": [
+    "single-source",
+    "outcome-pending"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "Created from R-059.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [
+    {
+      "counter_claim": "Canadian Climate Institute states $130/tonne by 2040 is insufficient for Canada to reach net-zero by 2050.",
+      "source_ref": "R-059",
+      "counter_claim_type": "expert-rebuttal"
+    }
+  ],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

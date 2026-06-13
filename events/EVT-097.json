@@ -1,0 +1,53 @@
+{
+  "id": "EVT-097",
+  "schema_version": "3.0.0",
+  "event_date": "2025-11-01",
+  "event_date_precision": "month",
+  "date_notes": null,
+  "title_en": "Separatist group and alleged misuse of voter-list data",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "A separatist-aligned group (the 'Centurion' project) was reported to have obtained voter-list data; an RCMP review of alleged misuse of voter records followed.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "separatism",
+    "privacy"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-9B87195D",
+    "R-673694B2",
+    "R-F86C79DB"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (3/3 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-9B87195D",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

@@ -1,0 +1,52 @@
+{
+  "id": "EVT-077",
+  "schema_version": "3.0.0",
+  "event_date": "2025-06-01",
+  "event_date_precision": "month",
+  "date_notes": null,
+  "title_en": "Alberta Next panel and town-hall consultations",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "The government ran an 'Alberta Next' panel and a series of public town halls; reporting noted both the consultation process and instances of public tension at events.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "democratic_process"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-FB3AB4BC",
+    "R-465A182C",
+    "R-D1863F78"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (3/3 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-FB3AB4BC",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

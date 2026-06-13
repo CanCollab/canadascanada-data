@@ -1,0 +1,65 @@
+{
+  "id": "EVT-042",
+  "schema_version": "3.0.0",
+  "event_date": "2025-09-25",
+  "event_date_precision": "day",
+  "date_notes": "Common Front formation approximately September 25 2025. CBC source: cbc.ca/news/canada/edmonton/alberta-unions-common-front-1.7338456 (ev_036). Formation was in response to threatened notwithstanding clause use.",
+  "title_en": "30 unions form Common Front coalition representing 350,000 Alberta workers",
+  "title_fr": "30 syndicats forment une coalition Front commun représentant 350 000 travailleurs albertains",
+  "ai_translated": true,
+  "description_en": "Thirty Alberta unions representing approximately 350,000 workers form the Common Front coalition in response to the provincial government's threatened use of the notwithstanding clause against striking teachers. The coalition includes the Alberta Federation of Labour, CUPE, and major trades unions. Common Front statement (October 24 2025): 'If governments start using the notwithstanding clause as a tool in their dealings with workers and unions, it will make a mockery of the constitutionally protected right to strike.' The coalition represents the largest labour solidarity formation in recent Alberta history.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Federation of Labour and 29 affiliated unions",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-115",
+    "R-116"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "ata-teachers-strike-2025",
+      "note": "Solidarity formation in direct response to threatened s.33 use."
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Confirm CBC source URL is live. Membership count (30 unions, 350,000 workers) needs confirmation against source.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-25",
+      "change": "Event created for strike lead-up thread.",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-06-02",
+      "change": "Added R-115 (CBC AFL), R-116 (CBC unions notwithstanding). Coalition confirmed; specific counts (30 unions, 350,000 workers) need ATA or AFL primary source confirmation. single-source flag retained.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

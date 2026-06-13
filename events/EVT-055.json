@@ -1,0 +1,65 @@
+{
+  "id": "EVT-055",
+  "schema_version": "3.0.0",
+  "event_date": "2021-03-30",
+  "event_date_precision": "day",
+  "date_notes": "Oct 21 2020: leaked adviser documents show proposals to remove residential school references; March 29 2021: official K-6 draft curriculum released; April 2021: majority of school divisions decline to pilot. EVT-055 covers the controversy arc spanning these dates.",
+  "title_en": "Government releases K-6 curriculum draft drawing criticism for age-inappropriate content and historical inaccuracies",
+  "title_fr": "Le gouvernement publie un projet de programme d'études de la maternelle à la 6e année critiqué pour son contenu inadapté à l'âge et ses inexactitudes historiques",
+  "ai_translated": true,
+  "description_en": "The UCP government releases a draft K-6 curriculum drawing criticism from educators, academics, and Indigenous groups for historical inaccuracies, age-inappropriate content, and perceived ideological framing. The Alberta Teachers' Association and school boards call for withdrawal.",
+  "description_fr": null,
+  "era": "kenney",
+  "category": [
+    "education",
+    "democratic_process"
+  ],
+  "claim_type": "fact",
+  "inference_note": false,
+  "actors": [
+    {
+      "display_role": "Education Minister",
+      "name": "Adriana LaGrange",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-091",
+    "R-070",
+    "R-090"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": null,
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-05-27",
+      "change": "Added R-090 (Oct 2020 leaked advisers), R-091 (school divisions reject pilot). Date note clarifies the 2020 leak preceded the 2021 draft release.",
+      "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-05-27",
+      "change": "Date corrected to March 30 (per CBC byline). R-070 updated to correct Janet French article URL.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

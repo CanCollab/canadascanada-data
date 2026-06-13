@@ -1,0 +1,57 @@
+{
+  "id": "EVT-029",
+  "schema_version": "3.0.0",
+  "event_date": "2026-05-22",
+  "event_date_precision": "day",
+  "date_notes": "Referendum date Oct 19 2026 announced by Government of Alberta (R-048). R-018 (CBC, May 22 2026) covers the separate separation-petition track and the court loss on that proposal.",
+  "title_en": "Province announces October 2026 referendum on immigration and constitutional reform",
+  "title_fr": "La province annonce un référendum d'octobre 2026 sur l'immigration et la réforme constitutionnelle",
+  "ai_translated": true,
+  "description_en": "The Government of Alberta announces a referendum to be held October 19, 2026, run by Elections Alberta, with nine questions covering immigration policy (provincial control, residency requirements for social services, voting eligibility) and constitutional reform (federal spending power, Senate). A separate citizen petition campaign seeking a question on Alberta separation from Canada proceeded on a different track and faced a court ruling that the separation proposal was unconstitutional. The referendum and the separation petition are distinct.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "electoral_process",
+    "federal_provincial"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-048",
+    "R-018"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "smith-federal-confrontation"
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Rescoped from 'separation referendum announcement' (which R-018 contradicted) to the actual announced Oct 19 2026 referendum on immigration + constitutional reform (R-048, government primary). Separation-petition court loss documented in update_log via R-018. Present R-048 as the government's stated position, not neutral fact (government framing throughout the FAQ).",
+  "standards_flags": [],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-22",
+      "change": "Court ruled the separation-referendum proposal unconstitutional (violates Charter and Treaty rights); the Oct 19 referendum proceeds on immigration and constitutional-reform questions, which are distinct from the separation question.",
+      "source_ref": "R-018",
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

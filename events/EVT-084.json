@@ -1,0 +1,55 @@
+{
+  "id": "EVT-084",
+  "schema_version": "3.0.0",
+  "event_date": "2025-01-01",
+  "event_date_precision": "year",
+  "date_notes": null,
+  "title_en": "Private-school funding debate",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "Public debate continued over public funding for private schools, including a teacher petition, polling, and a reported budget increase to private-school support.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Government of Alberta",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-AB530CD9",
+    "R-102888A3",
+    "R-E6A74859",
+    "R-7648E290",
+    "R-8E94D957",
+    "R-54FCFDE6"
+  ],
+  "relations": [],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Batch-authored from manual intake 2026-06-07 (6/6 sources resolved). Suppressed pending editorial verification of framing, dates, and corroboration.",
+  "standards_flags": [],
+  "evidence_status": "reported",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Created from manual-intake batch; suppressed pending verification.",
+      "source_ref": "R-AB530CD9",
+      "editor": "manual-intake"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "manual-intake",
+  "submission_status": "pending",
+  "extensions": {}
+}

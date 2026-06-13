@@ -1,0 +1,36 @@
+{
+  "outlet_id": "canadian-press",
+  "name_en": "The Canadian Press",
+  "outlet_type": "wire_service",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "The Canadian Press (co-operative)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "in_code_commitment",
+      "source_url": "https://www.thecanadianpress.com/about/our-team-values/our-news-principles/"
+    },
+    "editorial_standards_published": {
+      "value": true,
+      "verified": true,
+      "evidence_type": "standalone_code",
+      "source_url": "https://www.thecanadianpress.com/about/our-team-values/our-news-principles/"
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": true,
+      "verified": true,
+      "source_url": "https://www.mediacouncil.ca/list-of-members/"
+    }
+  }
+}

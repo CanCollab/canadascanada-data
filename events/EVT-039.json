@@ -1,0 +1,62 @@
+{
+  "id": "EVT-039",
+  "schema_version": "3.0.0",
+  "event_date": "2025-05-06",
+  "event_date_precision": "day",
+  "date_notes": "First rejection vote dated 2025-05-06 (CTV News Edmonton; mediator's recommendation). Corrects prior internal-file date of 2025-03-31. Distinct from the second rejection (tentative agreement) in late September 2025.",
+  "title_en": "Teachers reject mediator's recommendation in central bargaining",
+  "title_fr": "Les enseignants rejettent la recommandation du médiateur lors des négociations centrales",
+  "ai_translated": true,
+  "description_en": "Alberta Teachers' Association members vote to reject a mediator's recommendation for a new provincial collective agreement, opening the path to a possible strike vote. This is the first of two rejection votes; teachers reject a tentative agreement again in late September 2025. Core unresolved issues include salary, class size, and classroom complexity.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "labour",
+    "education"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Alberta Teachers' Association",
+      "name": null,
+      "party": null,
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-ata-mediator-rejection-2025"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "ata-teachers-strike-2025"
+    },
+    {
+      "type": "enables",
+      "target_id": "EVT-040"
+    }
+  ],
+  "needs_verification": true,
+  "community_can_verify": true,
+  "verification_prompt_en": null,
+  "verification_notes": "Sourced to CTV News Edmonton (R-ata-mediator-rejection-2025), 2025-05-06; date and framing corrected from internal-file stub. Ready for verification sign-off — flip needs_verification to false to publish.",
+  "standards_flags": [
+    "single-source"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-06-07",
+      "change": "Date and framing corrected to 2025-05-06 'mediator's recommendation' per CTV (R-ata-mediator-rejection-2025), replacing internal-file date 2025-03-31.",
+      "source_ref": "R-ata-mediator-rejection-2025",
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

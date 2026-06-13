@@ -1,0 +1,73 @@
+{
+  "id": "EVT-046",
+  "schema_version": "3.0.0",
+  "event_date": "2026-05-26",
+  "event_date_precision": "day",
+  "date_notes": "Interview published May 26 2026; Sylvestre to declare next steps early June 2026.",
+  "title_en": "Separatist leader organizes potential UCP leadership review over premier's pro-remain referendum stance",
+  "title_fr": "Un chef séparatiste organise un possible examen de la direction de l'UCP en raison de la position pro-maintien de la première ministre",
+  "ai_translated": true,
+  "description_en": "Mitch Sylvestre, of the Alberta Prosperity Project and Stay Free Alberta, organizes to force either a UCP leadership review of the premier or a change to the referendum question. The October 19 2026 referendum offers two options: remain a Canadian province, or begin a legal process toward a binding secession vote. The premier is publicly pro-remain; the UCP party has declared neutrality.",
+  "description_fr": null,
+  "era": "smith",
+  "category": [
+    "separatism",
+    "party_discipline",
+    "democratic_process"
+  ],
+  "claim_type": "fact",
+  "inference_note": null,
+  "actors": [
+    {
+      "display_role": "Stay Free Alberta / Alberta Prosperity Project",
+      "name": "Mitch Sylvestre",
+      "party": null,
+      "jurisdiction": "provincial"
+    },
+    {
+      "display_role": "Premier of Alberta",
+      "name": "Danielle Smith",
+      "party": "UCP",
+      "jurisdiction": "provincial"
+    }
+  ],
+  "opposition_response": null,
+  "source_refs": [
+    "R-061"
+  ],
+  "relations": [
+    {
+      "type": "part_of_thread",
+      "thread_id": "smith-federal-confrontation",
+      "note": "Intra-party pressure following premier's federalist turn."
+    }
+  ],
+  "needs_verification": false,
+  "community_can_verify": false,
+  "verification_prompt_en": null,
+  "verification_notes": "Update when Sylvestre declares next steps June 2026.",
+  "standards_flags": [
+    "single-source",
+    "outcome-pending"
+  ],
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-05-27",
+      "change": "Created from R-061.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "claim_contested_by": [
+    {
+      "counter_claim": "UCP president Rob Smith states grassroots members back the premier's compromise question.",
+      "source_ref": "R-061",
+      "counter_claim_type": "political-statement"
+    }
+  ],
+  "comparison": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}
