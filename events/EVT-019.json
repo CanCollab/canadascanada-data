@@ -1,46 +1,40 @@
 {
   "id": "EVT-019",
   "schema_version": "3.0.0",
-  "event_date": "2025-11-01",
-  "event_date_precision": "month",
-  "date_notes": "Auditor General report released 2025. Handoff carried a 2024-09-24 date that appears to be an error — Global News coverage surfaced November 2025. AG report publication date must be confirmed at oag.ab.ca.",
+  "event_date": "2022-03-01",
+  "event_date_precision": "day",
+  "date_notes": "Date matches the publication date of the CBC report that broke the story (R-034). The recording itself was made earlier; the news event documented here is the recording becoming public.",
   "title_en": "Kenney captured on recording coordinating UCP leadership review strategy with staff",
-  "title_fr": "Le vérificateur général confirme une perte d'environ 109 M$ dans l'affaire de la privatisation des laboratoires",
-  "ai_translated": true,
-  "description_en": "A recording surfaces in which Premier Kenney is heard coordinating with staff and loyalists on how to manage the UCP internal leadership review — inconsistent with his government's stated governance norms around confidentiality of internal deliberations. The recording was made by a third party and released without Kenney's knowledge or consent; that context is noted here and is relevant to how the material was obtained. The content of the recording revealed internal political strategy discussions. Source URL under verification: cbc.ca/news/canada/calgary/kenney-recording-ucp-alberta-leadership-review-staff-1.6396647",
+  "title_fr": null,
+  "ai_translated": false,
+  "description_en": "A recording surfaced in which Premier Jason Kenney is heard discussing the UCP leadership review with party staff. The recording was made by a third party and released without Kenney's knowledge or consent; that context is noted here as relevant to how the material was obtained. The recording's contents include discussions of internal political strategy regarding the review.",
   "description_fr": null,
-  "era": "smith",
+  "era": "kenney",
   "category": [
-    "healthcare_privatization"
+    "transparency",
+    "accountability",
+    "party_discipline"
   ],
   "claim_type": "fact",
   "inference_note": null,
   "actors": [
     {
-      "display_role": "Auditor General of Alberta",
-      "name": null,
-      "party": null,
+      "display_role": "Premier of Alberta",
+      "name": "Jason Kenney",
+      "party": "UCP",
       "jurisdiction": "provincial"
     }
   ],
-  "opposition_response": {
-    "display_role": "Official Opposition",
-    "name": "David Shepherd",
-    "party": "NDP",
-    "date": "2025-11-24",
-    "description": "Official Opposition health critic challenged the government in Question Period over poor documentation and transparency following the Auditor General report.",
-    "source_refs": []
-  },
+  "opposition_response": null,
   "source_refs": [
-    "R-007"
+    "R-034"
   ],
   "relations": [],
-  "needs_verification": false,
+  "needs_verification": true,
   "community_can_verify": false,
   "verification_prompt_en": null,
-  "verification_notes": "$109M taxpayer-cost finding verified against R-007 (Global News). RECOMMENDED: attach oag.ab.ca AG report (Tier 1) as corroborating primary before final publication; figure itself is confirmed. $109M supersedes earlier $97M project estimate.",
+  "verification_notes": "Restored 2026-06-14 from a prior contamination in which DynaLife Auditor General report metadata (event_date, era, category, actors, source_refs, opposition_response, verification_notes) had overwritten this record's fields. Title and description survived correctly. Source R-034 (CBC News, Tier 2, verified) anchors the event. Single source; consider attaching additional Tier 2 coverage (Globe and Mail, CTV, or similar) before publication. The leaked-without-consent context is preserved as a sourcing-integrity note.",
   "standards_flags": [
-    "date-unconfirmed",
     "single-source"
   ],
   "evidence_status": "established",
@@ -49,6 +43,12 @@
       "date": "2026-05-25",
       "change": "Language corrected: 'secretly recorded' replaced with 'captured on recording' to accurately reflect that Kenney was recorded by a third party, not that he did the recording. Recording context (third-party, without consent) added to description.",
       "source_ref": null,
+      "editor": "editorial"
+    },
+    {
+      "date": "2026-06-14",
+      "change": "Restored from contamination: title_en and description_en were correct but event_date (2025-11-01), era (smith), category (healthcare_privatization), actors (Auditor General of Alberta), opposition_response (Shepherd 2025-11-24), source_refs (R-007), title_fr, verification_notes, and standards_flags had been overwritten with DynaLife AG report data. Set event_date to 2022-03-01 matching R-034's publication date, era to kenney, actors to Jason Kenney as Premier, category to transparency/accountability/party_discipline, source_refs to R-034. Cleared the unsourced Shepherd opposition_response (the lead is preserved in EVT-109 verification_notes for future sourcing).",
+      "source_ref": "R-034",
       "editor": "editorial"
     }
   ],

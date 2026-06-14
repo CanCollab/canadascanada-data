@@ -33,16 +33,15 @@
   ],
   "opposition_response": null,
   "source_refs": [
-    "R-D0000002"
+    "R-D0000002",
+    "R-007"
   ],
   "relations": [],
   "needs_verification": true,
   "community_can_verify": true,
   "verification_prompt_en": null,
-  "verification_notes": "Strongest tier-1 item in the harvest, but currently sourced only to the CBC summary (R-D0000002). TO ADD as the load-bearing primary: the OAG release and full report once the office-of-the-auditor-general outlet exists. Distinct from the 2022-2023 lab-privatization events EVT-014/016/018.",
-  "standards_flags": [
-    "single-source"
-  ],
+  "verification_notes": "Sourced to CBC summary (R-D0000002) and Global News (R-007, 109 million figure verified). Load-bearing primary still owed: the OAG release and full report once the office-of-the-auditor-general outlet exists. Distinct from the 2022-2023 lab-privatization events EVT-014/016/018. Lead to verify: possible NDP opposition response from David Shepherd (health critic) in Question Period circa 2025-11-24; previously carried in a contaminated EVT-019 record but never sourced. If real, source via Hansard or contemporaneous QP coverage before attaching.",
+  "standards_flags": [],
   "evidence_status": "reported",
   "update_log": [
     {
@@ -50,6 +49,12 @@
       "change": "Created from harvest batch; suppressed; OAG primary pending outlet.",
       "source_ref": "R-D0000002",
       "editor": "manual-intake"
+    },
+    {
+      "date": "2026-06-14",
+      "change": "Added R-007 (Global News, 109 million dollar loss confirmed) as additional source. Removed single-source standards_flag. Added verification lead for possible Shepherd opposition response recovered from a contaminated EVT-019 record (never sourced; preserved as a research lead, not propagated as a claim).",
+      "source_ref": "R-007",
+      "editor": "editorial"
     }
   ],
   "claim_contested_by": [],

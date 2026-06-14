@@ -1,27 +1,21 @@
-# Explainer Layer: Schema Specification
+# Explainer Layer — Schema & Process Spec
 
-The explainer layer is how the project educates instead of accuses. Where
-a claim turns on something the public may not know (who holds
-jurisdiction, what a law already duplicated, whether a "health" dollar
-is actually bound to health), the record links to a neutral, sourced
-explainer instead of leaning on a charged adjective.
+**Status:** SIGNED OFF (all four open questions resolved; see section 6).
+**Design Standard:** new section 5.7 (Explainers) · **Depends on:** BCP-47 locale-map decision (locked)
+**Companion:** `EXPLAINER_RHETORIC_GUIDE.md` (the voice; this is the shape).
 
-This document specifies the explainer record shape, how events attach
-to explainers, how explainers render, and the validator rules that
-enforce both. It is the canonical reference for anyone authoring,
-extending, or forking the explainer subsystem.
+The explainer layer is how the project **educates instead of accuses**. Where a claim turns on
+something the public may not know (who holds jurisdiction, what a law already duplicated, whether a
+"health" dollar is actually bound to health) the record links to a neutral, sourced explainer
+instead of leaning on a charged adjective. It is the structural backstop for section 4 of the
+Verification Checklist.
 
-For the overall system contract, see
-`CanadaScanada_Design_Standard_v3_4.md` section 5.7. For the rules
-governing every published claim, see `METHODOLOGY.md`. For the
-operational rules the project commits to, see `ETHICS.md`.
+Explainers are the **pilot for the locale-map language shape**: every translatable field is a
+BCP-47-keyed object, so adding a language later is a new key, never a schema change.
 
 ---
 
-## 1. Record shape
-
-Explainer records live at `explainers/EXP-<slug>.json`. One record per
-file.
+## 1. Record shape — `explainers/EXP-<slug>.json`
 
 ```json
 {
@@ -55,250 +49,142 @@ file.
 }
 ```
 
-### Translatable fields
+**Field notes**
+- **Translatable fields** (`title`, `summary`, `body`, each `key_points` entry) are locale maps.
+  `en-CA` is required; other locales may be `null` until authored. `body` and `key_points` are optional.
+- **`summary`** is the card-side blurb. **`body`** is the fuller text for a dedicated page. Keep
+  `summary` self-sufficient so a card never depends on the page (Rhetoric Guide Rule 3.1).
+- **`ai_translated`** is a per-locale map; `true` means machine-drafted, pending human review.
+- **`type`** is validator-enforced vocab in `meta/explainer-types.json`:
+  `jurisdiction · legal_status · funding · standard · term · process`. Domain-agnostic by design.
+- **`evidence_status`** is validator-enforced vocab (resolved this session, see section 6):
+  `established` (default, sourced and stable) · `reviewed` (a human re-checked it; audit trail) ·
+  `updated` (content materially changed post-publication; pairs with `update_log`) ·
+  `superseded` (replaced; suppressed by the gate exactly as events are). Only `superseded` changes
+  render behaviour today; the rest are honest audit metadata until something consumes them.
+- **`applies_to`** are **inert classification tags for search/discovery only** (resolved, section 6).
+  They are NEVER an automatic render join. Attachment to an event is always explicit.
+- **Explainers are sourced like events.** `source_refs` must resolve to verified references; an
+  explainer with no sources is not publishable.
 
-`title`, `summary`, `body`, and each entry in `key_points` are
-**locale maps**: objects keyed by BCP-47 locale codes (`en-CA`,
-`fr-CA`, `iu-CA-Latn`, and so on). `en-CA` is required on every
-translatable field; other locales may be `null` until authored.
+## 2. How events reference an explainer (RESOLVED: both hooks)
 
-When a target locale value is `null` at render time, the build falls
-back to `en-CA`. No card ever renders an empty Context block because
-of a missing translation.
+1. **Card-level:** `explainer_refs: []` array on the event, for "this record needs context X."
+2. **Edge-level:** the existing `explainer_ref` on a `jurisdiction_clarification` edge.
 
-`summary` is the card-side blurb shown inline on the event. `body` is
-the fuller text for a dedicated page. Keep `summary` self-sufficient
-so a card never depends on the page being read. `body` and
-`key_points` are optional; author them only where they add value
-beyond what the summary conveys.
+Attachment is **explicit only** — the event (or edge) names the explainer `id`. `applies_to` is
+descriptive metadata, never a join. Implicit tag-matching would surface explainers on events the
+editor never vetted, breaking the per-record editorial control the whole gate discipline rests on.
 
-### `ai_translated`
+**Dedupe guard:** if the same explainer id is reachable both card-level and edge-level on one card,
+render it once (the card-level Context block wins; the edge still links inline).
 
-A per-locale map indicating whether each translation was machine-
-drafted. `{"fr-CA": true}` means the French version is AI-assisted and
-pending human review; `false` means it has been reviewed and signed
-off. `en-CA` (authored content) does not carry an `ai_translated`
-entry.
+An explainer link renders only if the explainer's `needs_verification` is false **and** its sources
+are verified, the same gate as every other publishable thing.
 
-### `type`
+## 3. Rendering (build.py — implementation task, after sign-off)
 
-The kind of concept the explainer documents. Validator-enforced
-vocabulary in `meta/explainer-types.json`:
+- A uniform **"Context"** annotation block on the card (sibling to Inference / Connections /
+  Response), showing the explainer `summary` plus source attribution. Same styling discipline: no
+  special colour, no verdict tone. (RESOLVED: reader-facing label is "Context".)
+- A `jurisdiction_clarification` edge whose `explainer_ref` resolves renders its "Jurisdiction"
+  connection row linked to the explainer.
+- **MVP is summary-inline only** (RESOLVED). `body` is authored only where it adds value beyond the
+  summary; otherwise it stays `null` and there is no page to link. The Context block links to a
+  dedicated page only if `body` exists. Dedicated `explainers/EXP-<slug>.html` pages come later.
+- **`en-CA` fallback:** when a target locale value is `null`, the renderer falls back to `en-CA`
+  (build.py task). No card ever renders an empty Context block because of a missing translation.
 
-| Type | What it covers | Example |
-|---|---|---|
-| `jurisdiction` | Who has authority over what | Bike lanes, healthcare, education |
-| `legal_status` | Facts about a specific statute | Bill 18, Bill 22, Education Act |
-| `funding` | How money flows from one level to another | Federal transfers, equalization |
-| `standard` | A legal or institutional norm | Notwithstanding clause, paramountcy |
-| `term` | A general concept or mechanism | Fungibility, prior legal status |
-| `process` | A repeated procedure | Royal Assent, parliamentary order |
+## 4. Validator additions (`validate.py` — warning-first, then promote)
 
-The vocabulary is domain-agnostic by design. A forking operator may
-extend it; the structure stays the same.
+- `explainer_refs[]` / edge `explainer_ref` resolve to an `explainers/` record — **warning** now,
+  **error** once adopted (mirrors the `source_url` rollout).
+- `type` in vocab — **error**.
+- `evidence_status` in vocab — **error**.
+- explainer with empty `source_refs` — **error** (explainers must be sourced).
+- `title.en-CA` present — **error**; any locale present in a sibling field but missing here — **warning**.
+- locale keys are well-formed BCP-47 — **warning**.
 
-### `evidence_status`
+## 5. Seed records (AUTHORED this session — all `needs_verification: true` pending sources)
 
-A closed four-value vocabulary describing the lifecycle state of the
-explainer's content:
+| id | type | status | sources needed before it can render |
+|----|------|--------|--------------------------------------|
+| `EXP-bike-lane-jurisdiction` | jurisdiction | authored | `R-mga` (load-bearer, province-wide), `R-prov-infrastructure-funding` still to author; `R-calgary-bike-infrastructure` + `R-calgary-traffic-bylaw` authored, `verified:false` pending sign-off |
+| `EXP-notwithstanding` | standard | authored | `R-charter-s33`, `R-constitution-1982-history`, `R-alberta-legislative-process` |
+| `EXP-fungible-funding` | funding | authored | `R-federal-transfer-framework`, `R-provincial-budget-docs`, `R-public-accounts`, `R-alberta-education-funding` |
+| `EXP-prior-legal-status` | term | authored | `R-constitution-division-powers`, `R-paramountcy-doctrine` |
 
-| Value | Meaning |
-|---|---|
-| `established` | Default. Sourced, stable, no known issues. |
-| `reviewed` | A human re-checked the content recently. Audit-trail marker. |
-| `updated` | Content materially changed after first publication. Pairs with `update_log[]`. |
-| `superseded` | Replaced by another record. Suppressed by the publication gate. |
+## 6. Sign-off record — the four open questions, RESOLVED
 
-Only `superseded` currently changes rendering behaviour (the explainer
-is hidden from the public build). The other three are honest audit
-metadata until consumed by future tooling.
+1. **`legal_status` granularity.** Per-law instances under the `legal_status` type carry the facts
+   about a specific statute. The generic concept note is typed **`term`** (NOT `legal_status`),
+   because it defines a mechanism (concurrent jurisdiction + federal paramountcy) rather than
+   asserting a status about a law. Slugs drop the year unless two same-named laws collide
+   (`EXP-education-act-prior-status`, not `EXP-2024-...`), since the date is an error-prone field
+   the verification worklist already flags.
+2. **`explainer_refs[]` on events vs edge-only.** Both, with a dedupe guard (section 2).
+3. **Dedicated pages at MVP.** Inline-only at MVP. `body` null unless it earns a page.
+4. **Render block name.** "Context."
 
-### `applies_to`
+Additional decisions locked this session:
+- **Attachment is explicit; `applies_to` is inert** (section 1, section 2).
+- **`evidence_status` is a closed vocab** of four values (section 1).
+- **`en-CA` fallback** for null locales is a render rule (section 3).
 
-An array of inert classification tags. Used for search and discovery
-only. **Never an automatic render join.** Attachment of an explainer
-to an event is always explicit (see section 2).
+### 6a. Priority next explainers
 
-Implicit tag-matching would surface explainers on events the editor
-never vetted, breaking the per-record editorial control the
-publication gate rests on.
+These are the highest-priority next explainers based on coverage gaps in
+the current corpus. Each is sized to be a single concept explainer with a
+non-null `summary` field and a `body` that may or may not be authored
+depending on whether the concept earns its own page.
 
-### `source_refs`
+| Proposed ID | Type | Concept | Why it's needed |
+|---|---|---|---|
+| `EXP-bill18-paramountcy` | standard | The constitutional doctrine of federal paramountcy and how Bill 18 (Provincial Priorities Act) interacts with it | Multiple Bill 18 events in the corpus reference the legal-mechanism question without an explainer to point at |
+| `EXP-charter-section-2` | standard | Charter section 2 freedoms (expression, association, peaceful assembly) and how section 33 interacts with them | Companion to the notwithstanding explainer; needed when events describe legislation that engages s.2 rights |
+| `EXP-cabinet-confidentiality` | term | Cabinet confidentiality as a parliamentary norm: what it covers, what it doesn't, and how legislative privilege relates | Relates to the Guthrie cabinet notes event and any future events about leaked internal deliberations |
+| `EXP-federal-transfers` | funding | How federal transfers to provinces work: the Canada Health Transfer, Canada Social Transfer, equalization, and bilateral agreements | Multiple events touch federal-provincial funding mechanics; the fungible-funding explainer addresses the general principle but not the specific transfer structures |
+| `EXP-electoral-boundaries-process` | process | Alberta's electoral boundaries commission: how lines are drawn, when, by whom, under what oversight | Relates to EVT-112 (boundaries final report) and future events on the implementation of new boundaries |
+| `EXP-anti-slapp` | term | Anti-SLAPP legislation in Canada: which provinces have it, what it does, what Alberta does not have | Relevant context for any defamation-adjacent event and for the project's own legal exposure posture |
+| `EXP-conflict-of-interest-commissioner` | term | The Alberta Ethics Commissioner's role, the conflict-of-interest framework, and the limits of the office | Relates to multiple events about ministerial conduct and procurement decisions |
 
-An array of reference record IDs that source the explainer's content.
-**An explainer with no sources is not publishable.** Each referenced
-ID must resolve to a verified reference record in `references/`.
+### Authoring order
 
-### `related_explainers`
+A reasonable order to author these in is:
 
-An array of other explainer IDs that share scope or expand on the
-concept. Renders as cross-links (in the future) but does not affect
-the publication gate.
+1. `EXP-charter-section-2` (highest leverage, supports several existing
+   events plus the notwithstanding explainer's missing companion piece)
+2. `EXP-bill18-paramountcy` (multiple existing events point at this
+   mechanism)
+3. `EXP-federal-transfers` (concrete and substitutable for several
+   fungible-funding references)
+4. `EXP-cabinet-confidentiality` (single high-leverage event motivates it)
+5. `EXP-electoral-boundaries-process` (a small number of events need it)
+6. `EXP-conflict-of-interest-commissioner` (helpful but not load-bearing
+   for any single event)
+7. `EXP-anti-slapp` (most useful as background for the project's own
+   posture; can defer to post-launch)
 
-### Publication gate fields
+### Authoring discipline (carried forward from section 5)
 
-`needs_verification` (boolean), `evidence_status` (vocab above), and
-`source_refs` together govern whether the explainer renders publicly.
-The gate is the same as for events and references: only verified
-records with verified sources reach a reader.
+Each new explainer:
 
-### Other fields
+- Is a stable, generic concept explainer. No worked examples of specific
+  governments doing specific things. The specific contested case is an
+  event that links up to the stable concept.
+- Title is a flat noun phrase, never a question.
+- Summary is self-sufficient.
+- Names mechanisms, not abstractions.
+- Anchors relevance through recognition and utility, never stakes-inflation.
+- Treats all sides symmetrically.
+- Carries `source_refs[]` to verified reference records before publishing.
+- Ships as `needs_verification: true` initially; the operator flips after
+  review.
 
-`update_log[]` is the append-only correction history. `extensions{}`
-holds experimental fields with no version bump. `submission_source`
-and `submission_status` track the editorial pipeline.
+### What this list is not
 
----
-
-## 2. How events attach to explainers
-
-Attachment is **explicit only**. The event (or an edge on it) names
-the explainer's `id` directly. Two hooks exist:
-
-1. **Card-level**: `explainer_refs: []` array on the event itself,
-   for "this record needs context X."
-2. **Edge-level**: the existing `explainer_ref` field on a
-   `jurisdiction_clarification` edge.
-
-If the same explainer ID is reachable through both hooks on one card,
-render it once. The card-level Context block wins; the edge still
-links inline.
-
-An explainer link renders only if the explainer's
-`needs_verification` is `false` and its sources are verified, the
-same gate as every other publishable thing.
-
----
-
-## 3. Rendering rules
-
-### The Context block
-
-A uniform **"Context"** annotation block on the event card, a sibling
-to the existing Inference, Connections, and Response blocks. Shows
-the explainer's `summary` plus source attribution. Same styling
-discipline as other annotation blocks: no special colour, no verdict
-tone.
-
-### Dedicated pages (post-MVP)
-
-If the explainer has a non-null `body` field for the rendered locale,
-the Context block links to a dedicated page at
-`explainers/EXP-<slug>.html`. If `body` is `null`, no page exists;
-the block renders inline-only.
-
-MVP is summary-inline only. Dedicated pages come later. Author `body`
-only when there is content that earns its own page.
-
-### `en-CA` fallback
-
-When the reader's selected locale has no authored content for a
-translatable field, the renderer falls back to `en-CA`. Any other
-locale's content takes precedence over the fallback when present.
-
----
-
-## 4. Validator rules
-
-`scripts/validate.py` enforces the following rules. The standard
-warning-first promotion path applies (a rule begins as a warning and
-becomes an error once coverage is high).
-
-| Rule | Severity |
-|---|---|
-| `explainer_refs[]` and edge `explainer_ref` must resolve to an `explainers/` record | warning, promoting to error |
-| `type` must be in `meta/explainer-types.json` | error |
-| `evidence_status` must be one of the four vocabulary values | error |
-| Explainer with empty `source_refs[]` | error (explainers must be sourced) |
-| `title.en-CA` must be present (not null) | error |
-| Any locale present in a sibling field but missing here | warning |
-| Locale keys must be well-formed BCP-47 | warning |
-
----
-
-## 5. Authoring guidance
-
-When writing a new explainer:
-
-- **Concept explainers are stable and generic.** A concept explainer
-  explains a mechanism. It must not carry a worked example captioned
-  "here is a government doing the bad thing," because that turns the
-  explainer into the accusation it exists to defuse. A specific
-  contested case is an *event* that links *up* to the stable concept.
-- **Title is a flat noun phrase, never a question.** Interrogative
-  titles import a frame that implies a contested answer. Use "City
-  and provincial roles for local roads and bike lanes," not "Who
-  controls bike lanes?"
-- **Summary is self-sufficient.** A card must never depend on the
-  (often-null) `body` to make sense. The summary carries the whole
-  record alone.
-- **Name mechanisms, not abstractions.** "Can alter them through
-  legislation" hides the thing a reader wants: how. Write the
-  mechanism: "by passing a law through a vote in the Legislature."
-- **Relevance through recognition and utility, never stakes-
-  inflation.** Anchor the concept to something the reader has lived
-  (the health care they use, the property tax they pay). Frame the
-  explainer as a reading skill ("here is what to check next time you
-  see a number"). Never raise the stakes ("this could affect *your*
-  hospital").
-- **Symmetric treatment of all sides.** If a mechanism is illustrated
-  with one party or position, illustrate it with the others where
-  examples exist.
-
-The full editorial guidance is governed by an internal style
-discipline the project maintains for its own authors. Forking
-operators are encouraged to develop their own equivalent.
-
----
-
-## 6. Current seed explainers
-
-The repository ships with four seed explainers, all currently
-`needs_verification: true`:
-
-| ID | Type | Concept |
-|---|---|---|
-| `EXP-bike-lane-jurisdiction` | jurisdiction | Municipal vs. provincial authority over local roads and bike lanes |
-| `EXP-notwithstanding` | standard | The notwithstanding clause: scope, limits, history |
-| `EXP-fungible-funding` | funding | Why "named" budget allocations don't always go where labelled |
-| `EXP-prior-legal-status` | term | Concurrent jurisdiction and federal paramountcy |
-
-These records show the schema in action. Read them alongside this
-spec to understand the conventions.
-
-The explainer rendering layer is not yet wired into the build. Once
-Track A (explainer rendering) ships, these four become live on the
-public timeline.
-
----
-
-## 7. Extending the schema
-
-The procedure for adding a new field, a new vocabulary value, or a
-new explainer type is documented in `ADDING_A_FIELD.md`. Briefly:
-
-- New fields are additive and optional-with-default.
-- Validator rules start as warnings and promote to errors once
-  coverage is high.
-- Experimental fields live in `extensions{}` or as their own
-  referencing record, never stamped inline onto every existing
-  record.
-- A new explainer type means adding to `meta/explainer-types.json`
-  and authoring a seed record demonstrating the type.
-
----
-
-## 8. Forking
-
-When forking this project (see `FORKING.md`):
-
-- The explainer schema is portable. Use it as-is.
-- The vocabulary (`meta/explainer-types.json`) is portable. Extend
-  for your jurisdiction's needs.
-- The seed explainers shown in section 6 are Alberta-specific. A
-  fork should replace them with its own jurisdiction's seed concepts
-  (provincial vs. municipal authority for your province, your
-  jurisdiction's analogue to the notwithstanding clause if any, your
-  funding mechanisms, your shared-jurisdiction terms).
-- Editorial style for explainers is the fork operator's choice. The
-  schema does not enforce voice; the validator only enforces shape.
+This is not a frozen commitment. The operator may add explainers not on
+this list as the corpus grows, or skip ones on this list if they turn out
+to be unnecessary. The list represents priorities based on current
+corpus coverage; it should be revisited each time a content batch is
+authored.
