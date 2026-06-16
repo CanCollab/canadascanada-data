@@ -1,0 +1,20 @@
+{
+  "id": "R-123",
+  "schema_version": "3.0.0",
+  "title": "Alberta: Smith trans pronoun policy and the law",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": null,
+  "publication_date": "2024-02-01",
+  "url": "https://globalnews.ca/news/10265662/alberta-smith-trans-pronoun-policy-law/",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": "Context for EVT-032: legal analysis of Smith's pronoun policy. Date approximate based on URL sequence (adjacent to 10266063 dated Feb 1 2024). URL needs HTTP check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

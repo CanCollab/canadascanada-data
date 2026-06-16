@@ -1,0 +1,22 @@
+{
+  "schema": "content-paths",
+  "project": "CanadaScanada",
+  "version": "1.0.0",
+  "description": "Canonical directory paths for each content type, relative to the data repo root. validate.py, build.py, and all future tooling read from here instead of hardcoding strings. To move a content type to a new directory, change its value here and update the consuming scripts in the same commit.",
+  "paths": {
+    "events":      "events",
+    "references":  "references",
+    "outlets":     "outlets/records",
+    "said_did":    "said-did",
+    "explainers":  "explainers",
+    "meta":        "meta",
+    "memos":       "memos",
+    "analysis":    "analysis"
+  },
+  "notes": {
+    "outlets": "Points to the per-file records subdirectory, not the outlets/ parent. The manifest lives at outlets/records/_manifest.json.",
+    "memos": "Reserved for the counter-memo track (MEMO- records). Directory will be created when the ANA-/MEMO- schemas are authored through ADDING_A_FIELD.md.",
+    "analysis": "Reserved for analysis records (ANA-). Same gate as memos.",
+    "path_format": "Relative to data_dir (the repo root passed to validate.py / build.py). No leading or trailing slashes."
+  }
+}

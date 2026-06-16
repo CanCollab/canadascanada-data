@@ -2,7 +2,7 @@
   "schema": "outlet-database",
   "project": "CanadaScanada",
   "version": "0.3.0",
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-16",
   "description": "Outlet records. Facts-only, no scoring. Rated news outlets carry facts{} (each fact: value, verified, evidence_type, source_url) and accountability{}. Non-news sources are rated:false with not_rated_reason. Unverified facts are omitted from display.",
   "note": "press-council/NNC membership lives under accountability (descriptive, shown at source level), not as a scored card criterion. meets_caj merged into editorial_standards_published.",
   "order": [
@@ -20,6 +20,7 @@
     "edmonton-journal",
     "parkland-institute",
     "nature-journal",
+    "intl-journal-transgender-health",
     "alberta-politics",
     "lawofwork-ca",
     "livewire-calgary",

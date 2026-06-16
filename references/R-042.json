@@ -6,15 +6,15 @@
   "outlet_id": "albertaworker-ca",
   "section": "News",
   "author": "Kim Siever",
-  "publication_date": "2021-12-15",
+  "publication_date": "2022-01-11",
   "url": "https://albertaworker.ca/news/what-whitney-issik-left-out-about-women-workers/",
-  "source_type": "finding_tool",
+  "source_type": "url_article",
   "url_status": "live",
   "archived_url": null,
   "tier": 4,
   "verified": false,
   "wire_source": null,
-  "notes": "FINDING TOOL ONLY — Tier 4. Use to locate StatsCan table locations (R-041). Do not cite directly.",
+  "notes": "Tier 4 advocacy analysis by Kim Siever (independent journalist, Lethbridge). Corroboration/context only, not load-bearing for contested facts; StatsCan (R-041) carries the figures (Bell rule). Key points: contextualizes Issik's same-day statement, presents the year-over-year change in women's Alberta employment (Dec 2020 to Dec 2021), and notes that neither the LFS data nor Issik's statement accounts for non-binary workers. Reclassified from finding_tool to url_article per this pass; confirm if you prefer it stay a finding tool.",
   "submission_source": "editorial",
   "submission_status": "accepted"
 }

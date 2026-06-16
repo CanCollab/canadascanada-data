@@ -4,17 +4,17 @@
   "title": "Danielle Smith wins UCP leadership race on sixth ballot",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": null,
-  "author": null,
+  "section": "News",
+  "author": "Kyle Bakx",
   "publication_date": "2022-10-06",
-  "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-ucp-leader-alberta-1.6607511",
+  "url": "https://www.cbc.ca/news/canada/calgary/bakx-ucp-danielle-smith-premier-leadership-vote-result-1.6609276",
   "source_type": "url_article",
-  "url_status": "live",
+  "url_status": "unverified",
   "archived_url": null,
   "tier": 2,
   "verified": false,
   "wire_source": null,
-  "notes": "Smith elected UCP leader, Oct 6 2022. Anchors EVT-057. URL from 2022.json — verify.",
+  "notes": "Smith elected UCP leader October 6 2022, sixth ballot. Anchors EVT-057. URL corrected from a broken 2022.json entry (former URL resolved to an unrelated Windsor opioid article). Author: Kyle Bakx, CBC Calgary. URL needs HTTP check.",
   "submission_source": "editorial",
-  "submission_status": "pending-verification"
+  "submission_status": "accepted"
 }

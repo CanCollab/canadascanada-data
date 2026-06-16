@@ -1,0 +1,20 @@
+{
+  "id": "R-120",
+  "schema_version": "3.0.0",
+  "title": "Racial inequality in Alberta, by the numbers",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2020-06-19",
+  "url": "https://www.cbc.ca/news/canada/calgary/racial-inequality-alberty-numbers-gaps-1.5614929",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": "Data-driven CBC Calgary report published during June 2020 BLM protests. Draws on StatsCan data showing Black and Indigenous Albertans face persistent wage, employment, and incarceration gaps. Black men and women in Calgary and Edmonton are 1.5 to 2 times more likely to be unemployed than the rest of the population. Corroborating context for EVT-031 (clears single-source flag alongside R-043).",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
+}

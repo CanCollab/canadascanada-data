@@ -1,0 +1,119 @@
+{
+  "schema": "dataset-metadata",
+  "schema_standard": "DataCite Metadata Schema 4.5 (subset)",
+  "project": "CanadaScanada",
+  "version": "0.1.0",
+  "description": "FAIR dataset-level metadata for the CanadaScanada corpus. Follows DataCite conventions for machine-readability and research citation. Update 'date_modified' and 'version' on each corpus release.",
+
+  "identifier": {
+    "value": "https://canadascanada.ca",
+    "type": "URL",
+    "note": "Persistent identifier. Replace with a DOI once one is registered (e.g. via Zenodo). A DOI makes the dataset citeable in academic contexts and satisfies the FAIR 'globally unique persistent identifier' requirement."
+  },
+
+  "title": {
+    "en-CA": "CanadaScanada: A sourced record of political events, statements, and policy actions in Alberta and Canada",
+    "fr-CA": null
+  },
+
+  "creators": [
+    {
+      "name": "CanadaScanada Editorial",
+      "type": "Organizational",
+      "note": "Institutional voice only. No contributor names are exposed per the project's contributor-anonymity policy."
+    }
+  ],
+
+  "publisher": "CanadaScanada",
+  "publication_year": 2026,
+
+  "resource_type": {
+    "type": "Dataset",
+    "subtype": "Structured civic-accountability event corpus"
+  },
+
+  "description": {
+    "en-CA": "A structured, per-file JSON corpus documenting political events, public statements, and policy actions in Alberta and Canada. Each record is source-cited, editorially gated, and cross-linked via a typed relation graph. The corpus supports bilingual (en-CA / fr-CA) rendering, counter-memo authoring, and public accountability explainers. Records follow schema version 3.0.0.",
+    "fr-CA": null
+  },
+
+  "subjects": [
+    "Canadian politics",
+    "Alberta politics",
+    "civic accountability",
+    "political fact-checking",
+    "open government data",
+    "media literacy"
+  ],
+
+  "language": ["en-CA", "fr-CA"],
+
+  "rights": {
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_statement": "Data and content are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). Scripts in the scripts/ directory are licensed under the MIT Licence. See LICENCE at the repository root.",
+    "note": "Licence confirmed as Decision 34. CC BY 4.0 was chosen to maximise FAIR reusability (research, journalism, civic tech) while requiring attribution. Non-commercial restriction was rejected as it would exclude academic and journalistic reuse."
+  },
+
+  "dates": {
+    "created": "2024-01-01",
+    "modified": "2026-06-16",
+    "note": "created is approximate project start. modified must be updated on each tagged release."
+  },
+
+  "spatial_coverage": {
+    "country": "Canada",
+    "province": "Alberta (primary)",
+    "note": "Events are primarily Alberta provincial politics. Federal events are included where they interact with provincial jurisdiction or Alberta political actors."
+  },
+
+  "temporal_coverage": {
+    "start": "2004",
+    "end": "ongoing",
+    "note": "Earliest events document the pre-UCP period. Corpus is actively maintained."
+  },
+
+  "related_resources": [
+    {
+      "relation": "IsSupplementedBy",
+      "url": "https://github.com/canadascanada/canadascanada-data",
+      "description": "Public data repository"
+    }
+  ],
+
+  "contact": {
+    "note": "Contact details to be added post-launch per the project's contributor-anonymity policy."
+  },
+
+  "citation": {
+    "format": "APA",
+    "template": "CanadaScanada Editorial. ({year}). CanadaScanada: A sourced record of political events, statements, and policy actions in Alberta and Canada [Dataset]. CanadaScanada. https://canadascanada.ca",
+    "note": "Replace {year} with the year of the specific corpus version cited. Once a DOI is registered, append it: https://doi.org/10.XXXX/XXXXXX"
+  },
+
+  "fair_checklist": {
+    "findable": {
+      "F1_persistent_id": "partial — URL only; DOI pending",
+      "F2_rich_metadata": "yes — this file",
+      "F3_metadata_includes_id": "yes",
+      "F4_indexed": "pending — Zenodo, Google Dataset Search registration post-launch"
+    },
+    "accessible": {
+      "A1_retrievable_by_id": "yes — open HTTP",
+      "A1_1_open_standard_protocol": "yes — HTTPS",
+      "A1_2_no_auth_required": "yes",
+      "A2_metadata_persistent": "yes — this file remains even if data moves"
+    },
+    "interoperable": {
+      "I1_formal_knowledge_rep": "yes — JSON with documented schema",
+      "I2_uses_fair_vocabularies": "partial — custom vocab in meta/; Dublin Core / DataCite for this file",
+      "I3_includes_qualified_references": "yes — source_refs, relation graph"
+    },
+    "reusable": {
+      "R1_plurality_of_attributes": "yes",
+      "R1_1_clear_licence": "yes — CC BY 4.0",
+      "R1_2_provenance": "yes — update_log, source_refs, submission_source on every record",
+      "R1_3_meets_community_standards": "partial — no formal domain standard yet; DataCite for this file"
+    }
+  }
+}

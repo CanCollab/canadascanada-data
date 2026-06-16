@@ -1,0 +1,62 @@
+{
+  "id": "EXP-municipal-transit-funding",
+  "schema_version": "3.0.0",
+  "type": "funding",
+  "title": {
+    "en-CA": "Provincial and municipal roles in funding transit and active-transportation infrastructure",
+    "fr-CA": null
+  },
+  "summary": {
+    "en-CA": "Transit and active-transportation projects such as light rail, bus rapid transit, and cycling infrastructure are typically owned and operated by municipalities but funded in part by the province and sometimes the federal government. The terms governing whether, and on what notice, a province may change or withdraw a committed contribution depend on the funding agreement and on provincial legislation governing municipal finance. Because municipalities sign construction contracts in reliance on committed contributions, a change after contracts are signed can shift cost and risk to the municipality.",
+    "fr-CA": null
+  },
+  "body": {
+    "en-CA": null,
+    "fr-CA": null
+  },
+  "key_points": [
+    {
+      "en-CA": "Municipalities plan, deliver, and operate local transit and cycling infrastructure, but capital costs for large projects are commonly shared with the province and, in some cases, the federal government through a funding agreement.",
+      "fr-CA": null
+    },
+    {
+      "en-CA": "Whether a province can attach conditions to, reduce, or withdraw a committed contribution, and on what notice, is determined by the funding agreement and by provincial legislation governing municipal finance.",
+      "fr-CA": null
+    },
+    {
+      "en-CA": "Municipalities contract construction work in reliance on committed contributions. A change to a provincial contribution after contracts are signed can transfer cost and liability onto the municipality.",
+      "fr-CA": null
+    },
+    {
+      "en-CA": "Provincial authority over municipal finance means a province can enact legislation changing the terms on which it contributes to or withdraws from municipal infrastructure projects. The limits of that authority under the Constitution are determined by courts.",
+      "fr-CA": null
+    }
+  ],
+  "ai_translated": {
+    "fr-CA": false
+  },
+  "applies_to": [
+    "municipal_jurisdiction",
+    "capital_funding",
+    "transit",
+    "active_transportation"
+  ],
+  "source_refs": [
+    "R-mga",
+    "R-prov-infrastructure-funding"
+  ],
+  "related_explainers": [],
+  "needs_verification": true,
+  "evidence_status": "established",
+  "update_log": [
+    {
+      "date": "2026-06-16",
+      "change": "Authored as the reusable generic explainer covering all transit and active-transportation infrastructure (LRT, BRT, bus, cycling). Backs the jurisdiction_clarification edge on EVT-034 (Green Line LRT). Applicable to any similar provincial-municipal funding dispute (bike lanes, bus infrastructure). Ships needs_verification:true pending Track A primaries R-mga (Municipal Government Act) and R-prov-infrastructure-funding. fr-CA body and title to follow. EXP-greenline-funding was drafted in the same thread but not committed; this generic slug replaces it entirely.",
+      "source_ref": null,
+      "editor": "editorial"
+    }
+  ],
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {}
+}

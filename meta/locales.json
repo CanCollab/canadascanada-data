@@ -1,0 +1,34 @@
+{
+  "schema": "locale-config",
+  "project": "CanadaScanada",
+  "version": "1.0.0",
+  "description": "Supported locales, URL routing, and toggle configuration. build.py and validate.py read from here instead of hardcoding en-CA / fr-CA strings. To add a locale, add an entry to 'locales', set status to 'planned' until content reaches parity, and wire the URL prefix into build.py in the same commit.",
+  "default_locale": "en-CA",
+  "fallback_locale": "en-CA",
+  "locales": {
+    "en-CA": {
+      "label": "English",
+      "label_native": "English",
+      "url_prefix": "en",
+      "bcp47": "en-CA",
+      "direction": "ltr",
+      "status": "active",
+      "toggle_label": "Français"
+    },
+    "fr-CA": {
+      "label": "French",
+      "label_native": "Français",
+      "url_prefix": "fr",
+      "bcp47": "fr-CA",
+      "direction": "ltr",
+      "status": "active",
+      "toggle_label": "English"
+    }
+  },
+  "toggle": {
+    "mechanism": "url_prefix",
+    "description": "The language toggle is a plain <a href> pointing at /{url_prefix}/<same-path>. Server-rendered. The hreflang attribute on the link tells screen readers and search engines. toggle_label shows the language you will switch TO, not the current language.",
+    "fallback_behaviour": "When a fr-CA field is null, build.py falls back to en-CA content and renders an ai_translated notice if ai_translated is true for that record."
+  },
+  "notes": "Add future locales (e.g. Plains Cree iy-CA, Inuktitut iu-CA) with status 'planned' until content and validation tooling reach parity. BCP-47 tags follow IETF RFC 5646."
+}
