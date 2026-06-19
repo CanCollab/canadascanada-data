@@ -1,0 +1,23 @@
+{
+  "id": "R-58BBA127",
+  "schema_version": "3.0.0",
+  "title": "Alberta teachers, schools face questions on parental rights policy",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": null,
+  "publication_date": "2024-01-31",
+  "url": "https://globalnews.ca/news/10257696/alberta-teachers-schools-parental-rights-policy/",
+  "source_type": "url_article",
+  "url_status": "unverified",
+  "archived_url": null,
+  "tier": 2,
+  "verified": false,
+  "wire_source": null,
+  "notes": "Context for EVT-032: coverage of how the January 31 announcement affects teachers and schools regarding the parental rights pronoun and name-change policy. Date approximate based on URL sequence adjacent to other Jan 31 / Feb 1 coverage. URL needs HTTP check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-122"
+  }
+}

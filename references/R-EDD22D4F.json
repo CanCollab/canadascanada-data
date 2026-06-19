@@ -1,0 +1,19 @@
+{
+  "id": "R-EDD22D4F",
+  "schema_version": "3.0.0",
+  "title": "ACPS statement on Coutts update (Alberta Justice clarification)",
+  "outlet": "Government of Alberta",
+  "outlet_id": "government-of-alberta",
+  "author": null,
+  "publication_date": "2024-04-25",
+  "url": "https://open.alberta.ca/dataset/53be15fb-a82a-47e3-9ef4-5f208796a9e6/resource/b040ecf0-809f-40aa-8535-79090a7aa3d9/download/jus-acps-statement-coutts-update-2-2024-04-25.pdf",
+  "source_type": "government_statement",
+  "url_status": "live",
+  "tier": 1,
+  "verified": true,
+  "verification_notes": "Alberta Justice / ACPS clarification statement PDF (open.alberta.ca), 2024-04-25. Added re EVT-013 / EVT-010 relation where RCMP primary release (R-017) URL remains outstanding. Allegedly issued in response to UCP misinformation about Coutts charges. Tier 1 government primary record.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-175"
+  }
+}

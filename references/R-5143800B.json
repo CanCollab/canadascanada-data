@@ -1,0 +1,20 @@
+{
+  "id": "R-5143800B",
+  "schema_version": "3.0.0",
+  "outlet_id": "city-of-calgary",
+  "title": "City bylaw library",
+  "url": "https://www.calgary.ca/bylaws/city-bylaw-library.html",
+  "publication_date": null,
+  "url_status": "live",
+  "verified": false,
+  "wire_source": null,
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "source_kind": "government_institution_page",
+    "retrieved": "2026-06-06",
+    "supports_claims": "City exercises bylaw authority over its roadways, including a Traffic Bylaw governing cycling infrastructure.",
+    "note": "This URL is the bylaw INDEX. Before verifying, pin the specific Traffic Bylaw instrument (number + section) so the citation resolves to the actual law, not the library landing page. Index page is a placeholder for the precise instrument.",
+    "legacy_id": "R-calgary-traffic-bylaw"
+  }
+}

@@ -1,20 +1,16 @@
 {
   "id": "R-C11FA1E5",
   "schema_version": "3.0.0",
-  "title": "Premier interview (Marc Nixon podcast)",
-  "outlet": "Marc Nixon (podcast)",
-  "outlet_id": "marc-nixon-podcast",
-  "section": "News",
+  "title": "Marc Nixon podcast featuring Danielle Smith (video)",
+  "outlet": "YouTube",
+  "outlet_id": "youtube",
   "author": null,
   "publication_date": "2025-12-12",
   "url": "https://www.youtube.com/watch?v=ME6abrZfzP0",
   "source_type": "video_transcript",
-  "url_status": "unverified",
-  "archived_url": null,
-  "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": "Primary video/interview. Verbatim incl. 'internal market' and 'funding follows the patient'; the 'government as broker not in service to people' reading is INFERENCE, not her words — quote verbatim when authored.",
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "url_status": "live",
+  "tier": 3,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Key claim around ~15:48 timestamp. Date confirmed by operator.",
+  "notes": null
 }

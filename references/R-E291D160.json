@@ -1,0 +1,19 @@
+{
+  "id": "R-E291D160",
+  "schema_version": "3.0.0",
+  "title": "Alberta, Calgary to discuss bike lanes",
+  "outlet": "CityNews Calgary",
+  "outlet_id": "citynews-calgary",
+  "author": "Jack Farrell",
+  "publication_date": "2025-07-29",
+  "url": "https://calgary.citynews.ca/2025/07/29/alberta-bike-lanes/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Non-paywalled corroborator for R-1C4AF1EA on EVT-104. Same reporter (Jack Farrell), CityNews Calgary.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-168"
+  }
+}

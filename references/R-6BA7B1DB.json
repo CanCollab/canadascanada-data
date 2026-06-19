@@ -1,0 +1,24 @@
+{
+  "id": "R-6BA7B1DB",
+  "schema_version": "3.0.0",
+  "title": "Alberta health minister denies former AHS CEO's claims in statement of defence",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": "Michelle Bellefontaine",
+  "publication_date": "2025-03-13",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-health-minister-denies-former-ahs-ceo-s-claims-in-statement-of-defence-1.7483461",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Source for EVT-072. Health Minister's denial of Mentzelopoulos's allegations that she was ordered to end her conflict-of-interest investigation. Pairs with R-E9882A43 (AHS statement of defence). Author and date need manual check. URL confirmed live.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Verified 2026-06-18. Date 2025-03-13, author Michelle Bellefontaine (confirmed/added per operator).",
+  "extensions": {
+    "legacy_id": "R-137"
+  }
+}

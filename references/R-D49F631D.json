@@ -1,0 +1,23 @@
+{
+  "id": "R-D49F631D",
+  "schema_version": "3.0.0",
+  "title": "Alberta teachers refuse to restart talks over pupil-teacher ratio",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2025-10-03",
+  "url": "https://www.cbc.ca/news/canada/edmonton/teachers-refuse-talks-pupil-teacher-ratio-government-9.6942998",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Publication Oct 3 — reports on pre-strike dispute. Strike start (Oct 6) sourced to R-030.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-009"
+  }
+}

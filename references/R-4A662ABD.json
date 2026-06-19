@@ -1,20 +1,20 @@
 {
   "id": "R-4A662ABD",
   "schema_version": "3.0.0",
-  "title": "Cancer comments apology calls",
+  "title": "Danielle Smith continues to face calls for apology over cancer comments",
   "outlet": "Edmonton Journal",
   "outlet_id": "edmonton-journal",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2022-07-29",
   "url": "https://edmontonjournal.com/news/politics/danielle-smith-continues-to-face-calls-for-an-apology-over-cancer-comments",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Source for EVT-076. Edmonton Journal coverage of sustained calls for apology following Smith's cancer statements. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

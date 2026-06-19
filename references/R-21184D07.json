@@ -1,20 +1,16 @@
 {
   "id": "R-21184D07",
   "schema_version": "3.0.0",
-  "title": "Expanding health care access",
+  "title": "Expanding health care access for Albertans",
   "outlet": "Government of Alberta",
   "outlet_id": "government-of-alberta",
-  "section": "News",
   "author": null,
-  "publication_date": null,
-  "url": "https://www.alberta.ca/expanding-health-care-access-for-albertans",
+  "publication_date": "2026-04-13",
+  "url": "https://www.alberta.ca/release.cfm?xID=9599553916060-0A2A-F5CF-C4FDAF017BDE14C0",
   "source_type": "government_statement",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 1,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Published April 13, 2026 per release page. Institutional source; no author required.",
+  "notes": null
 }

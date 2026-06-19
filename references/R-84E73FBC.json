@@ -1,0 +1,23 @@
+{
+  "id": "R-84E73FBC",
+  "schema_version": "3.0.0",
+  "title": "Minimum wage in Canada since 1965 — historical tracker",
+  "outlet": "Government of Canada",
+  "outlet_id": "government-of-canada",
+  "section": null,
+  "author": null,
+  "publication_date": null,
+  "url": "https://minwage-salairemin.service.canada.ca/en/since1965.html",
+  "source_type": "government_statement",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Official federal tracker of minimum wages by province since 1965. Tier 1. Confirms Alberta minimum wage frozen at $15/hr since October 2018 NDP increase. Anchors EVT-069 (Alberta becomes lowest in Canada).",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-086"
+  }
+}

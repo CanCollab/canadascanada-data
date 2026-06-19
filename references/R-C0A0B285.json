@@ -1,0 +1,23 @@
+{
+  "id": "R-C0A0B285",
+  "schema_version": "3.0.0",
+  "title": "New Alberta Premier sworn in — CBC Morning Brief Oct 12 2022",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2022-10-12",
+  "url": "https://www.cbc.ca/news/canada/morning-brief-october-12-2022-1.6612344",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Confirmed live from RTF and prior thread. Resolves EVT-015 zero-source gap.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-026"
+  }
+}

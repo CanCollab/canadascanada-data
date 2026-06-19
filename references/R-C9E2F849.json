@@ -1,0 +1,19 @@
+{
+  "id": "R-C9E2F849",
+  "schema_version": "3.0.0",
+  "title": "Edmonton property tax increase 2025",
+  "outlet": "CityNews Edmonton",
+  "outlet_id": "citynews-edmonton",
+  "author": "Darcy Ropchan",
+  "publication_date": "2025-04-22",
+  "url": "https://edmonton.citynews.ca/2025/04/22/edmonton-property-tax-increase-2025/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. NEW OUTLET RECORD NEEDED: citynews-edmonton. Author and date confirmed by operator.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-157"
+  }
+}

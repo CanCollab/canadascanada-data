@@ -1,20 +1,20 @@
 {
   "id": "R-C11ABD14",
   "schema_version": "3.0.0",
-  "title": "Won't sign childcare agreement",
+  "title": "Alberta won't sign new child-care agreement with federal government",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2025-03-06",
   "url": "https://www.cbc.ca/news/canada/calgary/alberta-wont-sign-new-child-care-agreement-deal-1.7476380",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Source for EVT-074. Alberta declines to sign the renewed federal child-care agreement. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

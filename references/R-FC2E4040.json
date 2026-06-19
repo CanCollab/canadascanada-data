@@ -1,0 +1,19 @@
+{
+  "id": "R-FC2E4040",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith, Alberta budget, Heritage Fund billions analysis",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jason Markusoff",
+  "publication_date": "2024-02-21",
+  "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-alberta-budget-heritage-fund-billions-analysis-1.7121703",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator. Event assignment TBD -- may connect to an existing budget/fiscal event or require a new event record.",
+  "notes": "CBC analysis piece. Awaiting event assignment.",
+  "extensions": {
+    "legacy_id": "R-154"
+  }
+}

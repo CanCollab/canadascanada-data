@@ -1,20 +1,20 @@
 {
   "id": "R-CA3CE63B",
   "schema_version": "3.0.0",
-  "title": "Childcare subsidies increase",
+  "title": "Federal funding to increase Alberta child-care subsidies for first time in 12 years",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2020-07-23",
   "url": "https://www.cbc.ca/news/canada/edmonton/federal-funding-to-increase-alberta-child-care-subsidies-for-first-time-in-12-years-1.5660687",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Background context for EVT-073. July 2020 article documenting the federal government's first increase to Alberta child-care subsidies in 12 years, predating the Canada-wide agreement. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

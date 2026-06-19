@@ -4,17 +4,13 @@
   "title": "Carney warns against separatism",
   "outlet": "Edmonton Journal",
   "outlet_id": "edmonton-journal",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Matthew Black",
+  "publication_date": "2026-05-27",
   "url": "https://edmontonjournal.com/news/politics/mark-carney-alberta-separatism-unhelpful-for-investment",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

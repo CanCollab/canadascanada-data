@@ -1,20 +1,16 @@
 {
   "id": "R-102888A3",
   "schema_version": "3.0.0",
-  "title": "Public vs private schools poll",
+  "title": "Alberta public vs private schools poll",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Cameron MacCuish, Nicholas Frew",
+  "publication_date": "2025-12-14",
   "url": "https://www.cbc.ca/news/canada/edmonton/alberta-public-private-schools-poll-9.7015645",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Dual byline confirmed by operator.",
+  "notes": null
 }

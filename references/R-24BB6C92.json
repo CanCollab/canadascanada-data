@@ -1,20 +1,16 @@
 {
   "id": "R-24BB6C92",
   "schema_version": "3.0.0",
-  "title": "LGBTQ school funding conflict",
+  "title": "Province funds school board fighting LGBTQ guidelines",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Andrea Huncar",
+  "publication_date": "2016-09-01",
   "url": "https://www.cbc.ca/news/canada/edmonton/province-funds-millions-to-school-board-fighting-lgbtq-guidelines-1.3743840",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Older article (2016); still resolves.",
+  "notes": null
 }

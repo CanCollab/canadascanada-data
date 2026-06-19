@@ -1,0 +1,19 @@
+{
+  "id": "R-58E60302",
+  "schema_version": "3.0.0",
+  "title": "Just say no to drugs",
+  "outlet": "Alberta Views",
+  "outlet_id": "alberta-views",
+  "author": "Jeremy Appel",
+  "publication_date": "2022-06-01",
+  "url": "https://albertaviews.ca/just-say-no-drugs/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 3,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Appel (Alberta Views) on Alberta drug policy. Orphan pending event — drug-policy cluster. Tier 3 magazine analysis.",
+  "notes": "Parked: drug-policy cluster.",
+  "extensions": {
+    "legacy_id": "R-190"
+  }
+}

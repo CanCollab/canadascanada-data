@@ -73,6 +73,18 @@
       "inverse": "jurisdiction_clarification",
       "symmetric": false,
       "note": "Event attributes responsibility/outcome to an external party; the clarification documents actual jurisdiction and funding. Carries explainer_ref (educational) and optional target_id (a counter-event). Framing stays factual; the explainer educates."
+    },
+    {
+      "id": "continues",
+      "inverse": "continued_by",
+      "symmetric": false,
+      "note": "This event extends or revives an earlier event's policy direction, initiative, or commitment. Use when the substantive policy goal is the same but the events are temporally and procedurally distinct (e.g., a successor government enacting what a predecessor proposed)."
+    },
+    {
+      "id": "continued_by",
+      "inverse": "continues",
+      "symmetric": false,
+      "note": "Derived inverse of continues. Do not store manually."
     }
   ]
 }

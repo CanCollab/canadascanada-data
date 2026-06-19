@@ -1,0 +1,24 @@
+{
+  "id": "R-5B73874C",
+  "schema_version": "3.0.0",
+  "title": "It has to be transparent: Calls for AHS procurement changes amid alleged political interference",
+  "outlet": "CTV News",
+  "outlet_id": "ctv-news",
+  "section": "News",
+  "author": "Jordan Kanygin",
+  "publication_date": "2025-02-10",
+  "url": "https://www.ctvnews.ca/calgary/article/it-has-to-be-transparent-calls-for-ahs-procurement-changes-amid-alleged-political-interference/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Source for EVT-072. CTV Calgary on public and expert calls for procurement reform at AHS following allegations of political interference. URL confirmed live. Date and author need manual check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Verified 2026-06-18. Date 2025-02-10, author Jordan Kanygin (confirmed/added per operator).",
+  "extensions": {
+    "legacy_id": "R-133"
+  }
+}

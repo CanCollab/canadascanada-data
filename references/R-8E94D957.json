@@ -1,20 +1,16 @@
 {
   "id": "R-8E94D957",
   "schema_version": "3.0.0",
-  "title": "Private school funding scrutiny",
+  "title": "Alberta private school funding draws scrutiny",
   "outlet": "St. Albert Gazette",
   "outlet_id": "st-albert-gazette",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Trent Wilkie",
+  "publication_date": "2025-09-08",
   "url": "https://www.stalbertgazette.com/local-news/albertas-private-school-funding-draws-scrutiny-amid-public-education-debate-11161107",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 3,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Published 2025-09-08, updated 2026-01-08. Tier 3 regional; must not be sole contested-fact source.",
+  "notes": null
 }

@@ -1,0 +1,19 @@
+{
+  "id": "R-139161D5",
+  "schema_version": "3.0.0",
+  "title": "Alberta's Smith, First Nations chiefs and separation",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jack Farrell",
+  "publication_date": "2026-06-18",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-smith-first-nations-chiefs-separation-9.7240147",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live (June 18 2026). First Nations chiefs response to separation agenda. Orphan pending event — separatism/Indigenous-relations cluster.",
+  "notes": "Parked: separatism cluster, Indigenous opposition angle.",
+  "extensions": {
+    "legacy_id": "R-178"
+  }
+}

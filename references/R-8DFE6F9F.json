@@ -1,20 +1,16 @@
 {
   "id": "R-8DFE6F9F",
   "schema_version": "3.0.0",
-  "title": "Forestry and parks mandate",
+  "title": "Alberta forestry and parks mandate letter",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Stephen Cook",
+  "publication_date": "2023-07-28",
   "url": "https://www.cbc.ca/news/canada/edmonton/alberta-forestry-parks-mandate-letter-1.6918653",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

@@ -26,13 +26,17 @@
     }
   ],
   "opposition_response": {
-    "actor": "NDP Education Critic",
     "name": "Amanda Chapman",
-    "response_en": "Chapman states the government was 'misleading' as most Albertans would not have known the hiring was already budgeted.",
-    "source_ref": "R-060"
+    "display_role": "NDP Education Critic",
+    "party": null,
+    "description": "Chapman states the government was 'misleading' as most Albertans would not have known the hiring was already budgeted.",
+    "date": null,
+    "source_refs": [
+      "R-DA68ABEE"
+    ]
   },
   "source_refs": [
-    "R-060"
+    "R-DA68ABEE"
   ],
   "relations": [
     {
@@ -55,17 +59,36 @@
       "change": "Created from R-060. DID side of SD-016.",
       "source_ref": null,
       "editor": "editorial"
+    },
+    {
+      "date": "2026-06-18",
+      "change": "Migrated opposition_response from legacy {actor,response_en,source_ref} to canonical {name,display_role,party,description,date,source_refs} (v3.4 §5.1). date set null (not recoverable from legacy record); party derived from actors[] where present.",
+      "source_ref": null,
+      "editor": "audit-thread-6"
+    },
+    {
+      "date": "2026-06-18",
+      "change": "Normalized claim_contested_by from drift {counter_claim,counter_claim_type,source_ref} to canonical {actor,position,source_ref} (v3.4 §5.1); counter_claim_type preserved in extensions.claim_contested_by_meta. actor extracted from leading clause where unambiguous, else null for human review.",
+      "source_ref": null,
+      "editor": "audit-thread-6"
     }
   ],
   "claim_contested_by": [
     {
-      "counter_claim": "Education ministry states the 3,000 positions, while budget-funded, represent real new hiring commitments.",
-      "source_ref": "R-060",
-      "counter_claim_type": "government-statement"
+      "actor": "Education ministry",
+      "position": "Education ministry states the 3,000 positions, while budget-funded, represent real new hiring commitments.",
+      "source_ref": "R-DA68ABEE"
     }
   ],
   "comparison": null,
   "submission_source": "editorial",
   "submission_status": "accepted",
-  "extensions": {}
+  "extensions": {
+    "claim_contested_by_meta": [
+      {
+        "source_ref": "R-DA68ABEE",
+        "counter_claim_type": "government-statement"
+      }
+    ]
+  }
 }

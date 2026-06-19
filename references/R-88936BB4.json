@@ -1,0 +1,19 @@
+{
+  "id": "R-88936BB4",
+  "schema_version": "3.0.0",
+  "title": "Rural Alberta municipalities and UCP provincial police force proposal",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "author": "Emily Mertz",
+  "publication_date": "2022-06-27",
+  "url": "https://globalnews.ca/news/8951611/rural-alberta-municipalities-ucp-provincial-police-force/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. New ref for EVT-092 (provincial police force). Kenney-era historical context predating Bill 15.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-164"
+  }
+}

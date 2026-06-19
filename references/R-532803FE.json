@@ -1,0 +1,19 @@
+{
+  "id": "R-532803FE",
+  "schema_version": "3.0.0",
+  "title": "Alberta separation coverage (video)",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": null,
+  "publication_date": "2026-06-04",
+  "url": "https://www.cbc.ca/player/play/video/9.7223967",
+  "source_type": "video_transcript",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "CBC video (June 4 2026), separation-related. Orphan pending event — separatism cluster. No individual byline (CBC video).",
+  "notes": "Parked: separatism cluster; video primary.",
+  "extensions": {
+    "legacy_id": "R-181"
+  }
+}

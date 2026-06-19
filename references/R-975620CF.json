@@ -1,20 +1,16 @@
 {
   "id": "R-975620CF",
   "schema_version": "3.0.0",
-  "title": "Party governance page",
+  "title": "UCP governance page",
   "outlet": "United Conservative Party",
   "outlet_id": "united-conservative-party",
-  "section": "News",
   "author": null,
   "publication_date": null,
   "url": "https://unitedconservative.ca/governance/",
-  "source_type": "government_statement",
-  "url_status": "unverified",
-  "archived_url": null,
+  "source_type": "primary_record",
+  "url_status": "live",
   "tier": 3,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Party source; no author or date required. Page currently shows MLA Jennifer Johnson on UCP board of directors. Content is subject to change as party governance evolves.",
+  "notes": "Party website. Not to be sole source for contested facts."
 }

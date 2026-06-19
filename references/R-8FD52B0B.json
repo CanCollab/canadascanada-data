@@ -1,0 +1,19 @@
+{
+  "id": "R-8FD52B0B",
+  "schema_version": "3.0.0",
+  "title": "Assessing Danielle Smith's latest reasons for pausing Alberta wind and solar",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jason Markusoff",
+  "publication_date": "2023-08-15",
+  "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-wind-solar-power-freeze-letters-analysis-1.6936415",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live via web search. CBC analysis piece examining Smith's stated justifications for the moratorium against the actual regulatory letters.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-159"
+  }
+}

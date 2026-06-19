@@ -1,0 +1,23 @@
+{
+  "id": "R-F123EF6F",
+  "schema_version": "3.0.0",
+  "title": "Bill 32 labour relations changes pass Alberta legislature",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": null,
+  "author": "Michelle Bellefontaine",
+  "publication_date": "2020-07-07",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-bill-32-workplace-unions-1.5640952",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Bill 32 (Restoring Balance Act) introduced in legislature. CBC Edmonton. Better URL confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-068"
+  }
+}

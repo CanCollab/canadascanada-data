@@ -1,20 +1,16 @@
 {
   "id": "R-BD3F86DE",
   "schema_version": "3.0.0",
-  "title": "Premier and CBC",
+  "title": "Danielle Smith and CBC coverage",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "John Mazerolle",
+  "publication_date": "2023-04-04",
   "url": "https://www.cbc.ca/news/canada/danielle-smith-cbc-1.6799473",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

@@ -1,0 +1,20 @@
+{
+  "id": "R-041603A9",
+  "schema_version": "3.0.0",
+  "title": "Alberta Turkish fever medicine health concerns",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Dean Bennett",
+  "publication_date": "2024-01-10",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-turkish-fever-medicine-health-concerns-1.7080128",
+  "source_type": "wire_article",
+  "wire_source": "The Canadian Press",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. CP wire byline. New ref for EVT-089 Turkish medication arc.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-142"
+  }
+}

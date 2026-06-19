@@ -1,0 +1,19 @@
+{
+  "id": "R-A592AB7A",
+  "schema_version": "3.0.0",
+  "title": "Alberta health-care mandate letters",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jennifer Lee",
+  "publication_date": "2025-10-14",
+  "url": "https://www.cbc.ca/news/canada/calgary/alberta-health-care-mandate-letters-9.6938068",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Corroborator for R-FC6C04D7 (paywalled Edmonton Journal) on EVT-103 (UCP public health guarantee). Named byline (Jennifer Lee).",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-172"
+  }
+}

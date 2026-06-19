@@ -1,20 +1,16 @@
 {
   "id": "R-03E178F6",
   "schema_version": "3.0.0",
-  "title": "Regulated Professions Neutrality Act",
+  "title": "Alberta regulated professions neutrality act",
   "outlet": "Global News",
   "outlet_id": "global-news",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Lisa Johnson",
+  "publication_date": "2025-11-20",
   "url": "https://globalnews.ca/news/11536277/alberta-regulated-professions-neutrality-act/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

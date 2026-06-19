@@ -1,0 +1,23 @@
+{
+  "id": "R-805D9297",
+  "schema_version": "3.0.0",
+  "title": "Alberta teachers reject contract offer",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": null,
+  "author": null,
+  "publication_date": "2025-09-01",
+  "url": "https://globalnews.ca/news/11457054/alberta-teachers-reject-contract-offer/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Global News coverage of Alberta teachers voting to reject the tentative agreement in September 2025. May also cover the subsequent 94.5% strike authorization vote (EVT-041) — confirm specific figures against article text.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-112"
+  }
+}

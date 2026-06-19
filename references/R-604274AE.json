@@ -1,20 +1,20 @@
 {
   "id": "R-604274AE",
   "schema_version": "3.0.0",
-  "title": "Ottawa Alberta childcare deal",
+  "title": "Ottawa and Alberta reach child-care deal",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
   "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Janet French",
+  "publication_date": "2021-11-14",
   "url": "https://www.cbc.ca/news/canada/edmonton/ottawa-alberta-reach-child-care-deal-1.6248936",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Primary news source for EVT-073. Janet French reports on the November 14 2021 agreement between federal and Alberta governments for the Canada-wide $10-a-day child-care plan.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

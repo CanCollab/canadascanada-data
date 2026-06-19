@@ -1,0 +1,23 @@
+{
+  "id": "R-BBC76C8B",
+  "schema_version": "3.0.0",
+  "title": "Healthcare transformation — Alberta Health Services restructuring",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": null,
+  "author": "Janet French",
+  "publication_date": "2023-11-07",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-health-care-changes-1.7022133",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "AHS dismantled into 4 entities. CBC Nov 8 2023 (Janet French). Upgrades from govt page to Tier 2.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-074"
+  }
+}

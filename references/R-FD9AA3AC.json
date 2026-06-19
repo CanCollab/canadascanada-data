@@ -1,0 +1,19 @@
+{
+  "id": "R-FD9AA3AC",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith address to Alberta: preview",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jennifer Keiller",
+  "publication_date": "2025-02-18",
+  "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-address-to-alberta-preview-9.7096440",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Added re EVT-102 (paywalled NP sole ref R-38E5ED28). NOTE: this CBC piece previews a Smith provincial address; confirm topical overlap with EVT-102 immigration framing before treating as a direct corroborator vs context source.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-169"
+  }
+}

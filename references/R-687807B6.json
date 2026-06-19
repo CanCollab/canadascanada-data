@@ -1,0 +1,24 @@
+{
+  "id": "R-687807B6",
+  "schema_version": "3.0.0",
+  "title": "Municipal and federal deals to face provincial oversight under proposed Alberta law",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2024-04-10",
+  "url": "https://www.cbc.ca/news/canada/edmonton/municipal-federal-deals-to-face-provincial-oversight-under-proposed-alberta-law-1.7169767",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "News source for EVT-070. CBC Edmonton coverage of Bill 18 tabling on April 10 2024. Describes the proposed requirement for provincial vetting of all federal funding agreements with municipalities, school boards, and health authorities. No byline confirmed; date inferred from tabling date. URL needs HTTP check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Link resolves, verified 2026-06-18.",
+  "extensions": {
+    "legacy_id": "R-131"
+  }
+}

@@ -26,8 +26,8 @@
   ],
   "opposition_response": null,
   "source_refs": [
-    "R-048",
-    "R-018"
+    "R-F943F5AB",
+    "R-8A330BAC"
   ],
   "relations": [
     {
@@ -45,7 +45,7 @@
     {
       "date": "2026-05-22",
       "change": "Court ruled the separation-referendum proposal unconstitutional (violates Charter and Treaty rights); the Oct 19 referendum proceeds on immigration and constitutional-reform questions, which are distinct from the separation question.",
-      "source_ref": "R-018",
+      "source_ref": "R-8A330BAC",
       "editor": "editorial"
     }
   ],

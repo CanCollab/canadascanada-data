@@ -1,0 +1,23 @@
+{
+  "id": "R-B4AFDE3A",
+  "schema_version": "3.0.0",
+  "title": "Alberta budget 2020 education funding cut",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": null,
+  "author": null,
+  "publication_date": "2020-02-28",
+  "url": "https://www.cbc.ca/news/canada/edmonton/education-budget-2020-alberta-1.5479043",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Budget 2020 K-12 education: provincial government-funded portion essentially FLAT ($7.209B vs $7.218B — decrease of $9M). School boards expected to draw $681M from own reserves and own-source revenue. 138 certificated + 106 non-certified positions not replaced. ATA president Schilling: 'fails to address needs.' NOTE: This is NOT the $128M COVID redirection — that was a separate action Mar 28 2020 (R-089). EVT-054 description corrected accordingly. Anchors EVT-054.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-069"
+  }
+}

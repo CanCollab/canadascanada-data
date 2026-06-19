@@ -1,20 +1,16 @@
 {
   "id": "R-5318636E",
   "schema_version": "3.0.0",
-  "title": "Premier visits Donald Trump",
+  "title": "Alberta premier Danielle Smith visits Donald Trump",
   "outlet": "CityNews Calgary",
   "outlet_id": "citynews-calgary",
-  "section": "News",
-  "author": null,
+  "author": "Alejandro Melgar",
   "publication_date": "2025-01-12",
   "url": "https://calgary.citynews.ca/2025/01/12/alberta-premier-danielle-smith-visits-donald-trump/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

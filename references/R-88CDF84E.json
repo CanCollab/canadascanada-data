@@ -1,0 +1,24 @@
+{
+  "id": "R-88CDF84E",
+  "schema_version": "3.0.0",
+  "title": "Alberta Canada-wide early learning and child care agreement 2021",
+  "outlet": "Government of Canada",
+  "outlet_id": "government-of-canada",
+  "section": "Early Learning and Child Care Agreements",
+  "author": null,
+  "publication_date": "2021-11-14",
+  "url": "https://www.canada.ca/en/early-learning-child-care-agreement/agreements-provinces-territories/alberta-canada-wide-2021.html",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Tier 1 primary source for EVT-073. Full text of the Canada-Alberta Canada-wide early learning and child care agreement signed November 14 2021. Government of Canada official publication. URL normalized to the base page; operator provided anchor #h2.17. URL needs HTTP check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Verified 2026-06-18. Reference source for Alberta interactions with federal health care, dental care, and daycare coverage programs (Trudeau-era federal government). Flagged important to capture for fed-prov programs cluster.",
+  "extensions": {
+    "legacy_id": "R-132"
+  }
+}

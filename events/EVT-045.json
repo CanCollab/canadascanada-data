@@ -33,7 +33,7 @@
   ],
   "opposition_response": null,
   "source_refs": [
-    "R-059"
+    "R-B7F061D5"
   ],
   "relations": [
     {
@@ -62,7 +62,7 @@
   "claim_contested_by": [
     {
       "counter_claim": "Canadian Climate Institute states $130/tonne by 2040 is insufficient for Canada to reach net-zero by 2050.",
-      "source_ref": "R-059",
+      "source_ref": "R-B7F061D5",
       "counter_claim_type": "expert-rebuttal"
     }
   ],

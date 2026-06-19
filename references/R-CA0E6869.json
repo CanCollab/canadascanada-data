@@ -1,0 +1,19 @@
+{
+  "id": "R-CA0E6869",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith 'had a great time' with Ben Shapiro at controversial far-right fundraiser",
+  "outlet": "CTV News Edmonton",
+  "outlet_id": "ctv-news-edmonton",
+  "author": "Brittany Ekelund",
+  "publication_date": "2025-03-28",
+  "url": "https://www.ctvnews.ca/edmonton/article/danielle-smith-has-great-time-with-ben-shapiro-at-controversial-far-right-fundraiser/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Non-paywalled corroborator for R-3B12B969 (paywalled Edmonton Journal) on EVT-095. Named byline (Brittany Ekelund).",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-170"
+  }
+}

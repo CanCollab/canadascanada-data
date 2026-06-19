@@ -1,0 +1,19 @@
+{
+  "id": "R-A43089EB",
+  "schema_version": "3.0.0",
+  "title": "Truncated Green Line LRT approved",
+  "outlet": "Transport Action Prairie",
+  "outlet_id": "transport-action-prairie",
+  "author": null,
+  "publication_date": "2024-07-31",
+  "url": "https://prairie.transportaction.ca/news/transit/truncated-green-line-lrt-approved/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 3,
+  "verified": true,
+  "verification_notes": "Verified 2026-06-18. Transport Action Prairie piece (July 31 2024) linked from R-046 article body. Tier 3 advocacy/research. Context/corroborator for EVT-034 Green Line timeline.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-197"
+  }
+}

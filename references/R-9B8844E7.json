@@ -1,0 +1,19 @@
+{
+  "id": "R-9B8844E7",
+  "schema_version": "3.0.0",
+  "title": "Tucker Carlson, Danielle Smith and Calgary (analysis)",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jason Markusoff",
+  "publication_date": "2024-01-24",
+  "url": "https://www.cbc.ca/news/canada/calgary/tucker-carlson-danielle-smith-calgary-analysis-1.7094117",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Markusoff analysis on Smith / Tucker Carlson Calgary event. Orphan pending event — Smith / far-right media cluster (relates to EVT-095 Shapiro).",
+  "notes": "Parked: far-right media cluster; pairs with EVT-095.",
+  "extensions": {
+    "legacy_id": "R-182"
+  }
+}

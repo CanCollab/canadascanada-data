@@ -1,0 +1,19 @@
+{
+  "id": "R-2BD8ED43",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith Coutts email search William Ellwood",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Joel Dryden",
+  "publication_date": "2023-03-16",
+  "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-coutts-email-search-william-ellwood-1.6781379",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. New ref for EVT-099 Coutts/convoy arc.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-161"
+  }
+}

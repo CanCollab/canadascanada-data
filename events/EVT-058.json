@@ -26,7 +26,8 @@
   ],
   "opposition_response": null,
   "source_refs": [
-    "R-081"
+    "R-23BA5440",
+    "R-327DEE48"
   ],
   "relations": [],
   "needs_verification": false,
@@ -47,6 +48,12 @@
       "change": "HOLD resolved. R-072 (player URL) replaced with R-081 (text article, verified).",
       "source_ref": null,
       "editor": "editorial"
+    },
+    {
+      "date": "2026-06-18",
+      "change": "Added R-072 (CBC video of Smith's 2022-10-12 first-day press conference, the unvaccinated 'most discriminated' statement) as primary video source.",
+      "source_ref": null,
+      "editor": "batch7-thread6"
     }
   ],
   "claim_contested_by": [],

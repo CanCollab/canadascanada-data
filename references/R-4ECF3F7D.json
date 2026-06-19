@@ -1,0 +1,19 @@
+{
+  "id": "R-4ECF3F7D",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith's own private Alberta",
+  "outlet": "Bug-eyed and Shameless",
+  "outlet_id": "bug-eyed-and-shameless",
+  "author": "Justin Ling",
+  "publication_date": "2022-10-14",
+  "url": "https://www.bugeyedandshameless.com/p/danielle-smiths-own-private-alberta",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 3,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Ling on early Smith premiership (Oct 14 2022). Orphan pending event — Smith profile cluster. Tier 3.",
+  "notes": "Parked: Smith profile cluster.",
+  "extensions": {
+    "legacy_id": "R-186"
+  }
+}

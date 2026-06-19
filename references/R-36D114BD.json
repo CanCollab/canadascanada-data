@@ -1,20 +1,16 @@
 {
   "id": "R-36D114BD",
   "schema_version": "3.0.0",
-  "title": "Schulz resignation report",
+  "title": "Alberta UCP MLA Rebecca Schulz quietly resigned",
   "outlet": "Rabble",
   "outlet_id": "rabble",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "David Climenhaga",
+  "publication_date": "2026-06-01",
   "url": "https://rabble.ca/politics/canadian-politics/alberta-ucp-mla-rebecca-schulz-quietly-resigned-her-seat-in-the-legislature-two-weeks-ago/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 4,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Tier 4 advocacy outlet; must not be sole contested-fact source for EVT-090.",
+  "notes": null
 }

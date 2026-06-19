@@ -1,0 +1,23 @@
+{
+  "id": "R-BD1891A5",
+  "schema_version": "3.0.0",
+  "title": "Alberta Bill 25 restricts flags and ideology in school classrooms",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2026-03-31",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-education-bill-ideology-politics-classroom-9.7148982",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Confirmed live.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-015"
+  }
+}

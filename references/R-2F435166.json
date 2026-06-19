@@ -1,0 +1,19 @@
+{
+  "id": "R-2F435166",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith's dangerous attack on the courts",
+  "outlet": "The Tyee",
+  "outlet_id": "the-tyee",
+  "author": "Jared Wesley",
+  "publication_date": "2025-12-09",
+  "url": "https://thetyee.ca/Analysis/2025/12/09/Danielle-Smith-Dangerous-Attack-Courts/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Analysis (Jared Wesley, political scientist) on Smith framing of courts re independence. Orphan pending event assignment — relates to courts/separatism cluster (EVT-079 area).",
+  "notes": "Parked: candidate for courts-vs-independence event or memo.",
+  "extensions": {
+    "legacy_id": "R-176"
+  }
+}

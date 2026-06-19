@@ -1,0 +1,19 @@
+{
+  "id": "R-7FAC74D7",
+  "schema_version": "3.0.0",
+  "title": "Alberta premier says courts should not be gatekeepers on independence questions",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Lisa Johnson",
+  "publication_date": "2025-12-07",
+  "url": "https://www.cbc.ca/news/canada/calgary/alberta-premier-danielle-smith-says-courts-should-not-be-gatekeepers-on-independence-questions-9.7006383",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Smith statement that courts should not gatekeep independence questions. Orphan pending event — courts/separatism cluster.",
+  "notes": "Parked: pairs with R (Tyee Wesley analysis) on courts-vs-independence.",
+  "extensions": {
+    "legacy_id": "R-177"
+  }
+}

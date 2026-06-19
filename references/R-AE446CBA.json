@@ -1,0 +1,66 @@
+{
+  "id": "R-AE446CBA",
+  "schema_version": "3.0.0",
+  "title": "Alberta's approach to the opioid crisis",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Taylor Lambert",
+  "publication_date": "2023-02-18",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-approach-opioid-crisis-1.6750422",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Taylor Lambert, Feb 18 2023. Contains opioid-poisoning trend chart (Alberta + Edmonton 2016-2022; 2022 partial to November). Chart data captured in extensions for downstream events. Orphan pending event — drug-policy cluster.",
+  "notes": "Parked: drug-policy cluster; carries chart data.",
+  "extensions": {
+    "chart_data": {
+      "dataset": "alberta_opioid_poisoning_deaths",
+      "source_note": "Chart data accompanying the article; Alberta and Edmonton opioid poisoning figures by year. 2022 figure is partial (through November).",
+      "unit": "deaths",
+      "geographies": [
+        "Alberta",
+        "Edmonton"
+      ],
+      "series": [
+        {
+          "year": 2016,
+          "alberta": 554,
+          "edmonton": 166
+        },
+        {
+          "year": 2017,
+          "alberta": 705,
+          "edmonton": 177
+        },
+        {
+          "year": 2018,
+          "alberta": 805,
+          "edmonton": 209
+        },
+        {
+          "year": 2019,
+          "alberta": 626,
+          "edmonton": 190
+        },
+        {
+          "year": 2020,
+          "alberta": 1184,
+          "edmonton": 418
+        },
+        {
+          "year": 2021,
+          "alberta": 1621,
+          "edmonton": 623
+        },
+        {
+          "year": 2022,
+          "alberta": 1346,
+          "edmonton": 527,
+          "partial": "through November"
+        }
+      ]
+    },
+    "legacy_id": "R-189"
+  }
+}

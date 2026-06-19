@@ -1,20 +1,16 @@
 {
   "id": "R-45036670",
   "schema_version": "3.0.0",
-  "title": "Premier vows to keep Alberta in Canada",
+  "title": "Danielle Smith vows to do everything humanly possible to keep Alberta in Canada",
   "outlet": "Alberta Politics",
   "outlet_id": "alberta-politics",
-  "section": "News",
-  "author": null,
-  "publication_date": "2026-05",
+  "author": "David Climenhaga",
+  "publication_date": "2026-05-23",
   "url": "https://albertapolitics.ca/2026/05/danielle-smith-vows-to-do-everything-humanly-possible-to-keep-alberta-in-canada-over-and-over-and-over-again/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 4,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Tier 4 blog; must not be sole contested-fact source for EVT-095.",
+  "notes": null
 }

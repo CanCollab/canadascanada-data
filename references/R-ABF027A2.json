@@ -1,0 +1,23 @@
+{
+  "id": "R-ABF027A2",
+  "schema_version": "3.0.0",
+  "title": "FOI reveals Alberta government explored accrediting Jordan Peterson's online academy",
+  "outlet": "The Tyee",
+  "outlet_id": "the-tyee",
+  "section": "News",
+  "author": null,
+  "publication_date": "2025-12-10",
+  "url": "https://thetyee.ca/News/2025/12/10/Jordan-Peterson-School/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "News section, not Opinion. FOI-based.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-011"
+  }
+}

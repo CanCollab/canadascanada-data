@@ -1,0 +1,19 @@
+{
+  "id": "R-766F928A",
+  "schema_version": "3.0.0",
+  "title": "Auditor General investigation AHS",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Janet French",
+  "publication_date": "2025-02-06",
+  "url": "https://www.cbc.ca/news/canada/edmonton/auditor-general-investigation-ahs-1.7452622",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. New ref for EVT-089. AG investigation into AHS procurement.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-145"
+  }
+}

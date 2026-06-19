@@ -1,0 +1,19 @@
+{
+  "id": "R-EE5C759B",
+  "schema_version": "3.0.0",
+  "title": "Jen Gerson: A little crazy is fine",
+  "outlet": "The Line",
+  "outlet_id": "the-line",
+  "author": "Jen Gerson",
+  "publication_date": "2022-10-20",
+  "url": "https://www.readtheline.ca/p/jen-gerson-a-little-crazy-is-fine",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 3,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Gerson commentary (The Line) on early Smith premiership. Orphan pending event — Smith profile/commentary cluster. Tier 3 independent analysis.",
+  "notes": "Parked: Smith profile/commentary.",
+  "extensions": {
+    "legacy_id": "R-183"
+  }
+}

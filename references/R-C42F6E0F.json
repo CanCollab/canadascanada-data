@@ -1,20 +1,16 @@
 {
   "id": "R-C42F6E0F",
   "schema_version": "3.0.0",
-  "title": "Ivermectin COVID Alberta",
+  "title": "Ivermectin and COVID Alberta",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Sarah Rieger",
+  "publication_date": "2021-08-30",
   "url": "https://www.cbc.ca/news/canada/calgary/ivermectin-alberta-covid-1.6157200",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

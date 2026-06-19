@@ -1,20 +1,17 @@
 {
   "id": "R-1C4AF1EA",
   "schema_version": "3.0.0",
-  "title": "Calgary mayor, minister to discuss bike lanes",
+  "title": "Calgary mayor and Alberta minister to discuss bike lanes",
   "outlet": "The Canadian Press",
   "outlet_id": "canadian-press",
-  "section": "News",
   "author": null,
   "publication_date": null,
   "url": "https://www.thecanadianpressnews.ca/prairies_bc/alberta/calgary-mayor-alberta-minister-to-discuss-bike-lanes-as-threats-of-removal-loom/article_57886279-9b61-5067-bbc2-46bf1a86011c.html",
   "source_type": "wire_article",
-  "url_status": "unverified",
-  "archived_url": null,
-  "tier": 2,
-  "verified": false,
   "wire_source": "The Canadian Press",
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "url_status": "paywalled",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed but paywalled behind CP subscriber wall. Wire article.",
+  "notes": null
 }

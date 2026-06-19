@@ -1,0 +1,23 @@
+{
+  "id": "R-A1EED5EC",
+  "schema_version": "3.0.0",
+  "title": "Alberta budget 2019: Youth minimum wage to be reduced",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": null,
+  "author": null,
+  "publication_date": "2019-06-26",
+  "url": "https://globalnews.ca/news/5434502/lower-minimum-wage-alberta-youth/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Youth minimum wage $13/hr takes effect June 26 2019. Applies to workers aged 13-17; general $15/hr retained for adults. Labour Minister Copping: 'bringing back balance.' NDP critic Gray: 'Don't do this.' Youth worker: 'that money I'm not making I could be adding to my university fund.' Multiple businesses pledge to retain $15 for all workers. Anchors EVT-052.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-067"
+  }
+}

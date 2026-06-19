@@ -1,20 +1,16 @@
 {
   "id": "R-54FCFDE6",
   "schema_version": "3.0.0",
-  "title": "Budget increases private school funding",
+  "title": "Budget 2025 increases private school support",
   "outlet": "The Progress Report",
   "outlet_id": "the-progress-report",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Jeremy Appel",
+  "publication_date": "2025-02-27",
   "url": "https://www.theprogressreport.ca/budget-2025-increases-private-school-support",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 4,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Tier 4 advocacy outlet; must not be sole contested-fact source for EVT-084.",
+  "notes": null
 }

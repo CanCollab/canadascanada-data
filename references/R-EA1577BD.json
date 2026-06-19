@@ -1,20 +1,16 @@
 {
   "id": "R-EA1577BD",
   "schema_version": "3.0.0",
-  "title": "Species conservation efforts",
+  "title": "Alberta species conservation: bison wood duck swift fox",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Hannah Kost",
+  "publication_date": "2021-06-02",
   "url": "https://www.cbc.ca/news/canada/calgary/conservation-efforts-alberta-bison-wood-duck-swift-fox-1.6051596",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Older article; still resolves.",
+  "notes": null
 }

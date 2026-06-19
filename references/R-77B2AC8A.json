@@ -1,20 +1,16 @@
 {
   "id": "R-77B2AC8A",
   "schema_version": "3.0.0",
-  "title": "Smith blames Trudeau/Carney to US audience",
+  "title": "Smith blames Trudeau-Carney switcheroo for Liberal popularity",
   "outlet": "CTV News",
   "outlet_id": "ctv-news",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Stephanie Ha and Spencer Van Dyk",
+  "publication_date": "2025-03-31",
   "url": "https://www.ctvnews.ca/federal-election-2025/article/in-front-of-us-audience-smith-blames-trudeau-carney-switcheroo-for-liberal-popularity/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Dual byline confirmed by operator.",
+  "notes": null
 }

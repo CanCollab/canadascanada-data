@@ -1,20 +1,16 @@
 {
   "id": "R-D000000B",
   "schema_version": "3.0.0",
-  "title": "Smith says Alberta may go to courts on CPP asset transfer",
+  "title": "Smith says Alberta may have to go to courts for CPP asset transfer number",
   "outlet": "National Post",
   "outlet_id": "national-post",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Rahim Mohamed",
+  "publication_date": "2026-01-26",
   "url": "https://nationalpost.com/news/canada/smith-says-alberta-may-have-to-go-to-the-courts-to-get-clarity-from-feds-on-cpp-asset-transfer-number",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "paywalled",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live but paywalled. Supplemented by R-160 (CBC, accessible).",
+  "notes": null
 }

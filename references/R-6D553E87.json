@@ -1,0 +1,19 @@
+{
+  "id": "R-6D553E87",
+  "schema_version": "3.0.0",
+  "title": "Alberta's safe consumption review 'biased and flawed', researcher says",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jordan Omstead",
+  "publication_date": "2021-01-08",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-s-safe-consumption-review-biased-and-flawed-researcher-says-1.5867053",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Researcher critique of Alberta safe-consumption review (Jan 8 2021). Orphan pending event — drug-policy cluster.",
+  "notes": "Parked: drug-policy cluster; methodology critique.",
+  "extensions": {
+    "legacy_id": "R-194"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "R-2F1633D5",
+  "schema_version": "3.0.0",
+  "title": "UCP promises to allow mandatory drug treatment, open addiction and mental health beds",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2023-05-16",
+  "url": "https://www.cbc.ca/news/canada/calgary/alberta-politics-election-ucp-drugs-addiction-1.6844295",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Primary source for EVT-115. Smith announces the proposed Compassionate Intervention Act at a Calgary news conference May 15 2023 (article dated May 16). Would allow family members, doctors, psychologists, or police to petition a court for involuntary addiction treatment. NDP Leader Notley: 'forced recovery is not successful.' Experts warn the proposal violates Charter-protected rights. No byline confirmed. URL needs HTTP check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Link resolves, verified 2026-06-18.",
+  "extensions": {
+    "legacy_id": "R-140"
+  }
+}

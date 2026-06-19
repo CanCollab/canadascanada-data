@@ -1,20 +1,20 @@
 {
   "id": "R-41E4C309",
   "schema_version": "3.0.0",
-  "title": "Childcare agreement review",
+  "title": "Alberta federal child-care agreement daycare midpoint status review",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2024-01-31",
   "url": "https://www.cbc.ca/news/canada/calgary/alberta-federal-childcare-agreement-daycare-midpoint-status-feature-1.7087713",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Midpoint status review of Alberta's $10-a-day child-care agreement. Source for EVT-074. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

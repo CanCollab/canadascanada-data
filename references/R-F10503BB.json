@@ -1,20 +1,17 @@
 {
   "id": "R-F10503BB",
   "schema_version": "3.0.0",
-  "title": "Kenney UCP health-care guarantee",
+  "title": "Kenney grassroots guarantee platform",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2018-05-07",
   "url": "https://www.cbc.ca/news/canada/calgary/kenney-grassroots-guarantee-platform-1.4652586",
-  "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "source_type": "wire_article",
+  "wire_source": "The Canadian Press",
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. CP wire byline. Older article (2018); still resolves. Historical context for EVT-103.",
+  "notes": null
 }

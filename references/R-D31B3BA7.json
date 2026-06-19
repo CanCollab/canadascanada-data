@@ -1,20 +1,16 @@
 {
   "id": "R-D31B3BA7",
   "schema_version": "3.0.0",
-  "title": "Parker vows Take Back Alberta",
+  "title": "Parker vows Take Back Alberta will escape punishment",
   "outlet": "The Tyee",
   "outlet_id": "the-tyee",
-  "section": "News",
-  "author": null,
+  "author": "Charles Rusnell",
   "publication_date": "2025-10-02",
   "url": "https://thetyee.ca/News/2025/10/02/Parker-Vows-Take-Back-Alberta-Escape-Punishment/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 3,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Tier 3; must not be sole contested-fact source for EVT-096.",
+  "notes": null
 }

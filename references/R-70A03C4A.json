@@ -1,0 +1,19 @@
+{
+  "id": "R-70A03C4A",
+  "schema_version": "3.0.0",
+  "title": "ARCHES Lethbridge closure and supervised consumption",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Elissa Carpenter",
+  "publication_date": "2020-08-13",
+  "url": "https://www.cbc.ca/news/canada/calgary/arches-lethbridge-closure-ucp-supervised-consumption-alberta-overdose-1.5685924",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. ARCHES Lethbridge supervised-consumption closure (Aug 13 2020, Kenney era). Orphan pending event — drug-policy cluster.",
+  "notes": "Parked: drug-policy cluster; Kenney era.",
+  "extensions": {
+    "legacy_id": "R-191"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "R-62DFB5D1",
+  "schema_version": "3.0.0",
+  "title": "Alberta law, civil disobedience and separation",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Lisa Johnson",
+  "publication_date": "2026-06-05",
+  "url": "https://www.cbc.ca/news/canada/calgary/alberta-law-civil-disobedience-separation-9.7225524",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Civil-disobedience framing re separation law. Orphan pending event — separatism cluster.",
+  "notes": "Parked: separatism cluster.",
+  "extensions": {
+    "legacy_id": "R-179"
+  }
+}

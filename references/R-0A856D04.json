@@ -1,20 +1,16 @@
 {
   "id": "R-0A856D04",
   "schema_version": "3.0.0",
-  "title": "Coutts story defense",
+  "title": "CBC stands by Coutts story",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Brodie Fenlon",
+  "publication_date": "2023-01-27",
   "url": "https://www.cbc.ca/news/editorsblog/cbc-stands-by-coutts-story-1.6728100",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Editor's blog response to premier's statement. See R-152 for the premier's statement that prompted this response.",
+  "notes": "Brodie Fenlon is CBC editor-in-chief. This is an editorial response, not standard reporting."
 }

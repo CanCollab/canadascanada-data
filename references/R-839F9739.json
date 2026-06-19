@@ -4,17 +4,13 @@
   "title": "Building a modern police service",
   "outlet": "Government of Alberta",
   "outlet_id": "government-of-alberta",
-  "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2026-04-16",
   "url": "https://www.alberta.ca/building-a-modern-police-service",
   "source_type": "government_statement",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 1,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Date set to Bill 15 (Public Safety and Emergency Services Statutes Amendment Act, 2026) Royal Assent: April 16, 2026. Institutional source; no author required. No longer sole ref for EVT-092; bill text added as R-149.",
+  "notes": "Policy page. Associated bill text at R-149."
 }

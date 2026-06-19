@@ -1,20 +1,16 @@
 {
   "id": "R-0C50FF8D",
   "schema_version": "3.0.0",
-  "title": "Education property tax backlash",
+  "title": "Municipalities do not welcome education property tax increase",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "CBC News",
+  "publication_date": "2025-02-28",
   "url": "https://www.cbc.ca/news/canada/edmonton/municipalities-don-t-welcome-alberta-education-property-tax-increase-1.7472234",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. No individual byline; credited to CBC News.",
+  "notes": null
 }

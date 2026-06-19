@@ -1,20 +1,16 @@
 {
   "id": "R-161F0DF5",
   "schema_version": "3.0.0",
-  "title": "Ivermectin misinformation",
+  "title": "Alberta feed stores inundated with calls for ivermectin",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Sarah Rieger",
+  "publication_date": "2021-08-30",
   "url": "https://ici.radio-canada.ca/rci/en/news/1820261/alberta-feed-stores-inundated-with-calls-for-ivermectin-over-false-claims-livestock-dewormer-treats-covid",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. RCI English-language URL. Author confirmed by operator.",
+  "notes": null
 }

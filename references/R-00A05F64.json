@@ -1,20 +1,16 @@
 {
   "id": "R-00A05F64",
   "schema_version": "3.0.0",
-  "title": "Jordan Peterson school",
+  "title": "Jordan Peterson school plan in Alberta",
   "outlet": "The Tyee",
   "outlet_id": "the-tyee",
-  "section": "News",
-  "author": null,
+  "author": "Charles Rusnell",
   "publication_date": "2025-12-10",
   "url": "https://thetyee.ca/News/2025/12/10/Jordan-Peterson-School/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 3,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Tier 3; not sole source for EVT-098 (corroborated by R-03E178F6, R-231ACBF7, R-151).",
+  "notes": null
 }

@@ -1,20 +1,16 @@
 {
   "id": "R-FC6C04D7",
   "schema_version": "3.0.0",
-  "title": "No Albertan will ever have to pay (health guarantee)",
+  "title": "No albertan will ever have to pay: Smith UCP health guarantee",
   "outlet": "Edmonton Journal",
   "outlet_id": "edmonton-journal",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Lisa Johnson",
+  "publication_date": "2023-04-11",
   "url": "https://edmontonjournal.com/news/local-news/no-albertan-will-will-ever-have-to-pay-smith-in-wake-of-controversies-promises-ucp-health-guarantee",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "paywalled",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live but paywalled. Author and date confirmed by operator.",
+  "notes": null
 }

@@ -1,0 +1,19 @@
+{
+  "id": "R-F06E5F40",
+  "schema_version": "3.0.0",
+  "title": "Alberta premier Danielle Smith leaked call Artur Pawlowski",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Elise von Scheel, Meghan Grant, Jason Markusoff",
+  "publication_date": "2023-03-29",
+  "url": "https://www.cbc.ca/news/canada/calgary/alberta-premier-danielle-smith-leaked-call-artur-pawlowski-1.6743685",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Triple byline. New ref for EVT-099. Connected to ethics commissioner investigation (R-153).",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-162"
+  }
+}

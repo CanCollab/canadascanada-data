@@ -1,0 +1,31 @@
+{
+  "outlet_id": "bug-eyed-and-shameless",
+  "name_en": "Bug-eyed and Shameless (Justin Ling)",
+  "outlet_type": "independent_newsletter",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Justin Ling (independent)",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": null,
+      "verified": false
+    },
+    "editorial_standards_published": {
+      "value": null,
+      "verified": false
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": false,
+      "verified": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "R-A7AAF040",
+  "schema_version": "3.0.0",
+  "title": "Green Line LRT (coverage hub)",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "author": null,
+  "publication_date": null,
+  "url": "https://globalnews.ca/tag/green-line-lrt/",
+  "source_type": "finding_tool",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "Global News topic/coverage hub for Green Line LRT, linked from R-046 article body. finding_tool source_type (aggregation page, not a single article). Context for EVT-034.",
+  "notes": "Hub page; use to locate dated coverage.",
+  "extensions": {
+    "legacy_id": "R-196"
+  }
+}

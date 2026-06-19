@@ -1,20 +1,16 @@
 {
   "id": "R-BBF96D05",
   "schema_version": "3.0.0",
-  "title": "COVID cure claim misinformation",
+  "title": "Coronavirus cure claim misinformation",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Sarah Rieger",
+  "publication_date": "2020-03-22",
   "url": "https://www.cbc.ca/news/canada/calgary/coronavirus-cure-claim-1.5506187",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Older article (2020); still resolves. Associated Danielle Smith tweet text documented in EVT-088 event record.",
+  "notes": null
 }

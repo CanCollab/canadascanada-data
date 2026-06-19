@@ -1,0 +1,19 @@
+{
+  "id": "R-C2387310",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith: Alberta premier (CBC interactive feature)",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jason Markusoff",
+  "publication_date": "2022-10-06",
+  "url": "https://www.cbc.ca/newsinteractives/features/Danielle-Smith-Alberta-premier-UCP",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. CBC interactive Markusoff profile of Smith (Oct 6 2022). Rich multi-point source — may serve as reference for multiple events without each warranting its own. Orphan pending event assignment.",
+  "notes": "Parked: high-value multi-point Smith profile; mine for multiple events.",
+  "extensions": {
+    "legacy_id": "R-187"
+  }
+}

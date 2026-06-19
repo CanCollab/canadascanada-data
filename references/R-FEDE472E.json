@@ -1,20 +1,16 @@
 {
   "id": "R-FEDE472E",
   "schema_version": "3.0.0",
-  "title": "ID citizenship requirement",
+  "title": "Alberta driver's licence identification citizenship requirement",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Amir Said",
+  "publication_date": "2025-09-15",
   "url": "https://www.cbc.ca/news/canada/calgary/alberta-drivers-licence-identification-card-citizenship-1.7634163",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

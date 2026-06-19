@@ -1,20 +1,20 @@
 {
   "id": "R-3664DCBA",
   "schema_version": "3.0.0",
-  "title": "Childcare plan analysis",
+  "title": "Alberta's child-care plan: What the CCPA analysis found",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2021-07-20",
   "url": "https://www.cbc.ca/news/canada/edmonton/childcare-plan-ccpa-1.6109018",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Context for EVT-074. Canadian Centre for Policy Alternatives analysis of Alberta's child-care plan, July 2021. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

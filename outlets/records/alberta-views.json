@@ -1,0 +1,31 @@
+{
+  "outlet_id": "alberta-views",
+  "name_en": "Alberta Views",
+  "outlet_type": "magazine",
+  "rated": true,
+  "citable": true,
+  "ownership_pct_canadian_derived": 100,
+  "ownership_breakdown": [
+    {
+      "entity": "Alberta Views Ltd.",
+      "country": "CA",
+      "percentage": 100
+    }
+  ],
+  "facts": {
+    "corrections_policy_published": {
+      "value": null,
+      "verified": false
+    },
+    "editorial_standards_published": {
+      "value": null,
+      "verified": false
+    }
+  },
+  "accountability": {
+    "nnc_member": {
+      "value": false,
+      "verified": false
+    }
+  }
+}

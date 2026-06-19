@@ -1,0 +1,23 @@
+{
+  "id": "R-8BB251E8",
+  "schema_version": "3.0.0",
+  "title": "Hundreds of public sector workers protest Bill 9 outside Calgary hospital",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": null,
+  "author": null,
+  "publication_date": "2019-07-03",
+  "url": "https://www.cbc.ca/news/canada/calgary/public-sector-protests-calgary-hospital-union-aupe-provincial-alberta-1.5198805",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Bill 9 (Public Sector Arbitration Deferral Act) protests. Bill delayed wage arbitration for 180,000 teachers, nurses, public sector workers. AUPE president: 'attack on workers rights.' Bill 9 context for EVT-007 (earplugs during Bill 9 debate June 2019) and EVT-051 (nurses arbitration May 2019). The earplug incident and nurses freeze are upstream events of this broader Bill 9 impact.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-085"
+  }
+}

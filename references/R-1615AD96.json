@@ -1,20 +1,16 @@
 {
   "id": "R-1615AD96",
   "schema_version": "3.0.0",
-  "title": "Dreeshen bike-lane visit",
+  "title": "Taxes, Bill 50, Dreeshen's bike lane visit",
   "outlet": "Taproot Edmonton",
   "outlet_id": "taproot-edmonton",
-  "section": "News",
-  "author": null,
+  "author": "Stephanie Swensrude",
   "publication_date": "2025-04-28",
   "url": "https://edmonton.taproot.news/briefs/2025/04/28/noted-taxes-bill-50-dreeshens-bike-lane-visit",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 3,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

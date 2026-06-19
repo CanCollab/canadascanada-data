@@ -1,0 +1,23 @@
+{
+  "id": "R-EC133F5C",
+  "schema_version": "3.0.0",
+  "title": "Teachers across Alberta reject mediator's recommendation for new provincial collective agreement",
+  "outlet": "CTV News Edmonton",
+  "outlet_id": "ctv-news",
+  "section": "Edmonton",
+  "author": "Alex Antoneshyn, Steven Dyer",
+  "publication_date": "2025-05-06",
+  "url": "https://www.ctvnews.ca/edmonton/article/teachers-across-alberta-reject-mediators-recommendation-for-new-provincial-collective-agreement/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Dates the first rejection (mediator's recommendation) to 2025-05-06, correcting the prior internal-file date of 2025-03-31.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-ata-mediator-rejection-2025"
+  }
+}

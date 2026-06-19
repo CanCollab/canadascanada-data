@@ -1,0 +1,23 @@
+{
+  "id": "R-783AEAC9",
+  "schema_version": "3.0.0",
+  "title": "Thousands protest Parliament's suspension",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": null,
+  "author": null,
+  "publication_date": "2010-01-01",
+  "url": "https://www.cbc.ca/news/politics/thousands-protest-parliament-s-suspension-1.866970",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "CBC News coverage of January 2010 protests against the prorogation of Parliament. Harper prorogued Parliament multiple times: 2008 (coalition crisis) and 2009–2010 (this event).",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-105"
+  }
+}

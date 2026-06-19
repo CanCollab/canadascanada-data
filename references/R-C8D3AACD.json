@@ -1,20 +1,20 @@
 {
   "id": "R-C8D3AACD",
   "schema_version": "3.0.0",
-  "title": "Childcare announcement",
+  "title": "Alberta child-care announcement",
   "outlet": "Global News",
   "outlet_id": "global-news",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2021-11-14",
   "url": "https://globalnews.ca/news/8373579/alberta-child-care-announcement/",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Corroborating source for EVT-073. Global News coverage of the November 14 2021 child-care deal announcement. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

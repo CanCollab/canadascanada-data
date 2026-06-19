@@ -1,20 +1,16 @@
 {
   "id": "R-38E5ED28",
   "schema_version": "3.0.0",
-  "title": "Premier on immigration",
+  "title": "Alberta immigration policy under Danielle Smith",
   "outlet": "National Post",
   "outlet_id": "national-post",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Jesse Snyder",
+  "publication_date": "2026-02-21",
   "url": "https://nationalpost.com/news/canada/alberta-immigration-danielle-smith",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "paywalled",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live but paywalled. SOLE_REF for EVT-102.",
+  "notes": null
 }

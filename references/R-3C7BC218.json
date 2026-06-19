@@ -1,0 +1,19 @@
+{
+  "id": "R-3C7BC218",
+  "schema_version": "3.0.0",
+  "title": "Edmonton Boyle Street supervised consumption",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Kashmala Fida Mohatarem",
+  "publication_date": "2021-04-28",
+  "url": "https://www.cbc.ca/news/canada/edmonton/edmonton-boyle-street-supervised-consumption-1.6005939",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Boyle Street supervised consumption (Apr 28 2021). Orphan pending event — drug-policy cluster.",
+  "notes": "Parked: drug-policy cluster.",
+  "extensions": {
+    "legacy_id": "R-192"
+  }
+}

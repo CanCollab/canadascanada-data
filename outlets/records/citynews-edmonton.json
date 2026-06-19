@@ -1,0 +1,12 @@
+{
+  "outlet_id": "citynews-edmonton",
+  "schema_version": "3.0.0",
+  "name_en": "CityNews Edmonton",
+  "name_fr": null,
+  "type": "broadcast",
+  "url": "https://edmonton.citynews.ca",
+  "ownership": "Rogers Media",
+  "bias_label": "centrist",
+  "tier": 2,
+  "notes": "Rogers-owned CityNews Edmonton bureau. Sibling outlet to citynews-calgary."
+}

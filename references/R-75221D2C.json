@@ -1,0 +1,24 @@
+{
+  "id": "R-75221D2C",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith believes Alberta UCP policies on trans youth are 'supportive'",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": "News",
+  "author": null,
+  "publication_date": "2024-02-01",
+  "url": "https://globalnews.ca/news/10266388/danielle-smith-alberta-parental-rights-transgender-kids-policy/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Primary SAID source for SD-013. Smith: 'supportive,' 'consulted very broadly' (refused to name who). Expert rebuttal: Travers (SFU) + Brennan (U of T) on puberty blockers and suicide risk. Bottom surgery already 18+ Canada-wide — announcement addressed non-problem.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Link resolves, verified 2026-06-18.",
+  "extensions": {
+    "legacy_id": "R-044"
+  }
+}

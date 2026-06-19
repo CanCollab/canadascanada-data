@@ -1,0 +1,19 @@
+{
+  "id": "R-4932095F",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith separation referendum Order in Council (scanned document)",
+  "outlet": "Alberta Politics",
+  "outlet_id": "alberta-politics",
+  "author": null,
+  "publication_date": "2026-05-28",
+  "url": "https://albertapolitics.ca/wp-content/uploads/SeparationOIC.pdf",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "tier": 1,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Scanned OIC document hosted on Alberta Politics. Primary record; no author field needed. Linked to EVT-079 (fall separation referendum plan).",
+  "notes": "PDF scan of the Order in Council for the separation referendum. Hosted by third party (Alberta Politics); original would be Government of Alberta.",
+  "extensions": {
+    "legacy_id": "R-146"
+  }
+}

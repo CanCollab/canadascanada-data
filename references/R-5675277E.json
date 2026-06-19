@@ -1,20 +1,16 @@
 {
   "id": "R-5675277E",
   "schema_version": "3.0.0",
-  "title": "Minister Dreeshen on Edmonton bike lanes",
+  "title": "Devin Dreeshen Edmonton bike lanes",
   "outlet": "Global News",
   "outlet_id": "global-news",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Jack Farrell",
+  "publication_date": "2025-04-17",
   "url": "https://globalnews.ca/news/11138484/devin-dreeshen-edmonton-bike-lanes/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

@@ -1,0 +1,12 @@
+{
+  "outlet_id": "ab-conservatives-watch",
+  "schema_version": "3.0.0",
+  "name_en": "AB Conservatives Watch",
+  "name_fr": null,
+  "type": "blog",
+  "url": "https://www.abconservatives.ca",
+  "ownership": "independent",
+  "bias_label": "left-leaning",
+  "tier": 4,
+  "notes": "Citizen watchdog blog critical of the UCP. Domain name may be confused with party site but is NOT affiliated with the United Conservative Party. Per operator confirmation."
+}

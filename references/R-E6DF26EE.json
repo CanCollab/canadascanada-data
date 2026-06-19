@@ -1,20 +1,20 @@
 {
   "id": "R-E6DF26EE",
   "schema_version": "3.0.0",
-  "title": "Cancer comments past controversy",
+  "title": "Danielle Smith UCP leadership race cancer comments draw scrutiny",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2022-07-25",
   "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-ucp-leadership-cancer-controllable-dubious-1.6531883",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Primary source for EVT-076. CBC Calgary reports on Smith's statements during the 2022 UCP leadership race suggesting cancer is sometimes controllable through personal choices, described as scientifically dubious by health experts. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

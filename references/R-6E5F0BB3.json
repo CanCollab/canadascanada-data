@@ -1,0 +1,23 @@
+{
+  "id": "R-6E5F0BB3",
+  "schema_version": "3.0.0",
+  "title": "Alberta premier announces new Crown corporation to oversee province's rainy day fund",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": null,
+  "author": "Lisa Johnson",
+  "publication_date": "2025-01-29",
+  "url": "https://www.cbc.ca/news/canada/calgary/ab-government-politics-heritage-fund-1.7444548",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": "canadian-press",
+  "notes": "Heritage Fund Opportunities Corp announced Jan 29 2025. Goal: grow fund to $250B by 2050. Also confirms: (1) AIMCo CEO and board sacked November 2024; (2) former PM Stephen Harper appointed AIMCo chairman weeks after. Fund at $23.4B as of Sept 2024 + $2B new deposit. Anchors EVT-067.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-084"
+  }
+}

@@ -1,20 +1,20 @@
 {
   "id": "R-50C84566",
   "schema_version": "3.0.0",
-  "title": "AHS CEO ousted contracts probe",
+  "title": "Alberta ousted health services CEO amid probe into medical contracts",
   "outlet": "Globe and Mail",
   "outlet_id": "globe-and-mail",
   "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Carrie Tait",
+  "publication_date": "2025-02-25",
   "url": "https://www.aarc.ab.ca/sites/default/files/inline-files/Globe%20%26%20Mail%20-%20Alberta%20ousted%20health%20services%20CEO%20amid%20probe%20into%20medical%20contracts.pdf",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Globe and Mail investigative piece by Carrie Tait, hosted as PDF on the AARC website. URL confirmed resolving to a legit PDF. Author confirmed: Carrie Tait. Publication date not confirmed from the PDF URL; needs manual check of the PDF itself for dateline. Anchors EVT-072 (AHS contracting review). Note: URL is a third-party PDF host, not the Globe's own paywall; the archived copy is usable as a citation.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

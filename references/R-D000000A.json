@@ -1,20 +1,16 @@
 {
   "id": "R-D000000A",
   "schema_version": "3.0.0",
-  "title": "Alberta pension plan no appetite",
+  "title": "Alberta pension plan: no appetite",
   "outlet": "Global News",
   "outlet_id": "global-news",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Jack Farrell",
+  "publication_date": "2025-05-01",
   "url": "https://globalnews.ca/news/11159592/alberta-pension-plan-no-appetite/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": "The shelving/abandonment side.",
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

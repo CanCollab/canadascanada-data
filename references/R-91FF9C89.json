@@ -1,0 +1,19 @@
+{
+  "id": "R-91FF9C89",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith: UCP Public Health Care Guarantee press conference (video)",
+  "outlet": "YouTube",
+  "outlet_id": "youtube",
+  "author": null,
+  "publication_date": "2023-04-11",
+  "url": "https://www.youtube.com/watch?v=NzBkVb94Lf8",
+  "source_type": "video_transcript",
+  "url_status": "live",
+  "tier": 1,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Primary record: full video of Smith announcing public health care guarantee at Sherwood Park health centre. Transcript on file. Key quotes: 'under no circumstances will any albertan ever have to pay out of pocket for access to their family doctor or to get the medical treatment that they need' and commitment not to delist services. Also includes ethics commissioner investigation Q&A.",
+  "notes": "Full transcript available. Press conference includes Q&A on ethics investigation, NRTA, and health spending accounts.",
+  "extensions": {
+    "legacy_id": "R-156"
+  }
+}

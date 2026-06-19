@@ -1,20 +1,16 @@
 {
   "id": "R-51B89BB3",
   "schema_version": "3.0.0",
-  "title": "Premier tweet on One Million March",
+  "title": "Danielle Smith tweet on One Million March protests",
   "outlet": "Daily Hive",
   "outlet_id": "daily-hive",
-  "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2023-09-20",
   "url": "https://dailyhive.com/calgary/alberta-premier-danielle-smith-tweet-one-million-march",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
-  "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "url_status": "live",
+  "tier": 3,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Smith tweet text documented in EVT-100 event record.",
+  "notes": "Smith tweet (Sep 20, 2023): 'The Goverment of Alberta is aware of large planned protests and counter-protests happening across Canada today regarding issues that impact the lives and well-being of children. I ask that all protesters, regardless of what their position is on these delicate issues exercise their right of free speech peacefully and to encourage their fellow Canadians to do the same.'"
 }

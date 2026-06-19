@@ -1,0 +1,19 @@
+{
+  "id": "R-67D4A85F",
+  "schema_version": "3.0.0",
+  "title": "Danielle Smith and the United Conservative Party guarantee support for Publicly-Funded Health Care",
+  "outlet": "United Conservative Party",
+  "outlet_id": "united-conservative-party",
+  "author": null,
+  "publication_date": "2023-04-11",
+  "url": "https://www.unitedconservative.ca/wp-content/uploads/UCP-Public-Health-Guarantee-Press-Release-v2-tv-edits-JBM-3.pdf",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "tier": 1,
+  "verified": true,
+  "verification_notes": "UCP press release PDF, primary record for EVT-103. Party's own public health guarantee statement (April 11 2023). Tier 1 primary source (the actor's own words).",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-174"
+  }
+}

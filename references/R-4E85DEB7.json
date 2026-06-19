@@ -1,0 +1,23 @@
+{
+  "id": "R-4E85DEB7",
+  "schema_version": "3.0.0",
+  "title": "ACPS Statement on Coutts Update 5 — Court Proceedings Status",
+  "outlet": "Government of Alberta (Alberta Justice)",
+  "outlet_id": "government-of-alberta",
+  "section": null,
+  "author": null,
+  "publication_date": "2024-09-04",
+  "url": "https://open.alberta.ca/dataset/53be15fb-a82a-47e3-9ef4-5f208796a9e6/resource/15e27c03-276c-4af0-ae24-f1c0b54924ec/download/jus-acps-statement-coutts-update-5-2024-09-04.pdf",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Alberta Justice official update on Coutts court proceedings as of September 4, 2024. Documents legal status of charges. Note: final acquittals on conspiracy to commit murder count occurred in 2025 (after this document's date) — a more recent source is needed for the final outcome. See R-119 (CBC Fifth Estate).",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-118"
+  }
+}

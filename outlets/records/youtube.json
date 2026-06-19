@@ -1,0 +1,12 @@
+{
+  "outlet_id": "youtube",
+  "schema_version": "3.0.0",
+  "name_en": "YouTube",
+  "name_fr": null,
+  "type": "video_platform",
+  "url": "https://www.youtube.com",
+  "ownership": "Alphabet Inc.",
+  "bias_label": "n/a",
+  "tier": 3,
+  "notes": "Video platform; not an editorial outlet. Used as outlet_id for references where the underlying video is the primary record (press conferences, speeches, interviews). The actual publisher (channel owner) should be identified in the reference title or notes. Per-reference tier may override the default tier 3 when the video itself is a primary record (e.g., a politician's own press conference)."
+}

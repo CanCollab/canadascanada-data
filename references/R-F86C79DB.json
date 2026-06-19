@@ -1,20 +1,16 @@
 {
   "id": "R-F86C79DB",
   "schema_version": "3.0.0",
-  "title": "RCMP reviews alleged voter-record misuse",
+  "title": "RCMP investigates Alberta separatist group over alleged misuse of voter records",
   "outlet": "The Deep Dive",
   "outlet_id": "the-deep-dive",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "JP Alegre",
+  "publication_date": "2026-05-04",
   "url": "https://thedeepdive.ca/rcmp-investigates-alberta-separatist-group-over-alleged-misuse-of-2-9-million-voter-records/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 3,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Tier 3; must not be sole contested-fact source for EVT-097.",
+  "notes": null
 }

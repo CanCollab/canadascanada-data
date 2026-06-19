@@ -1,20 +1,20 @@
 {
   "id": "R-543A0D0A",
   "schema_version": "3.0.0",
-  "title": "Breitbart interview controversy",
+  "title": "Alberta Premier under fire for Breitbart interview",
   "outlet": "CTV News",
   "outlet_id": "ctv-news",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2025-03-23",
   "url": "https://www.ctvnews.ca/calgary/article/lets-just-put-things-on-pause-alberta-premier-under-fire-for-breitbart-interview/",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Corroborating source for EVT-075. CTV Calgary coverage of political reaction to Smith's Breitbart interview. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

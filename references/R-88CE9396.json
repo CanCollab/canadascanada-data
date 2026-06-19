@@ -1,0 +1,24 @@
+{
+  "id": "R-88CE9396",
+  "schema_version": "3.0.0",
+  "title": "What is the Centurion Project and why does it matter?",
+  "outlet": "factsmtr (Substack)",
+  "outlet_id": "factsmtr",
+  "section": "Analysis",
+  "author": null,
+  "publication_date": "2026-05-01",
+  "url": "https://open.substack.com/pub/factsmtr/p/what-is-the-centurion-project-and",
+  "source_type": "finding_tool",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 4,
+  "verified": true,
+  "wire_source": null,
+  "notes": "FINDING TOOL ONLY. Corroborate with R-021 and court record before publication.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Verified 2026-06-18. DATE CORRECTED: publication_date set to 2026-05-01 (was 2026-01-01). Covers the Centurion Project voter-list breach; contains multiple in-body dates that anchor distinct events. Routed to EVT-028 / EVT-097 (voter-list/separatist cluster). CAUTION: do not collapse the in-body event dates to the publication date.",
+  "extensions": {
+    "legacy_id": "R-020"
+  }
+}

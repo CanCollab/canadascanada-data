@@ -1,0 +1,20 @@
+{
+  "id": "R-56F93F7F",
+  "schema_version": "3.0.0",
+  "title": "Kenney Alberta provincial police plan: cost analysis",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "author": "Dean Bennett",
+  "publication_date": "2021-11-26",
+  "url": "https://globalnews.ca/news/8405952/kenney-alberta-provincial-police-plan-cost/",
+  "source_type": "wire_article",
+  "wire_source": "The Canadian Press",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. New ref for EVT-092. CP wire byline. Earliest sourced point in the provincial police arc; documents the original Kenney-era cost analysis.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-166"
+  }
+}

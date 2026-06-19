@@ -1,20 +1,16 @@
 {
   "id": "R-CB373CE7",
   "schema_version": "3.0.0",
-  "title": "Removing ideology from classrooms",
+  "title": "Removing politics and ideology from Alberta classrooms",
   "outlet": "Government of Alberta",
   "outlet_id": "government-of-alberta",
-  "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2026-05-14",
   "url": "https://www.alberta.ca/removing-politics-and-ideology-from-alberta-classrooms",
   "source_type": "government_statement",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 1,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Date set to Bill 25 Royal Assent: May 14, 2026. Institutional source; no author required. No longer sole ref for EVT-093; bill text added as R-150.",
+  "notes": "Policy page. Associated bill text at R-150."
 }

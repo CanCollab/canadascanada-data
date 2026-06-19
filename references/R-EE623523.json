@@ -1,0 +1,24 @@
+{
+  "id": "R-EE623523",
+  "schema_version": "3.0.0",
+  "title": "Elections Alberta letter from MLA raises voter-data concerns",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": "Daniela Germano",
+  "publication_date": "2026-03-27",
+  "url": "https://www.cbc.ca/news/canada/edmonton/nally-elections-alberta-letter-9.7145214",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "MERGED/SUPERSEDED by R-049 (same CBC URL and story; R-049 has correct title and CP byline). Retained for audit trail only — do NOT cite. Original title here was a misdescription of the Nally elector-list article. Use R-049 for the Nally matter (EVT-035).",
+  "submission_source": "editorial",
+  "submission_status": "rejected",
+  "verification_notes": "Verified 2026-06-18. DATE CORRECTED to 2026-03-27 (was 2026-04-01); author set to Daniela Germano (was null) per operator. NOTE: byline not independently confirmable via fetch (CBC bot-block); recorded from operator's direct read. Routes to EVT-035 (Nally election-law breach, dated 2026-03-27 — exact match).",
+  "extensions": {
+    "legacy_id": "R-021"
+  }
+}

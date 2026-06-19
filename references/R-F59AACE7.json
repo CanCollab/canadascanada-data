@@ -1,20 +1,16 @@
 {
   "id": "R-F59AACE7",
   "schema_version": "3.0.0",
-  "title": "Imported medication safety claim",
+  "title": "Alberta health minister says children's pain meds from Turkey are safe",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Julia Wong",
+  "publication_date": "2025-03-10",
   "url": "https://www.cbc.ca/news/canada/edmonton/alberta-health-minister-says-children-s-pain-meds-from-turkey-are-safe-for-patients-overseas-1.7479616",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. No longer sole ref for EVT-089; additional sources added (R-142 through R-145).",
+  "notes": null
 }

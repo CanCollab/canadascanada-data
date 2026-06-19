@@ -1,0 +1,24 @@
+{
+  "id": "R-C4BD9331",
+  "schema_version": "3.0.0",
+  "title": "Former AHS CEO files $17M lawsuit against health authority and minister alleging surgical contract kickbacks",
+  "outlet": "CTV News",
+  "outlet_id": "ctv-news",
+  "section": "News",
+  "author": "Brendan Ellis",
+  "publication_date": "2025-02-12",
+  "url": "https://www.ctvnews.ca/calgary/article/former-ahs-ceo-files-17m-lawsuit-against-health-authority-minister-alleging-surgical-contract-kickbacks/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Source for EVT-072. Athana Mentzelopoulos files $17M wrongful dismissal suit against AHS and the Health Minister, alleging she was fired for investigating surgical contract kickbacks and MHCare procurement irregularities. URL confirmed live. Date and author need manual check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Verified 2026-06-18. Date 2025-02-12, author Brendan Ellis (confirmed/added per operator).",
+  "extensions": {
+    "legacy_id": "R-134"
+  }
+}

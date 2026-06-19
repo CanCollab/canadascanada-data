@@ -1,20 +1,20 @@
 {
   "id": "R-4660D0B4",
   "schema_version": "3.0.0",
-  "title": "For-profit childcare spaces deal",
+  "title": "Alberta daycare child-care federal agreement final for-profit spaces",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2025-05-22",
   "url": "https://www.cbc.ca/news/canada/calgary/alberta-daycare-childcare-federal-agreement-final-for-profit-spaces-1.7540331",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Source for EVT-074. May 2025 coverage of the final state of Alberta's renewed child-care agreement, including the for-profit spaces question. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

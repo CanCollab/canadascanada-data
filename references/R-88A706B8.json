@@ -1,0 +1,19 @@
+{
+  "id": "R-88A706B8",
+  "schema_version": "3.0.0",
+  "title": "Premier's statement on CBC Coutts coverage",
+  "outlet": "Government of Alberta",
+  "outlet_id": "government-of-alberta",
+  "author": null,
+  "publication_date": "2023-01-25",
+  "url": "https://www.alberta.ca/release.cfm?xID=864272BE5C8A5-BF0A-9F48-5A4C976C90835D98",
+  "source_type": "government_statement",
+  "url_status": "live",
+  "tier": 1,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Government press release. The statement that prompted the CBC editor-in-chief response (R-0A856D04). Institutional source; no author required.",
+  "notes": "Primary record of the premier's statement. See R-0A856D04 for CBC's response and R-153 for the subsequent Ethics Commissioner report.",
+  "extensions": {
+    "legacy_id": "R-152"
+  }
+}

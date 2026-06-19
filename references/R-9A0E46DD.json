@@ -1,0 +1,19 @@
+{
+  "id": "R-9A0E46DD",
+  "schema_version": "3.0.0",
+  "title": "UCP publicly funded health care guarantee (party website)",
+  "outlet": "United Conservative Party",
+  "outlet_id": "united-conservative-party",
+  "author": null,
+  "publication_date": null,
+  "url": "https://unitedconservative.ca/annoucement/publicly-funded-health-care-guarantee/",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "tier": 3,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Party source; no author or date required. Note: URL contains apparent typo in path ('annoucement' not 'announcement') -- this is the actual URL.",
+  "notes": "Official UCP party page for the public health care guarantee. Party source.",
+  "extensions": {
+    "legacy_id": "R-155"
+  }
+}

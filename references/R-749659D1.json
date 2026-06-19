@@ -1,20 +1,16 @@
 {
   "id": "R-749659D1",
   "schema_version": "3.0.0",
-  "title": "Cabinet shuffle expands ministers",
+  "title": "Cabinet shuffle: 60% of caucus will be ministers",
   "outlet": "Alberta Politics",
   "outlet_id": "alberta-politics",
-  "section": "News",
-  "author": null,
-  "publication_date": "2025-05",
+  "author": "David Climenhaga",
+  "publication_date": "2025-05-18",
   "url": "https://albertapolitics.ca/2025/05/when-the-dust-settles-from-danielle-smiths-cabinet-shuffle-60-of-her-caucus-will-be-ministers/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 4,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Tier 4 blog; must not be sole contested-fact source for EVT-090.",
+  "notes": null
 }

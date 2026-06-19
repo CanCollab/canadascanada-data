@@ -1,0 +1,23 @@
+{
+  "id": "R-C99BFA27",
+  "schema_version": "3.0.0",
+  "title": "Alberta judge finds proposed separation referendum unconstitutional",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2026-04-01",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-judge-proposed-referendum-unconstitutional-9.7004982",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Confirmed live from RTF. Pairs with CanLII court record (canlii.org/en/ab/abkb/doc/2026/2026abkb375). Court record is Tier 1.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-038"
+  }
+}

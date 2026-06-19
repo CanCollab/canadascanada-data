@@ -1,0 +1,24 @@
+{
+  "id": "R-6845D60D",
+  "schema_version": "3.0.0",
+  "title": "Standards of care for the health of transgender and gender diverse people, Version 8",
+  "outlet": "International Journal of Transgender Health",
+  "outlet_id": "intl-journal-transgender-health",
+  "section": "Supplement 1",
+  "author": "Coleman E, Radix AE, Bouman WP, et al.",
+  "publication_date": "2022-09-15",
+  "url": "https://www.tandfonline.com/doi/pdf/10.1080/26895269.2022.2100644",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "WPATH Standards of Care Version 8 (SOC8). Authoritative clinical guidelines from the World Professional Association for Transgender Health. DOI: 10.1080/26895269.2022.2100644. International Journal of Transgender Health 23(Suppl 1): S1-S259. Published by Taylor & Francis under open access. Load-bearing source for harm-context framing in EVT-033: SOC8 documents the clinical evidence base for gender-affirming care, including for adolescents. Publication date set to volume publication date; DOI published 2022. Full author list abbreviated; lead author E. Coleman (University of Minnesota Medical School Institute for Sexual and Gender Health). Tier 1 (peer-reviewed clinical standard; original research and meta-analysis; established clinical authority). PDF available open access via DOI.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Link resolves, verified 2026-06-18.",
+  "extensions": {
+    "legacy_id": "R-127"
+  }
+}

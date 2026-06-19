@@ -1,7 +1,7 @@
 {
   "id": "R-939EF1B9",
   "schema_version": "3.0.0",
-  "title": "AHS problems knew about allegations",
+  "title": "Ousted Alberta MLA says Premier knew about AHS problems",
   "outlet": "CTV News",
   "outlet_id": "ctv-news",
   "section": "News",
@@ -9,12 +9,12 @@
   "publication_date": null,
   "url": "https://www.ctvnews.ca/calgary/article/ousted-alberta-mla-says-premier-knew-about-ahs-problems/",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Source for EVT-072. A UCP MLA removed from caucus alleges the Premier was aware of AHS procurement problems before they became public. URL confirmed live. Author and exact date not confirmed from URL slug; needs manual check. No byline surfaced in search results.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

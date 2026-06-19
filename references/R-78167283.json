@@ -1,0 +1,19 @@
+{
+  "id": "R-78167283",
+  "schema_version": "3.0.0",
+  "title": "Guide: Alberta separatist referendum -- stay or go",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Jason Markusoff",
+  "publication_date": "2026-05-30",
+  "url": "https://www.cbc.ca/news/canada/calgary/guide-alberta-separatist-stay-referendum-9.7217218",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. CBC explainer/guide on the separation referendum. Connects to EVT-079.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-163"
+  }
+}

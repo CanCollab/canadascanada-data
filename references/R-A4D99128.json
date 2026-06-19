@@ -1,0 +1,19 @@
+{
+  "id": "R-A4D99128",
+  "schema_version": "3.0.0",
+  "title": "Smith disavows comments on out-of-pocket payments for health care",
+  "outlet": "CityNews Calgary",
+  "outlet_id": "citynews-calgary",
+  "author": "Dean Bennett",
+  "publication_date": "2023-04-25",
+  "url": "https://calgary.citynews.ca/2023/04/25/smith-disavow-comments-out-of-pocket-payments-health-care/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Corroborator for EVT-103. Dean Bennett (CP, carried by CityNews Calgary).",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-173"
+  }
+}

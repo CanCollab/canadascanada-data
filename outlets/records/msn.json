@@ -1,0 +1,16 @@
+{
+  "outlet_id": "msn",
+  "name_en": "MSN (Microsoft News)",
+  "outlet_type": "aggregator",
+  "rated": false,
+  "citable": true,
+  "ownership_pct_canadian_derived": 0,
+  "ownership_breakdown": [
+    {
+      "entity": "Microsoft Corporation",
+      "country": "US",
+      "percentage": 100
+    }
+  ],
+  "not_rated_reason": "Content aggregator/syndicator. MSN republishes articles from other outlets (e.g. National Post); the originating outlet is the editorial source. Cite for accessibility of an otherwise-paywalled original; attribute the original author and outlet in notes."
+}

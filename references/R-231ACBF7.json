@@ -1,20 +1,16 @@
 {
   "id": "R-231ACBF7",
   "schema_version": "3.0.0",
-  "title": "Peterson and the law society 'Path' case",
+  "title": "Alberta Jordan Peterson, the path, Alberta law society",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Joel Dryden",
+  "publication_date": "2026-03-20",
   "url": "https://www.cbc.ca/news/canada/calgary/alberta-jordan-peterson-the-path-alberta-law-society-9.7136398",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

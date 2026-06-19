@@ -1,0 +1,23 @@
+{
+  "id": "R-EA420B7B",
+  "schema_version": "3.0.0",
+  "title": "Back-to-work legislation ending Alberta teachers strike — Radio-Canada",
+  "outlet": "Radio-Canada / RCI",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2025-10-28",
+  "url": "https://ici.radio-canada.ca/rci/en/news/2201712/back-to-work-legislation-coming-to-end-the-alberta-teachers-strike",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Confirmed live from prior thread. Bilingual source. Corroborates R-010 for EVT-023.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-031"
+  }
+}

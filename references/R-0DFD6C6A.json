@@ -1,0 +1,19 @@
+{
+  "id": "R-0DFD6C6A",
+  "schema_version": "3.0.0",
+  "title": "Alberta privacy commissioner raises concerns over citizenship details on driver's licences",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Julia Wong",
+  "publication_date": "2025-09-17",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-privacy-commissioner-raises-concerns-over-citizenship-details-on-driver-s-licences-1.7636072",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator. Connects to EVT-087 (driver's licence / citizenship requirement).",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-147"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "R-96A6324C",
   "schema_version": "3.0.0",
-  "title": "AHS conflicts widely known",
+  "title": "Report into Alberta Health Services contracts finds conflicts widely known",
   "outlet": "CTV News",
   "outlet_id": "ctv-news",
   "section": "News",
@@ -9,12 +9,12 @@
   "publication_date": null,
   "url": "https://www.ctvnews.ca/calgary/article/report-into-alberta-health-services-contracts-finds-conflicts-widely-known/",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Source for EVT-072. Covers the external review findings that conflicts of interest in AHS procurement were widely known within the organization. URL confirmed live. Author and exact date not confirmed from URL slug; needs manual check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

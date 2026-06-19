@@ -1,20 +1,16 @@
 {
   "id": "R-F164BE2D",
   "schema_version": "3.0.0",
-  "title": "Premier photo at Freedom Convoy fundraiser",
+  "title": "Danielle Smith photo at Calgary fundraiser with freedom convoy figures",
   "outlet": "Global News",
   "outlet_id": "global-news",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Karen Bartko",
+  "publication_date": "2023-04-27",
   "url": "https://globalnews.ca/news/9656570/danielle-smith-photo-calgary-fundraiser-freedom-convoy/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

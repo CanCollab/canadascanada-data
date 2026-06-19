@@ -1,0 +1,19 @@
+{
+  "id": "R-3417F771",
+  "schema_version": "3.0.0",
+  "title": "The Pierre Poilievre media circus",
+  "outlet": "Bug-eyed and Shameless",
+  "outlet_id": "bug-eyed-and-shameless",
+  "author": "Justin Ling",
+  "publication_date": "2024-02-06",
+  "url": "https://www.bugeyedandshameless.com/p/the-pierre-poilievre-media-circus",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 3,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Ling newsletter on Poilievre/media. Orphan pending event — media/political-communication cluster. Tier 3 independent.",
+  "notes": "Parked: media cluster; federal angle.",
+  "extensions": {
+    "legacy_id": "R-184"
+  }
+}

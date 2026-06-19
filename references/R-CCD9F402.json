@@ -1,20 +1,16 @@
 {
   "id": "R-CCD9F402",
   "schema_version": "3.0.0",
-  "title": "Smith UCP public health guarantee",
+  "title": "Danielle Smith, UCP public health guarantee, 2023",
   "outlet": "Global News",
   "outlet_id": "global-news",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Paula Tran",
+  "publication_date": "2023-04-11",
   "url": "https://globalnews.ca/news/9615467/danielle-smith-united-conservative-party-public-health-guarantee-2023/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Author and date confirmed by operator.",
+  "notes": null
 }

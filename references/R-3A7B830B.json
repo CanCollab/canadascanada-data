@@ -1,0 +1,19 @@
+{
+  "id": "R-3A7B830B",
+  "schema_version": "3.0.0",
+  "title": "Ethics Commissioner report: allegations involving Premier Danielle Smith",
+  "outlet": "Alberta Legislature",
+  "outlet_id": "alberta-legislature",
+  "author": null,
+  "publication_date": "2023-05-17",
+  "url": "https://www.ethicscommissioner.ab.ca/media/3124/allegations-involving-premier-danielle-smith-may-17-2023.pdf",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "tier": 1,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Official report from the Ethics Commissioner of Alberta (independent officer of the Legislature). Primary record; no author required.",
+  "notes": "Ethics Commissioner is an independent officer of the Alberta Legislature, not a government department. outlet_id set to alberta-legislature as closest match; no dedicated outlet record exists.",
+  "extensions": {
+    "legacy_id": "R-153"
+  }
+}

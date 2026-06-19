@@ -1,20 +1,20 @@
 {
   "id": "R-1DBFAD39",
   "schema_version": "3.0.0",
-  "title": "Smith election interference Breitbart",
+  "title": "Alberta premier Smith and US-Canada election interference: Breitbart interview",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
   "section": "News",
   "author": null,
-  "publication_date": null,
+  "publication_date": "2025-03-23",
   "url": "https://www.cbc.ca/news/canada/edmonton/alberta-premier-smith-u-s-canada-election-interference-breitbart-1.7491318",
   "source_type": "url_article",
-  "url_status": "unverified",
+  "url_status": "live",
   "archived_url": null,
   "tier": 2,
-  "verified": false,
+  "verified": true,
   "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "notes": "Primary source for EVT-075. CBC Edmonton coverage of Smith's March 2025 Breitbart interview and subsequent controversy over her comments on US-Canada election interference. No byline confirmed.",
+  "submission_source": "editorial",
+  "submission_status": "accepted"
 }

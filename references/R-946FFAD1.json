@@ -1,0 +1,24 @@
+{
+  "id": "R-946FFAD1",
+  "schema_version": "3.0.0",
+  "title": "Member information: Jennifer Johnson, MLA Lacombe-Ponoka, 31st Legislature",
+  "outlet": "Alberta Legislature",
+  "outlet_id": "alberta-legislature",
+  "section": "Members of the Legislative Assembly",
+  "author": null,
+  "publication_date": null,
+  "url": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0972&legl=31&from=mla_home",
+  "source_type": "primary_record",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Tier 1 primary for EVT-114. Legislative Assembly record confirms Johnson was elected May 29 2023 for Lacombe-Ponoka (31st Legislature), was subsequently seated in the UCP caucus (contradicting Smith's 'final' statement), later resigned from caucus, and was later readmitted. URL needs HTTP check; record may update over time. Archive recommended.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Verified 2026-06-18. Re EVT-114. Timeline anchor: subject sat as Independent from 2023-05-30 to 2024-10-09. Use these in-body dates as event anchors, not the publication date.",
+  "extensions": {
+    "legacy_id": "R-139"
+  }
+}

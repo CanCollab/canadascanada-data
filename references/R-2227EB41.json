@@ -1,0 +1,24 @@
+{
+  "id": "R-2227EB41",
+  "schema_version": "3.0.0",
+  "title": "Alberta infrastructure minister accepted free Edmonton Oilers playoff tickets",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": null,
+  "publication_date": "2024-05-30",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-infrastructure-minister-accepted-free-edmonton-oilers-playoff-tickets-1.7368757",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Primary source for EVT-116. Infrastructure Minister Peter Guthrie told reporters May 30 2024 he attended Edmonton Oilers home playoff games as a guest of MHCare Medical, a medical supply and distribution company. Guthrie stated he has no 'business or personal relations' with MHCare's CEO. MHCare also held a $70M AHS contract to import children's pain medication from Turkey (see EVT-072 and EVT-089). No byline confirmed. URL needs HTTP check.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Link resolves, verified 2026-06-18.",
+  "extensions": {
+    "legacy_id": "R-141"
+  }
+}

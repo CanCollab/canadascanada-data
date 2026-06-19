@@ -1,0 +1,20 @@
+{
+  "id": "R-2A2EC648",
+  "schema_version": "3.0.0",
+  "title": "Renewables pose little threat to agriculture, environment: Alberta commission report",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Bob Weber",
+  "publication_date": "2024-03-13",
+  "url": "https://www.cbc.ca/news/canada/edmonton/renewables-pose-little-threat-to-agriculture-environment-alberta-commission-report-1.7143335",
+  "source_type": "wire_article",
+  "wire_source": "The Canadian Press",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live via web search. CP wire byline. AUC report contradicts government justifications for renewables moratorium.",
+  "notes": null,
+  "extensions": {
+    "legacy_id": "R-158"
+  }
+}

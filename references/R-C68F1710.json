@@ -1,0 +1,24 @@
+{
+  "id": "R-C68F1710",
+  "schema_version": "3.0.0",
+  "title": "Alberta Health Services and Premier Danielle Smith",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "section": "News",
+  "author": "Janet French",
+  "publication_date": "2025-02-19",
+  "url": "https://www.cbc.ca/news/canada/edmonton/alberta-health-services-premier-danielle-smith-1.7462996",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 2,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Source for EVT-072. CBC Edmonton on the Premier's role in AHS restructuring and contracting controversy. Author and exact date need manual check. URL confirmed live.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Verified 2026-06-18. Date 2025-02-19, author Janet French (confirmed/added per operator).",
+  "extensions": {
+    "legacy_id": "R-136"
+  }
+}

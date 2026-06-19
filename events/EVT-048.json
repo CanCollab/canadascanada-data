@@ -33,8 +33,8 @@
   ],
   "opposition_response": null,
   "source_refs": [
-    "R-063",
-    "R-058"
+    "R-3503FB1C",
+    "R-DD4CF01B"
   ],
   "relations": [
     {
@@ -44,9 +44,9 @@
       "framing_en": "The government presented 3,000 new teaching positions as part of a new bargaining offer. The 2025-26 provincial budget, passed seven months earlier, had already allocated $750 million to fund the same 3,000 positions.",
       "framing_fr": null,
       "source_refs": [
-        "R-063",
-        "R-058",
-        "R-064"
+        "R-3503FB1C",
+        "R-DD4CF01B",
+        "R-D7BD3E3D"
       ],
       "claim_type": "inference",
       "needs_verification": false

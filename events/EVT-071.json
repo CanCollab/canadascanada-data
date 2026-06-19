@@ -34,10 +34,10 @@
     "actor": "Edmonton Mayor",
     "name": "Andrew Knack",
     "response_en": "'This whole dynamic of car drivers versus cyclists versus pedestrians, I hate it. I will not subscribe to that.' Knack says Edmonton has been methodical in bike lane placement.",
-    "source_ref": "R-102"
+    "source_ref": "R-C61D9D88"
   },
   "source_refs": [
-    "R-102"
+    "R-C61D9D88"
   ],
   "relations": [
     {
@@ -65,7 +65,7 @@
   "claim_contested_by": [
     {
       "counter_claim": "Ontario's similar bike lane legislation was struck down by court as unconstitutional; Ontario has appealed.",
-      "source_ref": "R-102",
+      "source_ref": "R-C61D9D88",
       "counter_claim_type": "legal-finding"
     }
   ],

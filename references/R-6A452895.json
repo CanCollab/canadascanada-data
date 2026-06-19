@@ -1,20 +1,16 @@
 {
   "id": "R-6A452895",
   "schema_version": "3.0.0",
-  "title": "Grasslands conservation advocacy",
+  "title": "He fought to protect prairie grasslands",
   "outlet": "The Tyee",
   "outlet_id": "the-tyee",
-  "section": "News",
-  "author": null,
+  "author": "Brett McKay",
   "publication_date": "2026-06-03",
   "url": "https://thetyee.ca/News/2026/06/03/He-Fought-Protect-Prairie-Grasslands/",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 3,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Tier 3; must not be sole contested-fact source.",
+  "notes": null
 }

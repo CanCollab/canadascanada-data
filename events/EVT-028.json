@@ -32,8 +32,9 @@
   ],
   "opposition_response": null,
   "source_refs": [
-    "R-050",
-    "R-052"
+    "R-FD46EDA4",
+    "R-D58FA297",
+    "R-88CE9396"
   ],
   "relations": [
     {
@@ -55,7 +56,14 @@
   "verification_notes": "RESCOPED from vague 'voter-data injunction' to the documented Centurion Project breach. Injunction is now a CONFIRMED FACT (R-050, CBC, Apr 30 2026 temp injunction; permanent hearing late July). R-052 (Tyee/Climenhaga opinion) = context only. RECOMMENDED: attach the two Elections Alberta primary releases (Apr 30 2026, Tier 1) when harvested — currently locatable via R-053 (Factsmtr finding-tool). 'Centurion Project' name now sourced. R-020 (Substack) and the prior unconfirmed R-021 link removed. STAGED for later: UCP caucus-staff meeting + Kenney doxxing (EVT-NEW-centurion-ucp-link, via R-052) and 10xVotes/foreign-influence angle (EVT-NEW-centurion-foreign, via R-051) — do not merge without their own EVT records.",
   "standards_flags": [],
   "evidence_status": "established",
-  "update_log": [],
+  "update_log": [
+    {
+      "date": "2026-06-18",
+      "change": "Added R-020 (factsmtr, Centurion Project voter-list explainer, 2026-05-01) as supporting source for the separatist-group database event.",
+      "source_ref": null,
+      "editor": "batch7-thread6"
+    }
+  ],
   "claim_contested_by": [],
   "comparison": null,
   "submission_source": "editorial",

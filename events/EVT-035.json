@@ -37,11 +37,12 @@
     "date": "2026-03-27",
     "description": "NDP deputy leader criticized the minister for accessing information about a constituent to publicly discredit him, calling it part of a pattern of the UCP acting to silence opposition.",
     "source_refs": [
-      "R-049"
+      "R-C4AC4202"
     ]
   },
   "source_refs": [
-    "R-049"
+    "R-C4AC4202",
+    "R-EE623523"
   ],
   "relations": [
     {
@@ -55,7 +56,14 @@
   "verification_notes": "Verified against R-049 (CBC/CP, Daniela Germano). Distinct from the Centurion Project matter (EVT-028) though thematically linked under the voter-privacy thread. The finding (breach, no penalty, advice given) is on record. Recall-petition outcome (failed, ~2,600/15,700) also reported.",
   "standards_flags": [],
   "evidence_status": "established",
-  "update_log": [],
+  "update_log": [
+    {
+      "date": "2026-06-18",
+      "change": "Added R-021 (CBC, Daniela Germano, 2026-03-27 — Nally Elections Alberta letter) as supporting source; date matches event.",
+      "source_ref": null,
+      "editor": "batch7-thread6"
+    }
+  ],
   "claim_contested_by": [],
   "comparison": null,
   "submission_source": "editorial",

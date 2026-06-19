@@ -1,20 +1,16 @@
 {
   "id": "R-3B12B969",
   "schema_version": "3.0.0",
-  "title": "Premier travelling US with Ben Shapiro",
+  "title": "Danielle Smith travelling to U.S., Ben Shapiro",
   "outlet": "Edmonton Journal",
   "outlet_id": "edmonton-journal",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Matthew Black",
+  "publication_date": "2025-03-10",
   "url": "https://edmontonjournal.com/news/politics/danielle-smith-travelling-u-s-ben-shapiro",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "paywalled",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live but paywalled. Author and date confirmed by operator.",
+  "notes": null
 }

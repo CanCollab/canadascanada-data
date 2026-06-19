@@ -1,0 +1,24 @@
+{
+  "id": "R-28C638DD",
+  "schema_version": "3.0.0",
+  "title": "Green Line LRT project undergoes upheaval",
+  "outlet": "Transport Action Prairie",
+  "outlet_id": "transport-action-prairie",
+  "section": "News",
+  "author": null,
+  "publication_date": "2024-10-30",
+  "url": "https://prairie.transportaction.ca/news/green-line-lrt-project-undergoes-upheaval/",
+  "source_type": "finding_tool",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 3,
+  "verified": true,
+  "wire_source": null,
+  "notes": "FINDING TOOL / context (Tier 3). ~$850M wind-down figure is one of three figures presented on EVT-034 (provincial $1.53B / total $2.1B / wind-down ~$850M). UCP cut Green Line contribution 86% in 2019; passed 90-day withdrawal legislation.",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "verification_notes": "Verified 2026-06-18. DATE CORRECTED: publication_date set to 2024-10-30 (was 2024-10-01). CAUTION: article references multiple in-body dates that are the true event anchors for the Green Line timeline (EVT-034); do not anchor events to the publication date. Event dates already set from R-046 (Sept 3 / Sept 11 2024).",
+  "extensions": {
+    "legacy_id": "R-047"
+  }
+}

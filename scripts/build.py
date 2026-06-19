@@ -185,6 +185,8 @@ RELATION_LABELS = {
     "financial_link":             "Financial link",
     "supersedes":                 "Supersedes",
     "superseded_by":              "Superseded by",
+    "continues":                  "Continues",
+    "continued_by":               "Continued by",
 }
 
 # Forward type → inverse type used when deriving the edge on the TARGET event.
@@ -201,6 +203,8 @@ RELATION_INVERSE = {
     "same_actor":                 "same_actor",
     "same_legislation":           "same_legislation",
     "financial_link":             "financial_link",
+    "continues":                  "continued_by",
+    "continued_by":               "continues",
 }
 
 # Dedupe key: both members of a directional pair share one family, so an edge
@@ -214,6 +218,7 @@ RELATION_FAMILY = {
     "same_actor": "same_actor",
     "same_legislation": "same_legislation",
     "financial_link": "financial_link",
+    "continues": "continue", "continued_by": "continue",
 }
 
 # Causal-edge `note` fields currently hold migration cruft, not reader prose.
@@ -230,7 +235,7 @@ RENDER_CAUSAL_NOTES = False
 
 _CSS = """\
 /* ════════════════════════════════════════════════════════════════════
-   CANSCAN  ·  Combined stylesheet  ·  v4  ·  Thread 3 build
+   CANSCAN  ·  Combined stylesheet  ·  v4  ·  Thread 4 build
    Source: wireframe_timeline_v4.html (Sections 1–8) +
            canscan_label_v4.html CSS, tokenised + scoped under .csl.
 
@@ -808,13 +813,22 @@ def render_event(ev, refs, outlets, conn_ctx=None):
         )
 
     response_html = ""
-    if ev.get("opposition_response"):
-        response_html = (
-            f'<div class="annotation">\n'
-            f'  <span class="annotation-label">Response</span>\n'
-            f'  {e(ev["opposition_response"])}\n'
-            f'</div>\n'
-        )
+    opp = ev.get("opposition_response")
+    if opp:
+        # opposition_response may be a legacy string or a structured object
+        # {name, description, date, source_refs}.  Render description preferentially;
+        # fall back to name; fall back to raw string.  Never render a raw dict.
+        if isinstance(opp, dict):
+            opp_text = opp.get("description") or opp.get("name") or ""
+        else:
+            opp_text = str(opp)
+        if opp_text:
+            response_html = (
+                f'<div class="annotation">\n'
+                f'  <span class="annotation-label">Response</span>\n'
+                f'  {e(opp_text)}\n'
+                f'</div>\n'
+            )
 
     connections_html = render_connections(ev, conn_ctx)
 
@@ -855,7 +869,7 @@ def render_outlet(o):
     NL = chr(10)
     cdn, _foreign = derive_ownership_split(o)
     hero_pct = f"{cdn}%" if cdn is not None else "Pending"
-    name = e(o.get("name_en", ""))
+    name = e(o.get("name_en") or o.get("name", ""))
     outlet_type = OUTLET_TYPE_LABELS.get(o.get("outlet_type", ""), e(o.get("outlet_type", "")))
     breakdown = o.get("ownership_breakdown") or []
     parent = e(breakdown[0].get("entity", "")) if breakdown else ""
@@ -967,7 +981,7 @@ def main(data_dir, out_dir):
             page_shell("Media outlets", all_labels), encoding="utf-8"
         )
         for outlet_id, o in outlets.items():
-            page = page_shell(o.get("name_en", outlet_id), render_outlet(o))
+            page = page_shell(o.get("name_en") or o.get("name", outlet_id), render_outlet(o))
             (outlets_dir / f"{outlet_id}.html").write_text(
                 page, encoding="utf-8"
             )
@@ -991,7 +1005,7 @@ def main(data_dir, out_dir):
     # ── outlets/index.json — for CanScan extension lookup ─────────────────────
     outlets_index = {
         oid: {
-            "name_en":      o.get("name_en", ""),
+            "name_en":      o.get("name_en") or o.get("name", ""),
             "outlet_type":  o.get("outlet_type", ""),
             "cdn_pct":      derive_ownership_split(o)[0],
         }

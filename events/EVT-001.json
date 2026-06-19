@@ -25,7 +25,7 @@
   ],
   "opposition_response": null,
   "source_refs": [
-    "R-103"
+    "R-6FE1B4A2"
   ],
   "relations": [
     {
@@ -43,9 +43,9 @@
       "framing_en": "Documented opposition to omnibus legislation as Leader of the Opposition, followed by the use of omnibus bills (C-38 and C-45) containing hundreds of unrelated measures as Prime Minister.",
       "framing_fr": null,
       "source_refs": [
-        "R-103",
-        "R-104",
-        "R-105"
+        "R-6FE1B4A2",
+        "R-871B7472",
+        "R-783AEAC9"
       ],
       "claim_type": "fact",
       "needs_verification": true

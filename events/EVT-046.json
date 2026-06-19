@@ -33,7 +33,7 @@
   ],
   "opposition_response": null,
   "source_refs": [
-    "R-061"
+    "R-B18D2643"
   ],
   "relations": [
     {
@@ -62,7 +62,7 @@
   "claim_contested_by": [
     {
       "counter_claim": "UCP president Rob Smith states grassroots members back the premier's compromise question.",
-      "source_ref": "R-061",
+      "source_ref": "R-B18D2643",
       "counter_claim_type": "political-statement"
     }
   ],

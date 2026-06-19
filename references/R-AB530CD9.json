@@ -1,20 +1,16 @@
 {
   "id": "R-AB530CD9",
   "schema_version": "3.0.0",
-  "title": "School funding comparison",
+  "title": "Private vs public school funding numbers Alberta",
   "outlet": "CBC News",
   "outlet_id": "cbc-radio-canada",
-  "section": "News",
-  "author": null,
-  "publication_date": null,
+  "author": "Robson Fletcher",
+  "publication_date": "2018-02-28",
   "url": "https://www.cbc.ca/news/canada/calgary/private-public-schools-funding-alberta-numbers-1.4553955",
   "source_type": "url_article",
-  "url_status": "unverified",
-  "archived_url": null,
+  "url_status": "live",
   "tier": 2,
-  "verified": false,
-  "wire_source": null,
-  "notes": null,
-  "submission_source": "manual-intake",
-  "submission_status": "pending"
+  "verified": true,
+  "verification_notes": "URL confirmed live. Older article (2018); still resolves.",
+  "notes": null
 }

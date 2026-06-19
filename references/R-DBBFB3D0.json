@@ -1,0 +1,19 @@
+{
+  "id": "R-DBBFB3D0",
+  "schema_version": "3.0.0",
+  "title": "Saskatchewan Treaty Six response to Alberta referendum",
+  "outlet": "CBC News",
+  "outlet_id": "cbc-radio-canada",
+  "author": "Alexander Quon",
+  "publication_date": "2026-05-22",
+  "url": "https://www.cbc.ca/news/canada/saskatchewan/sask-treaty-six-alberta-referendum-9.7209304",
+  "source_type": "url_article",
+  "url_status": "live",
+  "tier": 2,
+  "verified": true,
+  "verification_notes": "URL confirmed live. Treaty Six (Sask) response to Alberta referendum. Orphan pending event — separatism/Indigenous cluster; may relate to EVT-029 (referendum announcement).",
+  "notes": "Parked: separatism cluster; cross-ref EVT-029.",
+  "extensions": {
+    "legacy_id": "R-180"
+  }
+}

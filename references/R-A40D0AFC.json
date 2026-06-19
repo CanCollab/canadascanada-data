@@ -1,0 +1,23 @@
+{
+  "id": "R-A40D0AFC",
+  "schema_version": "3.0.0",
+  "title": "RCMP seize guns, ammunition from Coutts blockade; four charged with conspiracy to commit murder",
+  "outlet": "Global News",
+  "outlet_id": "global-news",
+  "section": null,
+  "author": null,
+  "publication_date": "2022-02-14",
+  "url": "https://globalnews.ca/news/8618494/alberta-coutts-border-protest-weapons-ammunition-seized/",
+  "source_type": "url_article",
+  "url_status": "live",
+  "archived_url": null,
+  "tier": 1,
+  "verified": true,
+  "wire_source": null,
+  "notes": "Global News coverage of the February 14, 2022 RCMP seizure of weapons and ammunition at the Coutts border blockade and the four arrests including conspiracy to commit murder charges. Use alongside R-017 (RCMP official release, URL outstanding).",
+  "submission_source": "editorial",
+  "submission_status": "accepted",
+  "extensions": {
+    "legacy_id": "R-117"
+  }
+}
